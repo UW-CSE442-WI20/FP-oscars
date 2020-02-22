@@ -1,0 +1,34 @@
+@font-face {
+   font-family: 'AndesRoundedBold' ;
+   src: url('./fonts/AndesRoundedBold.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'AndesRoundedRegular' ;
+   src: url('./fonts/AndesRoundedRegular.ttf') format('truetype');
+}
+
+body {
+	background-color: #F9E7CD;
+}
+
+#title-subtitle {
+	display: flex;
+	justify-content: center;
+}
+
+#subtitle {
+	margin-right: 5%;
+	font-size: 20px;
+	margin-top: 20%;
+	margin-left: 5%;
+	font-family: 'AndesRoundedRegular';
+	max-width: 40%;
+}
+
+h1 {
+	margin-left: 5%;
+	font-size: 100px;
+	font-family: 'AndesRoundedBold';
+	
+}
