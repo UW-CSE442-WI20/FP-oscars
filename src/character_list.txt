@@ -1,0 +1,1013 @@
+1517,"armsby",609,"m",49
+1517,"bass",905,"m",50
+1517,"brown",707,"m",36
+1517,"burch",408,"m",NULL
+1517,"celeste",789,"f",31
+1517,"chapin",509,"m",45
+1517,"clemens",194,"m",NULL
+1517,"edwin epps",2901,"m",36
+1517,"eliza",653,"f",NULL
+1517,"ford",1019,"m",37
+1517,"freeman",622,"m",46
+1517,"hamilton",478,"m",31
+1517,"john",130,"m",NULL
+1517,"jonus ray",274,"m",55
+1517,"mistress epps",708,"f",39
+1517,"mistress shaw",455,"f",61
+1517,"parker",388,"m",54
+1517,"patsey",543,"f",30
+1517,"radburn",424,"m",NULL
+1517,"randall",191,"m",NULL
+1517,"sam",114,"m",NULL
+1517,"sheriff",145,"m",47
+1517,"solomon northup",4212,"m",36
+1517,"tibeats",1288,"m",29
+1517,"treach",252,"m",NULL
+1517,"uncle abram",293,"m",NULL
+1517,"winslow",113,"m",NULL
+5820,"alicia nash",1496,"f",31
+5820,"charles",653,"m",30
+5820,"dr. rosen",747,"m",72
+5820,"fox",353,"m",NULL
+5820,"general",191,"m",NULL
+5820,"john nash",3486,"m",37
+5820,"milnor",447,"m",NULL
+5820,"professor horne",145,"m",57
+5820,"student",107,"m",NULL
+5820,"zweifel",358,"m",NULL
+6407,"alice the waitr",131,"f",27
+6407,"charlie kaufman",3440,"m",38
+6407,"john laroche",2457,"m",51
+6407,"marty bowen",245,"m",35
+6407,"robert mckee",675,"m",56
+6407,"susan orlean",2503,"f",53
+6407,"valerie thomas",229,"f",42
+1606,"angry promoter",126,"m",37
+1606,"anita miller",938,"f",20
+1606,"darryl",194,"m",NULL
+1606,"david felton",102,"m",34
+1606,"dennis hope",1044,"m",26
+1606,"dick roswell",1456,"m",31
+1606,"elaine miller",2600,"f",43
+1606,"estrella starr",524,"f",20
+1606,"jann wenner",194,"m",24
+1606,"jeff bebe",1796,"m",30
+1606,"leslie",138,"f",21
+1606,"lester bangs",698,"m",33
+1606,"mrs. deegan",388,"f",NULL
+1606,"penny lane",880,"f",21
+1606,"plaza doctor",210,"m",NULL
+1606,"polexia aphrodi",636,"f",18
+1606,"russell hammond",5574,"m",32
+1606,"sapphire",662,"f",26
+1606,"the legendary r",112,"m",30
+1691,"adam engell",156,"m",60
+1691,"bates",191,"m",51
+1691,"bob anders",336,"m",49
+1691,"british airways",188,"f",NULL
+1691,"cora lijek",157,"f",35
+1691,"hamilton jordan",173,"m",47
+1691,"jack o'donnell",1463,"m",56
+1691,"joe stafford",668,"m",35
+1691,"john chambers",540,"m",60
+1691,"ken taylor",395,"m",63
+1691,"lester siegel",1148,"m",78
+1691,"mark lijek",274,"m",NULL
+1691,"max klein",126,"m",56
+1691,"oss officer nic",335,"m",48
+1691,"publicist",139,"m",NULL
+1691,"reza borhani",129,"m",NULL
+1691,"robert pender",351,"m",55
+1691,"tony mendez",2495,"m",40
+1718,"colonel miles q",1938,"m",57
+1718,"corporal lyle w",222,"m",NULL
+1718,"cryo vault med ",122,"m",NULL
+1718,"dr. grace augus",3326,"f",60
+1718,"dr. max patel",514,"m",36
+1718,"eytukan",264,"m",62
+1718,"jake sully",5562,"m",33
+1718,"moat",536,"f",57
+1718,"neytiri",1422,"f",31
+1718,"norm spellman",806,"m",32
+1718,"parker selfridg",1298,"m",35
+1718,"shuttle pilot",136,"m",46
+1718,"trudy chacÛn",678,"f",31
+1718,"tsu'tey",502,"m",35
+1718,"venture star cr",106,"m",46
+1796,"andy",552,"m",38
+1796,"anna",1931,"f",27
+1796,"elliot",349,"m",NULL
+1796,"georgia",368,"f",49
+1796,"hal",2220,"m",81
+1796,"oliver",5740,"m",39
+1796,"shauna",203,"f",33
+5385,"jake",1092,"m",45
+5385,"laura",536,"f",33
+5385,"lesley",827,"f",46
+5385,"mike",1688,"m",45
+5385,"ralph",184,"m",NULL
+5385,"riggan",3300,"m",63
+5385,"sam",883,"f",26
+5385,"sylvia",490,"f",46
+5385,"tabitha",287,"f",64
+1841,"beth macintyre",131,"f",39
+1841,"erica sayers",860,"f",62
+1841,"nina sayers",1349,"f",29
+1841,"thomas leroy",1947,"m",44
+1841,"veronica",104,"f",23
+8479,"augie",217,"m",56
+8479,"chili",169,"m",43
+8479,"dwight",347,"m",42
+8479,"ginger",503,"f",37
+8479,"hal",151,"m",55
+8479,"jasmine",2133,"f",44
+8479,"jasmine's frien",111,"f",NULL
+5386,"annie",213,"f",NULL
+5386,"carol",103,"f",NULL
+5386,"charlie",236,"m",22
+5386,"dad",4648,"m",44
+5386,"dalton",166,"m",NULL
+5386,"grandma",268,"f",NULL
+5386,"jill",273,"f",19
+5386,"jim",616,"m",38
+5386,"mason",3027,"m",20
+5386,"mom",2828,"f",46
+5386,"mr. turlington",362,"m",NULL
+5386,"nick",144,"m",NULL
+5386,"nicole",156,"f",NULL
+5386,"professor bill ",1201,"m",NULL
+5386,"samantha",1305,"f",20
+5386,"sheena",531,"f",20
+5386,"teacher",249,"f",NULL
+5386,"ted",129,"m",NULL
+5386,"uncle steve",146,"m",NULL
+5388,"agent williams",532,"m",53
+5388,"allen dulles",433,"m",72
+5388,"bates",132,"m",36
+5388,"francis gary po",123,"m",NULL
+5388,"frederic pryor",104,"m",NULL
+5388,"harald ott",173,"m",66
+5388,"hoffman",278,"m",NULL
+5388,"ivan schischkin",623,"m",50
+5388,"james b. donova",4353,"m",59
+5388,"lynn goodnough",147,"m",NULL
+5388,"mary donovan",272,"f",47
+5388,"mr. michener",272,"m",NULL
+5388,"roger donovan",249,"m",NULL
+5388,"rudolf abel",738,"m",55
+5388,"thomas watters ",239,"m",79
+5388,"wolfgang vogel",563,"m",53
+8765,"alma",223,"f",25
+8765,"cassie",188,"f",30
+8765,"ennis del mar",1396,"m",26
+8765,"jack twist",1449,"m",25
+8765,"joe aguirre",166,"m",55
+1955,"alvin dewey",907,"m",54
+1955,"chaplain",208,"m",NULL
+1955,"dick hickock",545,"m",40
+1955,"dorothy sanders",318,"f",79
+1955,"jack dunphy",1285,"m",49
+1955,"laura kinney",524,"f",NULL
+1955,"marie dewey",404,"f",37
+1955,"nelle harper le",2117,"f",46
+1955,"operator",109,"f",NULL
+1955,"perry smith",3824,"m",35
+1955,"pete holt",296,"m",NULL
+1955,"porter",110,"m",NULL
+1955,"roy church",118,"m",NULL
+1955,"truman capote",10334,"m",38
+1955,"warden marshall",405,"m",63
+1955,"william shawn",990,"m",60
+2033,"ada monroe",4572,"f",36
+2033,"blind man",266,"m",75
+2033,"bosie",146,"m",23
+2033,"confederate off",224,"m",NULL
+2033,"doctor",166,"m",55
+2033,"esco swanger",630,"m",63
+2033,"ferry girl",374,"f",19
+2033,"inman",3878,"m",31
+2033,"junior",548,"m",29
+2033,"lila",116,"f",43
+2033,"maddy",798,"f",69
+2033,"mrs. castlereag",206,"f",45
+2033,"mrs. morgan",236,"f",27
+2033,"oakley",224,"m",21
+2033,"pangle",444,"m",27
+2033,"reverend veasey",1608,"m",36
+2033,"rourke",118,"m",26
+2033,"ruby thewes",4454,"f",34
+2033,"sally swanger",712,"f",53
+2033,"sara",806,"f",22
+2033,"stobrod thewes",1444,"m",48
+2033,"swimmer",188,"m",NULL
+2033,"teague",1684,"m",46
+4047,"anthony",1233,"m",27
+4047,"cameron thayer",600,"m",35
+4047,"christine thaye",609,"f",32
+4047,"daniel",625,"m",28
+4047,"det. graham wat",566,"m",40
+4047,"dorri",185,"f",29
+4047,"farhad",442,"m",41
+4047,"flanagan",588,"m",48
+4047,"fred",152,"m",53
+4047,"jean cabot",507,"f",40
+4047,"karen",119,"f",30
+4047,"kim lee",152,"f",NULL
+4047,"lara",147,"f",8
+4047,"lt. dixon",287,"m",48
+4047,"lucien",280,"m",38
+4047,"officer john ry",1228,"m",40
+4047,"officer johnson",138,"f",NULL
+4047,"officer tom han",689,"m",30
+4047,"peter waters",836,"m",29
+4047,"ria",409,"f",31
+4047,"rick cabot",584,"m",36
+4047,"shaniqua johnso",286,"f",55
+4050,"bad blake",6010,"m",60
+4050,"bill wilson",150,"m",71
+4050,"doctor",220,"m",66
+4050,"jack greene",584,"m",63
+4050,"jean craddock",1537,"f",32
+4050,"manager",130,"m",57
+4050,"steven reynolds",512,"m",NULL
+4050,"tommy sweet",724,"m",33
+4050,"tony",243,"m",28
+4050,"wayne",273,"m",78
+4065,"david wayne",170,"m",43
+4065,"dr. vass",388,"m",58
+4065,"eve",1016,"f",41
+4065,"judge",189,"m",NULL
+4065,"news anchor",122,"f",NULL
+4065,"rayon",587,"m",42
+4065,"richard barkley",293,"m",NULL
+4065,"rick ferris",317,"m",NULL
+4065,"ron woodroof",3966,"m",44
+4065,"t.j.",149,"m",37
+4065,"tucker",166,"m",46
+4169,"brenda",107,"f",57
+4169,"brian frankel",219,"m",NULL
+4169,"charles embry",312,"m",53
+4169,"donna jensen",709,"f",42
+4169,"ed masry",3214,"m",64
+4169,"erin brockovich",7415,"f",33
+4169,"george",1478,"m",32
+4169,"kurt potter",233,"m",59
+4169,"mandy robinson",182,"f",NULL
+4169,"matthew brockov",101,"m",10
+4169,"mrs. morales",135,"f",NULL
+4169,"pamela duncan",406,"f",44
+4169,"ted daniels",102,"m",39
+4169,"theresa dallava",172,"f",37
+2240,"carrie",418,"f",39
+2240,"clementine kruc",8354,"f",29
+2240,"dr. mierzwiak",1708,"m",56
+2240,"father",102,"m",NULL
+2240,"joel barish",6482,"m",42
+2240,"mary",2316,"f",22
+2240,"naomi",496,"f",NULL
+2240,"old man",162,"m",NULL
+2240,"old woman",230,"f",NULL
+2240,"patrick",1070,"m",23
+2240,"sad woman",118,"f",NULL
+2240,"second old woma",248,"f",NULL
+2240,"stan",1428,"m",37
+2240,"young woman",132,"f",NULL
+6515,"anthony meredit",406,"m",34
+6515,"barnes",139,"m",33
+6515,"bertha",243,"f",NULL
+6515,"constable dexte",104,"m",NULL
+6515,"constance trent",1171,"f",67
+6515,"dorothy",312,"f",39
+6515,"elsie",939,"f",34
+6515,"george",230,"m",44
+6515,"henry denton",351,"m",27
+6515,"inspector thomp",494,"m",44
+6515,"isobel mccordle",310,"f",25
+6515,"ivor novello",353,"m",40
+6515,"jennings",783,"m",67
+6515,"jeremy blond",182,"m",22
+6515,"lord raymond st",475,"m",55
+6515,"louisa stockbri",210,"f",34
+6515,"mary maceachran",1210,"f",25
+6515,"morris weissman",603,"m",56
+6515,"mrs. croft",392,"f",67
+6515,"mrs. wilson",600,"f",56
+6515,"probert",195,"m",63
+6515,"robert parks",520,"m",37
+6515,"strutt",155,"m",NULL
+6515,"william mccordl",331,"m",61
+2445,"matt kowalski",2399,"m",52
+2445,"mission control",690,"m",63
+2445,"ryan stone",2580,"f",49
+4352,"alien child",107,"m",44
+4352,"amy",957,"f",39
+4352,"blind date",234,"f",29
+4352,"catherine",243,"f",28
+4352,"charles",148,"m",43
+4352,"paul",277,"m",34
+4352,"samantha",3675,"f",29
+4352,"sexykitten",107,"f",40
+4352,"text voice",236,"m",NULL
+2598,"ariadne",1770,"f",23
+2598,"arthur",1758,"m",29
+2598,"browning",463,"m",61
+2598,"cobb",6580,"m",36
+2598,"eames",1190,"m",33
+2598,"mal",908,"f",35
+2598,"miles",248,"m",77
+2598,"robert fischer",650,"m",34
+2598,"saito",976,"m",51
+2598,"yusuf",541,"m",37
+4423,"bridget von ham",1190,"f",33
+4423,"col. hans landa",3863,"m",53
+4423,"fredrick zoller",1000,"m",31
+4423,"gen. ed fenech",534,"m",46
+4423,"german soldier",212,"m",44
+4423,"hitler",349,"m",47
+4423,"joseph goebbels",707,"m",51
+4423,"lt. aldo raine",2018,"m",46
+4423,"lt. archie hico",943,"m",32
+4423,"madame mimieux",434,"f",NULL
+4423,"maj king kong",183,"m",NULL
+4423,"major hellstrom",555,"m",33
+4423,"marcel",315,"m",32
+4423,"mrs himmelstein",118,"f",NULL
+4423,"narrator",464,"m",61
+4423,"perrier lapadit",472,"m",33
+4423,"pola negri",210,"m",28
+4423,"pvt. butz",161,"m",37
+4423,"sgt. donny dono",662,"m",37
+4423,"shosanna",1498,"f",26
+2688,"bleeker's mom",224,"f",NULL
+2688,"bren macguff",1368,"f",48
+2688,"gerta rauss",240,"f",NULL
+2688,"juno macguff",11628,"f",20
+2688,"leah",1544,"f",21
+2688,"mark loring",3088,"m",38
+2688,"paulie bleeker",1678,"m",19
+2688,"punk receptioni",204,"f",30
+2688,"rollo",224,"m",41
+2688,"su-chin",130,"f",18
+2688,"ultrasound tech",204,"f",NULL
+2688,"vanessa loring",1992,"f",35
+2688,"vijay",148,"m",NULL
+2754,"bamatabois",225,"m",35
+2754,"beggar",299,"m",NULL
+2754,"bishop",301,"m",68
+2754,"cosette",626,"f",27
+2754,"courfeyrac",137,"m",NULL
+2754,"enjolras",954,"m",29
+2754,"Èponine",789,"f",22
+2754,"fantine",820,"f",30
+2754,"foreman",177,"m",32
+2754,"gavroche",458,"m",13
+2754,"grantaire",171,"m",NULL
+2754,"javert",1809,"m",48
+2754,"jean valjean",3211,"m",44
+2754,"joly",114,"m",NULL
+2754,"Madame Thenardi",550,"f",46
+2754,"main factory wo",135,"f",NULL
+2754,"marius",1312,"m",30
+2754,"tall customer",134,"m",NULL
+2754,"Thenardier",1510,"m",41
+2754,"Toothman",165,"m",44
+2754,"Whore 1",159,"f",47
+2769,"adult pi patel",2667,"m",45
+2769,"Gita Patel",289,"f",42
+2769,"pi patel",1935,"m",19
+2769,"Pi Patel (11-12",834,"m",NULL
+2769,"priest",106,"m",40
+2769,"ravi patel (7 y",116,"m",NULL
+2769,"Santosh Patel",655,"m",NULL
+2769,"writer",601,"m",29
+2777,"abraham lincoln",5041,"m",55
+2777,"alexander steph",278,"m",51
+2777,"asa vintner lit",230,"m",56
+2777,"clay hawkins",118,"m",41
+2777,"clerk",208,"m",NULL
+2777,"corporal ira cl",241,"m",36
+2777,"edwin stanton",229,"m",62
+2777,"elizabeth keckl",207,"f",48
+2777,"fernando wood",386,"m",33
+2777,"george pendleto",370,"m",69
+2777,"george yeaman",170,"m",44
+2777,"harold green",147,"m",NULL
+2777,"james ashley",431,"m",NULL
+2777,"lydia smith",104,"f",60
+2777,"mary todd linco",1218,"f",66
+2777,"montgomery blai",104,"m",NULL
+2777,"mrs. jolly",187,"f",43
+2777,"preston blair",415,"m",87
+2777,"richard schell",205,"m",48
+2777,"robert lincoln",375,"m",31
+2777,"tad lincoln",144,"m",NULL
+2777,"thaddeus steven",1104,"m",66
+2777,"ulysses s. gran",224,"m",51
+2777,"w.n. bilbo",400,"m",52
+4540,"dwayne",259,"m",22
+4540,"frank ginsberg",1588,"m",44
+4540,"grandpa edwin h",645,"m",72
+4540,"linda",207,"f",NULL
+4540,"mechanic",243,"m",51
+4540,"olive hoover",698,"f",10
+4540,"richard hoover",2638,"m",43
+4540,"sheryl hoover",1947,"f",34
+4540,"stan grossman",111,"m",50
+4540,"state trooper m",110,"m",43
+2812,"bob harris",1461,"m",53
+2812,"charlotte",1572,"f",19
+2812,"john",404,"m",29
+2812,"kelly",373,"f",27
+2812,"lydia harris",275,"f",NULL
+2865,"1st lt. tom pul",329,"m",28
+2865,"2nd lt. william",312,"m",NULL
+2865,"awkward davies",135,"m",35
+2865,"blakeney midsh",602,"m",14
+2865,"calamy midship",289,"m",18
+2865,"capt. howard r",114,"m",36
+2865,"capt. jack aubr",3375,"m",39
+2865,"dr. stephen mat",2024,"m",32
+2865,"hollom midship",218,"m",27
+2865,"joe plaice abl",130,"m",65
+2865,"mr. allen mast",237,"m",53
+2865,"mr. higgins su",103,"m",43
+2865,"mr. hogg whale",137,"m",39
+2865,"mr. hollar boa",126,"m",41
+2865,"preserved killi",243,"m",50
+2865,"william warley",150,"m",22
+4608,"auntie",351,"f",69
+4608,"chairman",827,"m",46
+4608,"colonel derrick",145,"m",48
+4608,"hatsumomo",448,"f",40
+4608,"mameha",1125,"f",43
+4608,"mother",482,"f",53
+4608,"nobu",574,"m",49
+4608,"pumpkin",540,"f",34
+4608,"sayuri",1258,"f",26
+4608,"the baron",140,"m",55
+4619,"anna",256,"f",27
+4619,"arthur edens",1168,"m",59
+4619,"barry grissom",250,"m",52
+4619,"gabe zabel",228,"m",NULL
+4619,"gene clayton",311,"m",NULL
+4619,"henry clayton",487,"m",11
+4619,"karen crowder",902,"f",47
+4619,"marty bach",616,"m",73
+4619,"michael clayton",2670,"m",46
+4619,"mr. greer",220,"m",45
+4619,"mr. iker",228,"m",NULL
+4619,"mr. verne",360,"m",NULL
+9008,"adriana",1082,"f",36
+9008,"carol",135,"f",27
+9008,"ernest hemingwa",875,"m",35
+9008,"f. scott fitzge",183,"m",30
+9008,"gabrielle",119,"f",26
+9008,"gertrude stein",640,"f",63
+9008,"gil",4519,"m",43
+9008,"helen",438,"f",63
+9008,"inez",1656,"f",33
+9008,"john",307,"m",58
+9008,"paul",565,"m",42
+9008,"paul gauguin",108,"m",NULL
+9008,"salvador dalÌ",204,"m",38
+9008,"zelda fitzgeral",345,"f",26
+1153,"anne kronenberg",253,"f",23
+1153,"cleve jones",842,"m",23
+1153,"dan white",114,"m",40
+1153,"david goodstein",271,"m",63
+1153,"dianne feinstei",104,"f",NULL
+1153,"dick pabich",239,"m",22
+1153,"harvey milk",6743,"m",48
+1153,"jack lira",439,"m",29
+1153,"jim rivaldo",325,"m",38
+1153,"john briggs",356,"m",46
+1153,"mayor moscone",152,"m",59
+1153,"san francisco c",186,"m",NULL
+1153,"scott smith",920,"m",30
+1153,"young teen",182,"m",NULL
+5930,"big willie litt",210,"m",28
+5930,"danger barch",265,"m",22
+5930,"earline fitzger",327,"f",53
+5930,"eddie scrap-iro",3722,"m",67
+5930,"father horvak",215,"m",37
+5930,"frankie dunn",3755,"m",74
+5930,"maggie fitzgera",1708,"f",30
+5930,"ref #1",110,"m",NULL
+5930,"sally mendoza",117,"m",47
+5930,"shawrelle berry",123,"m",26
+2944,"buck grotowski",393,"m",66
+2944,"hank grotowski",1486,"m",46
+2944,"lawrence musgro",349,"m",32
+2944,"leticia musgrov",889,"f",35
+2944,"sonny grotowski",171,"m",22
+2944,"tyrell musgrove",140,"m",10
+2944,"warden velesco",129,"m",NULL
+7502,"annabeth markum",502,"f",39
+7502,"boy",126,"m",12
+7502,"brendan harris",692,"m",22
+7502,"celeste boyle",435,"f",44
+7502,"dave boyle",1766,"m",45
+7502,"driver",142,"m",58
+7502,"esther harris",114,"f",61
+7502,"jimmy markum",2142,"m",43
+7502,"pete",219,"m",26
+7502,"sean devine",2069,"m",45
+7502,"theo",124,"m",61
+7502,"val savage",574,"m",NULL
+7502,"whitey powers",1715,"m",42
+7502,"young jimmy",140,"m",12
+6150,"anton chigurh",1303,"m",38
+6150,"carla jean moss",628,"f",31
+6150,"carla jean's mo",189,"f",58
+6150,"carson wells",600,"m",46
+6150,"del rio motel c",145,"f",NULL
+6150,"ed tom bell",1940,"m",61
+6150,"ellis",392,"m",67
+6150,"gas station pro",293,"m",NULL
+6150,"hitchhiking dri",120,"m",NULL
+6150,"ins official",145,"m",55
+6150,"llewelyn moss",1508,"m",39
+6150,"man who hires w",383,"m",56
+6150,"poolside woman",253,"f",NULL
+6150,"wendell",421,"m",43
+4157,"carmen",491,"f",37
+4157,"doctor ferreiro",357,"m",53
+4157,"fauno",525,"m",46
+4157,"garcÈs",160,"m",NULL
+4157,"mercedes",476,"f",36
+4157,"ofelia",786,"f",12
+4157,"vidal",1220,"m",41
+3124,"cornrows",908,"f",42
+3124,"jermaine",708,"f",NULL
+3124,"mary",1722,"f",42
+3124,"mr. wicher",114,"m",47
+3124,"ms. rain",3356,"f",34
+3124,"ms. weiss",704,"f",39
+3124,"precious",9518,"f",26
+3124,"rhonda",148,"f",NULL
+3124,"rita",148,"f",23
+3124,"ruby",176,"f",NULL
+3124,"sheila",148,"f",NULL
+5462,"dr. mittal",230,"m",NULL
+5462,"jack",1888,"m",9
+5462,"laura",198,"f",29
+5462,"lawyer",183,"m",34
+5462,"leo",274,"m",60
+5462,"ma",3838,"f",26
+5462,"nancy",714,"f",59
+5462,"old nick",381,"m",47
+5462,"robert",198,"m",65
+5462,"talk show hoste",208,"f",59
+3333,"cammi",230,"f",32
+3333,"christine ergan",386,"f",34
+3333,"evelyn berman-s",300,"f",NULL
+3333,"gary the barten",272,"m",36
+3333,"jack",11020,"m",44
+3333,"maya",3090,"f",43
+3333,"miles",10816,"m",37
+3333,"miles's buildin",116,"m",54
+3333,"stephanie",666,"f",33
+3333,"victoria",286,"f",39
+3333,"waiter",120,"m",20
+3365,"ada",174,"f",NULL
+3365,"director",152,"m",NULL
+3365,"javed",332,"m",55
+3365,"javed's house d",108,"m",40
+3365,"maman",600,"m",NULL
+3365,"older jamal",4726,"m",18
+3365,"older latika",914,"f",24
+3365,"police inspecto",1290,"m",41
+3365,"prem",6210,"m",52
+3365,"taj mahal guide",136,"m",NULL
+3365,"tv reporter",154,"f",NULL
+3365,"woman at brothe",234,"m",NULL
+3365,"young arvind",414,"m",NULL
+3365,"youngest salim",2190,"m",10
+8089,"barbara",105,"f",52
+8089,"ben bradlee jr.",749,"m",53
+8089,"cardinal law",223,"m",76
+8089,"eric macleish",440,"m",47
+8089,"joe crowley",347,"m",NULL
+8089,"jon albano",110,"m",57
+8089,"marty baron",1143,"m",48
+8089,"Matt Carroll",585,"m",47
+8089,"mike rezendes",3077,"m",48
+8089,"mitchell garabe",1034,"m",55
+8089,"patrick mcsorle",197,"m",NULL
+8089,"petey",138,"m",NULL
+8089,"phil saviano",725,"m",NULL
+8089,"richard gilman",227,"m",60
+8089,"richard sipe",617,"m",68
+8089,"sacha pfeiffer",797,"f",37
+8089,"steve kurkjian",124,"m",NULL
+8089,"tim",365,"m",NULL
+8089,"walter 'robby' ",3062,"m",64
+6911,"alice howland",3796,"f",54
+6911,"anna howland-jo",514,"f",31
+6911,"charlie howland",111,"m",37
+6911,"dr. benjamin",814,"m",NULL
+6911,"eric wellman",216,"m",63
+6911,"john howland",2149,"m",56
+6911,"lydia howland",1227,"f",24
+6911,"tom howland",224,"m",27
+3492,"arash",153,"m",27
+3492,"bedouin leader",120,"m",NULL
+3492,"bennett holiday",1754,"m",40
+3492,"bob barnes",1934,"m",44
+3492,"bryan woodman",1607,"m",35
+3492,"danny dalton",343,"m",41
+3492,"dean whiting",485,"m",76
+3492,"emir hamed al-s",249,"m",70
+3492,"farooq",291,"m",NULL
+3492,"fred franks",509,"m",39
+3492,"jimmy pope",967,"m",54
+3492,"julie woodman",448,"f",33
+3492,"margaret",351,"f",NULL
+3492,"marilyn",390,"f",NULL
+3492,"mohammed sheik ",405,"m",32
+3492,"mr janus",508,"m",NULL
+3492,"mussawi",631,"m",42
+3492,"prince meshal a",240,"m",NULL
+3492,"prince nasir al",1313,"m",40
+3492,"reverand stewar",208,"m",NULL
+3492,"robby barnes",357,"m",20
+3492,"saleem ahmed kh",348,"m",NULL
+3492,"Secretary of De",203,"m",NULL
+3492,"stan",466,"m",55
+3492,"sydney hewitt",978,"m",60
+3492,"terry",372,"m",54
+3492,"the cleric",495,"m",NULL
+3492,"tommy barton",311,"m",64
+3492,"wasim khan",611,"m",NULL
+3492,"willy",253,"m",31
+8597,"Alicia",326,"f",27
+8597,"benigno martÌn",1597,"m",35
+8597,"lydia gonz·lez",381,"f",39
+8597,"marco zuluaga",1290,"m",43
+8597,"Nino de Valenci",114,"m",44
+8597,"presenter",309,"f",NULL
+8597,"rosa",183,"f",32
+7214,"ava gardner",828,"f",31
+7214,"doctor",104,"m",NULL
+7214,"emcee",131,"m",53
+7214,"errol flynn",106,"m",32
+7214,"glenn odekirk",874,"m",34
+7214,"howard hughes",8480,"m",30
+7214,"jack frye",373,"m",42
+7214,"johnny meyer",152,"m",31
+7214,"juan trippe",662,"m",46
+7214,"Katharine Hepbu",1483,"f",35
+7214,"mrs. hepburn",169,"f",51
+7214,"noah dietrich",471,"m",39
+7214,"professor fitz",104,"m",73
+7214,"senator ralph o",702,"m",68
+7214,"woman",128,"f",NULL
+5496,"analyst",125,"m",NULL
+5496,"anthony bourdai",156,"m",59
+5496,"banker",112,"f",NULL
+5496,"ben rickert",737,"m",52
+5496,"blackjack playe",136,"m",NULL
+5496,"charlie geller",1134,"m",NULL
+5496,"cynthia baum",445,"f",51
+5496,"georgia hale",206,"f",55
+5496,"jamie shipley",904,"m",31
+5496,"jared vennett",1004,"m",35
+5496,"kathy tao",221,"f",NULL
+5496,"lawrence fields",413,"m",50
+5496,"lewis ranieri",145,"m",NULL
+5496,"mark baum",374,"m",53
+5496,"michael burry",1568,"m",41
+5496,"mr. chau",146,"m",NULL
+5496,"porter collins",253,"m",39
+5496,"real estate age",122,"f",NULL
+5496,"Richard Thaler",284,"m",NULL
+5496,"scarlett johans",170,"f",31
+5496,"selena gomez",173,"f",23
+5496,"Vinnie Daniel",685,"m",NULL
+1855,"'big tony' hami",222,"m",34
+1855,"alton",447,"m",NULL
+1855,"beth",177,"f",44
+1855,"coach cotton",1277,"m",52
+1855,"collins tuohy",295,"f",20
+1855,"cousin bobby",621,"m",55
+1855,"denise oher",161,"f",53
+1855,"elaine",161,"f",NULL
+1855,"leigh anne tuoh",5617,"f",45
+1855,"michael oher",1937,"m",25
+1855,"milford #66",148,"m",NULL
+1855,"miss sue",591,"f",61
+1855,"mrs. boswell",506,"f",44
+1855,"mrs. smith",246,"f",NULL
+1855,"principal sands",219,"m",57
+1855,"s.j. tuohy",422,"m",NULL
+1855,"sean tuohy",1730,"m",42
+1855,"sherry",136,"f",NULL
+1855,"steven hamilton",121,"m",NULL
+2106,"alfred",1888,"m",75
+2106,"assistant da",134,"m",NULL
+2106,"bank manager",210,"m",52
+2106,"barbara gordon",198,"f",45
+2106,"bodyguard",226,"m",NULL
+2106,"bruce wayne",2470,"m",34
+2106,"businessman",156,"m",NULL
+2106,"chechen",788,"m",41
+2106,"gambol",304,"m",41
+2106,"gordon",4406,"m",50
+2106,"grumpy",878,"m",NULL
+2106,"happy",120,"m",NULL
+2106,"harvey dent",5372,"m",40
+2106,"james gordon j",172,"m",10
+2106,"joker",5980,"m",29
+2106,"lau",914,"m",39
+2106,"loeb",164,"m",47
+2106,"lsi vp",120,"m",28
+2106,"lucius fox",1964,"m",71
+2106,"maroni",578,"m",52
+2106,"maroni's mistre",116,"f",27
+2106,"mayor",318,"m",41
+2106,"mike engel",806,"m",40
+2106,"natascha",150,"f",31
+2106,"prison ferry pi",304,"m",NULL
+2106,"rachel",2108,"f",31
+2106,"ramirez",674,"f",38
+2106,"reese",492,"m",29
+2106,"rossi",192,"m",NULL
+2106,"scarecrow",196,"m",32
+2106,"stephens",410,"m",56
+2106,"swat sniper",186,"m",31
+2106,"tattooed prison",144,"m",50
+2106,"thug at party",148,"m",NULL
+2106,"wuertz",250,"m",NULL
+2144,"billy",5824,"m",32
+2144,"colin sullivan",6284,"m",36
+2144,"delahunt",594,"m",50
+2144,"detective #1 ta",202,"m",NULL
+2144,"dignam",1218,"m",35
+2144,"ellerby",1788,"m",48
+2144,"fitzy",474,"m",41
+2144,"frank costello",4584,"m",69
+2144,"kneecapped bank",174,"m",NULL
+2144,"madolyn",2030,"f",33
+2144,"news anchor",124,"m",NULL
+2144,"older priest",168,"m",74
+2144,"queenan",1804,"m",66
+2144,"realtor",148,"m",2006
+2144,"sean",492,"m",42
+2144,"trooper barriga",246,"m",28
+2144,"trooper brown",394,"m",36
+2146,"alexandra king",2050,"f",20
+2146,"barb higgins",393,"f",NULL
+2146,"brian speer",347,"m",41
+2146,"cousin hugh",229,"m",70
+2146,"cousin ralph",143,"m",38
+2146,"dr. johnston",427,"m",75
+2146,"julie speer",649,"f",36
+2146,"kai mitchell",348,"f",43
+2146,"mark mitchell",194,"m",42
+2146,"matt king",7668,"m",50
+2146,"scottie king",1161,"f",NULL
+2146,"sid",1026,"m",19
+2146,"troy cook",257,"m",47
+2289,"alice ward",2099,"f",50
+2289,"charlene flemin",1645,"f",36
+2289,"dicky eklund",5566,"m",36
+2289,"george ward",259,"m",61
+2289,"lou gold",148,"m",52
+2289,"mickey o'keefe",715,"m",NULL
+2289,"micky ward",3417,"m",39
+2289,"mike toma",156,"m",63
+2408,"cassius",240,"m",59
+2408,"commodus",4508,"m",26
+2408,"gaius",392,"m",58
+2408,"german leader",174,"m",NULL
+2408,"gracchus",1280,"m",62
+2408,"juba",924,"m",36
+2408,"lucilla",2778,"f",35
+2408,"marcus aurelius",1900,"m",70
+2408,"maximus",3102,"m",36
+2408,"proximo",2582,"m",62
+2408,"quintus",260,"m",45
+2408,"slave trader",232,"m",35
+2530,"aibileen clark",5010,"f",46
+2530,"bus driver",105,"m",NULL
+2530,"celia foote",140,"f",34
+2530,"charlotte phela",2356,"f",52
+2530,"constantine jef",170,"f",87
+2530,"elizabeth leefo",718,"f",26
+2530,"gretchen",138,"f",NULL
+2530,"hilly holbrook",3660,"f",30
+2530,"johnny foote",421,"m",32
+2530,"jolene french",318,"f",29
+2530,"mae mobley",331,"f",NULL
+2530,"minny jackson",3841,"f",41
+2530,"missus walters",373,"f",62
+2530,"mr. blackly",324,"m",56
+2530,"skeeter phelan",4304,"f",23
+2530,"stuart whitwort",1101,"m",27
+2530,"woman in grocer",181,"f",NULL
+7563,"beckham",165,"m",NULL
+7563,"colonel john ca",225,"m",37
+7563,"colonel reed",104,"m",55
+7563,"iraqi police ca",102,"m",NULL
+7563,"sergeant jt san",1527,"m",30
+7563,"sergeant matt t",254,"m",41
+7563,"specialist owen",925,"m",33
+7563,"staff sergeant ",2090,"m",37
+7766,"betty ross",1639,"f",31
+7766,"bruce banner",975,"m",39
+7766,"cabot",627,"m",NULL
+7766,"emil blonsky",487,"m",47
+7766,"general joe gre",157,"m",NULL
+7766,"reporter",113,"f",NULL
+7766,"samson",645,"m",NULL
+7766,"samuel sterns",674,"m",44
+7766,"stanley",165,"m",78
+2634,"alfred roberts",217,"m",50
+2634,"carol thatcher",582,"f",37
+2634,"denis thatcher",1291,"m",62
+2634,"edward heath",159,"m",58
+2634,"francis pym",108,"m",53
+2634,"geoffrey howe",117,"m",57
+2634,"gordon reece",183,"m",58
+2634,"june",177,"f",65
+2634,"margaret thatch",4007,"f",62
+2634,"susie",129,"f",26
+2708,"anna",133,"f",NULL
+2708,"Archbishop Cosm",1161,"m",72
+2708,"BBC Radio Annou",178,"m",42
+2708,"david",840,"m",NULL
+2708,"king george v",557,"m",70
+2708,"King George VI",5040,"m",50
+2708,"lionel logue",4224,"m",59
+2708,"lord wigram",118,"m",58
+2708,"myrtle logue",656,"f",41
+2708,"queen elizabeth",785,"f",44
+2708,"stanley baldwin",304,"m",62
+2708,"theatre directo",119,"m",56
+2708,"Winston Churchi",1205,"m",53
+1115,"aragorn",440,"m",43
+1115,"arwen",355,"f",24
+1115,"bilbo",940,"m",70
+1115,"boromir",801,"m",42
+1115,"elrond",489,"m",41
+1115,"frodo",800,"m",20
+1115,"galadriel",857,"f",32
+1115,"gandalf",2194,"m",62
+1115,"gimli",357,"m",57
+1115,"legolas",147,"m",24
+1115,"merry",204,"m",25
+1115,"pippin",177,"m",33
+1115,"sam",439,"m",30
+1115,"saruman",495,"m",79
+1114,"aragorn",325,"m",45
+1114,"denethor",254,"m",55
+1114,"elrond",132,"m",43
+1114,"eowyn",145,"f",36
+1114,"frodo",378,"m",22
+1114,"gandalf",653,"m",64
+1114,"gimli",212,"m",59
+1114,"gollum",295,"m",39
+1114,"legolas",144,"m",26
+1114,"merry",161,"m",27
+1114,"pippin",393,"m",35
+1114,"sam",603,"m",32
+1114,"theoden",338,"m",59
+3092,"benek",144,"m",51
+3092,"dorota",722,"f",28
+3092,"dr. ehrlich",264,"m",74
+3092,"father",1042,"m",76
+3092,"feather woman",186,"f",NULL
+3092,"gebczynski",352,"m",45
+3092,"halina",556,"f",NULL
+3092,"henryk",1698,"m",28
+3092,"itzak heller",454,"m",NULL
+3092,"janina",222,"f",NULL
+3092,"jurek",172,"m",30
+3092,"lednicki",250,"m",29
+3092,"majorek",588,"m",30
+3092,"mother",470,"f",56
+3092,"regina",422,"f",NULL
+3092,"szalas",304,"m",37
+3092,"wladyslaw szpil",2804,"m",29
+1258,"alastair campbe",224,"m",36
+1258,"cherie blair",323,"f",38
+1258,"prince charles",437,"m",49
+1258,"prince philip",440,"m",66
+1258,"queen mother",230,"f",72
+1258,"robin janvrin",488,"m",53
+1258,"the queen",1908,"f",61
+1258,"tony blair",1507,"m",37
+3178,"brigitte",134,"f",39
+3178,"carla berg",228,"f",48
+3178,"dieter",760,"m",28
+3178,"hanna schmitz",1938,"f",33
+3178,"holger",138,"m",26
+3178,"ilana mather",1232,"f",53
+3178,"judge",1896,"m",59
+3178,"julia",284,"f",27
+3178,"marthe",246,"f",24
+3178,"michael berg",4810,"m",46
+3178,"ms. brenner",518,"f",58
+3178,"peter berg",148,"m",68
+3178,"professor rohl",1002,"m",67
+3178,"prosecuting cou",586,"m",50
+3178,"sophie",136,"f",21
+3178,"teacher",248,"m",45
+8257,"anderson",172,"m",NULL
+8257,"brazeau",155,"m",NULL
+8257,"bridger",411,"m",22
+8257,"captain andrew ",833,"m",32
+8257,"hugh glass",1148,"m",41
+8257,"john fitzgerald",1722,"m",38
+8257,"murphy",137,"m",43
+8257,"pig",381,"m",NULL
+8257,"runty man",221,"m",NULL
+8257,"yellow horse",216,"m",NULL
+3381,"ashleigh",174,"f",22
+3381,"cameron winklev",1386,"m",24
+3381,"cs lab professo",137,"m",NULL
+3381,"divya narendra",1206,"m",25
+3381,"dustin moskovit",251,"m",27
+3381,"eduardo saverin",4305,"m",27
+3381,"erica albright",878,"f",25
+3381,"facebook lawyer",176,"m",44
+3381,"gage",824,"m",69
+3381,"girl at phoenix",197,"f",NULL
+3381,"gretchen",559,"f",NULL
+3381,"mark zuckerberg",6083,"m",27
+3381,"marylin delpy",182,"f",34
+3381,"mr. cox",104,"m",57
+3381,"policeman",104,"m",41
+3381,"prince albert",159,"m",53
+3381,"sean parker",2675,"m",29
+3381,"speaker",290,"m",NULL
+3381,"sy",297,"m",64
+3381,"tyler winklevos",857,"m",28
+5502,"beryl wilde",112,"f",47
+5502,"brian",501,"m",31
+5502,"dennis sciama",577,"m",51
+5502,"elaine mason",196,"f",40
+5502,"frank hawking",195,"m",57
+5502,"jane hawking",1498,"f",31
+5502,"jonathan hellye",404,"m",32
+5502,"roger penrose",213,"m",41
+5502,"senior doctor -",106,"m",50
+5502,"stephen hawking",1894,"m",32
+5502,"swiss doctor",101,"m",46
+5502,"technician",108,"m",NULL
+6000,"abel sunday",286,"m",NULL
+6000,"al rose",175,"m",NULL
+6000,"bandy",224,"m",64
+6000,"ben blaut",114,"m",NULL
+6000,"daniel plainvie",5323,"m",50
+6000,"fletcher",182,"m",54
+6000,"h.m. tilford",237,"m",46
+6000,"henry",866,"m",44
+6000,"hw",224,"m",11
+6000,"paul sunday",421,"m",23
+1423,"anna",119,"f",NULL
+1423,"arnie metzger",607,"m",46
+1423,"attorney michae",128,"m",53
+1423,"barbara wakefie",364,"f",47
+1423,"carlos ayala",113,"m",44
+1423,"caroline wakefi",987,"f",18
+1423,"customs officia",318,"m",NULL
+1423,"francisco flore",222,"m",30
+1423,"general arturo ",591,"m",67
+1423,"helena ayala",1208,"f",31
+1423,"javier rodrigue",657,"m",33
+1423,"jeff sheridan",233,"m",46
+1423,"manolo sanchez",269,"m",29
+1423,"marquez",281,"m",NULL
+1423,"montel gordon",411,"m",36
+1423,"prosecutor ben ",105,"m",46
+1423,"ray castro",297,"m",44
+1423,"robert wakefiel",1749,"m",56
+1423,"ruiz's secretar",514,"f",NULL
+1423,"seth abrahms",722,"m",22
+3589,"det. alonzo har",5438,"m",47
+3589,"doug rosselli",212,"m",64
+3589,"jake hoyt",1961,"m",31
+3589,"letty",104,"f",22
+3589,"moreno",163,"m",31
+3589,"paul",154,"m",36
+3589,"roger",363,"m",60
+3589,"smiley",623,"m",33
+3589,"sniper",130,"m",40
+5185,"cristina",1799,"f",24
+5185,"doug",1113,"m",34
+5185,"juan antonio",3302,"m",39
+5185,"judy",734,"f",49
+5185,"maria elena",1104,"f",34
+5185,"mark",228,"m",52
+5185,"narrator",2447,"m",43
+5185,"vicky",2896,"f",26
+6905,"andrew",2396,"m",27
+6905,"bassist (nassau",105,"m",20
+6905,"carl tanner",253,"m",NULL
+6905,"fletcher",5103,"m",59
+6905,"mr. kramer",125,"m",NULL
+6905,"nicole",149,"f",26
+6905,"rachel bornhold",348,"f",52
+6905,"ryan",187,"m",NULL
+6905,"uncle frank",226,"m",66
