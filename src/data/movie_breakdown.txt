@@ -1,0 +1,76 @@
+Title,Percent_Female_Speaking_Percentage
+12 Years a Slave,16.29
+A Beautiful Mind,18.74
+Adaptation.,29.58
+Almost Famous,37.03
+Argo,3.72
+Avatar,34.2
+Beginners,22.02
+Birdman,32.55
+Black Swan,55.66
+Blue Jasmine,75.65
+Boyhood,35.7
+Bridge of Spies,2.95
+Brokeback Mountain,12.01
+Capote,15.44
+Cold Mountain,51.48
+Crash,23.94
+Crazy Heart,14.8
+Dallas Buyers Club,15.46
+Erin Brockovich,61.72
+Eternal Sunshine of the Spotless Mind,52.92
+Gladiator,15.12
+Gosford Park,50.31
+Gravity,45.51
+Her,87.17
+Inception,17.75
+Inglourious Basterds,20.39
+Juno,77.34
+Les Misérables,21.91
+Life of Pi,4.01
+Lincoln,13.69
+Little Miss Sunshine,33.77
+Lost in Translation,54.35
+Master and Commander:  The Far Side of the World,0.0
+Memories of a Geisha,71.38
+Michael Clayton,15.05
+Midnight in Paris,39.5
+Milk,3.21
+Million Dollar Baby,19.29
+Monster's Ball,24.99
+Mystic River,9.77
+No Country for Old Men,14.6
+Pan's Labyrinth,43.66
+Precious,99.35
+Room,61.12
+Sideways,18.16
+Slumdog Millionaire,7.04
+Spotlight,6.41
+Still Alice,61.18
+Syriana,6.87
+Talk to Her,28.55
+The Aviator,17.66
+The Big Short,15.23
+The Blind Side,52.48
+The Dark Knight,9.68
+The Departed,7.65
+The Descendants,30.9
+The Fighter,26.73
+The Help,91.69
+The Hurt Locker,0.0
+The Imitation Game,31.96
+The Iron Lady,70.23
+The King's Speech,10.27
+The Lord of the Rings: The Fellowship of the Ring,13.94
+The Lord of the Rings: The Return of the King,3.6
+The Pianist,24.21
+The Queen,44.29
+The Reader,32.97
+The Revenant,0.0
+The Social Network,9.55
+The Theory of Everything,30.58
+There Will Be Blood,0.0
+Traffic,32.26
+Training Day,1.14
+Vicky Cristina Barcelona,47.96
+Whiplash,5.59

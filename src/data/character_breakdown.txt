@@ -1,4 +1,4 @@
-Title,Percent_Female_Speaking_Lines
+Title,Percent Female Speaking Lines
 12 Years a Slave,16.29
 A Beautiful Mind,18.74
 Adaptation.,29.58
