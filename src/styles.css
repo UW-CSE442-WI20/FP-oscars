@@ -4,6 +4,11 @@
 }
 
 @font-face {
+   font-family: 'AndesRoundedMedium' ;
+   src: url('./fonts/AndesRoundedMedium.ttf') format('truetype');
+}
+
+@font-face {
    font-family: 'AndesRoundedRegular' ;
    src: url('./fonts/AndesRoundedRegular.ttf') format('truetype');
 }
@@ -30,5 +35,41 @@ h1 {
 	margin-left: 5%;
 	font-size: 100px;
 	font-family: 'AndesRoundedBold';
-	
+}
+
+h2 {
+	font-family: 'AndesRoundedMedium';
+	margin-left: 13.5%;
+	font-size: 40px;
+}
+
+.page-description {
+	margin-left: 20%;
+	font-family: 'AndesRoundedRegular';
+	font-size: 20px;
+}
+
+hr {
+	border: 3px solid black;
+  	border-radius: 3px;
+}
+
+img {
+	height: 120px;
+}
+
+#male-female {
+	display: flex;
+}
+
+#male-female div {
+	margin-right: 30px;
+}
+
+#male-female div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	cursor: pointer;
 }

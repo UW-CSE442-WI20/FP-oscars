@@ -1,24 +1,48 @@
+(function() {
+	const female = require("./SVG/female.svg");
+	const femalePink = require("./SVG/female-pink.svg");
+	const male = require("./SVG/male.svg");
+	const maleBlue = require("./SVG/male-blue.svg");
 
+	// Make sure the window has loaded before we start trying to 
+	// modify the DOM.
+	window.addEventListener("load", init);
 
-// You can require libraries
-const d3 = require('d3')
+	function init() {
+		// TODO make the color stay when the user clicks on it
+		id("female").addEventListener("mouseover", changeToPink); 	
+		id("female").addEventListener("mouseout", changeBack); 
+		id("female").addEventListener("click", changeToPink); 
+		id("male").addEventListener("mouseover", changeToBlue); 	
+		id("male").addEventListener("mouseout", changeBackToMale); 
+		id("male").addEventListener("click", changeToBlue); 	
+	}
 
-// You can include local JS files:
-const MyClass = require('./my-class');
-const myClassInstance = new MyClass();
-myClassInstance.sayHi();
+	function changeToPink() {
+		id("female-icon").src = femalePink; 
+	}
 
+	function changeBack() {
+		id("female-icon").src = female;
+	}
 
-// You can load JSON files directly via require.
-// Note this does not add a network request, it adds
-// the data directly to your JavaScript bundle.
-const exampleData = require('./example-data.json');
+	function changeToBlue() {
+		id("male-icon").src = maleBlue; 
+	}
 
+	function changeBackToMale() {
+		id("male-icon").src = male;
+	}
 
-// Anything you put in the static folder will be available
-// over the network, e.g.
-d3.csv('carbon-emissions.csv')
-  .then((data) => {
-    console.log('Dynamically loaded CSV data', data);
-  })
+	function id(idName) {
+ 		return document.getElementById(idName);
+	}
 
+	function qsa(query) {
+		return document.querySelectorAll(query);
+	}
+
+	function qs(query) {
+		return document.querySelector(query);
+	}
+})();
