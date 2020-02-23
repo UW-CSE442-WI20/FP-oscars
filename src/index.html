@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>How to Win an Oscar</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css"/>
     <link rel="icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <script src="./nouislider.js"></script>
     <script src="./index.js"></script>
   </head>
   <body>
@@ -17,6 +19,12 @@
     <!--In the future, we will split these into multiple pages-->
     <div id="content-page">
     	<h2>Content</h2>
+    	<div class="page-description">
+    		<p>What percent of the lines should male characters speak?</p>
+    		<div id="slider-container">
+			  <div id="slider"></div>
+			</div>
+    	</div>
     </div>
     <hr/>
     <div id="director-page">

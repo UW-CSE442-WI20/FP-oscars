@@ -73,3 +73,16 @@ img {
 	width: 50%;
 	cursor: pointer;
 }
+
+#slider-container {
+	width: 60%;
+	margin-bottom: 10%;
+}
+
+.c-1-color {
+	background: #4974B9;
+}
+
+.c-2-color {
+	background: #A157A2;
+}
