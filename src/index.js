@@ -23,20 +23,40 @@
 	}
 
 	function makeSlider() {
-		let addSlider = id('slider');
+		let slider = id('slider');
 		let range_all_sliders = {
 			'min': [     0 ],
 			'10%': [   500,  500 ],
 			'50%': [  4000, 1000 ],
 			'max': [ 10000 ]
 		};
-		noUiSlider.create(addSlider, {
+		noUiSlider.create(slider, {
 		    start: [50],
 		    connect: [true, true],
 		    range: {
 		        'min': 0,
+		        '5%': 5,
+		        '10%': 10,
+		        '15%': 15,
+		        '20%': 20,
+		        '25%': 25,
+		        '30%': 30,
+		        '35%': 35,
+		        '40%': 40,
+		        '45%': 45,
+		        '50%': 50,
+		        '55%': 55,
+		        '60%': 60,
+		        '65%': 65,
+		        '70%': 70,
+		        '75%': 75,
+		        '80%': 80,
+		        '85%': 85,
+		        '90%': 90,
+		        '95%': 95,
 		        'max': 100
 		    },
+		    snap: true,
 		    pips: {
 		        mode: 'positions',
 		        values: [0, 25, 50, 75, 100],
@@ -49,6 +69,11 @@
 		for (let i = 0; i < connect.length; i++) {
 		    connect[i].classList.add(classes[i]);
 		}
+
+		slider.noUiSlider.on('update', function () {
+	        let value = slider.noUiSlider.get();
+	        id("gender-percent").innerText = value + "%";
+	    });
 	}
 
 	function clickFemale() {

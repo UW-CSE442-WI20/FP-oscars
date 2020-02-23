@@ -79,6 +79,15 @@ img {
 	margin-bottom: 10%;
 }
 
+#percent-container {
+	display: flex;
+}
+
+#gender-percent {
+	margin-left: 10%;
+	font-size: 40px;
+}
+
 .c-1-color {
 	background: #4974B9;
 }
