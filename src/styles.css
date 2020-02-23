@@ -85,7 +85,13 @@ img {
 
 #gender-percent {
 	margin-left: 10%;
-	font-size: 40px;
+	font-size: 60px;
+	vertical-align: center;
+	line-height: 50px;
+}
+
+.underline {
+	text-decoration: underline solid black;
 }
 
 .c-1-color {

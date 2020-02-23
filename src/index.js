@@ -72,16 +72,23 @@
 
 		slider.noUiSlider.on('update', function () {
 	        let value = slider.noUiSlider.get();
-	        id("gender-percent").innerText = value + "%";
+	        id("gender-percent").innerText = Math.round(value) + "%";
 	    });
 	}
 
 	function clickFemale() {
-		femaleIconSelected = true;
-		id("female-icon").src = femalePink; 
+		if (id("female").classList.contains("underline")) {
+			femaleIconSelected = false;
+			id("female-icon").src = female; 
+		} else {
+			femaleIconSelected = true;
+			id("female-icon").src = femalePink; 
+		}
+		if (maleIconSelected) {
+			id("male").classList.toggle("underline");
+		}
 		id("male-icon").src = male;
-		id("female").style.textDecoration = "underline solid black";
-		id("male").style.textDecoration = "none";
+		id("female").classList.toggle("underline");
 	}
 
 	function changeToPink() {
@@ -95,12 +102,18 @@
 	}
 
 	function clickMale() {
-		maleIconSelected = true;
-		id("male-icon").src = maleBlue;
+		if (id("male").classList.contains("underline")) {
+			maleIconSelected = false;
+			id("male-icon").src = male; 
+		} else {
+			maleIconSelected = true;
+			id("male-icon").src = maleBlue; 
+		}
+		if (femaleIconSelected) {
+			id("female").classList.toggle("underline");
+		}
 		id("female-icon").src = female;
-		id("male").style.textDecoration = "underline solid black"; 
-		id("female").style.textDecoration = "none";
-
+		id("male").classList.toggle("underline");
 	}
 
 	function changeToBlue() {
