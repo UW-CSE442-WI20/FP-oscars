@@ -139,3 +139,21 @@ img {
 .is-selected {
 	text-decoration: underline;
 }
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: 18%;
+  }
+
+
+  .flex-element {
+	background: grey;
+	width: 25%;
+	height: 150px;
+	margin: 10px 0 0 2%;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	cursor: pointer;
+  }
