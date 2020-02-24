@@ -185,3 +185,9 @@ img {
 	width: 70px;
 	height: auto;
 }
+
+.highlighted-box {
+	outline: 3px solid white;
+	outline-offset: -10px;
+	/*box-shadow: 7px 7px #ef758d;*/
+}

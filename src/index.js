@@ -94,6 +94,10 @@ const d3 = require('d3');
 	}
 
 	function clickGenre(elements, index) {
+		for (let i = 0; i < elements.length; i++) {
+			elements[i].classList.remove("highlighted-box");
+		}
+		elements[index].classList.add("highlighted-box");
 		console.log(elements[index].textContent);
 	}
 
