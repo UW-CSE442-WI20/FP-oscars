@@ -8,12 +8,6 @@ const d3 = require('d3');
 	const noUiSlider = require("nouislider");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
-	var genres = ["Please Select a Genre", "Horror", "Action", "Romantic-Comedy", "Action", "Thriller", "Western", "Science-Fiction", "Historical-Fiction", "Comedy", "Adventure"];
-
-	var selectGenre = d3.select("body").select("#genre-page")
-	.append("select").attr("id", "genre-selector").selectAll("option")
-	.data(genres).enter().append("option").text(function(d) { return d } )
-	.attr("value", function (d, i) { return i });
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -27,25 +21,26 @@ const d3 = require('d3');
 		id("male").addEventListener("mouseover", changeToBlue); 	
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
+		var elements = document.getElementsByClassName("flex-element");
+		elements[0].addEventListener("click", function () { clickGenre(elements, 0)});
+		elements[1].addEventListener("click", function () { clickGenre(elements, 1)});
+		elements[2].addEventListener("click", function () { clickGenre(elements, 2)});
+		elements[3].addEventListener("click", function () { clickGenre(elements, 3)});
+		elements[4].addEventListener("click", function () { clickGenre(elements, 4)});
+		elements[5].addEventListener("click", function () { clickGenre(elements, 5)});
+		elements[6].addEventListener("click", function () { clickGenre(elements, 6)});
+		elements[7].addEventListener("click", function () { clickGenre(elements, 7)});
+		elements[8].addEventListener("click", function () { clickGenre(elements, 8)});
+		// var elements = document.getElementsByClassName("flex-element");
+		// for (var i = 0; i < elements.length; i++) {
+		// 	var currElement = elements[i];
+		// 	currElement.addEventListener("click", function () { clickGenre(currElement) });
+		// }
 		makeSlider();	
 		makeCountryCarousel();
-		// showDropdown();
 	}
 
-	function showDropdown() {
-		selectGenre.selectAll("option")
-		.data(genres)
-		.enter()
-		.append("option")
-		.attr("id", "genre-page")
-		.attr("value", function (d) { return d; })
-		.text(function (d) { return d; })
-		.each(function(d) {
-		if (d === "Please Select a Genre") {
-			d3.select(this).property("disabled", true)
-		}
-		});
-	}
+
 	function makeSlider() {
 		let slider = id('slider');
 		let range_all_sliders = {
@@ -109,7 +104,9 @@ const d3 = require('d3');
 		  pageDots: false
 		});
 	}
-
+	function clickGenre(elements, index) {
+		console.log(elements[index].textContent);
+	}
 	function clickFemale() {
 		if (maleIconSelected) {
 			id("male").classList.toggle("underline");
