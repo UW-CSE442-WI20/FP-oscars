@@ -168,6 +168,7 @@ img {
 	text-align: center;
 	cursor: pointer;
 	position: relative;
+	border-radius: 7%;
 }
 
 .flex-element span {
