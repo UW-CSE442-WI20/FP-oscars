@@ -146,14 +146,29 @@ img {
 	margin-left: 18%;
   }
 
+  .flex-element:hover {
+	background: #D3D3D3;
+  }
 
   .flex-element {
-	background: grey;
+	background: #A9A9A9;
 	width: 25%;
 	height: 150px;
 	margin: 10px 0 0 2%;
 	color: white;
+	font-family: 'AndesRoundedMedium' ;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 1em;
+	text-align: center;
 	cursor: pointer;
+  }
+
+  .flex-element img {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 25%;
+	height: 35%;
   }

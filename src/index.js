@@ -1,3 +1,5 @@
+const d3 = require('d3');
+
 (function() {
 	const female = require("./SVG/female.svg");
 	const femalePink = require("./SVG/female-pink.svg");
@@ -6,6 +8,12 @@
 	const noUiSlider = require("nouislider");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
+	var genres = ["Please Select a Genre", "Horror", "Action", "Romantic-Comedy", "Action", "Thriller", "Western", "Science-Fiction", "Historical-Fiction", "Comedy", "Adventure"];
+
+	var selectGenre = d3.select("body").select("#genre-page")
+	.append("select").attr("id", "genre-selector").selectAll("option")
+	.data(genres).enter().append("option").text(function(d) { return d } )
+	.attr("value", function (d, i) { return i });
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -21,8 +29,23 @@
 		id("male").addEventListener("click", clickMale); 
 		makeSlider();	
 		makeCountryCarousel();
+		// showDropdown();
 	}
 
+	function showDropdown() {
+		selectGenre.selectAll("option")
+		.data(genres)
+		.enter()
+		.append("option")
+		.attr("id", "genre-page")
+		.attr("value", function (d) { return d; })
+		.text(function (d) { return d; })
+		.each(function(d) {
+		if (d === "Please Select a Genre") {
+			d3.select(this).property("disabled", true)
+		}
+		});
+	}
 	function makeSlider() {
 		let slider = id('slider');
 		let range_all_sliders = {
