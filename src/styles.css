@@ -49,6 +49,10 @@ h2 {
 	font-size: 20px;
 }
 
+.page-description .intro {
+	margin-right: 20%;
+}
+
 hr {
 	border: 3px solid black;
   	border-radius: 3px;
@@ -100,4 +104,38 @@ img {
 
 .c-2-color {
 	background: #A157A2;
+}
+
+#flag-carousel {
+	height: 150px;
+	width: 300px;
+}
+
+#carousel-content {
+	margin-left: 20%;
+}
+
+.carousel-image {
+  display: block;
+  height: 150px;
+  /* set min-width,
+     allow images to determine cell width */
+  min-width: 150px;
+  max-width: 100%;
+  margin-left: 10px;
+  /* vertically center */
+  top: 50%;
+}
+
+.carousel-text {
+	text-align: center;
+    display: block;
+}
+
+.side-by-side {
+	display: flex;
+}
+
+.is-selected {
+	text-decoration: underline;
 }

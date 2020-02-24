@@ -20,6 +20,7 @@
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
 		makeSlider();	
+		makeCountryCarousel();
 	}
 
 	function makeSlider() {
@@ -74,6 +75,16 @@
 	        let value = slider.noUiSlider.get();
 	        id("gender-percent").innerText = Math.round(value) + "%";
 	    });
+	}
+
+	function makeCountryCarousel() {
+	    let elem = id('flag-carousel');
+		let flkty = new Flickity( elem, {
+		  // options
+		  contain: true,
+		  wrapAround: true,
+		  pageDots: false
+		});
 	}
 
 	function clickFemale() {

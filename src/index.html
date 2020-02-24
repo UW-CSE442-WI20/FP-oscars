@@ -5,8 +5,12 @@
     <title>How to Win an Oscar</title>
     <link rel="icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" type="text/css" href="./styles.css"/>
     <script src="./nouislider.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="./index.js"></script>
   </head>
   <body>
@@ -20,6 +24,7 @@
     <div id="content-page">
     	<h2>Content</h2>
     	<div class="page-description">
+    		<p class="intro">The content is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
     		<p>What percent of the lines should male characters speak?</p>
     		<div id="percent-container">
 			  <div id="slider-container">
@@ -33,23 +38,58 @@
     <div id="director-page">
     	<h2>Director</h2>
     	<div class="page-description">
-    		<p>Pick who will direct your movie!</p>
-    		<div id="male-female">
-    			<div id="male">
-	    			<img id="male-icon" src="./SVG/male.svg">
-	    			<p>A male director</p>
-	    		</div>
-	    		<div id="female">
-	    			<img id="female-icon" src="./SVG/female.svg">
-	    			<p>A female director</p>
-	    		</div>
-    		</div>
-    		
+    		<p class="intro">The director determines how the story unravels before the audience's eyes. Directors often have recognizable filmmaking styles that differ from other directors. Let's pick who will direct your movie!</p>
+    		<div class="side-by-side">
+    			<div>
+		    		<p>What gender are they?</p>
+		    		<div id="male-female">
+		    			<div id="male">
+			    			<img id="male-icon" src="./SVG/male.svg">
+			    			<p>A male director</p>
+			    		</div>
+			    		<div id="female">
+			    			<img id="female-icon" src="./SVG/female.svg">
+			    			<p>A female director</p>
+			    		</div>
+		    		</div>
+		    	</div>
+		    	<div id="carousel-content">
+		    		<p>What nationality are they?</p>
+		    		<div id="flag-carousel">
+					  <span><img class="carousel-image" src="./flags/153-united-states-of-america.png"><span class="carousel-text">American</span></span>
+					  <span><img class="carousel-image" src="./flags/130-australia.png"><span class="carousel-text">Australian</span></span>
+					  <span><img class="carousel-image" src="./flags/250-brazil.png"><span class="carousel-text">Brazilian</span></span>
+					  <span><img class="carousel-image" src="./flags/262-united-kingdom.png"><span class="carousel-text">British</span></span>
+					  <span><img class="carousel-image" src="./flags/206-canada.png"><span class="carousel-text">Canadian</span></span>
+					  <span><img class="carousel-image" src="./flags/152-england.png"><span class="carousel-text">English</span></span>
+					  <span><img class="carousel-image" src="./flags/077-france.png"><span class="carousel-text">French</span></span>
+					  <span><img class="carousel-image" src="./flags/066-germany.png"><span class="carousel-text">German</span></span>
+					  <span><img class="carousel-image" src="./flags/071-greece.png"><span class="carousel-text">Greek</span></span>
+					  <span><img class="carousel-image" src="./flags/070-ireland.png"><span class="carousel-text">Irish</span></span>
+					  <span><img class="carousel-image" src="./flags/011-italy.png"><span class="carousel-text">Italian</span></span>
+					  <span><img class="carousel-image" src="./flags/239-mexico.png"><span class="carousel-text">Mexican</span></span>
+					  <span><img class="carousel-image" src="./flags/048-new-zealand.png"><span class="carousel-text">New Zealander</span></span>
+					  <span><img class="carousel-image" src="./flags/058-norway.png"><span class="carousel-text">Norwegian</span></span>
+					  <span><img class="carousel-image" src="./flags/108-poland.png"><span class="carousel-text">Polish</span></span>
+					  <span><img class="carousel-image" src="./flags/036-scotland.png"><span class="carousel-text">Scottish</span></span>
+					  <span><img class="carousel-image" src="./flags/055-south-korea.png"><span class="carousel-text">South Korean</span></span>
+					  <span><img class="carousel-image" src="./flags/044-spain.png"><span class="carousel-text">Spanish</span></span>
+					  <span><img class="carousel-image" src="./flags/097-switzerland.png"><span class="carousel-text">Swiss</span></span>
+					  <span><img class="carousel-image" src="./flags/080-taiwan.png"><span class="carousel-text">Taiwanese</span></span>
+					</div>
+				</div>
+			</div>
     	</div>
     </div>
     <hr/>
     <div id="genre-page">
     	<h2>Genre</h2>
+    </div>
+    <hr/>
+    <div id="calculation-page">
+    	<h2>Calculations</h2>
+    	<div class="page-description">
+    	</div>
     </div>
   </body>
 </html>
