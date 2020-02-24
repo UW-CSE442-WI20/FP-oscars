@@ -169,6 +169,7 @@ img {
 	cursor: pointer;
 	position: relative;
 	border-radius: 7%;
+	border: 5px solid transparent;
 }
 
 .flex-element span {
@@ -187,7 +188,5 @@ img {
 }
 
 .highlighted-box {
-	outline: 3px solid white;
-	outline-offset: -10px;
-	/*box-shadow: 7px 7px #ef758d;*/
+	border: 5px solid #3fa9f5;
 }
