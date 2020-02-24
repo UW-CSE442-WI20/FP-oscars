@@ -115,6 +115,11 @@ img {
 	margin-left: 20%;
 }
 
+.noUi-marker {
+	background: #878686;
+	color: #878686;
+}
+
 .carousel-image {
   display: block;
   height: 150px;

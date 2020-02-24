@@ -14,32 +14,20 @@ const d3 = require('d3');
 	window.addEventListener("load", init);
 
 	function init() {
-		// TODO make the color stay when the user clicks on it
 		id("female").addEventListener("mouseover", changeToPink); 	
 		id("female").addEventListener("mouseout", changeBack); 
 		id("female").addEventListener("click", clickFemale); 
 		id("male").addEventListener("mouseover", changeToBlue); 	
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
-		var elements = document.getElementsByClassName("flex-element");
-		elements[0].addEventListener("click", function () { clickGenre(elements, 0)});
-		elements[1].addEventListener("click", function () { clickGenre(elements, 1)});
-		elements[2].addEventListener("click", function () { clickGenre(elements, 2)});
-		elements[3].addEventListener("click", function () { clickGenre(elements, 3)});
-		elements[4].addEventListener("click", function () { clickGenre(elements, 4)});
-		elements[5].addEventListener("click", function () { clickGenre(elements, 5)});
-		elements[6].addEventListener("click", function () { clickGenre(elements, 6)});
-		elements[7].addEventListener("click", function () { clickGenre(elements, 7)});
-		elements[8].addEventListener("click", function () { clickGenre(elements, 8)});
-		// var elements = document.getElementsByClassName("flex-element");
-		// for (var i = 0; i < elements.length; i++) {
-		// 	var currElement = elements[i];
-		// 	currElement.addEventListener("click", function () { clickGenre(currElement) });
-		// }
+		let elements = qsa(".flex-element");
+		for (let i = 0; i < elements.length; i++) {
+			let currElement = elements[i];
+			currElement.addEventListener("click", function () { clickGenre(elements, i) });
+		}
 		makeSlider();	
 		makeCountryCarousel();
 	}
-
 
 	function makeSlider() {
 		let slider = id('slider');
@@ -104,9 +92,11 @@ const d3 = require('d3');
 		  pageDots: false
 		});
 	}
+
 	function clickGenre(elements, index) {
 		console.log(elements[index].textContent);
 	}
+
 	function clickFemale() {
 		if (maleIconSelected) {
 			id("male").classList.toggle("underline");
