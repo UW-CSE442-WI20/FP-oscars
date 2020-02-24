@@ -148,32 +148,39 @@ img {
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
-	margin-left: 18%;
-  }
+	margin-left: -2%;
+	margin-bottom: 5%;
+}
 
-  .flex-element:hover {
-	background: #D3D3D3;
-  }
+.flex-element:hover {
+	background: #565656;
+}
 
-  .flex-element {
-	background: #A9A9A9;
-	width: 25%;
+.flex-element {
+	background: #333333;
+	width: 13%;
 	height: 150px;
-	margin: 10px 0 0 2%;
+	margin: 1.5% 0 0 1.5%;
 	color: white;
-	font-family: 'AndesRoundedMedium' ;
+	font-family: 'AndesRoundedMedium';
 	font-weight: bold;
 	font-size: 1em;
 	text-align: center;
 	cursor: pointer;
-  }
+	position: relative;
+}
 
-  .flex-element img {
+.flex-element span {
+	position: relative;
+	top: 15px;
+}
+
+.flex-element img {
 	display: block;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	width: 25%;
-	height: 35%;
-  }
+	height: 65px;
+	width: auto;
+}
