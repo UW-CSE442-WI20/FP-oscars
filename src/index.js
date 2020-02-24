@@ -88,15 +88,16 @@
 	}
 
 	function clickFemale() {
+		if (maleIconSelected) {
+			id("male").classList.toggle("underline");
+		}
 		if (id("female").classList.contains("underline")) {
 			femaleIconSelected = false;
 			id("female-icon").src = female; 
 		} else {
 			femaleIconSelected = true;
+			maleIconSelected = false;
 			id("female-icon").src = femalePink; 
-		}
-		if (maleIconSelected) {
-			id("male").classList.toggle("underline");
 		}
 		id("male-icon").src = male;
 		id("female").classList.toggle("underline");
@@ -113,15 +114,16 @@
 	}
 
 	function clickMale() {
+		if (femaleIconSelected) {
+			id("female").classList.toggle("underline");
+		}
 		if (id("male").classList.contains("underline")) {
 			maleIconSelected = false;
 			id("male-icon").src = male; 
 		} else {
 			maleIconSelected = true;
+			femaleIconSelected = false;
 			id("male-icon").src = maleBlue; 
-		}
-		if (femaleIconSelected) {
-			id("female").classList.toggle("underline");
 		}
 		id("female-icon").src = female;
 		id("male").classList.toggle("underline");
