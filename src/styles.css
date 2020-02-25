@@ -148,8 +148,9 @@ img {
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
-	margin-left: -2%;
+	margin-left: -1%;
 	margin-bottom: 5%;
+	width: 92%;
 }
 
 .flex-element:hover {
@@ -158,9 +159,9 @@ img {
 
 .flex-element {
 	background: #333333;
-	width: 13%;
+	width: 12.9%;
 	height: 150px;
-	margin: 1.5% 0 0 1.5%;
+	margin: 0.75% 0 0 0.75%;
 	color: white;
 	font-family: 'AndesRoundedMedium';
 	font-weight: bold;
