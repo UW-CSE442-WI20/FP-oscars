@@ -8,6 +8,7 @@ const d3 = require('d3');
 	const noUiSlider = require("nouislider");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
+	let lastGenreSelected;
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -94,10 +95,16 @@ const d3 = require('d3');
 	}
 
 	function clickGenre(elements, index) {
-		for (let i = 0; i < elements.length; i++) {
-			elements[i].classList.remove("highlighted-box");
+		if (lastGenreSelected == elements[index]) {
+			lastGenreSelected.classList.toggle("highlighted-box");
+		} else if (lastGenreSelected != null) {
+			lastGenreSelected.classList.remove("highlighted-box")
 		}
-		elements[index].classList.add("highlighted-box");
+		
+		if (lastGenreSelected != elements[index]) {
+			lastGenreSelected = elements[index];
+			lastGenreSelected.classList.add("highlighted-box");
+		}
 		console.log(elements[index].textContent);
 	}
 
