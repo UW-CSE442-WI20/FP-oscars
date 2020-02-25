@@ -133,8 +133,9 @@ img {
 }
 
 .carousel-text {
-	text-align: center;
-    display: block;
+	visibility: hidden;
+  	opacity: 0;
+  	transition: visibility 0.75s, opacity 0.5s ease-in-out;
 }
 
 .side-by-side {
@@ -143,6 +144,13 @@ img {
 
 .is-selected {
 	text-decoration: underline;
+}
+
+.is-selected .carousel-text {
+	text-align: center;
+    display: block;
+    visibility: visible;
+  	opacity: 1;
 }
 
 .flex-container {
