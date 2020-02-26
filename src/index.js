@@ -97,8 +97,17 @@ const d3 = require('d3');
 		var svg = d3.select("#pi-chart"),
 			width = svg.attr("width"),
 			height = svg.attr("height"),
-			radius = Math.min(width, height) / 2,
+			radius = 175,
 			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+		
+
+		svg.append("text")
+			.attr("x", (width / 2))             
+			.attr("y", 16)
+			.attr("text-anchor", "middle")  
+			.style("font-size", "16px") 
+			.style("font-weight", "bold")  
+			.text("Gender Breakdown of Directors who Won Best Director Award");
 
 		var color = d3.scaleOrdinal(['#4974B9','#A157A2']);
 
@@ -108,7 +117,7 @@ const d3 = require('d3');
 		// Generate the arcs
 		var arc = d3.arc()
 					.innerRadius(0)
-					.outerRadius(radius - 4);
+					.outerRadius(radius);
 
 		//Generate groups
 		var arcs = g.selectAll("arc")
