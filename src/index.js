@@ -32,12 +32,6 @@ const d3 = require('d3');
 
 	function makeSlider() {
 		let slider = id('slider');
-		let range_all_sliders = {
-			'min': [     0 ],
-			'10%': [   500,  500 ],
-			'50%': [  4000, 1000 ],
-			'max': [ 10000 ]
-		};
 		noUiSlider.create(slider, {
 		    start: [50],
 		    connect: [true, true],
@@ -68,9 +62,10 @@ const d3 = require('d3');
 		    pips: {
 		        mode: 'positions',
 		        values: [0, 25, 50, 75, 100],
-		        density: 4
+		        density: 4,
 		    }
 		});
+
 		let connect = slider.querySelectorAll('.noUi-connect');
 		let classes = ['c-1-color', 'c-2-color'];
 
