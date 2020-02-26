@@ -21,6 +21,7 @@ const d3 = require('d3');
 		id("male").addEventListener("mouseover", changeToBlue); 	
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
+		id("switch-views").addEventListener("click", goToResultsPage);
 		let elements = qsa(".flex-element");
 		for (let i = 0; i < elements.length; i++) {
 			let currElement = elements[i];
@@ -154,6 +155,19 @@ const d3 = require('d3');
 			id("male-icon").src = male;
 		}
 	}
+
+	function goToResultsPage() {
+		id("questions").classList.add("fade-out");
+		setTimeout(function() {
+			id("questions").style.display = "none";
+			id("calculation-page").classList.add("fade-in");
+		}, 1000);
+		setTimeout(function() {
+			document.body.scrollTop = 0; // For Safari
+			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}, 1000);
+	}
+
 
 	function id(idName) {
  		return document.getElementById(idName);

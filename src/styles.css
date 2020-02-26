@@ -17,6 +17,16 @@ body {
 	background-color: #F9E7CD;
 }
 
+#calculation-page {
+	display: none;
+	transition: none;
+}
+
+#calculation-page.fade-in {
+	display: block;
+	transition: 1.5s opacity;
+}
+
 #title-subtitle {
 	display: flex;
 	justify-content: center;
@@ -198,4 +208,25 @@ img {
 
 .highlighted-box {
 	border: 5px solid #3fa9f5;
+}
+
+#results-button {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+button {
+	font-size: 50px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #FFF;
+    background-color: #D1B000;
+    border-radius: 10px;
+}
+
+button:hover {
+	background-color: #DDC545;
 }
