@@ -11,109 +11,116 @@
     <script src="./nouislider.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="./index.js"></script>
+	<script src="./index.js"></script>
   </head>
   <body>
-    <div id="title-subtitle">
-    	<h1>Let's Craft <br/>an Oscar<br/> Winning <br/>Movie!</h1>
-    	<div id="subtitle">
-    		<p>We believe there is a receipe to success for getting a movie to win an Oscar. Let’s dive in and try it out!<p>
-    	</div>
-    </div>
-    <!--In the future, we will split these into multiple pages-->
-    <div id="dialog-page">
-    	<h2>Dialog</h2>
-    	<div class="page-description">
-    		<p class="intro">The dialog is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
-    		<p>What percent of the lines should male characters speak?</p>
-    		<div id="percent-container">
-			  <div id="slider-container">
-			  	<div id="slider"></div>
-			  </div>
-			  <span id="gender-percent"></span>
+	  <div id="questions">
+		<div id="title-subtitle">
+			<h1>Let's Craft <br/>an Oscar<br/> Winning <br/>Movie!</h1>
+			<div id="subtitle">
+				<p>We believe there is a receipe to success for getting a movie to win an Oscar. Let’s dive in and try it out!<p>
 			</div>
-    	</div>
-    </div>
-    <hr/>
-    <div id="director-page">
-    	<h2>Director</h2>
-    	<div class="page-description">
-    		<p class="intro">The director determines how the story unravels before the audience's eyes. Directors often have recognizable filmmaking styles that differ from other directors. Let's pick who will direct your movie!</p>
-    		<div class="side-by-side">
-    			<div>
-		    		<p>What gender are they?</p>
-		    		<div id="male-female">
-		    			<div id="male">
-			    			<img id="male-icon" src="./SVG/male.svg">
-			    			<p>A male director</p>
-			    		</div>
-			    		<div id="female">
-			    			<img id="female-icon" src="./SVG/female.svg">
-			    			<p>A female director</p>
-			    		</div>
-		    		</div>
-		    	</div>
-		    	<div id="carousel-content">
-		    		<p>What nationality are they?</p>
-		    		<div id="flag-carousel">
-					  <span><img class="carousel-image" src="./flags/153-united-states-of-america.png"><span class="carousel-text">American</span></span>
-					  <span><img class="carousel-image" src="./flags/130-australia.png"><span class="carousel-text">Australian</span></span>
-					  <span><img class="carousel-image" src="./flags/250-brazil.png"><span class="carousel-text">Brazilian</span></span>
-					  <span><img class="carousel-image" src="./flags/262-united-kingdom.png"><span class="carousel-text">British</span></span>
-					  <span><img class="carousel-image" src="./flags/206-canada.png"><span class="carousel-text">Canadian</span></span>
-					  <span><img class="carousel-image" src="./flags/152-england.png"><span class="carousel-text">English</span></span>
-					  <span><img class="carousel-image" src="./flags/077-france.png"><span class="carousel-text">French</span></span>
-					  <span><img class="carousel-image" src="./flags/066-germany.png"><span class="carousel-text">German</span></span>
-					  <span><img class="carousel-image" src="./flags/071-greece.png"><span class="carousel-text">Greek</span></span>
-					  <span><img class="carousel-image" src="./flags/070-ireland.png"><span class="carousel-text">Irish</span></span>
-					  <span><img class="carousel-image" src="./flags/011-italy.png"><span class="carousel-text">Italian</span></span>
-					  <span><img class="carousel-image" src="./flags/239-mexico.png"><span class="carousel-text">Mexican</span></span>
-					  <span><img class="carousel-image" src="./flags/048-new-zealand.png"><span class="carousel-text">New Zealander</span></span>
-					  <span><img class="carousel-image" src="./flags/058-norway.png"><span class="carousel-text">Norwegian</span></span>
-					  <span><img class="carousel-image" src="./flags/108-poland.png"><span class="carousel-text">Polish</span></span>
-					  <span><img class="carousel-image" src="./flags/036-scotland.png"><span class="carousel-text">Scottish</span></span>
-					  <span><img class="carousel-image" src="./flags/055-south-korea.png"><span class="carousel-text">South Korean</span></span>
-					  <span><img class="carousel-image" src="./flags/044-spain.png"><span class="carousel-text">Spanish</span></span>
-					  <span><img class="carousel-image" src="./flags/097-switzerland.png"><span class="carousel-text">Swiss</span></span>
-					  <span><img class="carousel-image" src="./flags/080-taiwan.png"><span class="carousel-text">Taiwanese</span></span>
+		</div>
+		<!--In the future, we will split these into multiple pages-->
+		<div id="dialog-page">
+			<h2>Dialog</h2>
+			<div class="page-description">
+				<p class="intro">The dialog is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
+				<p>What percent of the lines should male characters speak?</p>
+				<div id="percent-container">
+				<div id="slider-container">
+					<div id="slider"></div>
+				</div>
+				<span id="gender-percent"></span>
+				</div>
+			</div>
+		</div>
+		<hr/>
+		<div id="director-page">
+			<h2>Director</h2>
+			<div class="page-description">
+				<p class="intro">The director determines how the story unravels before the audience's eyes. Directors often have recognizable filmmaking styles that differ from other directors. Let's pick who will direct your movie!</p>
+				<div class="side-by-side">
+					<div>
+						<p>What gender are they?</p>
+						<div id="male-female">
+							<div id="male">
+								<img id="male-icon" src="./SVG/male.svg">
+								<p>A male director</p>
+							</div>
+							<div id="female">
+								<img id="female-icon" src="./SVG/female.svg">
+								<p>A female director</p>
+							</div>
+						</div>
+					</div>
+					<div id="carousel-content">
+						<p>What nationality are they?</p>
+						<div id="flag-carousel">
+						<span><img class="carousel-image" src="./flags/153-united-states-of-america.png"><span class="carousel-text">American</span></span>
+						<span><img class="carousel-image" src="./flags/130-australia.png"><span class="carousel-text">Australian</span></span>
+						<span><img class="carousel-image" src="./flags/250-brazil.png"><span class="carousel-text">Brazilian</span></span>
+						<span><img class="carousel-image" src="./flags/262-united-kingdom.png"><span class="carousel-text">British</span></span>
+						<span><img class="carousel-image" src="./flags/206-canada.png"><span class="carousel-text">Canadian</span></span>
+						<span><img class="carousel-image" src="./flags/152-england.png"><span class="carousel-text">English</span></span>
+						<span><img class="carousel-image" src="./flags/077-france.png"><span class="carousel-text">French</span></span>
+						<span><img class="carousel-image" src="./flags/066-germany.png"><span class="carousel-text">German</span></span>
+						<span><img class="carousel-image" src="./flags/071-greece.png"><span class="carousel-text">Greek</span></span>
+						<span><img class="carousel-image" src="./flags/070-ireland.png"><span class="carousel-text">Irish</span></span>
+						<span><img class="carousel-image" src="./flags/011-italy.png"><span class="carousel-text">Italian</span></span>
+						<span><img class="carousel-image" src="./flags/239-mexico.png"><span class="carousel-text">Mexican</span></span>
+						<span><img class="carousel-image" src="./flags/048-new-zealand.png"><span class="carousel-text">New Zealander</span></span>
+						<span><img class="carousel-image" src="./flags/058-norway.png"><span class="carousel-text">Norwegian</span></span>
+						<span><img class="carousel-image" src="./flags/108-poland.png"><span class="carousel-text">Polish</span></span>
+						<span><img class="carousel-image" src="./flags/036-scotland.png"><span class="carousel-text">Scottish</span></span>
+						<span><img class="carousel-image" src="./flags/055-south-korea.png"><span class="carousel-text">South Korean</span></span>
+						<span><img class="carousel-image" src="./flags/044-spain.png"><span class="carousel-text">Spanish</span></span>
+						<span><img class="carousel-image" src="./flags/097-switzerland.png"><span class="carousel-text">Swiss</span></span>
+						<span><img class="carousel-image" src="./flags/080-taiwan.png"><span class="carousel-text">Taiwanese</span></span>
+						</div>
 					</div>
 				</div>
 			</div>
-    	</div>
-    </div>
-    <hr/>
-    <div id="genre-page">
-			<h2>Genre</h2>
-			<div class="page-description">
-				<p class="intro">Movie genres are associated with conventions, settings, narratives, characters, and actors. Often, movies are bucketed into many different genres.</p>
-				<p>What genre is your movie?</p>
-				<div class="flex-container">
-			        <div class="flex-element 1"><span>Action</span><img src="./SVG/action.svg"></div>
-			        <div class="flex-element 2"><span>Adventure</span></div>
-					<div class="flex-element 3"><span>Animation</span></div>
-					<div class="flex-element 4"><span>Comedy</span><img src="./SVG/comedy.svg"></div>
-					<div class="flex-element 5"><span>Crime</span></div>
-	        		<div class="flex-element 6"><span>Drama</span></div>
-					<div class="flex-element 7"><span>Family</span></div>
-					<div class="flex-element 8"><span>Fantasy</span></div>
-					<div class="flex-element 9"><span>History</span></div>
-					<div class="flex-element 10"><span>Horror</span><img src="./SVG/horror.svg"></div>
-					<div class="flex-element 11"><span>Music</span><img src="./SVG/music.svg"></div>
-					<div class="flex-element 12"><span>Mystery</span><img src="./SVG/mystery.svg"></div>
-					<div class="flex-element 13"><span>Romance</span><img src="./SVG/heart.svg"></div>
-					<div class="flex-element 14"><span>Sci-Fi</span><img src="./SVG/sci-fi.svg"></div>
-					<div class="flex-element 15"><span>Sport</span><img src="./SVG/sport.svg"></div>
-					<div class="flex-element 16"><span>Thriller</span></div>
-					<div class="flex-element 17"><span>War</span><img src="./SVG/war.svg"></div>
-					<div class="flex-element 18"><span>Western<img src="./SVG/western.svg"></span></div>
-		      	</div>
-		    </div>
-    </div>
-    <hr/>
+		</div>
+		<hr/>
+		<div id="genre-page">
+				<h2>Genre</h2>
+				<div class="page-description">
+					<p class="intro">Movie genres are associated with conventions, settings, narratives, characters, and actors. Often, movies are bucketed into many different genres.</p>
+					<p>What genre is your movie?</p>
+					<div class="flex-container">
+						<div class="flex-element 1"><span>Action</span><img src="./SVG/action.svg"></div>
+						<div class="flex-element 2"><span>Adventure</span></div>
+						<div class="flex-element 3"><span>Animation</span></div>
+						<div class="flex-element 4"><span>Comedy</span><img src="./SVG/comedy.svg"></div>
+						<div class="flex-element 5"><span>Crime</span></div>
+						<div class="flex-element 6"><span>Drama</span></div>
+						<div class="flex-element 7"><span>Family</span></div>
+						<div class="flex-element 8"><span>Fantasy</span></div>
+						<div class="flex-element 9"><span>History</span></div>
+						<div class="flex-element 10"><span>Horror</span><img src="./SVG/horror.svg"></div>
+						<div class="flex-element 11"><span>Music</span><img src="./SVG/music.svg"></div>
+						<div class="flex-element 12"><span>Mystery</span><img src="./SVG/mystery.svg"></div>
+						<div class="flex-element 13"><span>Romance</span><img src="./SVG/heart.svg"></div>
+						<div class="flex-element 14"><span>Sci-Fi</span><img src="./SVG/sci-fi.svg"></div>
+						<div class="flex-element 15"><span>Sport</span><img src="./SVG/sport.svg"></div>
+						<div class="flex-element 16"><span>Thriller</span></div>
+						<div class="flex-element 17"><span>War</span><img src="./SVG/war.svg"></div>
+						<div class="flex-element 18"><span>Western<img src="./SVG/western.svg"></span></div>
+					</div>
+				</div>
+		</div>
+		<hr/>
+		<div id="results-button">
+			<button id="switch-views">Get results!</button>
+		</div>
+	</div>
+
     <div id="calculation-page">
-    	<h2>Calculations</h2>
+		<h2>Calculations</h2>
     	<div class="page-description">
-    	</div>
-    </div>
+			<p class="intro">Based on your dialog, director, and genre selections, you are likely to...</p>
+		</div>
+	</div>
   </body>
 </html>
