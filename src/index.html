@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+	<link rel="stylesheet" type="text/css" href="./styles.css"/>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="./nouislider.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -120,6 +121,7 @@
 		<h2>Calculations</h2>
     	<div class="page-description">
 			<p class="intro">Based on your dialog, director, and genre selections, you are likely to...</p>
+			<svg id="pi-chart" width="300" height="300"></svg>
 		</div>
 	</div>
   </body>
