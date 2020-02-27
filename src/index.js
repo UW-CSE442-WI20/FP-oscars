@@ -92,48 +92,50 @@ const d3 = require('d3');
 	}
 
 	function makePiChart() {
-		var data = [177, 8]; // numbers from director_gender.txt
+		let data = [177, 8]; // numbers from director_gender.txt
 
-		var svg = d3.select("#pi-chart"),
+		let color = d3.scaleOrdinal(['#4974B9','#A157A2']);
+
+		let svg = d3.select("#pi-chart"),
 			width = svg.attr("width"),
 			height = svg.attr("height"),
 			radius = 175,
 			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-		
-
-		svg.append("text")
-			.attr("x", (width / 2))             
-			.attr("y", 16)
-			.attr("text-anchor", "middle")  
-			.style("font-size", "16px") 
-			.style("font-weight", "bold")  
-			.text("Gender Breakdown of Directors who Won Best Director Award");
-
-		var color = d3.scaleOrdinal(['#4974B9','#A157A2']);
 
 		// Generate the pie
-		var pie = d3.pie();
+		let pie = d3.pie();
 
 		// Generate the arcs
-		var arc = d3.arc()
+		let arc = d3.arc()
 					.innerRadius(0)
 					.outerRadius(radius);
 
 		//Generate groups
-		var arcs = g.selectAll("arc")
+		let arcs = g.selectAll("arc")
 					.data(pie(data))
 					.enter()
 					.append("g")
 					.attr("class", "arc")
         			.attr("stroke", "white")
-  					.style("stroke-width", "2px")
+					  .style("stroke-width", "2px")
+		
+		// Generate title for pi chart
+		svg.append("text")
+		   .attr("x", (width / 2))
+		   .attr("y", 16)
+		   .attr("text-anchor", "middle")
+		   .style("font-size", "16px") 
+		   .style("font-weight", "bold")  
+		   .text("Gender Breakdown of Directors who Won Best Director Award");
 
 		//Draw arc paths
 		arcs.append("path")
 			.attr("fill", function(d, i) {
 				return color(i);
 			})
-			.attr("d", arc);
+			.attr("d", arc)
+			.append("title")
+  			.text(function(d) {return d.value});
 	}
 
 	function clickGenre(elements, index) {
