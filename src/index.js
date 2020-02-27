@@ -116,13 +116,13 @@ const d3 = require('d3');
 					.enter()
 					.append("g")
 					.attr("class", "arc")
-        			.attr("stroke", "white")
-					  .style("stroke-width", "2px")
+        			.attr("stroke", "black")
+					.style("stroke-width", "2px")
 		
 		// Generate title for pi chart
 		svg.append("text")
 		   .attr("x", (width / 2))
-		   .attr("y", 16)
+		   .attr("y", 35)
 		   .attr("text-anchor", "middle")
 		   .style("font-size", "16px") 
 		   .style("font-weight", "bold")  
@@ -145,14 +145,14 @@ const d3 = require('d3');
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
 			  .style("fill", "#4974B9")
-			  .style("stroke", "white")
+			  .style("stroke", "black")
 
 		legend.append("circle")
 			  .attr("cx", (width / 2) + 80)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
 			  .style("fill", "#A157A2")
-			  .style("stroke", "white")
+			  .style("stroke", "black")
 
 		legend.append("text")
 			  .attr("x", (width / 2) - 105)
