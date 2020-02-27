@@ -114,6 +114,16 @@ img {
 	text-decoration: underline solid black;
 }
 
+.male-color {
+	color: #4974B9;
+	text-decoration: underline solid #4974B9;
+}
+
+.female-color {
+	color: #A057A2;
+	text-decoration: underline solid #A057A2;
+}
+
 .c-1-color {
 	background: #4974B9;
 }

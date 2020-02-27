@@ -197,9 +197,9 @@ const d3 = require('d3');
 
 	function clickFemale() {
 		if (maleIconSelected) {
-			id("male").classList.toggle("underline");
+			id("male").classList.toggle("male-color");
 		}
-		if (id("female").classList.contains("underline")) {
+		if (id("female").classList.contains("female-color")) {
 			femaleIconSelected = false;
 			id("female-icon").src = female; 
 		} else {
@@ -208,7 +208,7 @@ const d3 = require('d3');
 			id("female-icon").src = femalePink; 
 		}
 		id("male-icon").src = male;
-		id("female").classList.toggle("underline");
+		id("female").classList.toggle("female-color");
 	}
 
 	function changeToPink() {
@@ -223,9 +223,9 @@ const d3 = require('d3');
 
 	function clickMale() {
 		if (femaleIconSelected) {
-			id("female").classList.toggle("underline");
+			id("female").classList.toggle("female-color");
 		}
-		if (id("male").classList.contains("underline")) {
+		if (id("male").classList.contains("male-color")) {
 			maleIconSelected = false;
 			id("male-icon").src = male; 
 		} else {
@@ -234,7 +234,7 @@ const d3 = require('d3');
 			id("male-icon").src = maleBlue; 
 		}
 		id("female-icon").src = female;
-		id("male").classList.toggle("underline");
+		id("male").classList.toggle("male-color");
 	}
 
 	function changeToBlue() {
