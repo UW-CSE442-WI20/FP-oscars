@@ -74,10 +74,16 @@ img {
 
 #male-female {
 	display: flex;
+	width: 300px;
 }
 
-#male-female div {
-	margin-right: 30px;
+#male, #female {
+	width: 35%;
+    text-align: center;
+}
+
+#male-text, #female-text {
+	cursor: pointer;
 }
 
 #male-female div img {
@@ -123,6 +129,12 @@ img {
 
 #carousel-content {
 	margin-left: 20%;
+}
+
+#nationality-disclaimer {
+	margin-top: 15%;
+	font-size: 16px;
+	margin-right: 15%;
 }
 
 .noUi-marker {

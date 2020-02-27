@@ -18,7 +18,7 @@ const d3 = require('d3');
 		id("female").addEventListener("mouseover", changeToPink); 	
 		id("female").addEventListener("mouseout", changeBack); 
 		id("female").addEventListener("click", clickFemale); 
-		id("male").addEventListener("mouseover", changeToBlue); 	
+		id("male").addEventListener("mouseover", changeToBlue);	
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
 		id("switch-views").addEventListener("click", goToResultsPage);
