@@ -99,7 +99,7 @@ const d3 = require('d3');
 		let svg = d3.select("#pi-chart"),
 			width = svg.attr("width"),
 			height = svg.attr("height"),
-			radius = 175,
+			radius = 150,
 			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 		// Generate the pie
@@ -126,7 +126,7 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .style("font-size", "16px") 
 		   .style("font-weight", "bold")  
-		   .text("Gender Breakdown of Directors who Won Best Director Award");
+		   .text("Best Director Award Gender Breakdown");
 
 		//Draw arc paths
 		arcs.append("path")
@@ -135,7 +135,38 @@ const d3 = require('d3');
 			})
 			.attr("d", arc)
 			.append("title")
-  			.text(function(d) {return d.value});
+			  .text(function(d) {return d.value});
+			
+		// Draw a legend
+		var legend = d3.select("#pi-chart")
+
+		legend.append("circle")
+			  .attr("cx", (width / 2) - 120)
+			  .attr("cy", height - 35)
+			  .attr("r", 10)
+			  .style("fill", "#4974B9")
+			  .style("stroke", "white")
+
+		legend.append("circle")
+			  .attr("cx", (width / 2) + 80)
+			  .attr("cy", height - 35)
+			  .attr("r", 10)
+			  .style("fill", "#A157A2")
+			  .style("stroke", "white")
+
+		legend.append("text")
+			  .attr("x", (width / 2) - 105)
+			  .attr("y", height - 30)
+			  .text("Male")
+			  .style("font-size", "15px")
+			  .attr("alignment-baseline","middle")
+
+		legend.append("text")
+			  .attr("x", (width / 2) + 95)
+			  .attr("y", height - 30)
+			  .text("Female")
+			  .style("font-size", "15px")
+			  .attr("alignment-baseline","middle")
 	}
 
 	function clickGenre(elements, index) {
