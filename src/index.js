@@ -29,7 +29,6 @@ const d3 = require('d3');
 		}
 		makeSlider();	
 		makeCountryCarousel();
-		makePiChart();
 	}
 
 	function makeSlider() {
@@ -103,13 +102,16 @@ const d3 = require('d3');
 			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 		// Generate the pie
-		let pie = d3.pie();
+		let pie = d3.pie()
+					.sort(null)
+					.startAngle(1.1*Math.PI)
+					.endAngle(3.1*Math.PI);
 
 		// Generate the arcs
 		let arc = d3.arc()
 					.innerRadius(0)
 					.outerRadius(radius);
-
+		
 		//Generate groups
 		let arcs = g.selectAll("arc")
 					.data(pie(data))
@@ -134,8 +136,18 @@ const d3 = require('d3');
 				return color(i);
 			})
 			.attr("d", arc)
-			.append("title")
-			  .text(function(d) {return d.value});
+			.transition().delay(500).duration(2000)
+			.attrTween("d", function(d) {
+				var i = d3.interpolate(d.startAngle+0.1, d.endAngle);
+				return function(t) {
+					d.endAngle = i(t);
+        			return arc(d);
+       			}
+			  });
+			  
+
+		arcs.append("title")
+			.text(function(d) {return d.value});
 			
 		// Draw a legend
 		var legend = d3.select("#pi-chart")
@@ -245,6 +257,7 @@ const d3 = require('d3');
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
+		makePiChart();
 	}
 
 
