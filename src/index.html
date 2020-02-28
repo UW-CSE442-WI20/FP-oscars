@@ -19,14 +19,26 @@
 		<div id="title-subtitle">
 			<h1>Let's Craft <br/>an Oscar<br/> Winning <br/>Movie!</h1>
 			<div id="subtitle">
-				<p>We believe there is a receipe to success for getting a movie to win an Oscar. Let’s dive in and try it out!<p>
+				<p>We believe there is a receipe to success for getting a movie to win an Oscar. Let’s dive in and try it out!</p>
 			</div>
 		</div>
-		<!--In the future, we will split these into multiple pages-->
-		<div id="dialog-page">
-			<h2>Dialog</h2>
+		<div id="oscar-components" class="side-by-side">
+			<img class="component" src="./SVG/dialogue.svg"/>
+			<p class="operator">+</p>
+			<img class="component" src="./SVG/director.svg"/>
+			<p class="operator">+</p>
+			<img class="component" src="./SVG/genre.svg"/>
+			<p class="operator">=</p>
+			<img src="oscar.png"/>
+			<p class="operator question-mark">?</p>
+		</div>
+		<br/>
+		<hr/>
+		<br/>
+		<div id="dialogue-page">
+			<h2>Dialogue</h2>
 			<div class="page-description">
-				<p class="intro">The dialog is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
+				<p class="intro">The dialogue is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
 				<p>What percent of the lines should male characters speak?</p>
 				<div id="percent-container">
 				<div id="slider-container">
@@ -36,7 +48,9 @@
 				</div>
 			</div>
 		</div>
+		<br/>
 		<hr/>
+		<br/>
 		<div id="director-page">
 			<h2>Director</h2>
 			<div class="page-description">
@@ -46,11 +60,11 @@
 						<p>What gender are they?</p>
 						<div id="male-female">
 							<div id="male">
-								<img id="male-icon" src="./SVG/male.svg">
+								<img id="male-icon" src="./SVG/male-white.svg">
 								<p id="male-text">Male</p>
 							</div>
 							<div id="female">
-								<img id="female-icon" src="./SVG/female.svg">
+								<img id="female-icon" src="./SVG/female-white.svg">
 								<p id="female-text">Female</p>
 							</div>
 						</div>

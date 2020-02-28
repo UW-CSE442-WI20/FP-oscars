@@ -14,7 +14,8 @@
 }
 
 body {
-	background-color: #F9E7CD;
+	color: white;
+	background-color: #252528;
 }
 
 #calculation-page {
@@ -53,6 +54,30 @@ h2 {
 	font-size: 40px;
 }
 
+#oscar-components {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.component {
+	padding: 20px;
+	border-radius: 7%;
+	vertical-align: middle;
+	margin-right: 2.5%;
+}
+
+.question-mark {
+	margin-left: 2%;
+}
+
+.operator {
+	font-size: 40px;
+	vertical-align: middle;
+	margin-right: 2.5%;
+	font-family: 'AndesRoundedBold';
+}
+
 .page-description {
 	margin-left: 17%;
 	font-family: 'AndesRoundedRegular';
@@ -64,7 +89,7 @@ h2 {
 }
 
 hr {
-	border: 3px solid black;
+	border: 2px solid white;
   	border-radius: 3px;
 }
 
@@ -96,7 +121,7 @@ img {
 
 #slider-container {
 	width: 60%;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
 }
 
 #percent-container {
@@ -111,7 +136,7 @@ img {
 }
 
 .underline {
-	text-decoration: underline solid black;
+	text-decoration: underline solid white;
 }
 
 .male-color {
@@ -148,8 +173,16 @@ img {
 }
 
 .noUi-marker {
-	background: #878686;
-	color: #878686;
+	background: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.noUi-pips {
+	color: #FFFFFF;
+}
+
+.noUi-target {
+	border: 1px solid #FFFFFF;
 }
 
 .carousel-image {
@@ -229,7 +262,7 @@ img {
 }
 
 .highlighted-box {
-	border: 5px solid #3fa9f5;
+	border: 5px solid #FFFFFF;
 }
 
 #results-button {

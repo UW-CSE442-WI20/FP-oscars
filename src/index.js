@@ -1,9 +1,9 @@
 const d3 = require('d3');
 
 (function() {
-	const female = require("./SVG/female.svg");
+	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
-	const male = require("./SVG/male.svg");
+	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
 	const noUiSlider = require("nouislider");
 	let femaleIconSelected = false;
