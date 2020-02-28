@@ -22,6 +22,7 @@ const d3 = require('d3');
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
 		id("switch-views").addEventListener("click", goToResultsPage);
+		id("back").addEventListener("click", goBackToMainPage);
 		let elements = qsa(".flex-element");
 		for (let i = 0; i < elements.length; i++) {
 			let currElement = elements[i];
@@ -168,6 +169,11 @@ const d3 = require('d3');
 		}, 1000);
 		makeGenderDirectorPiChart();
 		makeGenreBarChart();
+	}
+
+	function goBackToMainPage() {
+		id("calculation-page").style.display = "none";
+		id("questions").style.display = "block";
 	}
 
 	function makeGenderDirectorPiChart() {
