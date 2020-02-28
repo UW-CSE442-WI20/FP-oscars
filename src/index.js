@@ -270,7 +270,7 @@ const d3 = require('d3');
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
 
-        // Generate title for pi chart
+        // Generate title for bar chart
         svg.append("text")
            .attr("x", (width / 2))
            .attr("y", 35)
@@ -278,7 +278,15 @@ const d3 = require('d3');
            .style("font-size", "16px") 
 		   .style("font-weight", "bold")
 		   .style("fill", "white")
-           .text("Genre Breakdown of Oscar-Winning Movies");
+		   .text("Genre Breakdown of Oscar-Winning Movies");
+		   
+		// Create scales for x and y axes
+		var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
+			yScale = d3.scaleLinear().range ([height, 0]);
+   
+		// Add group for the chart axes
+		var g = svg.append("g")
+				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 	}
 
 	function id(idName) {
