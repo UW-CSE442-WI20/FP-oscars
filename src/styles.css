@@ -14,7 +14,8 @@
 }
 
 body {
-	background-color: #F9E7CD;
+	color: white;
+	background-color: #252528;
 }
 
 #calculation-page {
@@ -35,15 +36,28 @@ body {
 #subtitle {
 	margin-right: 5%;
 	font-size: 20px;
-	margin-top: 20%;
+	margin-top: 8%;
 	margin-left: 5%;
 	font-family: 'AndesRoundedRegular';
 	max-width: 40%;
+	font-size: 20px;
+}
+
+a {
+	color: #919090;
+}
+
+a:visited {
+	color: #919090;
+}
+
+a:hover {
+	color: #E8E8E8;
 }
 
 h1 {
 	margin-left: 5%;
-	font-size: 100px;
+	font-size: 90px;
 	font-family: 'AndesRoundedBold';
 }
 
@@ -51,6 +65,31 @@ h2 {
 	font-family: 'AndesRoundedMedium';
 	margin-left: 13.5%;
 	font-size: 40px;
+}
+
+#oscar-components {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+.component {
+	padding: 20px;
+	border-radius: 7%;
+	vertical-align: middle;
+	margin-right: 2.5%;
+}
+
+.question-mark {
+	margin-left: 2%;
+}
+
+.operator {
+	font-size: 40px;
+	vertical-align: middle;
+	margin-right: 2.5%;
+	font-family: 'AndesRoundedBold';
 }
 
 .page-description {
@@ -63,8 +102,12 @@ h2 {
 	margin-right: 20%;
 }
 
+.page-description .chart {
+	font-family: initial;
+}
+
 hr {
-	border: 3px solid black;
+	border: 2px solid white;
   	border-radius: 3px;
 }
 
@@ -96,7 +139,7 @@ img {
 
 #slider-container {
 	width: 60%;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
 }
 
 #percent-container {
@@ -111,7 +154,17 @@ img {
 }
 
 .underline {
-	text-decoration: underline solid black;
+	text-decoration: underline solid white;
+}
+
+.male-color {
+	color: #4974B9;
+	text-decoration: underline solid #4974B9;
+}
+
+.female-color {
+	color: #A057A2;
+	text-decoration: underline solid #A057A2;
 }
 
 .c-1-color {
@@ -138,8 +191,16 @@ img {
 }
 
 .noUi-marker {
-	background: #878686;
-	color: #878686;
+	background: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.noUi-pips {
+	color: #FFFFFF;
+}
+
+.noUi-target {
+	border: 1px solid #FFFFFF;
 }
 
 .carousel-image {
@@ -219,7 +280,7 @@ img {
 }
 
 .highlighted-box {
-	border: 5px solid #3fa9f5;
+	border: 5px solid #FFFFFF;
 }
 
 #results-button {

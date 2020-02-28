@@ -1,9 +1,9 @@
 const d3 = require('d3');
 
 (function() {
-	const female = require("./SVG/female.svg");
+	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
-	const male = require("./SVG/male.svg");
+	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
 	const noUiSlider = require("nouislider");
 	let femaleIconSelected = false;
@@ -22,6 +22,7 @@ const d3 = require('d3');
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
 		id("switch-views").addEventListener("click", goToResultsPage);
+		id("back").addEventListener("click", goBackToMainPage);
 		let elements = qsa(".flex-element");
 		for (let i = 0; i < elements.length; i++) {
 			let currElement = elements[i];
@@ -29,7 +30,6 @@ const d3 = require('d3');
 		}
 		makeSlider();	
 		makeCountryCarousel();
-		makePiChart();
 	}
 
 	function makeSlider() {
@@ -91,53 +91,6 @@ const d3 = require('d3');
 		});
 	}
 
-	function makePiChart() {
-		let data = [177, 8]; // numbers from director_gender.txt
-
-		let color = d3.scaleOrdinal(['#4974B9','#A157A2']);
-
-		let svg = d3.select("#pi-chart"),
-			width = svg.attr("width"),
-			height = svg.attr("height"),
-			radius = 175,
-			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-
-		// Generate the pie
-		let pie = d3.pie();
-
-		// Generate the arcs
-		let arc = d3.arc()
-					.innerRadius(0)
-					.outerRadius(radius);
-
-		//Generate groups
-		let arcs = g.selectAll("arc")
-					.data(pie(data))
-					.enter()
-					.append("g")
-					.attr("class", "arc")
-        			.attr("stroke", "white")
-					  .style("stroke-width", "2px")
-		
-		// Generate title for pi chart
-		svg.append("text")
-		   .attr("x", (width / 2))
-		   .attr("y", 16)
-		   .attr("text-anchor", "middle")
-		   .style("font-size", "16px") 
-		   .style("font-weight", "bold")  
-		   .text("Gender Breakdown of Directors who Won Best Director Award");
-
-		//Draw arc paths
-		arcs.append("path")
-			.attr("fill", function(d, i) {
-				return color(i);
-			})
-			.attr("d", arc)
-			.append("title")
-  			.text(function(d) {return d.value});
-	}
-
 	function clickGenre(elements, index) {
 		if (lastGenreSelected == elements[index]) {
 			lastGenreSelected.classList.toggle("highlighted-box");
@@ -154,9 +107,9 @@ const d3 = require('d3');
 
 	function clickFemale() {
 		if (maleIconSelected) {
-			id("male").classList.toggle("underline");
+			id("male").classList.toggle("male-color");
 		}
-		if (id("female").classList.contains("underline")) {
+		if (id("female").classList.contains("female-color")) {
 			femaleIconSelected = false;
 			id("female-icon").src = female; 
 		} else {
@@ -165,7 +118,7 @@ const d3 = require('d3');
 			id("female-icon").src = femalePink; 
 		}
 		id("male-icon").src = male;
-		id("female").classList.toggle("underline");
+		id("female").classList.toggle("female-color");
 	}
 
 	function changeToPink() {
@@ -180,9 +133,9 @@ const d3 = require('d3');
 
 	function clickMale() {
 		if (femaleIconSelected) {
-			id("female").classList.toggle("underline");
+			id("female").classList.toggle("female-color");
 		}
-		if (id("male").classList.contains("underline")) {
+		if (id("male").classList.contains("male-color")) {
 			maleIconSelected = false;
 			id("male-icon").src = male; 
 		} else {
@@ -191,7 +144,7 @@ const d3 = require('d3');
 			id("male-icon").src = maleBlue; 
 		}
 		id("female-icon").src = female;
-		id("male").classList.toggle("underline");
+		id("male").classList.toggle("male-color");
 	}
 
 	function changeToBlue() {
@@ -214,8 +167,133 @@ const d3 = require('d3');
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
+		makeGenderDirectorPiChart();
+		makeGenreBarChart();
 	}
 
+	function goBackToMainPage() {
+		id("calculation-page").style.display = "none";
+		id("questions").style.display = "block";
+	}
+
+	function makeGenderDirectorPiChart() {
+		let data = [177, 8]; // numbers from director_gender.txt
+
+		let color = d3.scaleOrdinal(['#4974B9','#A157A2']);
+
+		let svg = d3.select("#gender-director-pi-chart"),
+			width = svg.attr("width"),
+			height = svg.attr("height"),
+			radius = 150,
+			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+		// Generate the pie
+		let pie = d3.pie()
+					.sort(null)
+					.startAngle(1.1*Math.PI)
+					.endAngle(3.1*Math.PI);
+
+		// Generate the arcs
+		let arc = d3.arc()
+					.innerRadius(0)
+					.outerRadius(radius);
+		
+		//Generate groups
+		let arcs = g.selectAll("arc")
+					.data(pie(data))
+					.enter()
+					.append("g")
+					.attr("class", "arc")
+        			.attr("stroke", "white")
+					.style("stroke-width", "2px")
+		
+		// Generate title for pi chart
+		svg.append("text")
+		   .attr("x", (width / 2))
+		   .attr("y", 35)
+		   .attr("text-anchor", "middle")
+		   .style("font-size", "16px") 
+		   .style("font-weight", "bold")
+		   .style("fill", "white")
+		   .text("Gender Breakdown of Directors of Oscar-Winning-Movies");
+
+		//Draw arc paths
+		arcs.append("path")
+			.attr("fill", function(d, i) {
+				return color(i);
+			})
+			.attr("d", arc)
+			.transition().delay(500).duration(2000)
+			.attrTween("d", function(d) {
+				var i = d3.interpolate(d.startAngle+0.1, d.endAngle);
+				return function(t) {
+					d.endAngle = i(t);
+        			return arc(d);
+       			}
+			  });
+			  
+
+		arcs.append("title")
+			.text(function(d) {return d.value});
+			
+		// Draw a legend
+		var legend = d3.select("#gender-director-pi-chart")
+
+		legend.append("circle")
+			  .attr("cx", (width / 2) - 120)
+			  .attr("cy", height - 35)
+			  .attr("r", 10)
+			  .style("fill", "#4974B9")
+			  .style("stroke", "white")
+
+		legend.append("circle")
+			  .attr("cx", (width / 2) + 80)
+			  .attr("cy", height - 35)
+			  .attr("r", 10)
+			  .style("fill", "#A157A2")
+			  .style("stroke", "white")
+
+		legend.append("text")
+			  .attr("x", (width / 2) - 105)
+			  .attr("y", height - 30)
+			  .text("Male")
+			  .style("font-size", "15px")
+			  .style("fill", "white")
+			  .attr("alignment-baseline","middle")
+
+		legend.append("text")
+			  .attr("x", (width / 2) + 95)
+			  .attr("y", height - 30)
+			  .text("Female")
+			  .style("font-size", "15px")
+			  .style("fill", "white")
+			  .attr("alignment-baseline","middle")
+	}
+
+	function makeGenreBarChart() {
+		let svg = d3.select("#genre-bar-chart"),
+            margin = 200,
+            width = svg.attr("width") - margin,
+            height = svg.attr("height") - margin;
+
+        // Generate title for bar chart
+        svg.append("text")
+           .attr("x", (width / 2))
+           .attr("y", 35)
+           .attr("text-anchor", "middle")
+           .style("font-size", "16px") 
+		   .style("font-weight", "bold")
+		   .style("fill", "white")
+		   .text("Genre Breakdown of Oscar-Winning Movies");
+		   
+		// Create scales for x and y axes
+		var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
+			yScale = d3.scaleLinear().range ([height, 0]);
+   
+		// Add group for the chart axes
+		var g = svg.append("g")
+				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+	}
 
 	function id(idName) {
  		return document.getElementById(idName);

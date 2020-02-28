@@ -19,14 +19,35 @@
 		<div id="title-subtitle">
 			<h1>Let's Craft <br/>an Oscar<br/> Winning <br/>Movie!</h1>
 			<div id="subtitle">
-				<p>We believe there is a receipe to success for getting a movie to win an Oscar. Let’s dive in and try it out!<p>
+				<p>The Academy of Motion Picture Arts and Sciences annually gives out Academy Awards, more popularly known as Oscars, to films that have exemplified artistic and technical excellence. Some of the more revered awards are </p>
+				<ul>
+					<li>Best Picture</li>
+					<li>Best Director</li>
+					<li>Best Actor/Actress</li>
+					<li>Best Supporting Actor/Actress</li>
+					<li>Best Cinematography</li>
+					<li>Best Adapted/Original Screenplay</li>
+				</ul>
+				<p>We believe there is a recipe to success for getting a movie to win one of these Oscars. Let’s dive in and try it out!</p>
 			</div>
 		</div>
-		<!--In the future, we will split these into multiple pages-->
-		<div id="dialog-page">
-			<h2>Dialog</h2>
+		<div id="oscar-components" class="side-by-side">
+			<img class="component" src="./SVG/dialogue.svg"/>
+			<p class="operator">+</p>
+			<img class="component" src="./SVG/director.svg"/>
+			<p class="operator">+</p>
+			<img class="component" src="./SVG/genre.svg"/>
+			<p class="operator">=</p>
+			<img src="./SVG/oscar.svg"/>
+			<p class="operator question-mark">?</p>
+		</div>
+		<br/>
+		<hr/>
+		<br/>
+		<div id="dialogue-page">
+			<h2>Dialogue</h2>
 			<div class="page-description">
-				<p class="intro">The dialog is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
+				<p class="intro">The dialogue is the meat of your movie. It's what gets your audience interested (or uninterested).</p>
 				<p>What percent of the lines should male characters speak?</p>
 				<div id="percent-container">
 				<div id="slider-container">
@@ -36,27 +57,29 @@
 				</div>
 			</div>
 		</div>
+		<br/>
 		<hr/>
+		<br/>
 		<div id="director-page">
 			<h2>Director</h2>
 			<div class="page-description">
-				<p class="intro">The director determines how the story unravels before the audience's eyes. Directors often have recognizable filmmaking styles that differ from other directors. Let's pick who will direct your movie!</p>
+				<p class="intro">The director determines how the story unravels before the audience's eyes. Directors also typically have recognizable filmmaking styles that differ from other directors. Let's pick who will direct your movie!</p>
 				<div class="side-by-side">
 					<div>
 						<p>What gender are they?</p>
 						<div id="male-female">
 							<div id="male">
-								<img id="male-icon" src="./SVG/male.svg">
+								<img id="male-icon" src="./SVG/male-white.svg">
 								<p id="male-text">Male</p>
 							</div>
 							<div id="female">
-								<img id="female-icon" src="./SVG/female.svg">
+								<img id="female-icon" src="./SVG/female-white.svg">
 								<p id="female-text">Female</p>
 							</div>
 						</div>
 					</div>
 					<div id="carousel-content">
-						<p>What nationality* are they?</p>
+						<p>What nationality are they?</p>
 						<div id="flag-carousel">
 						<span><img class="carousel-image" src="./flags/153-united-states-of-america.png"><span class="carousel-text">American</span></span>
 						<span><img class="carousel-image" src="./flags/130-australia.png"><span class="carousel-text">Australian</span></span>
@@ -101,6 +124,7 @@
 						<div class="flex-element 9"><span>History</span><img src="./SVG/history.svg"></div>
 						<div class="flex-element 10"><span>Horror</span><img src="./SVG/horror.svg"></div>
 						<div class="flex-element 11"><span>Music</span><img src="./SVG/music.svg"></div>
+						<div class="flex-element 11"><span>Musical</span></div>
 						<div class="flex-element 12"><span>Mystery</span><img src="./SVG/mystery.svg"></div>
 						<div class="flex-element 13"><span>Romance</span><img src="./SVG/heart.svg"></div>
 						<div class="flex-element 14"><span>Sci-Fi</span><img src="./SVG/sci-fi.svg"></div>
@@ -121,7 +145,14 @@
 		<h2>Calculations</h2>
     	<div class="page-description">
 			<p class="intro">Based on your dialog, director, and genre selections, you are likely to...</p>
-			<svg id="pi-chart" width="450" height="425"></svg>
+			<div class="chart">
+				<svg id="gender-director-pi-chart" width="450" height="475"></svg>
+			</div>
+			<br>
+			<div class="chart">
+				<svg id="genre-bar-chart" width="600" height="500"></svg>
+			</div>
+			<button id="back">Back</button>
 		</div>
 	</div>
   </body>
