@@ -118,7 +118,7 @@ const d3 = require('d3');
 					.enter()
 					.append("g")
 					.attr("class", "arc")
-        			.attr("stroke", "black")
+        			.attr("stroke", "white")
 					.style("stroke-width", "2px")
 		
 		// Generate title for pi chart
@@ -127,7 +127,8 @@ const d3 = require('d3');
 		   .attr("y", 35)
 		   .attr("text-anchor", "middle")
 		   .style("font-size", "16px") 
-		   .style("font-weight", "bold")  
+		   .style("font-weight", "bold")
+		   .style("fill", "white")
 		   .text("Best Director Award Gender Breakdown");
 
 		//Draw arc paths
@@ -157,20 +158,21 @@ const d3 = require('d3');
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
 			  .style("fill", "#4974B9")
-			  .style("stroke", "black")
+			  .style("stroke", "white")
 
 		legend.append("circle")
 			  .attr("cx", (width / 2) + 80)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
 			  .style("fill", "#A157A2")
-			  .style("stroke", "black")
+			  .style("stroke", "white")
 
 		legend.append("text")
 			  .attr("x", (width / 2) - 105)
 			  .attr("y", height - 30)
 			  .text("Male")
 			  .style("font-size", "15px")
+			  .style("fill", "white")
 			  .attr("alignment-baseline","middle")
 
 		legend.append("text")
@@ -178,6 +180,7 @@ const d3 = require('d3');
 			  .attr("y", height - 30)
 			  .text("Female")
 			  .style("font-size", "15px")
+			  .style("fill", "white")
 			  .attr("alignment-baseline","middle")
 	}
 
