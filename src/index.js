@@ -6,6 +6,7 @@ const d3 = require('d3');
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
 	const noUiSlider = require("nouislider");
+	const genreCsv = require("./data/genre_breakdown.csv");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
 	let lastGenreSelected;
@@ -287,12 +288,35 @@ const d3 = require('d3');
 		   .text("Genre Breakdown of Oscar-Winning Movies");
 		   
 		// Create scales for x and y axes
-		var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
-			yScale = d3.scaleLinear().range ([height, 0]);
+		var xScale = d3.scaleBand()
+					   .domain(["Action", "Adventure", "Comedy", "Crime", "Drama", "Family", "Fantasy",
+								   "History", "Horror", "Music", "Musical", "Mystery", "Romance", "Sci-Fi",
+								   "Sport", "Thriller", "War", "Western"])
+						.range([0, width])
+						.padding([1]);
+
+		var yScale = d3.scaleLinear()
+					   .domain([0, 80])
+					   .range([height, 0]);
    
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+
+		d3.csv(genreCsv, function(data) {
+			// Create x axis
+			g.append("g")
+			 .attr("transform", "translate(0," + height + ")")
+			 .call(d3.axisBottom(xScale))
+			 .selectAll("text")
+			 .attr("transform", "translate(-10,10)rotate(-45)")
+			 .style("text-anchor", "end");
+	
+			// Create y axis
+			g.append("g")
+			 .call(d3.axisLeft(yScale));
+		});
+		
 	}
 
 	function id(idName) {
