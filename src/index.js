@@ -6,7 +6,6 @@ const d3 = require('d3');
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
 	const noUiSlider = require("nouislider");
-	const genreCsv = require("./data/genre_breakdown.csv");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
 	let lastGenreSelected;
@@ -279,44 +278,102 @@ const d3 = require('d3');
 
         // Generate title for bar chart
         svg.append("text")
-           .attr("x", (width / 2))
-           .attr("y", 35)
+           .attr("x", ((width + margin) / 2))
+           .attr("y", 40)
            .attr("text-anchor", "middle")
            .style("font-size", "16px") 
 		   .style("font-weight", "bold")
 		   .style("fill", "white")
 		   .text("Genre Breakdown of Oscar-Winning Movies");
+
+		let genreDict = {"Action": 6, "Adventure": 9, "Comedy": 19, "Crime": 12, "Drama": 80, "Family": 1,
+						"Fantasy": 6, "History": 31, "Horror": 1, "Music": 8, "Musical": 4, "Mystery": 7,
+						"Romance": 23, "Sci-Fi": 6, "Sport": 2, "Thriller": 17, "War": 9, "Western": 1};
 		   
 		// Create scales for x and y axes
 		var xScale = d3.scaleBand()
-					   .domain(["Action", "Adventure", "Comedy", "Crime", "Drama", "Family", "Fantasy",
-								   "History", "Horror", "Music", "Musical", "Mystery", "Romance", "Sci-Fi",
-								   "Sport", "Thriller", "War", "Western"])
+					    .domain(Object.keys(genreDict))
 						.range([0, width])
 						.padding([1]);
 
 		var yScale = d3.scaleLinear()
 					   .domain([0, 80])
 					   .range([height, 0]);
+
+		// Create color scale
+		var colorScale = d3.scaleOrdinal()
+						   .domain(Object.keys(genreDict))
+						   .range(["#ffaebc", // Action
+								   "#a0e7e5", // Adventure
+								   "#b4f8c8", // Comedy
+								   "#7fadf8", // Crime
+								   "#fdb784", // Drama
+								   "#fada9f", // Family
+								   "#cecafc", // Fantasy
+								   "#ffeedc", // History
+								   "#e17887", // Horror
+								   "#ceffff", // Music
+								   "#4f70a6", // Musical
+								   "#f3b09d", // Mystery
+								   "#fdcddd", // Romance
+								   "#85ecb3", // Sci-Fi
+								   "#f0f8a5", // Sport
+								   "#818acf", // Thriller
+								   "#90be99", // War
+								   "#906d67", // Western
+								]);
    
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
-		d3.csv(genreCsv, function(data) {
-			// Create x axis
-			g.append("g")
-			 .attr("transform", "translate(0," + height + ")")
-			 .call(d3.axisBottom(xScale))
-			 .selectAll("text")
-			 .attr("transform", "translate(-10,10)rotate(-45)")
-			 .style("text-anchor", "end");
-	
-			// Create y axis
-			g.append("g")
-			 .call(d3.axisLeft(yScale));
-		});
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale))
+		 .selectAll("text")
+		 .attr("transform", "translate(-10,10)rotate(-45)")
+		 .style("text-anchor", "end");
+
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .ticks(20));
 		
+		// Draw bars for each genre
+		for (genre in genreDict) {
+			let bar = g.append("rect")
+					   .attr("x", xScale(genre))
+					   .attr("y", yScale(genreDict[genre]))
+					   .attr("height", height - yScale(genreDict[genre]))
+					   .attr("width", 15)
+					   .style("fill", colorScale(genre))
+					   .style("opacity", 0.8)
+					   .style("stroke", "white")
+					   .style("stroke-width", "2px");
+
+			bar.append("title")
+			.text(genreDict[genre]);
+		}
+
+		// Create x axis label
+		svg.append("text")
+		   .attr("x", (width + margin) / 2)
+		   .attr("y", 670)
+		   .attr("text-anchor", "middle")
+		   .text("Genre")
+		   .style("fill", "white")
+		   .style("font-size", "12px");
+
+		// Create y axis label
+		svg.append("text")
+		   .attr("x", -((height + margin) / 2))
+		   .attr("y", 70)
+		   .attr("transform", "rotate(-90)")
+		   .attr("text-anchor", "middle")
+		   .text("# of Oscars")
+		   .style("fill", "white")
+		   .style("font-size", "12px");
 	}
 
 	function id(idName) {
