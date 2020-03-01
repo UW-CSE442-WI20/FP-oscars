@@ -43,18 +43,6 @@ body {
 	font-size: 20px;
 }
 
-a {
-	color: #919090;
-}
-
-a:visited {
-	color: #919090;
-}
-
-a:hover {
-	color: #E8E8E8;
-}
-
 h1 {
 	margin-left: 5%;
 	font-size: 90px;
@@ -158,21 +146,21 @@ img {
 }
 
 .male-color {
-	color: #4974B9;
-	text-decoration: underline solid #4974B9;
+	color: #6BA6D9;
+	text-decoration: underline solid #6BA6D9;
 }
 
 .female-color {
-	color: #A057A2;
-	text-decoration: underline solid #A057A2;
+	color: #D873CF;
+	text-decoration: underline solid #D873CF;
 }
 
 .c-1-color {
-	background: #4974B9;
+	background: #6BA6D9;
 }
 
 .c-2-color {
-	background: #A157A2;
+	background: #D873CF;
 }
 
 #flag-carousel {
@@ -200,7 +188,7 @@ img {
 }
 
 .noUi-target {
-	border: 1px solid #FFFFFF;
+	border: 2px solid #FFFFFF;
 }
 
 .carousel-image {

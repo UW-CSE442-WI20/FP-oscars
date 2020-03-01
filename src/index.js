@@ -168,6 +168,7 @@ const d3 = require('d3');
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
 		makeGenderDirectorPiChart();
+		makeNationalityBarChart();
 		makeGenreBarChart();
 	}
 
@@ -270,6 +271,43 @@ const d3 = require('d3');
 			  .attr("alignment-baseline","middle")
 	}
 
+	// Adapted from http://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
+	var randomColor = (function(){
+		var golden_ratio_conjugate = 0.618033988749895;
+		var h = Math.random();
+	
+		var hslToRgb = function (h, s, l){
+			var r, g, b;
+	
+			if(s == 0){
+				r = g = b = l; // achromatic
+			}else{
+				function hue2rgb(p, q, t){
+					if(t < 0) t += 1;
+					if(t > 1) t -= 1;
+					if(t < 1/6) return p + (q - p) * 6 * t;
+					if(t < 1/2) return q;
+					if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+					return p;
+				}
+	
+				var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+				var p = 2 * l - q;
+				r = hue2rgb(p, q, h + 1/3);
+				g = hue2rgb(p, q, h);
+				b = hue2rgb(p, q, h - 1/3);
+			}
+	
+			return '#'+Math.round(r * 255).toString(16)+Math.round(g * 255).toString(16)+Math.round(b * 255).toString(16);
+		};
+		
+		return function(){
+		h += golden_ratio_conjugate;
+		h %= 1;
+		return hslToRgb(h, 0.5, 0.60);
+		};
+	})();
+
 	function makeGenreBarChart() {
 		let svg = d3.select("#genre-bar-chart"),
             margin = 200,
@@ -278,21 +316,162 @@ const d3 = require('d3');
 
         // Generate title for bar chart
         svg.append("text")
-           .attr("x", (width / 2))
-           .attr("y", 35)
+           .attr("x", ((width + margin) / 2))
+           .attr("y", 40)
            .attr("text-anchor", "middle")
            .style("font-size", "16px") 
 		   .style("font-weight", "bold")
 		   .style("fill", "white")
 		   .text("Genre Breakdown of Oscar-Winning Movies");
+
+		let genreDict = {"Action": 6, "Adventure": 9, "Comedy": 19, "Crime": 12, "Drama": 80, "Family": 1,
+						"Fantasy": 6, "History": 31, "Horror": 1, "Music": 8, "Musical": 4, "Mystery": 7,
+						"Romance": 23, "Sci-Fi": 6, "Sport": 2, "Thriller": 17, "War": 9, "Western": 1};
 		   
 		// Create scales for x and y axes
-		var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
-			yScale = d3.scaleLinear().range ([height, 0]);
+		var xScale = d3.scaleBand()
+					    .domain(Object.keys(genreDict))
+						.range([0, width])
+						.padding([1]);
+
+		var yScale = d3.scaleLinear()
+					   .domain([0, 80])
+					   .range([height, 0]);
    
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale))
+		 .selectAll("text")
+		 .attr("transform", "translate(-10,10)rotate(-45)")
+		 .style("text-anchor", "end");
+
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .ticks(20));
+		
+		// Draw bars for each genre
+		for (genre in genreDict) {
+			let bar = g.append("rect")
+					   .attr("x", xScale(genre))
+					   .attr("y", yScale(genreDict[genre]))
+					   .attr("height", height - yScale(genreDict[genre]))
+					   .attr("width", 15)
+					   .style("fill", randomColor)
+					   .style("opacity", 0.8)
+					   .style("stroke", "white")
+					   .style("stroke-width", "2px");
+
+			bar.append("title")
+			.text(genreDict[genre]);
+		}
+
+		// Create x axis label
+		svg.append("text")
+		   .attr("x", (width + margin) / 2)
+		   .attr("y", 670)
+		   .attr("text-anchor", "middle")
+		   .text("Genre")
+		   .style("fill", "white")
+		   .style("font-size", "12px");
+
+		// Create y axis label
+		svg.append("text")
+		   .attr("x", -((height + margin) / 2))
+		   .attr("y", 70)
+		   .attr("transform", "rotate(-90)")
+		   .attr("text-anchor", "middle")
+		   .text("# of Oscars")
+		   .style("fill", "white")
+		   .style("font-size", "12px");
+	}
+
+	function makeNationalityBarChart() {
+		let svg = d3.select("#nationality-bar-chart"),
+            margin = 200,
+            width = svg.attr("width") - margin,
+            height = svg.attr("height") - margin;
+
+        // Generate title for bar chart
+        svg.append("text")
+           .attr("x", ((width + margin) / 2))
+           .attr("y", 40)
+           .attr("text-anchor", "middle")
+           .style("font-size", "16px") 
+		   .style("font-weight", "bold")
+		   .style("fill", "white")
+		   .text("Nationality Breakdown of Directors of Oscar-Winning-Movies");
+
+		let nationalityDict = {"American": 105.5, "Australian": 2, "Brazilian": 1, "British": 10, "Canadian": 5.5,
+						 "English": 15, "French": 9, "German": 0.5, "Greek": 1, "Irish": 2, "Italian": 1, 
+						 "Mexican": 14, "New Zealand": 5, "Norwegian": 1, "Polish":	1.5, "Scottish": 1,
+						 "South Korean": 3, "Spanish": 1, "Swiss": 0.5, "Taiwanese": 5};
+		   
+		// Create scales for x and y axes
+		var xScale = d3.scaleBand()
+					    .domain(Object.keys(nationalityDict))
+						.range([0, width])
+						.padding([1]);
+
+		var yScale = d3.scaleLinear()
+					   .domain([0, 110])
+					   .range([height, 0]);
+   
+		// Add group for the chart axes
+		var g = svg.append("g")
+				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale))
+		 .selectAll("text")
+		 .attr("transform", "translate(-10,10)rotate(-45)")
+		 .style("text-anchor", "end");
+
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .ticks(20));
+		
+		// Draw bars for each genre
+		for (genre in nationalityDict) {
+			let bar = g.append("rect")
+					   .attr("x", xScale(genre))
+					   .attr("y", yScale(nationalityDict[genre]))
+					   .attr("height", height - yScale(nationalityDict[genre]))
+					   .attr("width", 15)
+					   .style("fill", randomColor)
+					   .style("stroke", "white")
+					   .style("stroke-width", "2px");
+
+			bar.append("title")
+			.text(nationalityDict[genre]);
+		}
+
+		// Create x axis label
+		svg.append("text")
+		   .attr("x", (width + margin) / 2)
+		   .attr("y", 690)
+		   .attr("text-anchor", "middle")
+		   .text("Director Nationality")
+		   .style("fill", "white")
+		   .style("font-size", "12px");
+
+		// Create y axis label
+		svg.append("text")
+		   .attr("x", -((height + margin) / 2))
+		   .attr("y", 70)
+		   .attr("transform", "rotate(-90)")
+		   .attr("text-anchor", "middle")
+		   .text("# of Oscars")
+		   .style("fill", "white")
+		   .style("font-size", "12px");
 	}
 
 	function id(idName) {
