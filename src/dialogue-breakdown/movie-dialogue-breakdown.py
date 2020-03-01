@@ -13,27 +13,28 @@ currChar = ""
 chars_inorder = [] 
 
 for line in lines:
-	if (not (re.match(r'\w', line))):
-		line = line.strip()
-		if (line.isupper()):
-			s1 = re.search('EXT\.', line)
-			s2 = re.search('INT\.', line)
-			if (not (s1 or s2)):
-				fi = line.find('(')
-				if (fi != -1):
-					line = line[:line.find('(')]
-				line = line.strip()
-				if(len(line) == 0):
-					continue
-				else:
-					currChar = line
-					chars_inorder.append(line)
-		elif (re.match(r'\w', line)):
-			if (len(chars_inorder) > 0):
-				if currChar in characters:
-					characters[currChar] = characters[currChar] + len(line.split())
-				else:
-					characters[currChar] = len(line.split())
+# if (not (re.match(r'\w', line))):
+	line = line.strip()
+	# if (line.isupper()):
+	if (len(line) > 0 and line[0] == '['):
+		s1 = re.search('EXT\.', line)
+		s2 = re.search('INT\.', line)
+		if (not (s1 or s2)):
+			fi = line.find('(')
+			if (fi != -1):
+				line = line[:line.find('(')]
+			line = line.strip()
+			if(len(line) == 0):
+				continue
+			else:
+				currChar = line
+				chars_inorder.append(line)
+	# elif (re.match(r'\w', line)):
+		if (len(chars_inorder) > 0):
+			if currChar in characters:
+				characters[currChar] = characters[currChar] + len(line.split())
+			else:
+				characters[currChar] = len(line.split())
 
 
 # for line in lines:
