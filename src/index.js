@@ -32,7 +32,6 @@ const d3 = require('d3');
 		}
 		makeSlider();	
 		makeCountryCarousel();
-		makeDialogueDotPlot();
 	}
 
 	function makeSlider() {
@@ -181,6 +180,7 @@ const d3 = require('d3');
 			makeGenderDirectorPiChart();
 			makeNationalityBarChart();
 			makeGenreBarChart();
+			makeDialogueDotPlot();
 		}
 	}
 
@@ -231,6 +231,7 @@ const d3 = require('d3');
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
+		qs(".tooltip").remove();
 	}
 
 	function makeGenderDirectorPiChart() {
@@ -553,7 +554,7 @@ const d3 = require('d3');
             .attr("x", ((width + margin.left) / 2))
             .attr("y", 40)
             .attr("text-anchor", "middle")
-		    .text("Percent Female Lines in Oscar-Winning Movies");
+		    .text("Percent of Words Spoken By Women in Oscar-Winning Movies");
 
 	    //number of bins for histogram
 		const nbins = 20;

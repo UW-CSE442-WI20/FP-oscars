@@ -322,7 +322,6 @@ button:hover {
 
 #charts {
 	flex-wrap: wrap;
-	width: 90%;
 	height: auto;
 	display: flex;
 	justify-content: center;
@@ -339,10 +338,9 @@ div.tooltip {
   width: auto;
   height: auto;
   padding: 5px;
-  font-family: "AndesRoundedRegular";
-  font: 16px sans-serif;
+  font: 15px sans-serif;
   border: 0px;
-  border-radius: 8px;
+  border-radius: 7px;
   pointer-events: none;
 }
 
