@@ -250,6 +250,7 @@ const d3 = require('d3');
 
 	function makeGenderDirectorPiChart() {
 		let data = [177, 8]; // numbers from director_gender.txt
+		let total = 185;
 
 		let color = d3.scaleOrdinal(['#6BA6D9','#D873CF']);
 
@@ -278,6 +279,31 @@ const d3 = require('d3');
 					.attr("class", "arc")
         			.attr("stroke", "white")
 					.style("stroke-width", "2px")
+					.on("mouseover", function(d) {
+						tooltip.transition()
+							.duration(200)		
+							.style("opacity", 1.0)		
+						tooltip.html(100 * (Math.round(d.value) / (1.0 * total)).toFixed(3) + "%")	
+							.style("left", (d3.event.pageX) + "px")		
+							.style("top", (d3.event.pageY) + "px")
+							.style("background-color", function() {
+								if (d.value < 50) {
+									return "#edbfe9";
+								} else {
+									return "#bbd6ed";
+								}
+							});		
+				    })	
+					.on("mouseout", function() {
+						tooltip.transition()
+						       .duration(500)		
+						       .style("opacity", 0);	
+				   });
+		
+		const tooltip = d3.select("body")
+						  .append("div")
+						  .attr("class", "tooltip")
+						  .style("opacity", 0);
 		
 		// Generate title for pi chart
 		svg.append("text")
@@ -301,10 +327,9 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			  });
-			  
 
-		arcs.append("title")
-			.text(function(d) {return d.value});
+		// arcs.append("title")
+		// 	.text(function(d) {return d.value});
 			
 		// Draw a legend
 		var legend = d3.select("#gender-director-pi-chart")
