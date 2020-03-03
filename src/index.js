@@ -561,7 +561,7 @@ const d3 = require('d3');
 	    	.attr("height", height + margin.top + margin.bottom)
 		  	.append("g")
 		    	.attr("transform",
-		            `translate(${margin.left}, ${margin.top})`);
+		            `translate(${margin.left}, ${margin.top / 2})`);
 
 		svg.append("text")
             .attr("class", "chart-title")
