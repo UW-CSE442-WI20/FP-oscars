@@ -216,9 +216,6 @@ const d3 = require('d3');
 		   .attr("x", (width / 2))
 		   .attr("y", 35)
 		   .attr("text-anchor", "middle")
-		   .style("font-size", "20px") 
-		   .style("font-weight", "bold")
-		   .style("fill", "white")
 		   .text("Gender Breakdown of Directors of Oscar-Winning-Movies");
 
 		//Draw arc paths
@@ -323,9 +320,6 @@ const d3 = require('d3');
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-           .style("font-size", "20px") 
-		   .style("font-weight", "bold")
-		   .style("fill", "white")
 		   .text("Genre Breakdown of Oscar-Winning Movies");
 
 		let genreDict = {"Action": 6, "Adventure": 9, "Comedy": 19, "Crime": 12, "Drama": 80, "Family": 1,
@@ -407,9 +401,6 @@ const d3 = require('d3');
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-           .style("font-size", "20px") 
-		   .style("font-weight", "bold")
-		   .style("fill", "white")
 		   .text("Nationality Breakdown of Directors of Oscar-Winning-Movies");
 
 		let nationalityDict = {"American": 105.5, "Australian": 2, "Brazilian": 1, "British": 10, "Canadian": 5.5,
