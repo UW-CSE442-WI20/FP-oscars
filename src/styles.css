@@ -174,11 +174,11 @@ img {
 }
 
 .c-1-color {
-	background: #6BA6D9;
+	background: #D873CF;
 }
 
 .c-2-color {
-	background: #D873CF;
+	background: #6BA6D9;
 }
 
 #flag-carousel {
@@ -361,4 +361,16 @@ div.tooltip {
 
 #gauge-img {
 	height: 300px;
+}
+
+.female-circle {
+	fill: #D873CF;
+}
+
+.male-circle {
+	fill: #6BA6D9;
+}
+
+.purple-circle {
+	fill: #9D82BC;
 }

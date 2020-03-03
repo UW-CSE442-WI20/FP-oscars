@@ -105,7 +105,6 @@ const d3 = require('d3');
 			lastGenreSelected = elements[index];
 			lastGenreSelected.classList.add("highlighted-box");
 		}
-		console.log(elements[index].textContent);
 	}
 
 	function clickFemale() {
@@ -529,14 +528,17 @@ const d3 = require('d3');
 
 	function makeDialogueDotPlot() {
 		//SVG setup
-		const margin = {top: 10, right: 30, bottom: 30, left: 30},
+		const margin = {top: 60, right: 30, bottom: 30, left: 30},
 		      width = 700 - margin.left - margin.right,
-		      height = 480 - margin.top - margin.bottom;
+		      height = 450 - margin.top - margin.bottom;
 
 		//x scales
 		const x = d3.scaleLinear()
 		    .rangeRound([0, width])
 		    .domain([0, 100]);
+		const y = d3.scaleLinear()
+		    .rangeRound([0, height])
+		    .domain([0, 14]);
 
 		//set up svg
 		let svg = d3.select("#dialog-dot-chart")
@@ -584,10 +586,18 @@ const d3 = require('d3');
 	          }))
 	          .enter()
 	          .append("circle")
-	          .attr("class", "enter")
+	          .attr("class", function(d) {
+	          	if (d.value < 50) {
+	          		return "male-circle";
+	          	} else if (d.value > 50 && d.value < 55) {
+	          		return "purple-circle";
+	          	} else {
+	          		return "female-circle";
+	          	}
+	          })
 	          .attr("cx", 0) //g element already at correct x pos
 	          .attr("cy", (d, i) => {
-	              return - i * 3 * d.radius - d.radius})
+	              return - i * 2.5 * d.radius - d.radius})
          	  .attr("r", d => d.radius)
          	  .on("mouseover", tooltipOn)
         	  .on("mouseout", tooltipOff)
@@ -596,11 +606,39 @@ const d3 = require('d3');
 	          .attr("r", function(d) {
 	          return (d.length==0) ? 0 : d.radius; });
 
-	          svg.append("g")
+	        svg.append("g")
 				  .attr("class", "axis axis--x")
 				  .attr("transform", "translate(0," + height + ")")
 				  .call(d3.axisBottom(x));
-      	});
+			// svg.append("circle")
+			// 	  .attr("cx", (width / 2) - 120)
+			// 	  .attr("cy", height)
+			// 	  .attr("r", 10)
+			// 	  .style("fill", "#6BA6D9")
+			// 	  .style("stroke", "white")
+
+			// svg.append("circle")
+			// 	  .attr("cx", (width / 2) + 80)
+			// 	  .attr("cy", height)
+			// 	  .attr("r", 10)
+			// 	  .style("fill", "#D873CF")
+			// 	  .style("stroke", "white")
+			// svg.append("text")
+			//   .attr("x", (width / 2) - 105)
+			//   .attr("y", height)
+			//   .text("Male-dominated")
+			//   .style("font-size", "15px")
+			//   .style("fill", "white")
+			//   .attr("alignment-baseline","middle")
+
+			// svg.append("text")
+			// 	  .attr("x", (width / 2) + 95)
+			// 	  .attr("y", height)
+			// 	  .text("Female-dominated")
+			// 	  .style("font-size", "15px")
+			// 	  .style("fill", "white")
+			// 	  .attr("alignment-baseline","middle")
+	     	});
 
       	function tooltipOn(d) {
 		  //x position of parent g element
