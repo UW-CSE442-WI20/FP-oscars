@@ -1,6 +1,7 @@
 const d3 = require('d3');
 
 (function() {
+	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
@@ -30,6 +31,7 @@ const d3 = require('d3');
 		}
 		makeSlider();	
 		makeCountryCarousel();
+		makeDialogueDotPlot();
 	}
 
 	function makeSlider() {
@@ -180,7 +182,7 @@ const d3 = require('d3');
 	function makeGenderDirectorPiChart() {
 		let data = [177, 8]; // numbers from director_gender.txt
 
-		let color = d3.scaleOrdinal(['#4974B9','#A157A2']);
+		let color = d3.scaleOrdinal(['#6BA6D9','#D873CF']);
 
 		let svg = d3.select("#gender-director-pi-chart"),
 			width = svg.attr("width"),
@@ -210,10 +212,11 @@ const d3 = require('d3');
 		
 		// Generate title for pi chart
 		svg.append("text")
+		   .attr("class", "chart-title")
 		   .attr("x", (width / 2))
 		   .attr("y", 35)
 		   .attr("text-anchor", "middle")
-		   .style("font-size", "16px") 
+		   .style("font-size", "20px") 
 		   .style("font-weight", "bold")
 		   .style("fill", "white")
 		   .text("Gender Breakdown of Directors of Oscar-Winning-Movies");
@@ -244,14 +247,14 @@ const d3 = require('d3');
 			  .attr("cx", (width / 2) - 120)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
-			  .style("fill", "#4974B9")
+			  .style("fill", "#6BA6D9")
 			  .style("stroke", "white")
 
 		legend.append("circle")
 			  .attr("cx", (width / 2) + 80)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
-			  .style("fill", "#A157A2")
+			  .style("fill", "#D873CF")
 			  .style("stroke", "white")
 
 		legend.append("text")
@@ -316,10 +319,11 @@ const d3 = require('d3');
 
         // Generate title for bar chart
         svg.append("text")
+           .attr("class", "chart-title")
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-           .style("font-size", "16px") 
+           .style("font-size", "20px") 
 		   .style("font-weight", "bold")
 		   .style("fill", "white")
 		   .text("Genre Breakdown of Oscar-Winning Movies");
@@ -378,7 +382,7 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("Genre")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
 
 		// Create y axis label
 		svg.append("text")
@@ -388,7 +392,7 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("# of Oscars")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
 	}
 
 	function makeNationalityBarChart() {
@@ -399,10 +403,11 @@ const d3 = require('d3');
 
         // Generate title for bar chart
         svg.append("text")
+           .attr("class", "chart-title")
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-           .style("font-size", "16px") 
+           .style("font-size", "20px") 
 		   .style("font-weight", "bold")
 		   .style("fill", "white")
 		   .text("Nationality Breakdown of Directors of Oscar-Winning-Movies");
@@ -461,7 +466,7 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("Director Nationality")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
 
 		// Create y axis label
 		svg.append("text")
@@ -471,7 +476,68 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("# of Oscars")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
+	}
+
+	function makeDialogueDotPlot() {
+		//SVG setup
+		const margin = {top: 10, right: 30, bottom: 30, left: 30},
+		      width = 550 - margin.left - margin.right,
+		      height = 480 - margin.top - margin.bottom;
+
+		//x scales
+		const x = d3.scaleLinear()
+		    .rangeRound([0, width])
+		    .domain([0, 100]);
+
+		//set up svg
+		const svg = d3.select("#dialog-dot-chart")
+			.attr("width", width + margin.left + margin.right)
+	    	.attr("height", height + margin.top + margin.bottom)
+		  	.append("g")
+		    	.attr("transform",
+		            `translate(${margin.left}, ${margin.top})`);
+
+	    //number of bins for histogram
+		const nbins = 20;
+
+		d3.csv(genderDialogueCSV).then(function(allData) {
+			console.log(allData);
+
+		    //histogram binning
+		    const histogram = d3.histogram()
+		      .domain(x.domain())
+		      .thresholds(x.ticks(nbins))
+		      .value(d => d["Percent Female"]);
+
+		    //binning data and filtering out empty bins
+		    const bins = histogram(allData).filter(d => d.length>0);
+
+		    console.log(bins);
+		    let binContainer = svg.selectAll("g.gBin")
+	          .data(bins)
+	          .enter()
+	          .append("g")
+	          .attr("class", "gBin")
+	          .attr("transform", d => `translate(${x(d.x0)}, ${height})`)
+	          .selectAll("circle")
+	          .data(d => d.map((p, i) => {
+	              	return {value: p["Percent Female"],
+	                      	radius: (x(d.x1) - x(d.x0)) / 2.5};
+	          }))
+	          .enter()
+	          .append("circle")
+	          .attr("class", "enter")
+	          .attr("cx", 0) //g element already at correct x pos
+	          .attr("cy", (d, i) => {
+	              return - i * 2 * d.radius - d.radius})
+         	  .attr("r", d => d.radius);
+
+	          svg.append("g")
+				  .attr("class", "axis axis--x")
+				  .attr("transform", "translate(0," + height + ")")
+				  .call(d3.axisBottom(x));
+      	});
 	}
 
 	function id(idName) {
