@@ -289,7 +289,7 @@ img {
 	border: 5px solid #FFFFFF;
 }
 
-#results-button {
+#results-button-container, #back-button-container {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	text-align: center;

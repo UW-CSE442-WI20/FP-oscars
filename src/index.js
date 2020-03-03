@@ -271,7 +271,7 @@ const d3 = require('d3');
 		   .attr("x", (width / 2))
 		   .attr("y", 35)
 		   .attr("text-anchor", "middle")
-		   .text("Gender Breakdown of Directors of Oscar-Winning-Movies");
+		   .text("Gender Breakdown of Directors of Oscar-Winning Movies");
 
 		//Draw arc paths
 		arcs.append("path")
