@@ -557,8 +557,8 @@ const d3 = require('d3');
 
 	    //number of bins for histogram
 		const nbins = 20;
-		const tooltip = d3.select("#dialog-dot-chart")
-		  .append("div")
+		const tooltip = d3.select("body")	
+		  	.append("div")
 		    .attr("class", "tooltip")
 		    .style("opacity", 0);
 
@@ -572,7 +572,7 @@ const d3 = require('d3');
 
 		    //binning data and filtering out empty bins
 		    const bins = histogram(allData).filter(d => d.length>0);
-
+		    console.log(bins)
 		    let binContainer = svg.selectAll("g.gBin")
 	          .data(bins)
 	          .enter()
@@ -582,6 +582,7 @@ const d3 = require('d3');
 	          .selectAll("circle")
 	          .data(d => d.map((p, i) => {
 	              	return {value: p["Percent Female"],
+	              			title: p["Movie Title"],
 	                      	radius: (x(d.x1) - x(d.x0)) / 4};
 	          }))
 	          .enter()
@@ -599,8 +600,28 @@ const d3 = require('d3');
 	          .attr("cy", (d, i) => {
 	              return - i * 2.5 * d.radius - d.radius})
          	  .attr("r", d => d.radius)
-         	  .on("mouseover", tooltipOn)
-        	  .on("mouseout", tooltipOff)
+         	  .on("mouseover", function(d) {
+         	  	tooltip.transition()
+                .duration(200)		
+                .style("opacity", 1.0);		
+		            tooltip.html("<b>" + d.title + "</b><br/>"  + (Math.round(d.value * 100) / 100).toFixed(2) + "%")	
+		                .style("left", (d3.event.pageX) + 20 + "px")		
+		                .style("top", (d3.event.pageY - 28) + "px")
+		                .style("background-color", function() {
+		                	if (d.value < 50) {
+				          		return "#6BA6D9";
+				          	} else if (d.value > 50 && d.value < 55) {
+				          		return "#9D82BC";
+				          	} else {
+				          		return "#D873CF";
+				          	}
+		                });	
+		      })	
+         	  .on("mouseout", function() {
+	        	  	tooltip.transition()		
+	                .duration(500)		
+	                .style("opacity", 0);	
+        	  })
         	  .transition()
 	          .duration(500)
 	          .attr("r", function(d) {
@@ -639,35 +660,7 @@ const d3 = require('d3');
 			// 	  .style("fill", "white")
 			// 	  .attr("alignment-baseline","middle")
 	     	});
-
-      	function tooltipOn(d) {
-		  //x position of parent g element
-		  let gParent = d3.select(this.parentElement)
-		  let translateValue = gParent.attr("transform")
-
-		  let gX = translateValue.split(",")[0].split("(")[1]
-		  let gY = height + (+d3.select(this).attr("cy")-50)
-
-		  d3.select(this)
-		    .classed("selected", true)
-		  tooltip.transition()
-		       .duration(200)
-		       .style("opacity", .9);
-		  tooltip.html(d.name + "<br/> (" + d.value + ")")
-		    .style("left", gX + "px")
-		    .style("top", gY + "px");
-		}//tooltipOn
-
-		function tooltipOff(d) {
-		  d3.select(this)
-		      .classed("selected", false);
-		    tooltip.transition()
-		         .duration(500)
-		         .style("opacity", 0);
-		}//tooltipOff
 	}
-
-
 
 	function id(idName) {
  		return document.getElementById(idName);
