@@ -169,9 +169,17 @@ const d3 = require('d3');
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
+		lockInSelections();
 		makeGenderDirectorPiChart();
 		makeNationalityBarChart();
 		makeGenreBarChart();
+	}
+
+	function lockInSelections() {
+		id("dialog-selection").innerText = id("gender-percent").innerText;
+		id("director-gender").innerText = id("female").classList.contains("female-color") ? "female" : "male";
+		id("director-nationality").innerText = qs(".is-selected .carousel-text").innerText;
+		id("genre-selection").innerText = qs(".highlighted-box span").innerText.toLowerCase();
 	}
 
 	function goBackToMainPage() {
@@ -482,7 +490,7 @@ const d3 = require('d3');
 		    .domain([0, 100]);
 
 		//set up svg
-		const svg = d3.select("#dialog-dot-chart")
+		let svg = d3.select("#dialog-dot-chart")
 			.attr("width", width + margin.left + margin.right)
 	    	.attr("height", height + margin.top + margin.bottom)
 		  	.append("g")

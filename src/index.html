@@ -135,19 +135,23 @@
 					</div>
 				</div>
 		</div>
-		<hr/>
 		<div id="results-button">
+			<p>Okay, now let's...</p>
 			<button id="switch-views">Get results!</button>
+			<p id="warning"></p>
 		</div>
 	</div>
 
     <div id="calculation-page">
 		<h2>Calculations</h2>
     	<div class="page-description">
-			<p class="intro">Based on your dialog, director, and genre selections, you are likely to...</p>
-			<div class="chart">
-				<svg id="gender-director-pi-chart" width="700" height="475"></svg>
-			</div>
+			<p class="intro selections">Based on your selection of <span id="dialog-selection"></span> male speaking lines, a <span id="director-gender"></span> and <span id="director-nationality"></span> director, and a genre of <span id="genre-selection"></span>, the Oscar goes to...</p>
+		</div>
+		<div id="gauge">
+			<img id="gauge-img" src="./SVG/gauge.svg"/>
+		</div>
+		<div id="charts">
+			
 			<br>
 			<div class="chart">
 				<svg id="nationality-bar-chart" width="700" height="700"></svg>
@@ -156,7 +160,11 @@
 			<div class="chart">
 				<svg id="genre-bar-chart" width="700" height="700"></svg>
 			</div>
-			<button id="back">Back</button>
+			<div class="chart">
+				<svg id="gender-director-pi-chart" width="700" height="475"></svg>
+			</div>
+		</div>
+		<button id="back">Back</button>
 		</div>
 	</div>
   </body>
