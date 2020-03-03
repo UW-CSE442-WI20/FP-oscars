@@ -377,9 +377,10 @@ const d3 = require('d3');
            .attr("text-anchor", "middle")
 		   .text("Genre Breakdown of Oscar-Winning Movies");
 
-		let genreDict = {"Action": 6, "Adventure": 9, "Comedy": 19, "Crime": 12, "Drama": 80, "Family": 1,
-						"Fantasy": 6, "History": 31, "Horror": 1, "Music": 8, "Musical": 4, "Mystery": 7,
-						"Romance": 23, "Sci-Fi": 6, "Sport": 2, "Thriller": 17, "War": 9, "Western": 1};
+		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
+						 "Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
+						 "Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
+						 "Romance": 23, "History": 31, "Drama": 80};
 		   
 		// Create scales for x and y axes
 		var xScale = d3.scaleBand()
@@ -427,7 +428,7 @@ const d3 = require('d3');
 		// Create x axis label
 		svg.append("text")
 		   .attr("x", (width + margin) / 2)
-		   .attr("y", 670)
+		   .attr("y", 690)
 		   .attr("text-anchor", "middle")
 		   .text("Genre")
 		   .style("fill", "white")
@@ -458,10 +459,11 @@ const d3 = require('d3');
            .attr("text-anchor", "middle")
 		   .text("Nationality Breakdown of Directors of Oscar-Winning-Movies");
 
-		let nationalityDict = {"American": 105.5, "Australian": 2, "Brazilian": 1, "British": 10, "Canadian": 5.5,
-						 "English": 15, "French": 9, "German": 0.5, "Greek": 1, "Irish": 2, "Italian": 1, 
-						 "Mexican": 14, "New Zealand": 5, "Norwegian": 1, "Polish":	1.5, "Scottish": 1,
-						 "South Korean": 3, "Spanish": 1, "Swiss": 0.5, "Taiwanese": 5};
+		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
+							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
+							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
+							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
+							   "Mexican": 14, "English": 15, "American": 105.5};
 		   
 		// Create scales for x and y axes
 		var xScale = d3.scaleBand()
