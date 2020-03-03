@@ -1,6 +1,9 @@
 const d3 = require('d3');
 
 (function() {
+	// Turn this off when programming so you don't need to
+	// always select a genre/director to get to the next page.
+	const WARNING_MODE = true;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
@@ -161,11 +164,11 @@ const d3 = require('d3');
 	function goToResultsPage() {
 		let notSelectedDirector = !id("female").classList.contains("female-color") && !id("male").classList.contains("male-color");
 		let notSelectedGenre = qs(".highlighted-box span") == null;
-		if (notSelectedDirector && notSelectedGenre) {
+		if (WARNING_MODE && notSelectedDirector && notSelectedGenre) {
 			issueWarning("a director gender and a movie genre!");
-		} else if (notSelectedDirector) {
+		} else if (WARNING_MODE && notSelectedDirector) {
 			issueWarning("a director gender!");
-		} else if (notSelectedGenre) {
+		} else if (WARNING_MODE && notSelectedGenre) {
 			issueWarning("a movie genre!");
 	  	} else {
 			transition(id("questions"));
@@ -212,14 +215,16 @@ const d3 = require('d3');
 		}
 	}
 			
-			 
-	
-
 	function lockInSelections() {
-		id("dialog-selection").innerText = id("gender-percent").innerText;
-		id("director-gender").innerText = id("female").classList.contains("female-color") ? "female" : "male";
-		id("director-nationality").innerText = qs(".is-selected .carousel-text").innerText;
-		id("genre-selection").innerText = qs(".highlighted-box span").innerText.toLowerCase();
+		if (WARNING_MODE) {
+			id("dialog-selection").innerText = id("gender-percent").innerText;
+			id("director-gender").innerText = id("female").classList.contains("female-color") ? "female" : "male";
+			id("director-nationality").innerText = qs(".is-selected .carousel-text").innerText;
+			id("genre-selection").innerText = qs(".highlighted-box span").innerText.toLowerCase();
+		} else {
+			console.log("Turn off WARNING_MODE to see the selections");
+		}
+		
 		// $('#director-gender').selectize({
 
 		// 	options: [
