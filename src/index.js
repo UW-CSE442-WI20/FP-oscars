@@ -1,11 +1,16 @@
 const d3 = require('d3');
 
 (function() {
+	// Turn this off when programming so you don't need to
+	// always select a genre/director to get to the next page.
+	const WARNING_MODE = true;
+	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
 	const noUiSlider = require("nouislider");
+	const selectize = require("selectize");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
 	let lastGenreSelected;
@@ -102,7 +107,6 @@ const d3 = require('d3');
 			lastGenreSelected = elements[index];
 			lastGenreSelected.classList.add("highlighted-box");
 		}
-		console.log(elements[index].textContent);
 	}
 
 	function clickFemale() {
@@ -158,29 +162,96 @@ const d3 = require('d3');
 	}
 
 	function goToResultsPage() {
-		id("questions").classList.add("fade-out");
+		let notSelectedDirector = !id("female").classList.contains("female-color") && !id("male").classList.contains("male-color");
+		let notSelectedGenre = qs(".highlighted-box span") == null;
+		if (WARNING_MODE && notSelectedDirector && notSelectedGenre) {
+			issueWarning("a director gender and a movie genre!");
+		} else if (WARNING_MODE && notSelectedDirector) {
+			issueWarning("a director gender!");
+		} else if (WARNING_MODE && notSelectedGenre) {
+			issueWarning("a movie genre!");
+	  	} else {
+			transition(id("questions"));
+			setTimeout(function() {
+				transition(id("calculation-page"));
+			}, 1000);
+			setTimeout(function() {
+				document.body.scrollTop = 0; // For Safari
+				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}, 1000);
+			lockInSelections();
+			makeGenderDirectorPiChart();
+			makeNationalityBarChart();
+			makeGenreBarChart();
+			makeDialogueDotPlot();
+		}
+	}
+
+	function issueWarning(warning) {
+		id("warning").innerText = "Whoa there. Make sure you've selected " + warning;
+		id("warning").classList.add("red-text");
 		setTimeout(function() {
-			id("questions").style.display = "none";
-			id("calculation-page").classList.add("fade-in");
-		}, 1000);
+			id("warning").innerText = "Okay, now let's...";
+			id("warning").classList.remove("red-text");
+		}, 5000)
+	}
+
+
+	function transition(element) {
+		if (element.classList.contains('hidden')) {
+		    element.classList.remove('hidden');
+		    setTimeout(function () {
+		      element.classList.remove('visually-hidden');
+		    }, 50);
+		} else {
+		    element.classList.add('visually-hidden');    
+		    element.addEventListener('transitionend', function(e) {
+		      element.classList.add('hidden');
+		    }, {
+		      capture: false,
+		      once: true,
+		      passive: false
+		    });
+		}
+	}
+			
+	function lockInSelections() {
+		if (WARNING_MODE) {
+			id("dialog-selection").innerText = id("gender-percent").innerText;
+			id("director-gender").innerText = id("female").classList.contains("female-color") ? "female" : "male";
+			id("director-nationality").innerText = qs(".is-selected .carousel-text").innerText;
+			id("genre-selection").innerText = qs(".highlighted-box span").innerText.toLowerCase();
+		} else {
+			console.log("Turn off WARNING_MODE to see the selections");
+		}
+		
+		// $('#director-gender').selectize({
+
+		// 	options: [
+		// 		{gender: "Male"},
+		// 		{gender: "Female"}
+		// 	],
+		// 	labelField: 'Gender',
+		// 	placeholder: id("director-gender").innerText,
+		//     create: true,
+		//     sortField: 'text'
+		// });
+	}
+
+	function goBackToMainPage() {
+		transition(id("questions"));
+		transition(id("calculation-page"));
 		setTimeout(function() {
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
-		makeGenderDirectorPiChart();
-		makeNationalityBarChart();
-		makeGenreBarChart();
-	}
-
-	function goBackToMainPage() {
-		id("calculation-page").style.display = "none";
-		id("questions").style.display = "block";
+		qs(".tooltip").remove();
 	}
 
 	function makeGenderDirectorPiChart() {
 		let data = [177, 8]; // numbers from director_gender.txt
 
-		let color = d3.scaleOrdinal(['#4974B9','#A157A2']);
+		let color = d3.scaleOrdinal(['#6BA6D9','#D873CF']);
 
 		let svg = d3.select("#gender-director-pi-chart"),
 			width = svg.attr("width"),
@@ -210,13 +281,11 @@ const d3 = require('d3');
 		
 		// Generate title for pi chart
 		svg.append("text")
+		   .attr("class", "chart-title")
 		   .attr("x", (width / 2))
 		   .attr("y", 35)
 		   .attr("text-anchor", "middle")
-		   .style("font-size", "16px") 
-		   .style("font-weight", "bold")
-		   .style("fill", "white")
-		   .text("Gender Breakdown of Directors of Oscar-Winning-Movies");
+		   .text("Gender Breakdown of Directors of Oscar-Winning Movies");
 
 		//Draw arc paths
 		arcs.append("path")
@@ -244,14 +313,14 @@ const d3 = require('d3');
 			  .attr("cx", (width / 2) - 120)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
-			  .style("fill", "#4974B9")
+			  .style("fill", "#6BA6D9")
 			  .style("stroke", "white")
 
 		legend.append("circle")
 			  .attr("cx", (width / 2) + 80)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
-			  .style("fill", "#A157A2")
+			  .style("fill", "#D873CF")
 			  .style("stroke", "white")
 
 		legend.append("text")
@@ -316,17 +385,16 @@ const d3 = require('d3');
 
         // Generate title for bar chart
         svg.append("text")
+           .attr("class", "chart-title")
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-           .style("font-size", "16px") 
-		   .style("font-weight", "bold")
-		   .style("fill", "white")
 		   .text("Genre Breakdown of Oscar-Winning Movies");
 
-		let genreDict = {"Action": 6, "Adventure": 9, "Comedy": 19, "Crime": 12, "Drama": 80, "Family": 1,
-						"Fantasy": 6, "History": 31, "Horror": 1, "Music": 8, "Musical": 4, "Mystery": 7,
-						"Romance": 23, "Sci-Fi": 6, "Sport": 2, "Thriller": 17, "War": 9, "Western": 1};
+		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
+						 "Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
+						 "Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
+						 "Romance": 23, "History": 31, "Drama": 80};
 		   
 		// Create scales for x and y axes
 		var xScale = d3.scaleBand()
@@ -374,11 +442,11 @@ const d3 = require('d3');
 		// Create x axis label
 		svg.append("text")
 		   .attr("x", (width + margin) / 2)
-		   .attr("y", 670)
+		   .attr("y", 690)
 		   .attr("text-anchor", "middle")
 		   .text("Genre")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
 
 		// Create y axis label
 		svg.append("text")
@@ -388,7 +456,7 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("# of Oscars")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
 	}
 
 	function makeNationalityBarChart() {
@@ -399,18 +467,17 @@ const d3 = require('d3');
 
         // Generate title for bar chart
         svg.append("text")
+           .attr("class", "chart-title")
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-           .style("font-size", "16px") 
-		   .style("font-weight", "bold")
-		   .style("fill", "white")
 		   .text("Nationality Breakdown of Directors of Oscar-Winning-Movies");
 
-		let nationalityDict = {"American": 105.5, "Australian": 2, "Brazilian": 1, "British": 10, "Canadian": 5.5,
-						 "English": 15, "French": 9, "German": 0.5, "Greek": 1, "Irish": 2, "Italian": 1, 
-						 "Mexican": 14, "New Zealand": 5, "Norwegian": 1, "Polish":	1.5, "Scottish": 1,
-						 "South Korean": 3, "Spanish": 1, "Swiss": 0.5, "Taiwanese": 5};
+		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
+							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
+							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
+							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
+							   "Mexican": 14, "English": 15, "American": 105.5};
 		   
 		// Create scales for x and y axes
 		var xScale = d3.scaleBand()
@@ -461,7 +528,7 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("Director Nationality")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
 
 		// Create y axis label
 		svg.append("text")
@@ -471,7 +538,143 @@ const d3 = require('d3');
 		   .attr("text-anchor", "middle")
 		   .text("# of Oscars")
 		   .style("fill", "white")
-		   .style("font-size", "12px");
+		   .style("font-size", "18px");
+	}
+
+	function makeDialogueDotPlot() {
+		//SVG setup
+		const margin = {top: 60, right: 30, bottom: 30, left: 30},
+		      width = 700 - margin.left - margin.right,
+		      height = 450 - margin.top - margin.bottom;
+
+		//x scales
+		const x = d3.scaleLinear()
+		    .rangeRound([0, width])
+		    .domain([0, 100]);
+		const y = d3.scaleLinear()
+		    .rangeRound([0, height])
+		    .domain([0, 14]);
+
+		//set up svg
+		let svg = d3.select("#dialog-dot-chart")
+			.attr("width", width + margin.left + margin.right)
+	    	.attr("height", height + margin.top + margin.bottom)
+		  	.append("g")
+		    	.attr("transform",
+		            `translate(${margin.left}, ${margin.top})`);
+
+		svg.append("text")
+            .attr("class", "chart-title")
+            .attr("x", ((width + margin.left) / 2))
+            .attr("y", 40)
+            .attr("text-anchor", "middle")
+		    .text("Percent of Words Spoken By Women in Oscar-Winning Movies");
+
+	    //number of bins for histogram
+		const nbins = 20;
+		const tooltip = d3.select("body")	
+		  	.append("div")
+		    .attr("class", "tooltip")
+		    .style("opacity", 0);
+
+		d3.csv(genderDialogueCSV).then(function(allData) {
+
+		    //histogram binning
+		    const histogram = d3.histogram()
+		      .domain(x.domain())
+		      .thresholds(x.ticks(nbins))
+		      .value(d => d["Percent Female"]);
+
+		    //binning data and filtering out empty bins
+		    const bins = histogram(allData).filter(d => d.length>0);
+		    console.log(bins)
+		    let binContainer = svg.selectAll("g.gBin")
+	          .data(bins)
+	          .enter()
+	          .append("g")
+	          .attr("class", "gBin")
+	          .attr("transform", d => `translate(${x(d.x0)}, ${height})`)
+	          .selectAll("circle")
+	          .data(d => d.map((p, i) => {
+	              	return {value: p["Percent Female"],
+	              			title: p["Movie Title"],
+	                      	radius: (x(d.x1) - x(d.x0)) / 4};
+	          }))
+	          .enter()
+	          .append("circle")
+	          .attr("class", function(d) {
+	          	if (d.value < 50) {
+	          		return "male-circle";
+	          	} else if (d.value > 50 && d.value < 55) {
+	          		return "purple-circle";
+	          	} else {
+	          		return "female-circle";
+	          	}
+	          })
+	          .attr("cx", 0) //g element already at correct x pos
+	          .attr("cy", (d, i) => {
+	              return - i * 2.5 * d.radius - d.radius})
+         	  .attr("r", d => d.radius)
+         	  .on("mouseover", function(d) {
+         	  	tooltip.transition()
+                .duration(200)		
+                .style("opacity", 1.0);		
+		            tooltip.html("<b>" + d.title + "</b><br/>"  + (Math.round(d.value * 100) / 100).toFixed(2) + "%")	
+		                .style("left", (d3.event.pageX) + 20 + "px")		
+		                .style("top", (d3.event.pageY - 28) + "px")
+		                .style("background-color", function() {
+		                	if (d.value < 50) {
+				          		return "#6BA6D9";
+				          	} else if (d.value > 50 && d.value < 55) {
+				          		return "#9D82BC";
+				          	} else {
+				          		return "#D873CF";
+				          	}
+		                });	
+		      })	
+         	  .on("mouseout", function() {
+	        	  	tooltip.transition()		
+	                .duration(500)		
+	                .style("opacity", 0);	
+        	  })
+        	  .transition()
+	          .duration(500)
+	          .attr("r", function(d) {
+	          return (d.length==0) ? 0 : d.radius; });
+
+	        svg.append("g")
+				  .attr("class", "axis axis--x")
+				  .attr("transform", "translate(0," + height + ")")
+				  .call(d3.axisBottom(x));
+			// svg.append("circle")
+			// 	  .attr("cx", (width / 2) - 120)
+			// 	  .attr("cy", height)
+			// 	  .attr("r", 10)
+			// 	  .style("fill", "#6BA6D9")
+			// 	  .style("stroke", "white")
+
+			// svg.append("circle")
+			// 	  .attr("cx", (width / 2) + 80)
+			// 	  .attr("cy", height)
+			// 	  .attr("r", 10)
+			// 	  .style("fill", "#D873CF")
+			// 	  .style("stroke", "white")
+			// svg.append("text")
+			//   .attr("x", (width / 2) - 105)
+			//   .attr("y", height)
+			//   .text("Male-dominated")
+			//   .style("font-size", "15px")
+			//   .style("fill", "white")
+			//   .attr("alignment-baseline","middle")
+
+			// svg.append("text")
+			// 	  .attr("x", (width / 2) + 95)
+			// 	  .attr("y", height)
+			// 	  .text("Female-dominated")
+			// 	  .style("font-size", "15px")
+			// 	  .style("fill", "white")
+			// 	  .attr("alignment-baseline","middle")
+	     	});
 	}
 
 	function id(idName) {

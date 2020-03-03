@@ -18,14 +18,26 @@ body {
 	background-color: #252528;
 }
 
-#calculation-page {
-	display: none;
-	transition: none;
+#questions {
+  	transition: all 1s linear;
+  	display: block;
 }
 
-#calculation-page.fade-in {
-	display: block;
-	transition: 1.5s opacity;
+#questions.hidden {
+	display: none;
+}
+
+#calculation-page {
+  	transition: all 1s linear;
+  	display: block;
+}
+
+#calculation-page.hidden {
+  	display: none;
+}
+
+.visually-hidden {
+    opacity: 0;
 }
 
 #title-subtitle {
@@ -90,8 +102,14 @@ h2 {
 	margin-right: 20%;
 }
 
-.page-description .chart {
-	font-family: initial;
+.chart {
+	font-family: 'AndesRoundedRegular';
+}
+
+.chart-title {
+	font-family: 'AndesRoundedBold';
+	font-size: 20px;
+	fill: white;
 }
 
 hr {
@@ -156,11 +174,11 @@ img {
 }
 
 .c-1-color {
-	background: #6BA6D9;
+	background: #D873CF;
 }
 
 .c-2-color {
-	background: #D873CF;
+	background: #6BA6D9;
 }
 
 #flag-carousel {
@@ -271,23 +289,85 @@ img {
 	border: 5px solid #FFFFFF;
 }
 
-#results-button {
-	padding-top: 20px;
-	padding-bottom: 10px;
+#results-button-container, #back-button-container {
+	margin-top: 20px;
+	margin-bottom: 40px;
 	text-align: center;
+	font-family: 'AndesRoundedRegular';
 }
 
 button {
-	font-size: 50px;
+	font-size: 30px;
     padding: 10px 20px;
     margin-bottom: 0;
     cursor: pointer;
-    border: 1px solid #ccc;
-    color: #FFF;
-    background-color: #D1B000;
+    border: 0px solid #FFFFFF;
+    color: #000000;
+    background-color: #FED800;
     border-radius: 10px;
+    font-family: 'AndesRoundedRegular';
 }
 
 button:hover {
-	background-color: #DDC545;
+	background-color: #F9E26E;
+}
+
+.red-text {
+	color: red;
+}
+
+.enter {
+	fill: white;
+}
+
+#charts {
+	flex-wrap: wrap;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.selections span {
+	text-decoration: underline;
+}
+
+div.tooltip {
+  color: black;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 15px sans-serif;
+  border: 0px;
+  border-radius: 7px;
+  pointer-events: none;
+}
+
+.display-none {
+	display: none;
+}
+
+#gauge {
+	margin-left: 0%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+}
+
+#gauge-img {
+	height: 300px;
+}
+
+.female-circle {
+	fill: #D873CF;
+}
+
+.male-circle {
+	fill: #6BA6D9;
+}
+
+.purple-circle {
+	fill: #9D82BC;
 }
