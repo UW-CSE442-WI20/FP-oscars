@@ -300,7 +300,7 @@ button:hover {
 	background-color: #F9E26E;
 }
 
-#warning {
+.red-text {
 	color: red;
 }
 

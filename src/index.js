@@ -160,19 +160,29 @@ const d3 = require('d3');
 	}
 
 	function goToResultsPage() {
-		id("questions").classList.add("fade-out");
-		setTimeout(function() {
-			id("questions").style.display = "none";
-			id("calculation-page").classList.add("fade-in");
-		}, 1000);
-		setTimeout(function() {
-			document.body.scrollTop = 0; // For Safari
-			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-		}, 1000);
-		lockInSelections();
-		makeGenderDirectorPiChart();
-		makeNationalityBarChart();
-		makeGenreBarChart();
+		if ((!id("female").classList.contains("female-color") && !id("male").classList.contains("male-color"))
+			|| qs(".is-selected .carousel-text") == null || qs(".highlighted-box span") == null) {
+			id("warning").innerText = "Whoa there. Make sure you've selected a director gender and movie genre!";
+			id("warning").classList.add("red-text");
+			setTimeout(function() {
+				id("warning").innerText = "Okay, now let's...";
+				id("warning").classList.remove("red-text");
+			}, 5000)
+		} else {
+			id("questions").classList.add("fade-out");
+			setTimeout(function() {
+				id("questions").style.display = "none";
+				id("calculation-page").classList.add("fade-in");
+			}, 1000);
+			setTimeout(function() {
+				document.body.scrollTop = 0; // For Safari
+				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}, 1000);
+			lockInSelections();
+			makeGenderDirectorPiChart();
+			makeNationalityBarChart();
+			makeGenreBarChart();
+		}
 	}
 
 	function lockInSelections() {
