@@ -491,7 +491,7 @@ const d3 = require('d3');
 	function makeDialogueDotPlot() {
 		//SVG setup
 		const margin = {top: 10, right: 30, bottom: 30, left: 30},
-		      width = 550 - margin.left - margin.right,
+		      width = 700 - margin.left - margin.right,
 		      height = 480 - margin.top - margin.bottom;
 
 		//x scales
@@ -507,11 +507,21 @@ const d3 = require('d3');
 		    	.attr("transform",
 		            `translate(${margin.left}, ${margin.top})`);
 
+		svg.append("text")
+            .attr("class", "chart-title")
+            .attr("x", ((width + margin.left) / 2))
+            .attr("y", 40)
+            .attr("text-anchor", "middle")
+		    .text("Percent Female Lines in Oscar-Winning Movies");
+
 	    //number of bins for histogram
 		const nbins = 20;
+		const tooltip = d3.select("#dialog-dot-chart")
+		  .append("div")
+		    .attr("class", "tooltip")
+		    .style("opacity", 0);
 
 		d3.csv(genderDialogueCSV).then(function(allData) {
-			console.log(allData);
 
 		    //histogram binning
 		    const histogram = d3.histogram()
@@ -522,7 +532,6 @@ const d3 = require('d3');
 		    //binning data and filtering out empty bins
 		    const bins = histogram(allData).filter(d => d.length>0);
 
-		    console.log(bins);
 		    let binContainer = svg.selectAll("g.gBin")
 	          .data(bins)
 	          .enter()
@@ -532,22 +541,56 @@ const d3 = require('d3');
 	          .selectAll("circle")
 	          .data(d => d.map((p, i) => {
 	              	return {value: p["Percent Female"],
-	                      	radius: (x(d.x1) - x(d.x0)) / 2.5};
+	                      	radius: (x(d.x1) - x(d.x0)) / 4};
 	          }))
 	          .enter()
 	          .append("circle")
 	          .attr("class", "enter")
 	          .attr("cx", 0) //g element already at correct x pos
 	          .attr("cy", (d, i) => {
-	              return - i * 2 * d.radius - d.radius})
-         	  .attr("r", d => d.radius);
+	              return - i * 3 * d.radius - d.radius})
+         	  .attr("r", d => d.radius)
+         	  .on("mouseover", tooltipOn)
+        	  .on("mouseout", tooltipOff)
+        	  .transition()
+	          .duration(500)
+	          .attr("r", function(d) {
+	          return (d.length==0) ? 0 : d.radius; });
 
 	          svg.append("g")
 				  .attr("class", "axis axis--x")
 				  .attr("transform", "translate(0," + height + ")")
 				  .call(d3.axisBottom(x));
       	});
+
+      	function tooltipOn(d) {
+		  //x position of parent g element
+		  let gParent = d3.select(this.parentElement)
+		  let translateValue = gParent.attr("transform")
+
+		  let gX = translateValue.split(",")[0].split("(")[1]
+		  let gY = height + (+d3.select(this).attr("cy")-50)
+
+		  d3.select(this)
+		    .classed("selected", true)
+		  tooltip.transition()
+		       .duration(200)
+		       .style("opacity", .9);
+		  tooltip.html(d.name + "<br/> (" + d.value + ")")
+		    .style("left", gX + "px")
+		    .style("top", gY + "px");
+		}//tooltipOn
+
+		function tooltipOff(d) {
+		  d3.select(this)
+		      .classed("selected", false);
+		    tooltip.transition()
+		         .duration(500)
+		         .style("opacity", 0);
+		}//tooltipOff
 	}
+
+
 
 	function id(idName) {
  		return document.getElementById(idName);
