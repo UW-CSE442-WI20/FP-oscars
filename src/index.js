@@ -159,15 +159,15 @@ const d3 = require('d3');
 	}
 
 	function goToResultsPage() {
-		if ((!id("female").classList.contains("female-color") && !id("male").classList.contains("male-color"))
-			|| qs(".is-selected .carousel-text") == null || qs(".highlighted-box span") == null) {
-			id("warning").innerText = "Whoa there. Make sure you've selected a director gender and movie genre!";
-			id("warning").classList.add("red-text");
-			setTimeout(function() {
-				id("warning").innerText = "Okay, now let's...";
-				id("warning").classList.remove("red-text");
-			}, 5000)
-		} else {
+		let notSelectedDirector = !id("female").classList.contains("female-color") && !id("male").classList.contains("male-color");
+		let notSelectedGenre = qs(".highlighted-box span") == null;
+		if (notSelectedDirector && notSelectedGenre) {
+			issueWarning("a director gender and a movie genre!");
+		} else if (notSelectedDirector) {
+			issueWarning("a director gender!");
+		} else if (notSelectedGenre) {
+			issueWarning("a movie genre!");
+	  	} else {
 			transition(id("questions"));
 			setTimeout(function() {
 				transition(id("calculation-page"));
@@ -182,6 +182,15 @@ const d3 = require('d3');
 			makeGenreBarChart();
 			makeDialogueDotPlot();
 		}
+	}
+
+	function issueWarning(warning) {
+		id("warning").innerText = "Whoa there. Make sure you've selected " + warning;
+		id("warning").classList.add("red-text");
+		setTimeout(function() {
+			id("warning").innerText = "Okay, now let's...";
+			id("warning").classList.remove("red-text");
+		}, 5000)
 	}
 
 
