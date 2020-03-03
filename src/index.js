@@ -7,6 +7,7 @@ const d3 = require('d3');
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
 	const noUiSlider = require("nouislider");
+	const selectize = require("selectize");
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
 	let lastGenreSelected;
@@ -169,10 +170,9 @@ const d3 = require('d3');
 				id("warning").classList.remove("red-text");
 			}, 5000)
 		} else {
-			id("questions").classList.add("fade-out");
+			transition(id("questions"));
 			setTimeout(function() {
-				id("questions").style.display = "none";
-				id("calculation-page").classList.add("fade-in");
+				transition(id("calculation-page"));
 			}, 1000);
 			setTimeout(function() {
 				document.body.scrollTop = 0; // For Safari
@@ -185,16 +185,53 @@ const d3 = require('d3');
 		}
 	}
 
+
+	function transition(element) {
+		if (element.classList.contains('hidden')) {
+		    element.classList.remove('hidden');
+		    setTimeout(function () {
+		      element.classList.remove('visually-hidden');
+		    }, 50);
+		} else {
+		    element.classList.add('visually-hidden');    
+		    element.addEventListener('transitionend', function(e) {
+		      element.classList.add('hidden');
+		    }, {
+		      capture: false,
+		      once: true,
+		      passive: false
+		    });
+		}
+	}
+			
+			 
+	
+
 	function lockInSelections() {
 		id("dialog-selection").innerText = id("gender-percent").innerText;
 		id("director-gender").innerText = id("female").classList.contains("female-color") ? "female" : "male";
 		id("director-nationality").innerText = qs(".is-selected .carousel-text").innerText;
 		id("genre-selection").innerText = qs(".highlighted-box span").innerText.toLowerCase();
+		// $('#director-gender').selectize({
+
+		// 	options: [
+		// 		{gender: "Male"},
+		// 		{gender: "Female"}
+		// 	],
+		// 	labelField: 'Gender',
+		// 	placeholder: id("director-gender").innerText,
+		//     create: true,
+		//     sortField: 'text'
+		// });
 	}
 
 	function goBackToMainPage() {
-		id("calculation-page").style.display = "none";
-		id("questions").style.display = "block";
+		transition(id("questions"));
+		transition(id("calculation-page"));
+		setTimeout(function() {
+			document.body.scrollTop = 0; // For Safari
+			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}, 1000);
 	}
 
 	function makeGenderDirectorPiChart() {

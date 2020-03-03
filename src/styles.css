@@ -18,14 +18,26 @@ body {
 	background-color: #252528;
 }
 
-#calculation-page {
-	display: none;
-	transition: none;
+#questions {
+  	transition: all 1s linear;
+  	display: block;
 }
 
-#calculation-page.fade-in {
-	display: block;
-	transition: 1.5s opacity;
+#questions.hidden {
+	display: none;
+}
+
+#calculation-page {
+  	transition: all 1s linear;
+  	display: block;
+}
+
+#calculation-page.hidden {
+  	display: none;
+}
+
+.visually-hidden {
+    opacity: 0;
 }
 
 #title-subtitle {
@@ -333,6 +345,10 @@ div.tooltip {
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
+}
+
+.display-none {
+	display: none;
 }
 
 #gauge {

@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap2.min.css">
 	<link rel="stylesheet" type="text/css" href="./styles.css"/>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./nouislider.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="./index.js"></script>
   </head>
@@ -141,7 +143,7 @@
 		</div>
 	</div>
 
-    <div id="calculation-page">
+    <div id="calculation-page" class="visually-hidden hidden">
 		<h2>Calculations</h2>
     	<div class="page-description">
 			<p class="intro selections">Based on your selection of <span id="dialog-selection"></span> male speaking lines, a <span id="director-gender"></span> and <span id="director-nationality"></span> director, and a genre of <span id="genre-selection"></span>, the Oscar goes to...</p>
