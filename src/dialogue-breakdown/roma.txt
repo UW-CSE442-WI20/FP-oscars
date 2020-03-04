@@ -8,6 +8,20 @@ Male lines
 
 Total = 2033
 
+********************************
+
+Female lines (over 100 words)
+{CLEO=1226, SOFÍA=1180, SOFI=235, ADELA=303, TERESA=107, DOCTORA=343, BENITA=202}
+
+Total = 3596
+
+Male lines (over 100 words)
+{TOÑO=263, PACO=410, PEPE=419, FERMÍN=292, PROFESSOR=144}
+
+Total = 1528
+
+********************************
+
 ADELA
 Manita! It’s almost one...!
 CLEO

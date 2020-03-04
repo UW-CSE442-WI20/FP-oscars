@@ -1,0 +1,2378 @@
+Female words
+{MILDRED=2380, PAMELA=122, ANNE=200, POLLY=2, JANE=15, DENISE=56, GABRIELLA=85, MOMMA=183, ANGELA=136, PENELOPE=157, GIRL=6, NURSE=6, LADY=8, LATINO=4, KIDS=5}
+
+Male words
+{RED=538, DIXON=1769, EROME=124, WILLOUGHBY=1478, ROBBIE=292, SERGEANT=295, JAMES=241, DOCTOR=46, GEOFFREY=45, CHARLIE=385, GUY=190, ABERCROMBIE=350, PAL=8, MAN=18, BOY=2, MONTGOMERY=153}
+
+*******************************************
+
+Female words (over 100 words)
+{MILDRED=2380, PAMELA=122, ANNE=200, MOMMA=183, ANGELA=136, PENELOPE=157}
+
+Total = 3178
+
+Male words (over 100 words)
+{RED=538, DIXON=1769, EROME=124, WILLOUGHBY=1478, ROBBIE=292, SERGEANT=295, JAMES=241, CHARLIE=385, GUY=190, ABERCROMBIE=350, MONTGOMERY=153}
+
+Total = 5815
+
+*******************************************
+
+MILDRED
+You Red Welby?
+RED
+Yes, ma’am. How may I...?
+MILDRED
+They said those three billboards out on
+Drinkwater Road, you’re in charge of
+renting them out, that right?
+RED
+I didn’t know we had any billboards out
+on... Where is Drinkwater Road?
+MILDRED
+Road out past the Sizemore turn-off noone uses since the highway got put in.
+RED
+You’re right. Got three billboards out
+there. Nobody’s put nothing up out
+there since... 1986. That was
+‘Huggies’.
+MILDRED
+How much to rent out all three of ‘em
+the year?
+RED
+The year? You wanna pay for three
+billboards on a road no-one goes down
+unless they got lost or they’re
+retards, for a year?
+MILDRED
+Quick, ain’t ya, Welby?
+RED
+Well... since what I say goes these
+days down at the Ebbing Advertising
+Desk, I’m gonna strike you a real good
+deal on those billboards, now, what was
+it you said your name was, Mrs...?
+MILDRED
+What’s the law on what ya can and can’t
+say on a billboard? I assume it’s ya
+can’t say nothing defamatory, and ya
+can’t say, ‘Fuck’ ‘Piss’ or ‘Cunt’.
+That right?
+RED
+Or... Anus.
+MILDRED
+Well I think I’ll be alright then.
+Here’s five thousand for the first
+month. I assume that’ll cover it.
+And here’s what the billboards oughta
+say.
+Why don’t ya draw up a little contract
+betwixt us while you’re at it, make
+sure no-one rents them billboards out
+from under me?
+RED
+I guess you’re Angela Hayes’ mother.
+MILDRED
+That’s right, I’m Angela Hayes’ mother.
+Name’s Mildred. How long before you’ve
+got ‘em put up?
+RED
+Oh, shall we say by... Easter Sunday?
+MILDRED
+That’d be perfect.
+DIXON
+Hey! What the Hell’s this?!
+LATINO
+Que?
+DIXON
+“How come Chief Willoughby?” what?
+LATINO
+What?
+DIXON
+Yeah!
+LATINO
+Huh?
+DIXON
+How come what?
+LATINO
+What?!
+DIXON
+Listen, I better start getting some
+straight answers outta you Mexican sons
+of bitches...
+What the Hell is this?
+Hey you? What the fuck is this?
+JEROME
+What the fuck is what?
+DIXON
+This! This!
+JEROME
+Advertising, I guess.
+DIXON
+Advertising what?
+JEROME
+Something obscure?
+DIXON
+I’ll say!
+JEROME
+Don’t I know your face from some place?
+DIXON
+I dunno, do ya?
+JEROME
+Yeah. Yeah, I do.
+DIXON
+I could arrest you right now, if I
+wanted to.
+JEROME
+For what?
+DIXON
+For... emptying out your bucket there.
+It’s against the... being bad against
+the environment laws.
+JEROME
+Well, before you do that, Officer
+Dixon, why don’t you go have yourself a
+look at that first billboard over
+there, and then we can have ourself a
+talk about the motherfucking
+environment. How about that?
+DIXON
+Fuck me.
+ANNE
+Don’t...
+WILLOUGHBY
+Dixon, you goddam asshole, I’m in the
+middle of my goddam Easter dinner...
+DIXON
+I know, Chief, and I’m sorry for
+calling ya at home and all, but uh, I
+think we’ve got kind of a problem...
+MILDRED
+Sorry I’m late, Denise.
+DENISE
+Did you put up those billboards to fuck
+with the cops yet?
+MILDRED
+They’re up.
+DENISE
+You go, girl! You go fuck those cops
+up!
+SERGEANT
+What the fuck do you think you’re
+doing, Welby, buncha billboards like
+that, you didn’t think there’d be some
+kinda ramifications? Legally?
+RED
+What’s the legal ramifications, Cedric?
+SERGEANT
+You want me to explain the legal
+ramifications, a little punk like you?
+And don’t call me Cedric.
+RED
+Ain’t contravening no laws on
+propriety, ain’t contravening no laws
+on any fucking thing. I checked all
+this up.
+SERGEANT
+Oh yeah, where’d you check all this up?
+RED
+In a... book.
+SERGEANT
+Which book, genius?
+RED
+Book called ‘Suck my ass, it’s none o’
+your business’.
+WILLOUGHBY
+How long has this person, or persons,
+rented these billboards out for?
+RED
+Oh, the year.
+WILLOUGHBY
+And how long she actually paid for?
+RED
+The year.
+WILLOUGHBY
+So it’s a she, huh?
+RED
+Ain’t at liberty to divulge that kinda
+information, Chief.
+WILLOUGHBY
+Mildred Hayes, perhaps?
+RED
+Ain’t at liberty to divulge that kinda
+information, Chief.
+WILLOUGHBY
+Do you really wanna fuck with the
+Ebbing Police Department, Red? Do ya?
+RED
+I guess.
+DIXON
+He said what?! To your face?!
+SERGEANT
+No crime has been committed here.
+DIXON
+Defamation of character ain’t a crime?
+SERGEANT
+It isn’t defamation if she’s simply
+asking a question.
+DIXON
+What are you, an idiot?
+SERGEANT
+Don’t call me an idiot, Dixon.
+DIXON
+I didn’t call you an idiot. I asked if
+you was an idiot. It was a question.
+WILLOUGHBY
+He got ya, Cedric!
+DIXON
+Well I’m gonna do something about it if
+yous two ain’t.
+WILLOUGHBY
+Where you going? Don’t fly off the
+handle!
+SERGEANT
+Why in hell you keep that man on, Bill?
+WILLOUGHBY
+He’s a good man. At heart.
+SERGEANT
+He tortured a guy in custody, Bill.
+WILLOUGHBY
+There was no... real evidence to
+support that.
+DIXON
+Take ‘em down.
+RED
+Hah?
+DIXON
+Take ‘em down.
+RED
+Take what down?
+DIXON
+You think I wouldn’t take you out,
+right here on Main Street, Red?
+RED
+Thought you only take out black dudes,
+Dixon...
+DIXON
+Ain’t nobody never goes down that road,
+anyways. Unless they got lost, or
+they’re retards.
+GABRIELLA
+This your first time on tv?
+MILDRED
+Uh-huh.
+GABRIELLA
+Well, don’t be nervous, is the main
+thing, and it’ll be fine. Just don’t
+look into the camera, obviously.
+In three, two, one. So, Mildred Hayes,
+why did you put up these billboards?
+MILDRED
+Well, my daughter, Angela, she got
+abducted, and she got raped and murdered
+seven months ago, on this self-same
+stretch o’ road here, unfortunately,
+and, to me... I mean, to me, it seems
+like the local police department is too
+busy goin’ round torturing black folks
+to be bothered doing anything about
+solving actual crime, so I kinda thought
+these here billboards might, y’know,
+concentrate their minds some.
+DIXON
+Whatcha watching, Momma? The stupid
+news?
+MILDRED 
+Seems like the local police department
+is too busy goin’ round torturing black
+folks to be bothered doing anything
+about solving actual crime...
+DIXON
+Fuck.
+MILDRED 
+I don’t know what these policemen are
+doing, to be honest with you. I just
+know my daughter’s burnt body’s lying
+six feet under the ground while they’re
+eating Krispy Kremes and busting eight
+year-olds for skateboarding in parking
+lots.
+GABRIELLA 
+And what has Chief Willoughby to do
+with all this, why single him out?
+MILDRED 
+Well, he’s the head of ‘em, ain’t he?
+The buck’s gotta stop at somebody,
+don’t it?
+GABRIELLA 
+And the buck stops at Willoughby?
+MILDRED 
+Yeah, the buck stops at Willoughby.
+Dead right it does.
+ANNE
+You alright there, fella?
+WILLOUGHBY
+Looks like we got a war on our hands.
+Can we talk?
+I’d do anything to catch the guy who
+did it, Mrs Hayes. But when the DNA
+don’t match no-one who’s ever been
+arrested, and when the DNA don’t match
+any other crime nationwide, and when
+there wasn’t a single eyewitness from
+the time she left your house to the
+time we found her, well, right now
+there ain’t too much more that we can
+do, except...
+MILDRED
+Could pull blood from every man and boy
+in this town, over the age of eight.
+WILLOUGHBY
+There’s civil rights laws prevents
+that, Mrs Hayes, and what if he was
+just passing thru town...
+MILDRED
+Pull blood from ever’ man in the
+country, then.
+WILLOUGHBY
+And what if he was just passing thru
+the country?
+MILDRED
+If it was me, I’d start up a database,
+every male baby what’s born, stick ‘em
+on it, cross-reference it, and as soon
+as they done something wrong, make a
+hundred percent certain it was a
+correct match, then kill ‘em.
+WILLOUGHBY
+Yeah, well, there’s definitely civil
+rights laws prevents that.
+He sits on the swing beside her, the billboards stretching
+out down the hill in front of them.
+I’m doing everything I can to track him
+down, Mrs Hayes. I don’t think those
+billboards is very fair.
+MILDRED
+The time it’s took you to come out here
+whining like a bitch, Willoughby, some
+other poor girl’s probably being
+butchered right now, but it’s good
+you’ve got your priorities straight,
+I’ll say that for ya.
+WILLOUGHBY
+There’s something else, Mildred.
+I got cancer. I’m dying.
+MILDRED
+I know it.
+WILLOUGHBY
+Huh?
+MILDRED
+I know it. Most everbody in town knows
+it.
+WILLOUGHBY
+You know it, and you still put those
+billboards up?
+MILDRED
+Well, they wouldn’t be as effective
+after you croak, right?
+DIXON
+Well looky looky, if it ain’t the
+instigator of this whole goddam affair
+in the first place...
+RED
+I didn’t instigate shit, Dixon...
+DIXON
+Playing pool against the town midget.
+JAMES
+He’s right, Red, you are playing pool
+against the town midget.
+RED
+Well he’s a cop, y’know, he’s
+observant.
+DIXON
+You know, I always disliked you, Red,
+ever since you was a snotty little
+child, which you still look like. A
+snotty little child.
+RED
+Well that’s unfortunate. I always
+thought you was great.
+DIXON
+Even your name, ‘Red Welby’. Even your
+name I disliked.
+RED
+Well... okay.
+DIXON
+Like you was some kind of a goddam
+Communist or something, and proud of it.
+RED
+No, it’s cos I got red hair.
+DIXON
+Do you know what they do to faggots
+down in Cuba, Welby?
+RED
+Wow, that’s left-field... No, what do
+they do to faggots down in Cuba, Dixon?
+DIXON
+They kill ‘em! Which, it might surprise
+you to learn, I am against.
+RED
+I’m not sure if they do kill faggots
+down in Cuba, Dixon. I know Cuba’s
+human rights record is pretty
+deplorable when it comes to
+homosexuality, but killing ‘em? Are you
+sure you ain’t thinking of Wyoming?
+DIXON
+Always with the smart-ass...
+Jesus! He’s quite good, isn’t he?
+Willoughby’s a good man, Red. He
+shouldn’t have this be the only thing
+he thinks about, the last months left
+to him.
+RED
+The last months what?
+DIXON
+Oh. You didn’t know. Yeah. Pancreatic.
+MILDRED
+I’m up next if any of you ole ladies
+ever quit yakking.
+DIXON
+Rude.
+JAMES
+Saw you on TV the other day, Mildred.
+MILDRED
+Oh yeah?
+JAMES
+Yeah, you looked good.
+I mean, y’know, you came across really
+good, in the things you were saying.
+DIXON
+I didn’t think you came across really
+good in the things you were saying. I
+thought you came across stupid-ass.
+MILDRED
+Ain’t it about time you got home to
+your momma, Dixon?
+DIXON
+No it ain’t time I got home to my
+momma. I tole her I was gonna be out
+til twelve. Actually.
+Jesus!
+JAMES
+Me v. you, Mildred!
+MILDRED
+Hey Robbie? I think that midget wants
+to get in my pants...
+Father Montgomery.
+MONTGOMERY
+Mildred. I’m sorry for calling on you
+so late, although I must say Robbie’s
+been the consummate host. Despite his
+having, he was just telling me,
+something of a tricky day at school.
+ROBBIE
+Oh, no, just some of the guys on the
+team was giving me crap.
+MILDRED
+Crap about what?
+MONTGOMERY
+About the billboards. Which is, uh,
+kind of what I’ve come to have a word
+with you about, Mildred.
+MILDRED
+Oh. Proceed.
+MONTGOMERY
+I know it’s been hard for you, Mildred,
+this past year. We all do. The whole
+town does. And whatever it is you need,
+we’ll be there for you. Always. But the
+town also knows what kind of a man
+William Willoughby is. And the town is
+dead set against these billboards of
+yours.
+MILDRED
+Took a poll, did ya, Father?
+MONTGOMERY
+If you hadn’t stopped coming to church,
+Mildred, you’d be aware of the depth of
+people’s feelings. I had a dozen people
+come up to me on Sunday. So, yes, I
+took a poll. Everybody is on your side
+about Angela. No-one’s on your side
+about this.
+MILDRED
+Y’know what I was thinking about,
+earlier today? I was thinking ‘bout
+those streetgangs they got in Los
+Angeles, the Crips and the Bloods? I
+was thinking about that buncha new laws
+they came up with, in the 80’s I think
+it was, to combat those street-gangs,
+those Crips and those Bloods.
+And, if I remember rightly, the gist of
+what those new laws said was, if you
+join one of these gangs, and you’re
+running with ‘em, and down the block
+from you one night, unbeknownst to you,
+your fellow Crips, or your fellow
+Bloods, shoot up a place, or stab a
+guy, well, even though you didn’t know
+nothing about it, even though you
+may’ve just been standing on a
+streetcorner minding your own business,
+those new laws said you are still
+culpable. You are still culpable, by
+the very act of joining those Crips, or
+those Bloods, in the first place. Which
+got me thinking, Father, that whole
+type of situation is kinda similar to
+you Church boys, ain’t it? You’ve got
+your colors, you’ve got your clubhouse,
+you’re, for want of a better word, a
+gang. And if you’re upstairs smoking a
+pipe and reading a bible while one of
+your fellow gang members is downstairs
+fucking an altar boy then, Father, just
+like the Crips, and just like the
+Bloods, you’re culpable. Cos you joined
+the gang, man. And I don’t care if you
+never did shit or never saw shit or
+never heard shit. You joined the gang.
+You’re culpable. And when a person is
+culpable to altar-boy-fucking, or anykinda-boy-fucking, I know you guys
+didn’t really narrow it down, then they
+kinda forfeit the right to come into my
+house and say a word about me, or my
+life, or my daughter, or my billboards.
+So, why don’t you just finish your tea
+there, Father, and get the fuck outta
+my kitchen.
+ROBBIE
+But thanks for coming up anyway,
+Father.
+DOCTOR
+How you been feeling, Bill?
+WILLOUGHBY
+Oh, like I got cancer in a major organ.
+DOCTOR
+Well I just want you to know, we’re all
+on your side about this Mildred Hayes
+thing...
+WILLOUGHBY
+If I have to hear that one more fucking
+time...!
+I’m done with this shit. I can’t waste
+my life waiting.
+WILLOUGHBY
+Get me the file on the Hayes case.
+DIXON
+The Angela Hayes case or the Mildred
+Hayes case?
+WILLOUGHBY
+There is no Mildred Hayes case.
+DIXON
+We’ve had two official complaints about
+the billboards, so, actually...
+WILLOUGHBY
+From who?
+DIXON
+A lady with a funny eye... and a fat dentist.
+WILLOUGHBY
+Get me the file on the Angela Hayes
+case. “A lady with a funny fucking
+eye”, Jesus Christ.
+WILLOUGHBY
+Late night?
+DIXON
+No.
+WILLOUGHBY
+Lay off that Welby guy.
+DIXON
+Or you’ll do what?
+WILLOUGHBY
+Or I’ll kick your Momma’s teeth in.
+DIXON
+No you won’t.
+Who told ya I was laying on him anyway?
+The midget?
+WILLOUGHBY
+What the fuck are you talking about?!
+Fucking midgets! I’m trying to fucking
+concentrate!
+DIXON
+What are you looking for, anyway?
+There’s nothing to look for.
+MILDRED
+I don’t know what it is. The filling
+feels like it’s kinda waggling.
+GEOFFREY
+Well if it’s waggling it’s gonna haveta
+come out.
+MILDRED
+Ain’t you gonna have a look at it
+first?
+GEOFFREY
+It’s gonna haveta come out.
+MILDRED
+Uh, can I get a little Novocaine,
+there, Doc?
+GEOFFREY
+Give it a couple minutes.
+MILDRED
+Maybe it wasn’t waggling. Maybe it was
+just my fingers going in and out.
+GEOFFREY
+I just wanted to say... There’s a lotta
+good friends of Bill Willoughby in this
+town, Mrs Hayes, who don’t take kindly
+to...
+MILDRED
+Then why don’t you tell those good
+friends of Bill Willoughby to tell Bill
+Willoughby to go do his fucking job,
+fat boy.
+WILLOUGHBY
+Hey there, Mildred! You didn’t happen
+to pay a visit to the dentist today,
+did ya?
+MILDRED
+No.
+WILLOUGHBY
+Huh?
+MILDRED
+Said ‘No’.
+WILLOUGHBY
+Oh. So it wasn’t you who drilled a
+little hole in one of big fat
+Geoffrey’s big fat thumbnails, no?
+MILDRED
+Of course not.
+WILLOUGHBY
+Huh?
+MILDRED
+I said “Of course not.”
+DENISE
+You drilled a hole in the dentist?
+MILDRED
+No, Denise, I didn’t.
+DENISE
+Huh?
+WILLOUGHBY
+Well, I thought it was kinda funny
+myself, but he wants to press charges,
+so we’re gonna have to bring you in,
+I’m afraid.
+MILDRED
+So how’s it all going in the niggertorturing business, Dixon?
+DIXON
+It’s ‘Persons of color’-torturing
+business, these days, if you want to
+know. And I didn’t torture nobody.
+She idles back to the table and sits.
+Goddam saying that goddam stuff on TV.
+My momma watches that station!
+MILDRED
+And she didn’t know nothing about the
+torturing?
+DIXON
+No she didn’t know anything about it.
+She’s against that kinda thing.
+WILLOUGHBY
+Who’s against what kinda thing?
+DIXON
+My momma. Is against ‘Persons-of-color
+torturing’. She said ‘nigger-torturing’.
+I said you can’t say ‘nigger-torturing’
+no more. You gotta say ‘Persons-of-color’
+torturing. Right?
+WILLOUGHBY
+I think I’ll be able to take care of
+Mrs Hayes on my own from hereon, Jason.
+DIXON
+Sure, Chief, I’ll be right outside if
+you need me.
+WILLOUGHBY
+Don’t gimme that look. If you got rid
+of every cop with vaguely racist
+leanings then you’d have three cops
+left and all o’ them are gonna hate the
+fags so what are ya gonna do, y’know?
+I wanna know something, Mildred...
+MILDRED
+Does sitting up high like that make you
+feel more powerful, Chief?
+WILLOUGHBY
+I’m sorry, Mildred, I’ll go sit where I was
+if it makes you feel more comfortable.
+MILDRED
+I didn’t say I was uncomfortable. I
+don’t get uncomfortable around cops.
+Sit wherever you want. It’s your police
+station.
+WILLOUGHBY
+Why’d ya drill a hole thru poor fat
+Geoffrey’s thumbnail?
+MILDRED
+Oh, that didn’t happen. His hand
+slipped and he drilled a hole thru his
+self. Is he saying I done it? Jeez,
+then I guess it’s just his word against
+mine, huh? Kinda like in all those rape
+cases you hear about. Except, in this
+instance, the chick ain’t losing.
+WILLOUGHBY
+It ain’t really about winning or
+losing, though, is it, Mildred? I mean,
+do you think I care about who wins or
+loses between the two of yous? Do you
+think I care about dentists? I don’t
+care about dentists. Nobody cares about
+dentists! I do care about, or I’m
+interested in, tying you up in court so
+long that your hours at the gift shop
+are so shot to shit that you ain’t got
+a penny to pay for another months
+billboards. I’m interested in that.
+MILDRED
+I got some dough put away...
+WILLOUGHBY
+What I heard was you had to sell off
+your ex-husband’s tractor-trailer to
+even pay for this month’s billboards,
+that right?
+How is ole Charlie, by the way? He
+still shacked up with that pretty
+little intern works down at the zoo?
+MILDRED
+He’s still shacked up with some chick
+who smells of shit. I don’t know if the
+zoo’s got anything to do with it.
+Although I’d hope so.
+WILLOUGHBY
+How old is she? Nineteen? That must
+smart.
+MILDRED
+Keep trying, Officer. Keep trying.
+WILLOUGHBY
+What’s Charlie think about these here
+billboards of yours, an ex-cop like
+Charlie?
+MILDRED
+Ex-cop, ex-wife-beater. Same
+difference, I guess, right?
+WILLOUGHBY
+His word against yours, though, right?
+Charlie don’t know about them, does he?
+MILDRED
+It’s none of his business.
+WILLOUGHBY
+He’s kinda paying for ‘em though, ain’t
+he?
+MILDRED
+I’m paying for ‘em.
+WILLOUGHBY
+This month you are. How about when...
+I didn’t mean to...
+MILDRED
+I know...
+WILLOUGHBY
+It was an accident...
+MILDRED
+I know, baby.
+WILLOUGHBY
+It’s blood.
+MILDRED
+I know.
+I’ll go get somebody...
+WILLOUGHBY
+Just let her go.
+Just let her go!
+LADY
+Take those goddam things down!
+GEOFFREY
+Take ‘em down.
+LADY
+Or we will!
+MILDRED
+Any of you funny-eyed fuckers even
+think about touching those billboards,
+you will fucking die. You got that? You
+will fucking die.
+JEROME
+Yeah, leave her alone. Those billboards
+are cool!
+ROBBIE
+Do birds get cancer?
+MILDRED
+Huh?
+ROBBIE
+Birds. Do they get cancer?
+MILDRED
+I don’t know. Dogs do.
+ROBBIE
+Yeah, well, I wasn’t talking about
+dogs, was I?
+Great, the good ole “Raped While Dying”
+route home.
+Cos if there was two seconds in a day
+when I didn’t think about her, and
+wasn’t thinking about how she died,
+“There ya go, Robbie, think about it
+some more, why don’t ya?” It’s good,
+too, that as much as a person might’ve
+tried to avoid the details of what
+happened, cos he didn’t think it’d do
+any good, and he didn’t think he could
+bear it, it’s also good to be informed
+in twenty foot high lettering, and a
+real nice font, the precise details of
+her last moments, y’know? That it
+wasn’t enough that she was raped, and
+it wasn’t enough that she died, no.
+“Raped While Dying”. Thank you, mom.
+MILDRED
+I gave you the police reports...
+ROBBIE
+I didn’t read ‘em! I’m depressed enough
+as it fucking is!
+ANGELA 
+Mom?
+MILDRED 
+Yeah?
+ANGELA
+You ain’t going out again tonight, are
+ya?
+MILDRED
+Denise said we might get us a coupla
+drinks later, yeah.
+ANGELA
+Denise gonna be driving ya?
+MILDRED
+Angela, why don’t you just ask me if
+you can borrow the car?
+ANGELA
+Can I borrow the car?
+MILDRED
+No.
+ANGELA
+Bitch!
+MILDRED
+But I’ll give you money for a taxi if
+you ask me nice and don’t call me a
+bitch.
+ANGELA
+Why did you make me ask you borrow it
+if you was never gonna let me borrow
+it?
+MILDRED
+Cos it was funny. And cos you’ve been
+smoking pot all day.
+ANGELA
+You are such a hypocrite!
+MILDRED
+‘Hypocrite,’ how?
+ANGELA
+You drove drunk with us in the car when
+we was kids.
+MILDRED
+What are you talking about?
+ANGELA
+Daddy told me.
+MILDRED
+When did you see him?
+ANGELA
+I see him all the time, don’t change
+the subject. Did you or did you not
+drive drunk with us in the car when we
+was kids?
+MILDRED
+Once, maybe...
+ANGELA
+Oh, ‘once,’ okay...
+MILDRED
+...when he was in the middle of beating
+the shit out of me...
+ANGELA
+Which we’ve only got your word about,
+right?
+ROBBIE
+For Christ’s sake, Angela...
+ANGELA
+Oh why are you never on my side,
+Robbie?
+ROBBIE
+I’m always on your side when you’re not
+being a cunt.
+ANGELA
+Hey!
+MILDRED
+Hey..! There’ll be no more ‘Cunts’ in
+this house, you got that, Mister?
+ROBBIE
+What, are you moving out?
+It was a gag!
+ANGELA
+So are ya gonna let me borrow the car
+or what?
+MILDRED
+Why don’t you just walk, Angela? Why
+don’t you just walk?
+ANGELA
+You know what, I will walk, I will
+walk. And y’know what? I hope I get
+raped on the way.
+MILDRED
+Yeah? Well I hope you get raped on the
+way too!
+DOCTOR
+We’re gonna need to keep you in a few
+days, Bill. You shouldn’t be coughing
+up blood.
+WILLOUGHBY
+Yeah, I kinda guessed that, Doc.
+DOCTOR
+I’ll swing by in the morning. Anne.
+ANNE
+Guess I’ll go get your coat, huh?
+WILLOUGHBY
+Well you know I ain’t staying...
+ANNE
+And you know I ain’t arguing.
+MILDRED
+Slipped. Oops.
+ROBBIE
+You... old... cunt.
+MILDRED
+I ain’t old, Robbie..
+ROBBIE
+That’s dad.
+ROBBIE
+Hey dad! How you doing?
+CHARLIE
+Where’s the crazy lady...?
+The kid’s got Rice fucking Krispies in
+his fucking hair! What’s going on
+around here? And what the fuck’s going
+on with these fucking billboards,
+Mildred?
+MILDRED
+Kinda self-explanatory, ain’t it?
+CHARLIE
+Well why don’t you just explain it to
+me?
+MILDRED
+Guess it ain’t self-explanatory then.
+Well, y’know, I guess I wanted certain
+people’s minds kept on certain people’s
+jobs, is all. I hadn’t heard a word
+from ‘em in seven goddam months, but I
+tell ya this, I heard an awful lot from
+‘em since I put those billboards up...
+CHARLIE
+You think this has focussed their
+minds? I’ll tell you what it’s focussed
+their minds on. It’s focussed their
+minds on how exactly are they gonna
+fuck you up.
+MILDRED
+The more you keep a case in the public
+eye, the better your chances of getting
+it solved, it’s in all the guidebooks,
+Charlie.
+CHARLIE
+How much those billboards cost?
+MILDRED
+‘Bout the same as a tractor-trailer.
+CHARLIE
+What the fuck are you laughing at?
+ROBBIE
+Nothing.
+CHARLIE
+Laughed at by a guy with fucking cereal
+in his hair!
+ROBBIE
+How’s Penelope?
+CHARLIE
+Huh? She’s alright.
+ROBBIE
+Why don’t you invite her in, save
+leaving her sitting there?
+MILDRED
+She’s here?
+CHARLIE
+She’s out in the car.
+MILDRED
+Oh. That explains it.
+CHARLIE
+That explains what?
+MILDRED
+I knew I could smell something.
+ROBBIE
+Let her go.
+PENELOPE
+Oh, um, I kinda needed to use the
+bathroom, but if it’s inconvenient,
+actually it is inconvenient, isn’t it,
+I can see it’s inconvenient, I can hold
+it, it’s alright...
+ROBBIE
+It’s the first door, down the hall.
+PENELOPE
+Are you sure? I feel like I’m
+intruding...
+CHARLIE
+Just go pee!
+Since when did you grow a pair of
+balls?
+ROBBIE
+‘Bout seven months ago.
+MILDRED
+Look, you’ve said what you came to say.
+Okay? Why don’t ya just go get zoo girl
+and get the hell out of my house?
+Alright?
+PENELOPE
+Um, actually, zoo-wise, they were
+letting people go at the zoo,
+unfortunately, and it was a case of
+“Last in, first out”, so, yeah,
+unfortunately the zoo had to let me go.
+But they were looking for people down
+at the horse-rides for the disableds,
+to look after the horses down there, so
+I’m working down there now, looking
+after the disableds horses, so...
+The horses aren’t disableds. The
+disableds are.
+I like all animals.
+CHARLIE
+Don’t say a word.
+MILDRED
+I wasn’t gonna say a word.
+CHARLIE
+Don’t you think I don’t wish it had
+never happened?! Don’t you think I
+don’t wish she was here still?!
+MILDRED
+I know you do. I know you do.
+CHARLIE
+Billboards ain’t gonna bring her back,
+Mildred.
+MILDRED
+Neither is fucking nineteen year olds,
+Charlie.
+CHARLIE
+Yeah. But I know that.
+MILDRED
+Just go.
+CHARLIE
+Yeah, alright, I’m such a shitty dad
+and you’re such a great mom. Alright.
+So how come a week before she died she
+comes around asking if she can move in
+with me at my place, cos she couldn’t
+stand the two of yous bitching at each
+other no more, and fighting with each
+other no more...
+MILDRED
+I don’t believe you...
+CHARLIE
+And I said “No, stay at home, your mom
+loves you.” And now I wish I hadn’t,
+cos if I hadn’t she’d still fucking be
+here!
+MILDRED
+I don’t believe you!
+CHARLIE
+Don’t believe me. Ask Fruit Loop boy.
+MILDRED
+Is it true?
+ROBBIE
+I don’t know, mom.
+MILDRED
+Yeah, you do.
+DIXON
+Oh not Donald Sutherland again! What is
+this, a Donald Sutherland season?!
+MOMMA
+I like him. I like his hair.
+DIXON
+Hair!
+MOMMA
+This is the one where his little girl
+dies.
+DIXON
+Always a plus in a movie!
+It any good?
+MOMMA
+It’s got a great sex scene.
+Talking of dead kids, what’s happening
+with the Billboard lady?
+DIXON
+Oh that cooze won’t listen to reason.
+She’s as tough as an old boot!
+MOMMA
+Oh. Why don’t you just fuck her over
+thru her friends then?
+DIXON
+Huh?
+MOMMA
+Y’know, why don’t you fuck her friends
+over? Make her come around that way.
+Has she got some friends you could fuck
+over?
+MILDRED
+Hey fuckhead?!
+DIXON
+What?
+SERGEANT
+Don’t say ‘What’, Dixon, when she comes
+in calling you a fuckhead, and don’t
+you come in here...
+MILDRED
+Shut up!
+You! Get over here.
+DIXON
+No. You get over here.
+MILDRED
+Alright...
+SERGEANT
+What?! Don’t... Dixon!
+DIXON
+What?! I’m taking care of this!
+SERGEANT
+You do not allow a member of the public
+to call you a fuckhead in the station
+house!
+DIXON
+That’s what I’m doing, I’m taking care
+of it! In my own way. Actually. Now get
+out of my ass!
+Mrs Hayes. What is it I can do for you
+today?
+MILDRED
+Where’s Denise Watson?
+DIXON
+Denise Watson’s in the Clank.
+MILDRED
+On what charge?
+DIXON
+Possession.
+MILDRED
+Of what?
+DIXON
+Two marijuana cigarettes. Big ones.
+MILDRED
+When’s the bail hearing?
+DIXON
+I asked the Judge not to give her bail
+on account of her previous marijuana
+violations and the Judge said sure.
+MILDRED
+You fucking prick.
+DIXON
+You do not call an officer of the law a
+fucking prick in his own station-house,
+Mrs Hayes. Or anywhere, actually.
+MILDRED
+What’s with the new hard-boiled
+attitude, Dixon? Your momma been
+coaching ya?
+DIXON
+No. My momma doesn’t do that.
+Take ‘em down, Hayes!
+She’s gone.
+SERGEANT
+You did good, Dixon.
+DIXON
+Yeah, I know I did.
+WILLOUGHBY
+Now, the rules here are twofold; no kid
+can leave this goddam blanket at any
+goddam time, and every single one of
+these dolls and these teddy bears has
+gotta be hooked up. Now, your momma and
+I, although it won’t look like it,
+we’ll be watching every goddam move you
+make and the most important thing while
+we’re watching you is you do not leave
+this blanket. The next most important
+thing is you do not at any stage allow
+the fishing rods to stick into you or
+your sister’s eyeballs, as this would
+be counter-productive to the entire
+operation. What would this be?
+KIDS
+Counterproductive to the entire
+operation.
+WILLOUGHBY
+Good. Then troops... start fishing.
+ANNE
+We. Are. Not.
+WILLOUGHBY
+We are.
+MILDRED
+Hey baby. Yep, still no arrests. How
+come, I wonder? Cos there ain’t no God
+and the world’s empty and it don’t
+matter what we do to each other? Ooh, I
+hope not.
+How comes you came up here outta
+nowhere, looking so pretty? You ain’t
+trying to make me believe in
+reincarnation or something, are ya?
+Well, you’re pretty, but you ain’t her.
+She got killed, and now she’ll be dead
+forever. I do thank you for coming up,
+though. If I had some food I’d give it
+ya, but I’ve only got some Doritos and
+I’d be scared they’d kill ya, they’re
+kinda pointy. Then where would we be?
+The fawn finally decides to amble away, off towards the hazy
+sunset horizon. She almost cries but doesn’t quite.
+RED
+Yeah, so I, uh, just happened to be
+looking over our contract we drew up
+back that time, and what I realised
+was, I realised that although payment
+is to be made on the first day of each
+month, uh, the first payment you paid
+was actually a deposit, wasn’t it, like
+we said, so actually, in point of fact,
+you’re actually behind in your payments
+now, by, yeah, a month.
+She gives him a look.
+Yeah. That’s, uh, what the contract
+says. Looking it over an’ all. The
+lawyer says so too.
+MILDRED
+When do you need this next payment by,
+Red?
+RED
+Uh, well, now, really.
+Or Fuh uh... Friday?
+MILDRED
+Wow. When you can’t trust the lawyers
+and the advertising men, what the
+hell’s America coming to, huh?
+Who got to ya? Willoughby?
+RED
+Nobody got to me.
+MILDRED
+My fat fucking ass!
+RED
+He’s dying, Mildred.
+MILDRED
+We’re all fucking dying!
+PAMELA
+Red?
+RED
+Oh, hi Pamela! Um, we’re a little bit
+busy, at the moment, Pam, if that’s
+okay...
+PAMELA
+Oh Red, I know, and I know you were
+real anxious about talking to Mrs Hayes
+this morning and all...
+RED
+Anxious? No...
+PAMELA
+But that’s the thing, there’s no need
+to be, cos you won’t believe it! A
+little Mexican delivery boy just
+dropped in with this...
+RED
+What the hell’s this?!
+PAMELA
+I know! It’s five thousand dollars! And
+guess what the note says? It says it’s
+to pay for the rental on Mrs Hayes’s
+billboards! Can you believe it? That’s
+why I butted in!
+RED
+Well, who’s it from?
+PAMELA
+Well, it doesn’t say.
+RED
+Well, where’s the delivery boy?
+PAMELA
+Well, he went.
+RED
+Well, did you see what company he was
+from?
+PAMELA
+Well, no.
+RED
+Well, what kinda uniform did he have
+on?
+PAMELA
+Well, he just looked like one of those
+fat little Mexican boys.
+On a bicycle?
+Did I do something wrong?
+RED
+No, Pam, you did good.
+MILDRED
+Yeah, Pam, you did real good.
+PAMELA
+Did I? Great! Ain’t life crazy?
+MILDRED
+What’s the note say?
+RED
+Says, er, “This here money is to go
+towards the fund for Mildred Hayes’s
+billboards, cos she ain’t the only one
+round here who hates the pigs. Signed,
+a friend.”
+MILDRED
+Jeez, I guess ya can’t be picky who
+your friends are these days, huh?
+Um, be good to get a little receipt off
+ya, Red, y’know, saying the price of
+next month’s is paid in full an’ all.
+RED
+Oh. Sure, Mildred, sure.
+MILDRED
+Yeah. Like, now.
+RED
+Oh! Sure!
+JANE
+Is mommy drunk, daddy?
+WILLOUGHBY
+No, no, she’s just got a little
+migraine, that’s all. A little
+Chardonnay migraine, now no more chit
+chat out of you two, ok?
+JANE
+Can we stay home from school again
+tomorrow, daddy?
+WILLOUGHBY
+We’ll see what your mommy says in the
+morning, darling...
+JANE
+Aww!
+POLLY
+Aww!
+WILLOUGHBY
+But I’m pretty sure she’ll say yes
+though...
+JANE
+Yay!
+POLLY
+Yay!
+WILLOUGHBY
+Now eyes closed and get some sleep,
+okay?
+WILLOUGHBY
+You don’t smell of puke. Which is good.
+ANNE
+Aquafresh. Trick I learned.
+WILLOUGHBY
+Women, huh?
+ANNE
+Oh yeah. Resourceful.
+WILLOUGHBY
+It’s still your turn to clean the
+horseshit outta the stable, y’know?
+ANNE
+Oh those fucking horses! They’re your
+fucking horses! I’m gonna have those
+fucking horses shot!
+WILLOUGHBY
+I’ll do it, you lazy bitch.
+ANNE
+Thank you, poppa.
+That was a real nice day. And that was
+a real nice fuck. You got a real nice
+cock, Mr Willoughby.
+WILLOUGHBY
+Is that from a play, “You got a real
+nice cock, Mr Willoughby?” I think I
+heard it in a Shakespeare one time.
+ANNE
+You dummy. It’s Oscar Wilde.
+WILLOUGHBY
+“Oscar Wilde.”
+ANNE
+No. No. No...!
+No! No! No! No!
+WILLOUGHBY
+My darling Anne. There’s a longer
+letter in the dresser drawer I’ve been
+writing for the last week or so. That
+one covers us, and my memories of us,
+and how much I’ve always loved you.
+This one just covers tonight, and, more
+importantly, today. Tonight I have gone
+out to the horses to end it. I cannot
+say sorry for the act itself, although
+I know that for a short time you will
+be angry at me or even hate me for it.
+Please don’t. This is not a case of “I
+came in this world alone, and I’m going
+out of it alone” or anything dumb like
+that. I did not come in this world
+alone, my mom was there, and I am not
+going out of it alone, cos you are
+there, drunk on the couch, making Oscar
+Wilde cock jokes. No. This is a case,
+in some senses, of bravery. Not the
+bravery of facing a bullet down; the
+next few months of pain would be far
+harder than that small flash. No, it’s
+the bravery of weighing up the next few
+months of still being with you, still
+waking up with you, of playing with the
+kids, against the next few months of
+seeing in your eyes how much my pain is
+killing you; how my weakened body as it
+ebbs away and you tend to it are your
+final and lasting memories of me. I
+won’t have that. Your final memories of
+me will be us at the riverside, and
+that dumb fishing game (which I think
+they cheated at), and me inside of you,
+and you on top of me, and barely a
+fleeting thought of the darkness yet to
+come. That was the best, Anne. A whole
+day of not thinking about it. Dwell on
+this day, baby, cos it was the best day
+of my life. Kiss the girls for me, and
+know that I’ve always loved you, and
+maybe I’ll see you again if there’s
+another place.
+And if there ain’t, well, it’s been
+Heaven knowing you. Your boy, Bill.
+DIXON
+What the Hell’s going on around here?
+All the COPS turn and look at him.
+What?
+SERGEANT
+Can you stand now?
+DIXON
+I can stand, I can stand...
+SERGEANT
+I’d better get out there, say something
+to ‘em. You ain’t gonna faint again,
+are ya?
+...that the best thing, the only thing,
+to honor that man’s memory right now,
+is to go to work. Is to be a good cop.
+Is to walk in his shoes. Is to do what
+he did, every day of his life. Help
+people.
+RED
+What the hell’s going on, Dixon?
+PAMELA
+You fucking pig! What the fuck are you
+doing?!
+DIXON
+See, Red? I got issues with white folks
+too...
+The fuck are you looking at?
+ANCHOR 
+Reports, sadly, have come in overnight,
+that Chief William Willoughby of
+Ebbing, Missouri, took his own life
+early this morning...
+...in the grounds of his home. This
+report just in from Gabriella
+Forrester.
+GABRIELLA 
+Tragedy came calling today upon this
+quiet family home outside of Ebbing,
+Missouri; a home belonging to Chief
+William Willoughby, his wife, Anne, his
+two young daughters, Polly and Jane.
+What appears to be a self-inflicted
+gunshot wound brought life to an end
+for Chief Willoughby, a man highlyrespected in Ebbing for his diligence
+and his service to the community, a
+service that lasted more than 25 years.
+What led him to take his life in the
+early hours of this morning it is too
+early to speculate;
+there were rumors of illness; could it
+simply have been the pressure of the
+job; or could it have something to do
+with a story we ran here just two weeks
+ago, of these billboards, and the woman
+who put them there, Mildred Hayes...
+ROBBIE
+Don’t.
+MILDRED
+Say, do you know who threw that can?
+BOY
+What can?
+MILDRED
+How about you, honey? Do you know who
+threw that can?
+GIRL
+Uh, no, I didn’t really see...
+ROBBIE
+Thanks Mom.
+SERGEANT
+And what can I do for you today, Sir?
+ABERCROMBIE
+What’s your name?
+SERGEANT
+Name’s on my tag, man. You hard of
+reading?
+ABERCROMBIE
+Hard of reading, no, no. That’s good,
+“hard of reading”. It’s kind of like
+“hard of hearing”, but it’s actually
+it’s “hard of reading’, it’s like a
+play on words or something.
+SERGEANT
+What do you want?
+ABERCROMBIE
+Uh, I've been sent down to uh, take
+over from Chief Willoughby, in light of
+last night’s unfortunate event.
+DIXON
+You have got to be fucking kidding me!
+SERGEANT
+Do you have any documentation to prove
+that, Sir?
+ABERCROMBIE
+You really wanna see my documentation,
+fucker?
+DIXON
+Yeah, see his documentation!
+ABERCROMBIE
+None o’ you cracker motherfuckers got
+no work to do?
+DIXON
+Ain’t that racialist?
+ABERCROMBIE
+What happened to your hands there,
+Officer Dixon?
+DIXON
+Oh, I just kinda banged ‘em up a little
+bit while I was throwing some guy out
+of a fucking window. Y’know, the usual.
+ABERCROMBIE
+Oh yeah? They never taught me that one
+at the Academy.
+DIXON
+Which fucking Academy you go to?
+ABERCROMBIE
+How’s things coming along on the Angela
+Hayes case?
+DIXON
+How’s things coming along on the ‘Mind
+your own fucking business’ case?
+ABERCROMBIE
+How things coming along on the hand me
+your gun and your badge?
+DIXON
+Huh?
+ABERCROMBIE
+Hand me your gun and your badge.
+DIXON
+I can’t find my badge. No, seriously.
+Maybe I dropped it when I was doing the
+window guy?
+ABERCROMBIE
+Just get out of my station house, man.
+DIXON
+I think I just got fired. Fired or
+suspended, I’m not sure which...
+SERGEANT
+Fired.
+MILDRED
+Anything I can help you with, just
+gimme a holler.
+GUY
+Give you a what?
+MILDRED
+A holler?
+GUY
+A holler, huh?
+Give Mildred Hayes a holler. Okay.
+MILDRED
+You know me?
+GUY
+Only from the TV, and the radio. How
+much these here ‘Welcome to Missouri’
+rabbits go for?
+MILDRED
+Seven bucks. It’s writ right on ‘em.
+GUY
+Guess he ain’t seven bucks now.
+MILDRED
+What the Hell was it you come in here
+for?
+GUY
+What did I come in here for? Well,
+maybe I’m a good friend of
+Willoughby’s, how about that?
+MILDRED
+Are you?
+GUY
+Or, y’know... maybe I was a friend of
+your daughter’s or something. How about
+that?
+MILDRED
+Were you?
+MAN
+Or, uh, y’know, maybe I was the guy who
+fucked her while she was dying? How
+about that?
+MILDRED
+Were you?
+GUY
+Oh... Naw. I would’ve liked to. I saw
+her picture in the paper there.
+Saved by the bell, huh?
+GUY turns to leave.
+MILDRED
+You owe me seven fucking dollars for
+the rabbit.
+GUY
+Guess you’ll have to get it off me next
+time I’m passing through, huh Mildred?
+MILDRED
+I guess I will.
+You don’t know how glad I am to see
+you.
+ANNE
+What?!
+MILDRED
+That guy was scaring me.
+ANNE
+I wouldn’t have said you scare easy.
+MILDRED
+I ain’t the worst. What can I do for
+you, ma’am?
+ANNE
+My husband left this for you before he
+shot himself in the head last night.
+MILDRED
+I’m sorry, Mrs Willoughby...
+ANNE
+Are you? Are you really?
+MILDRED
+Of course...
+ANNE
+Surely it’s the perfect ending for you,
+isn’t it? It’s proof that they’ve been
+successful, these billboards of yours,
+isn’t it, a dead policeman? It’s
+quantifiable now.
+MILDRED
+Are you blaming this on me?
+ANNE
+No, I’m not blaming this on you. I just
+came to give you the letter. Now, my
+two little girls are out in the car, so
+I’d better not stay and chat. I’m not
+sure what we’re going to do for the
+rest of the day. It’s hard to know what
+to do the day your husband kills
+himself. It’s hard to know what to do.
+WILLOUGHBY
+Dear Mildred, Dead Man Willoughby here.
+Firstly I wanted to apologise for dying
+without catching your daughter’s
+killer. It’s a source of great pain to
+me, and it would break my heart to
+think you thought I didn’t care, cos I
+did care. There are just some cases...
+...where you never catch a break, then
+five years down the line some guy hears
+some other guy bragging about it in a
+bar-room or a jail-cell and the whole
+thing is wrapped up thru sheer
+stupidity. I hope that might be true
+for Angela, I really do. Second, I
+gotta admit, Mildred, the billboards
+were a great fucking idea. They were
+like a chess move. And although they
+had absolutely nothing to do with my
+dying, I’m sure that everyone in town
+will assume that they did, which is
+why, for Willoughby’s counter-move, I
+decided to pay the next month’s rent on
+‘em. I thought it’d be funny, you
+having to defend ‘em a whole nuther
+month after they’ve stuck me in the
+ground. The joke is on you, Mildred, ha
+ha, and I hope they do not kill you. So
+good luck with all that, and good luck
+with everything else too. I hope and I
+pray that you get him.
+MOMMA
+Well, do you want me to go down and
+talk to them?
+DIXON
+No I don’t want you to go down and talk
+to them. Jesus! Somebody sending their
+goddam mother down to talk to the
+goddam police, for Christ’s sakes.
+And say what?
+MOMMA
+And say to give you your job back. And
+to get rid of the black guy.
+DIXON
+They ain’t gonna listen to some guy’s
+mother, asking them to get rid of some
+black guy. Things have moved on in The
+South!
+MOMMA
+Well it shouldn’t’ve!
+Will they give you any money for being
+laid off an’ all?
+DIXON
+I don’t know what the compensation
+scheme is for when you throw a guy out
+of a window, Mom. I guess I shoulda
+looked into that beforehand. Let me
+Google that!
+MOMMA
+A couple grand, maybe? You’ve been
+there three years. Not counting the
+five years at the Academy. Six if you
+count the year you were held back.
+Where ya going?
+DIXON
+None of your business.
+MOMMA
+Off to see your fancy woman?
+DIXON
+I don’t got a fancy woman.
+MOMMA
+Yeah. I know!
+DIXON
+You wanna watch yourself.
+MOMMA
+Or you’ll do what?
+DIXON
+Blow your goddam head off.
+ROBBIE
+Oh, did you hear the news?
+MILDRED
+What news?
+ROBBIE
+That Dixon guy threw that Welby guy out
+his window this morning.
+MILDRED
+You’re shitting me. Is Welby okay?
+You’re shitting me!
+MILDRED
+Go get the one from the house!
+ROBBIE
+Shouldn’t I call the fire department?
+MILDRED
+Fuck the fire department! They probably
+started it!
+ROBBIE
+Well don’t do anything stupid!
+MILDRED
+Scumbags, scumbags, scumbags. Fucking
+scumbags.
+ROBBIE
+What the hell are you doing, Mom?!
+MILDRED
+Come on...
+ROBBIE
+Leave it, Ma. It’s too late.
+Mom, leave it, please!
+ABERCROMBIE
+How are those hands?
+Can I ask you a coupla questions?
+MILDRED
+You can ask me all the questions you
+want if you take me down and arrest me.
+ABERCROMBIE
+I’m not gonna arrest you, Mrs Hayes. I
+got nothing to arrest you for.
+MILDRED
+Not yet you ain’t.
+ABERCROMBIE
+We ain’t all the enemy, y'know?
+MILDRED
+I’ll crucify the motherfuckers.
+I’ll crucify the motherfuckers.
+What are you gonna do to ‘em, Mildred?
+You’re gonna crucify ‘em, you say?
+That’s right, I’m gonna crucify ‘em.
+Who you gonna crucify? The
+motherfuckers?
+That’s right, the motherfuckers.
+Jeez! Well, I guess those motherfuckers
+better watch out then, huh?
+Fucking A!
+MILDRED
+What’s this shit...?
+GABRIELLA
+...and as sad as the spectacle of these
+burned out billboards might be, in
+light of the death of Chief Willoughby,
+this reporter for one can’t help but
+wonder whether this finally puts an end
+to the strange saga of the three
+billboards outside of Eb...
+MILDRED
+This don’t put an end to shit, you
+fucking retard, this is just the
+fucking start, so why don’t you put
+that on your “Good Morning Missouri
+fucking Wake-Up Broadcast”, bitch!
+MOMMA
+I see on the TV there was a buncha
+fires lit outside o’ town last night.
+DIXON
+Buncha fires, huh?
+MOMMA
+Out at those billboards.
+DIXON
+Yeah, well, back when I was a cop I
+woulda been interested in who set those
+fires cos, technically, that’s arson,
+but as I am no longer employed by those
+people I don’t really give a good god
+damn, now do I?
+The Dixon residence. Oh, hey Sarge! How
+you doing? You got any news?
+SERGEANT 
+News about what?
+DIXON
+I dunno, about my job and stuff?
+SERGEANT
+No, no. What? No. Anne Willoughby just
+dropped in a letter that Bill wrote you
+before he died.
+DIXON
+Oh my God! What’s it say?
+SERGEANT 
+I haven’t read it, Dixon, it’s not my
+letter.
+DIXON
+Oh. Well, I’ll come right down...
+SERGEANT
+Well, uh... I don’t think that’d be
+such a great idea, as things stand,
+Jason. Uh, you’ve still got your keys
+to the station-house though, right?
+DIXON 
+Yeah.
+SERGEANT
+Well, why don’t you just come pick it
+up when everyone’s gone home. I can
+leave it on your desk for ya.
+DIXON
+Oh. Okay.
+SERGEANT 
+Actually, yeah, then when you’re done
+you can just leave your keys, save us
+picking ‘em up later.
+WILLOUGHBY 
+Jason, Willoughby here. I’m dead now,
+sorry about that, but there’s something
+I wanted to say to you that I never
+really said when I was alive. I think
+you’ve got the makings of being a
+really good cop, Jason, and you know
+why? Because, deep down, you’re a
+decent man. I know you don’t think I
+think that, but I do, Dipshit. You play
+hopscotch when you think no-one’s
+looking, for Christ’s sakes...
+I do think you’re too angry, though,..
+...And I know it’s all since your dad
+died and you had to go look after your
+Mom and all...
+...But as long as you hold onto so much
+hate then I don’t think you’re ever
+going to become...
+...What I know you wanna become...
+...A Detective.
+MILDRED
+Fuck ‘em!
+WILLOUGHBY 
+Cos you know what you need to become a
+detective? And I know you’re gonna
+wince when I say this...
+...But what you need to become a
+detective... is Love.
+Because thru Love comes Calm, and thru
+Calm comes Thought. And you need
+Thought to detect stuff sometimes,
+Jason. It’s kinda all you need.
+You don’t even need a gun. And you
+definitely don’t need Hate.
+Hate never solved nothing...
+But Calm did. And Thought did. Try it.
+Try it just for a change. No-one’ll
+think you’re gay.
+And if they do, arrest ‘em for
+homophobia! Won’t they be surprised!
+Good luck to you, Jason. You’re a
+decent man, and yeah you’ve had a run
+of bad luck...
+...But things are gonna change for
+you...
+I can feel it.
+DIXON
+Calm. Calm.
+ABERCROMBIE
+So what did you see?
+JAMES
+Well when we turned the corner from
+Spring, the fire was already raging,
+so, and then two seconds later the cop
+guy just jumps out the window...
+ABERCROMBIE
+Wait, the two of you turned the corner
+from Spring? Where were you before
+this?
+JAMES
+Round at my place.
+ABERCROMBIE
+You two are boyfriend and girlfriend?
+JAMES
+Well, it’s early stages, y’know.
+ABERCROMBIE
+That right?
+MILDRED
+We’ve had a couple dates.
+JAMES
+So you wanna go out to dinner next
+week?
+MILDRED
+I’ll go out to dinner with ya. But I
+ain’t gonna fuck ya.
+JAMES
+Well, I ain’t gonna fuck you neither.
+I guess.
+NURSE
+Burn victim. He’s pretty heavily
+sedated.
+RED
+Hey man? You doing okay? Jeez, you got
+burned up pretty bad. You’ll be okay
+though, don’t worry. You want a glass
+of orange juice? I got a straw
+somewheres...
+Hey man, don’t cry. You’ll be okay.
+DIXON
+I’m sorry, Welby.
+RED
+You know me?
+DIXON
+I’m sorry.
+RED
+Sorry for what, man?
+DIXON
+For throwing you out the window.
+RED
+Save it.
+DIXON
+I’m sorry.
+RED
+I don’t care. And stop crying. The
+salt’ll just fuck up your wounds.
+DIXON
+I thought salt was supposed to be good
+for wounds.
+RED
+Well what am I, a fucking doctor?!
+MILDRED
+Who is it?
+JEROME 
+Oh you don’t know me really.
+MILDRED
+Well what you want?
+JEROME 
+I come about the billboards.
+MILDRED
+What about ‘em?
+JEROME 
+They got burned up.
+MILDRED
+I know that.
+JEROME 
+I’m one of the guys who put the ‘em up
+in the first place.
+Jerome.
+MILDRED
+What can I do for ya, Jerome?
+JEROME
+Well, y’know, when you’re putting up a
+buncha posters like that, just in case
+any of ‘em gets screwed up or torn,
+they give ya a set of duplicates,
+y’know?
+MILDRED
+No, I didn’t know that.
+Ladder’s pretty steady as it is, there,
+James.
+JAMES
+Oh, I don’t mind. I like holding
+ladders. It takes me out of myself.
+DENISE
+Need a hand?
+MILDRED
+When’d you get out?
+DENISE
+Hour ago. Judge threw it out, said the
+arrest report weren’t filled out right.
+Say, you didn’t burn down the police
+station, did ya?
+MILDRED
+No...
+JAMES
+No. She was with me the whole night.
+MILDRED
+It’s a long story.
+JEROME
+You sure you still wanna put up the
+Willoughby one, him dead an’ all?
+MILDRED
+Why not? He paid for it.
+JAMES
+Who’s that?
+MILDRED
+My ex-husband. And his nineteen year
+old girlfriend.
+JAMES
+You wanna leave?
+MILDRED
+No, no. A deal’s a deal.
+GUY 
+It was fucking wild, man, I think I was
+certifiably fucking insane for a while
+back there.
+PAL 
+When was this?
+GUY 
+Bout nine, ten months ago.
+PAL 
+Were you on your own or what?
+GUY 
+No, had a coupla buddies with me.
+PAL 
+Oh yeah?
+GUY 
+Yeah.
+PAL 
+They fuck her too?
+GUY 
+I think they got their kicks just
+watching, you know.
+PAL 
+Was she hot?
+GUY 
+After the gasoline kicked in she was
+hot.
+I ain’t going down for that shit, last
+fucking day down there...
+He been there the whole time?
+PAL
+Who?
+GUY
+Burnt-face-Jake. Keeps fucking walking
+up and down.
+PAL
+I don’t know. I don’t think so.
+GUY
+Can I help you with something, man?
+You’ve been looking over here all
+fucking night, now, unless you got
+something to say to me, why don’t you
+take your burnt fucking face and get
+the fuck outta here, okay?
+What the fuck are you doing?!
+DIXON
+Wait, wait, wait, wait, wait...
+Just trust me, okay?
+Just trust me...
+GUY
+Just do the fucking trick.
+JEROME
+Hey! That’s enough now!
+GUY
+What’s it to ya, fucker?
+JEROME
+The guy’s a cop man! He’s a cop!
+GUY
+Oh yeah? He ain’t wearing no badge.
+DIXON
+I lost my badge. I can’t remember where
+I lost it.
+GUY
+You started this, man! I didn’t do shit
+to you.
+DIXON
+I know I started it. I scratched you up
+like a bitch.
+GUY
+That’s exactly fucking right...
+JAMES
+Gotta use the little boys’ room.
+MILDRED
+You got something to say to me?
+CHARLIE
+If I’d known, we coulda double-dated.
+MILDRED
+Doesn’t shitgirl have a curfew
+weeknights?
+CHARLIE
+No, no, in fact I was actually gonna
+take her to the circus later, but
+there’s no need now. Does he juggle?
+MILDRED
+I’m having one dinner with the guy cos
+he did me a favor, okay?
+CHARLIE
+You don’t have to explain yourself to
+me cos you’re having dinner with a
+midget, Mildred.
+MILDRED
+I’m not explaining myself to you.
+CHARLIE
+You kinda are.
+Listen, I didn’t come over to break
+your balls, you can date as many
+midgets as you want. No, I came over to
+say I was sorry, actually.
+MILDRED
+Sorry for what?
+CHARLIE
+I’m sorry about what happened to your
+billboards an’ all.
+MILDRED
+Yeah well, that’s all water under the
+bridge now, I guess.
+CHARLIE
+Good. I’m glad. I was pretty drunk, but
+it still don’t excuse it.
+All this anger, man, Penelope said to
+me the other day, it just begets
+greater anger, y’know? And it’s true.
+JAMES
+Penelope said ‘Begets’?
+CHARLIE
+Yeah, ‘It begets greater anger’.
+Well, you take care of this little
+lady, okay sport? Big lady, compared to
+you, right?
+JAMES
+You alright?
+MILDRED
+I think I’d like to go home now.
+Aw don’t gimme any shit, James? We can
+do this another time, alright?
+JAMES
+Why would I wanna do this another time?
+You’ve been embarrassed to be here ever
+since we arrived.
+MILDRED
+Oh for Christ’s sakes, James. I didn’t
+force you to come on this date,
+alright? You forced me.
+JAMES
+Forced you? I asked you on a date. Wow!
+Well, y’know, I know I ain’t much of a
+catch, okay?
+I know I’m a midget who sells used cars
+and has a drinking problem, I know
+that. But who the hell are you, man?
+You’re that Billboard Lady who never
+ever smiles, who never has a good word
+to say about anybody, and who, in the
+eveningtimes, SETS FUCKING FIRE TO
+POLICE STATIONS! And I’M the one who’s
+not a catch?!
+MILDRED
+James...
+JAMES
+I didn’t have to come and hold your
+ladder!
+CHARLIE
+Now don’t make a scene.
+MILDRED
+Did you really tell him “Anger begets
+greater anger”?
+PENELOPE
+Oh! Yes! I did! I didn’t make it up
+myself though. I can’t claim that! No,
+I read it on a bookmark.
+Which was in a book I was reading.
+About polio.
+Polo. No, which is the one with the
+horses? Polio? Polo.
+CHARLIE
+Polo.
+PENELOPE
+Polo!
+MILDRED
+Be nice to her, Charlie. You got that?
+MOMMA
+Jason!
+DIXON
+Just leave me, Momma, don’t look at me.
+MOMMA
+Jason! What have they done to you?
+Jason?! Jason?!
+DIXON
+I’m gonna be alright, Momma. It’s all
+gonna be alright.
+I don’t wanna get your hopes up,
+alright, but there’s a guy, and I think
+he might be the guy. I got his DNA. I
+got a lot of it, actually. They’re
+making the checks as we speak.
+MILDRED
+He’s in jail?
+DIXON
+No, but he ain’t gonna be hard to find.
+MILDRED
+Why do you think he’s the guy?
+DIXON
+I heard him talking about something
+that he did to a girl in the middle of
+last year. I couldn’t hear all of it,
+but it sounded a lot like what happened
+to Angela. Then he beat the crap outta
+me. But cos of that I got a bunch of
+his DNA. So I wanted to let you know
+sooner rather than later. I didn’t want
+you to give up hope, y’know?
+MILDRED
+I’ve been trying not to.
+DIXON
+Well, all you can do is try, as my
+Momma says. Not so much about hope as
+about... well, I didn’t used to be very
+good at English at school, so it was
+more “All you can do is try... to not
+be so crap at English.” Cos you need
+English, really, if you wanna be a cop.
+If you wanna be anything, really.
+Unless you live in Mexico or something.
+But who wants that?
+He gets up to go.
+MILDRED
+Hey Dixon?
+Thanks.
+ABERCROMBIE
+You did good, Jason. You did real good.
+But he wasn’t the guy.
+DIXON
+What?
+ABERCROMBIE
+There was no match to the DNA, no
+matches to any other crimes of this
+nature, to any crimes at all, in fact.
+And his record is clean. Maybe he was
+just bragging.
+DIXON
+He wasn’t just bragging.
+ABERCROMBIE
+Well, that’s as may be. But at the time
+of Angela’s death he wasn’t even in the
+country.
+DIXON
+Where was he?
+ABERCROMBIE
+But I’ve seen his records of entry and
+exit to the States, and I’ve spoken to
+his Commanding Officer. He wasn’t in
+the country, Dixon. He ain’t our guy.
+DIXON
+He might not be our guy, but he still
+done something shitty.
+ABERCROMBIE
+Not in Missouri he didn’t.
+DIXON
+Where was he?
+ABERCROMBIE
+That’s classified information.
+DIXON
+Come on, man.
+ABERCROMBIE
+If the guy’s got a Commanding Officer,
+and if the guy got back to the country
+nine months ago, and if the country
+where he was is classified, which
+country do you think he was in?
+I’ll give you a clue. It was sandy.
+DIXON
+That doesn’t really narrow it down.
+ABERCROMBIE
+All you need to know is, he didn’t do
+nothing to Angela Hayes. So we’re gonna
+keep looking. Alright?
+DIXON
+I found my badge after all.
+MILDRED
+Hello?
+DIXON 
+It’s Dixon.
+MILDRED
+Tell me.
+DIXON 
+He wasn’t the guy.
+MILDRED
+I guess you’re sure, right?
+DIXON 
+He, um, he wasn’t even in the country
+when it happened. So, whatever he did,
+he didn’t do it round here.
+I’m sorry I got your hopes up.
+MILDRED
+It’s alright. At least I had a day of
+hoping. Which is more than I’ve had for
+a while. I’d better go.
+DIXON
+Um, there was one thing I was thinking.
+MILDRED 
+What’s that?
+DIXON
+Well,... I know he isn’t your rapist.
+He is a rapist, though. I’m sure of
+that.
+MILDRED
+What are you saying?
+DIXON 
+I got his license plate. I know where
+he lives.
+MILDRED
+Where’s he live?
+DIXON 
+Lives in Idaho.
+MILDRED
+That’s funny. I’m driving to Idaho in
+the morning.
+DIXON 
+Want some company?
+MILDRED
+Sure.
+MILDRED
+Hey Dixon?
+DIXON
+Yeah?
+MILDRED
+I need to tell you something.
+It was me who burned down the police
+station.
+DIXON
+Well, who the Hell else would it have
+been?
+MILDRED
+Dixon?
+DIXON
+Yep?
+MILDRED
+You sure about this?
+DIXON
+About killing this guy?
+Not really. You?
+MILDRED
+Not really.
+They continue on.
+I guess we can decide along the way.

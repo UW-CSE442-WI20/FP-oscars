@@ -1,12 +1,26 @@
-Female lines
+Female words
 {DOLORES=545, RECEPTIONIST=14, NANCY=86, VERONICA=312, TIFFANY=3088, WAITRESS=13, COP=7, NIKKI=22}
 
 Total = 4087
 
-Male lines
+Male words
 {PAT=6949, PAT SR.=1964, MALE ORDERLY=9, DANNY=732, RANDY=458, RICKY=49, RONNIE=812, MAN=5, JORDIE=85, JAKE=355, GUY=81, EMCEE=152}
 
 Total = 11651
+
+***************************
+
+Female words (over 100 words)
+{DOLORES=545, VERONICA=312, TIFFANY=3088}
+
+Total = 3945
+
+Male words (over 100 words)
+{PAT=6949, PAT SR.=1964, DANNY=732, RANDY=458, RONNIE=812, JAKE=355,  EMCEE=152}
+
+Total = 11422
+
+***************************
 
 
           INT. KAREL PSYCHIATRIC FACILITY - DAY

@@ -1,0 +1,1486 @@
+Female words (over 100 words)
+{ISABELLE=1058, MAMA=317}
+
+Total = 1375
+
+Male words (over 100 words)
+{GEORGES=1085, INSPECTOR=352, HUGO=1298, TABARD=418, FRICK=107, FATHER=117, ROULEAU=137}
+
+Total = 3514
+
+GEORGES
+Got you at last, my little thief.
+Quick, empty your pockets!
+HUGO
+You’re hurting me!
+GEORGES
+Empty your pockets or I’ll call the
+Station Inspector! Do as I say!
+GEORGES
+And the other one.
+HUGO
+There’s nothing in it!
+GEORGES
+Where’s the Station Inspector...?!
+Ghosts...
+Did you draw these pictures?!
+Did you draw these pictures?!
+Where did you steal this?!
+HUGO
+I didn’t steal it!
+GEORGES
+A thief and a liar.
+Get out of my sight.
+HUGO
+Give me my notebook!
+GEORGES
+It is no longer your notebook, it
+is my notebook and I’ll do with it
+what I want. Maybe I’ll just burn
+it.
+HUGO
+No!
+GEORGES
+Then tell me who did the drawings.
+GET OUT OF HERE, YOU LITTLE THIEF!
+INSPECTOR
+Maximilian? ... What do you hear?
+... Do you hear ... malfeasance?!
+INSPECTOR
+GO!
+INSPECTOR
+Stop THAT CHILD! -- APPREHEND!
+GEORGES
+I know you’re there ... What’s your
+name, boy?
+HUGO
+Hugo ... Hugo Cabret.
+GEORGES
+Stay away from me, Hugo Cabret, or
+I’ll drag you to the Station
+Inspector’s office and he’ll lock
+you up in his little cell and
+you’ll never get out and you’ll
+never go to school and you’ll never
+get married and have children of
+your own to take things that don’t
+belong to them.
+HUGO
+Give me back my notebook.
+GEORGES
+I am going home to burn your
+notebook.
+HUGO
+You can’t burn my notebook.
+GEORGES
+And who’s to stop me?
+ISABELLE
+Who are you?
+HUGO
+Your grandfather stole my notebook.
+I need to get it back before he
+burns it.
+ISABELLE
+Papa Georges isn’t my grandfather
+and he isn’t a thief! He told me
+all about you, young gentleman.
+You’re nothing but a ... a
+reprobate!
+HUGO
+Can you help me get inside?
+ISABELLE
+No. You have to go.
+HUGO
+Not without my notebook--
+ISABELLE
+Why do you need it so badly?
+HUGO
+I ... I can’t tell you.
+ISABELLE
+Is it a secret?!
+HUGO
+Yes.
+ISABELLE
+Good! I love secrets! Tell me this
+instant!
+HUGO
+No!
+ISABELLE
+If you won’t tell me you have to
+go.
+HUGO
+Not without--
+ISABELLE
+I’ll get in trouble. Just go home!
+He won’t budge.
+All right! I’ll make sure he
+doesn’t burn your notebook.
+ISABELLE
+Trust me.
+HUGO 
+What is it...?
+FATHER 
+It’s called an Automaton.
+HUGO
+An Automaton...
+FATHER
+I found him abandoned in the attic
+of the museum.
+HUGO
+What does he do?
+FATHER
+He’s a windup figure, like a music
+box ... This is the most
+complicated one I’ve ever seen by
+far. You see? This one can write.
+HUGO
+Who built him?
+FATHER
+I would think a magician.
+HUGO
+A magician!
+FATHER
+That’s right. Magicians used
+machines like this when I was a
+boy. No one could figure out how
+they danced or walked or sang.
+But the secret was always in the
+clockwork.
+HUGO
+Can we fix it?!
+FATHER
+Oh, I don’t know, Hugo, it’s
+awfully rusted and finding the
+parts would be...
+FATHER
+Of course we can fix it! We’re
+clock makers, aren’t we! ... But
+only when I’ve gotten through all
+my work at the shop and at the
+museum, you understand?
+HUGO
+I fixed the gears in the--
+But it is not his father.
+HUGO
+Uncle Claude...?
+CLAUDE
+There was a fire. Your father’s
+dead. Pack your things quickly.
+You’re coming with me.
+You’ll be my apprentice. You’ll
+live with me and I’ll show you how
+to take care of them clocks.
+I’m getting too old to be climbing
+through them tunnels.
+CLAUDE
+They built these apartments for
+them who ran the station, years
+ago. Everyone’s forgotten they’re
+here. You sleep in the corner.
+Get some sleep. We start work at
+five.
+HUGO
+What about school?
+CLAUDE
+You’re finished with school. There
+won’t be time for that once you’re
+in them walls ... You should thank
+me.
+INSPECTOR
+What is it?
+We shall be alert, my friend ... We
+shall be ... vigilant.
+GEORGES
+I thought I might see you today.
+HUGO
+I need my notebook.
+GEORGES
+Why do you need it so badly?
+HUGO
+To help me ... fix something.
+GEORGES
+What?
+Go away ... Please just go away.
+ISABELLE
+Hey!
+HUGO
+Sorry -- I--
+ISABELLE
+I saw. Are you crying?
+HUGO
+No!
+ISABELLE
+Hold still.
+There’s nothing wrong with crying.
+Sidney Carton cries. And Heathcliff
+too. In books they’re crying all
+the time.
+HUGO
+I can do it!
+ISABELLE
+I have to talk to you. It’s
+terribly important. But not here.
+We’re too ... exposed.
+HUGO
+Where are we going?
+ISABELLE
+Only to the most wonderful place on
+earth! Neverland and Oz and
+Treasure Island all wrapped up into
+one.
+Good morning, Monsieur Rouleau.
+ROULEAU
+Morning.
+ISABELLE
+Oh, it’s coming along marvelously!
+HUGO
+What is it?
+ROULEAU
+It’s the station ... How I see it
+anyway ... Do you like it?
+HUGO
+You know, I think I do ... Yes, I
+like it very much.
+ISABELLE
+We have to go ... Well done,
+Monsieur Rouleau!
+ISABELLE
+He’s a Surrealist.
+HUGO
+Mm.
+ISABELLE
+That’s a kind of painter.
+HUGO
+I know what a Surrealist is. I’m
+not an idiot.
+ISABELLE
+Ah, here we are!
+Good morning, Monsieur Labisse, may
+I present Monsieur Hugo Cabret, a
+very old and dear boon companion.
+LABISSE
+Monsieur Cabret.
+HUGO
+Hello.
+ISABELLE
+Thank you for this. I think I’m
+halfway in love with David
+Copperfield ... Photography?
+LABISSE
+Back corner left, top shelf.
+ISABELLE
+Thank you.
+HUGO
+Listen, what’s so important?
+ISABELLE
+Papa Georges still has your
+notebook. He didn’t burn it. That
+was all a trick.
+HUGO
+Why?
+ISABELLE
+I don’t know. The notebook made him
+very upset. He and Mama Jeanne
+stayed up late talking about it. I
+think he was crying.
+HUGO
+It’s a mystery.
+ISABELLE
+I know!
+HUGO
+Why are you helping me?
+ISABELLE
+Because this might be an adventure!
+I’ve never had one, outside of
+books.
+I think we should be very ...
+clandestine.
+HUGO
+Okay.
+ISABELLE
+By the way, my name’s Isabelle ...
+Do you want a book? Monsieur
+Labisse lets me borrow them. I
+could get one for you.
+HUGO
+No.
+ISABELLE
+Don’t you like books?!
+HUGO
+No, I do ... My father and I used
+to read Jules Verne together...
+ISABELLE
+May I?
+LABISSE
+Of course. Good day, Isabelle.
+HUGO
+How do I get my notebook back?
+ISABELLE
+I think you should stand up to him.
+He’ll respect that ... Don’t tell
+him we talked. I’ll help you if I
+can ... Be steadfast!
+HUGO
+I don’t believe you burned my
+notebook.
+GEORGES
+You don’t? ... Well, maybe I did
+and maybe I didn’t. You’ll never
+know, will you?
+Shall I call the Station Inspector?
+Go ... away.
+Fix it.
+I said, fix it.
+HUGO
+I need my tools.
+GEORGES
+I know you’ve been stealing parts
+from the shop ... Might as well use
+those you haven’t stolen yet.
+HUGO
+If I fix it, do I get my notebook?
+GEORGES
+We’ll see.
+HUGO
+Give me my notebook.
+GEORGES
+You’ve got a bit of talent. But
+you’ll have to prove there’s more
+to you than being a thief ... You
+can earn your notebook.
+HUGO
+How?
+GEORGES
+Come to the booth everyday. I’ll
+decide how long you must work for
+each item you stole, and it will be
+up to me to decide when you have
+earned your notebook, if ever.
+HUGO
+I already have a job.
+GEORGES
+Thief is not a job, boy.
+HUGO
+I have another job, but I’ll come
+when I can.
+GEORGES
+You begin tomorrow. Go away.
+HUGO
+I’ll begin now.
+INSPECTOR
+Where are you parents?! Answer me!
+KID
+Got none.
+INSPECTOR
+... yes, another one. Useless waste
+of an orphan by the looks of it.
+Come get it.
+ISABELLE
+... I’m still looking for your
+notebook. I have to be very
+circumspect.
+HUGO
+You better not look inside.
+ISABELLE
+If I find it I should be able to
+look inside it.
+HUGO
+Then don’t look for it!
+ISABELLE
+I’m trying to help. Why are you
+being so mean?
+HUGO
+Just ... Promise me you won’t open
+it.
+ISABELLE
+Fine.
+HUGO
+I saw this movie! With Douglas
+Fairbanks. Did you see that?
+ISABELLE
+I’ve never seen a movie.
+HUGO
+What?!
+ISABELLE
+Isn’t it appalling?!
+HUGO
+You’ve never seen a movie? Not
+ever?
+ISABELLE
+Papa Georges won’t let me. He’s
+very strict about it.
+HUGO
+I love movies! My father always
+took me for my birthday.
+ISABELLE
+Is your father dead?
+HUGO
+I don’t want to talk about it.
+Isabelle ... Do you want to have an
+adventure?
+ISABELLE
+We could get into trouble.
+HUGO
+That’s how you know it’s an
+adventure.
+MANAGER
+How did you two rats get in here?!
+And I better not see you in here
+again!
+HUGO
+Why doesn’t Papa Georges let you go
+to the movies?
+ISABELLE
+I don’t know. He never said. I bet
+my parents would have let me. I’m
+sure they were very aesthetic.
+HUGO
+What happened to them?
+ISABELLE
+They died when I was a baby. Papa
+Georges and Mama Jeanne are my
+godparents, so they took me in.
+They’re very nice about most
+everything, except the movies.
+HUGO
+My father took me to the movies all
+the time. We saw Tom Mix and Lon
+Chaney. But Douglas Fairbanks was
+my favorite.
+ISABELLE
+What was he like?
+HUGO
+He loved the movies ... Ever since
+he was a kid and the movies were
+new. He told me about the first one
+he ever saw. He went into a dark
+room and on a white screen he saw a
+rocket fly into the eye of the man
+in the moon.
+He said it was like seeing his
+dreams in the middle of the day.
+The movies were our special place.
+It was just us ... We’d go in and
+watch something ... and for a
+little while we didn’t miss my mom
+so much.
+ISABELLE
+You think about him a lot.
+HUGO
+All the time.
+ISABELLE
+Who looks after you?
+HUGO
+My uncle was supposed to ... But he
+started going away a lot. Drinking.
+Staying out all night ... One day
+he didn’t come back.
+ISABELLE
+So you’re all alone?
+HUGO
+Not completely.
+ISABELLE
+Hugo ... Where do you live?
+HUGO
+There.
+... My uncle taught me how to run
+the clocks. So I just keep on doing
+it ... Maybe he’ll come back one
+day, but I doubt it.
+ISABELLE
+But ... Aren’t you afraid someone
+will find out?
+HUGO
+Not as long as the clocks keep on
+working and no one sees me.
+ISABELLE
+What do you do for money?
+HUGO
+Don’t need any.
+ISABELLE
+Can I see it?
+HUGO
+What?
+ISABELLE
+Where you live! In the walls.
+HUGO
+Maybe.
+ISABELLE
+Maybe?
+HUGO
+Act natural.
+ISABELLE
+What?
+HUGO
+Just keep walking. Act natural.
+ISABELLE
+How am I acting now?
+INSPECTOR
+Hey! You two.
+Come ... here.
+ISABELLE
+Good day, Monsieur!
+INSPECTOR
+Where are your parents?
+ISABELLE
+I work with my Papa Georges at the
+Toy Booth, surely you’ve seen me
+there. And this is my cousin from
+the country, Hugo.
+You’ll have to forgive him, he’s a
+little simple-minded. Doltish,
+really. Poor thing.
+INSPECTOR
+It seems Maximilian disapproves of
+you, little creature ... Why would
+he disapprove of you?
+HUGO
+I ... don’t know...
+ISABELLE
+Perhaps he smells my cat?!
+Christina Rossetti’s her name,
+after the poetess! Would you like
+me to recite? “My heart is like a
+singing bird /Whose nest is in a
+watered shoot--!”
+INSPECTOR
+All right, all right ... Go on then
+... But remember, in my terminal
+children are not permitted to run
+amok ... Not ever.
+HUGO
+Doltish?
+ISABELLE
+It worked didn’t it?
+ISABELLE
+Now since I just saved your life
+how about letting me see your
+covert lair?
+HUGO
+My what?
+ISABELLE
+Where you live in the walls!
+HUGO
+I can’t understand what you’re
+saying half the time.
+ISABELLE
+That’s because I am so gigantically
+literate.
+HUGO
+I’ll tell you what ... I’ll let you
+see my “covert lair” if you do one
+thing...
+ISABELLE
+What’s that?
+HUGO
+You have to...
+ISABELLE
+Yes...?
+HUGO
+Catch me!
+Where did you get that?!
+ISABELLE
+None of your business.
+HUGO
+I need it.
+ISABELLE
+What for?
+HUGO
+I just need it.
+ISABELLE
+Not unless you tell me why.
+This is marvelous! ... I feel like
+Jean Valjean!
+HUGO
+I used to imagine I was the Phantom
+of the Opera. Like in the movie.
+ISABELLE
+It was a book too. You know
+sometimes things are books before
+they’re movies!
+Oh, this is superlative!
+What is it?
+HUGO
+It’s an automaton ... My father was
+fixing it before he died.
+ISABELLE
+Why would my key fit your father’s
+machine? ... That doesn’t make any
+sense.
+ISABELLE
+He looks sad.
+HUGO
+I think he’s just waiting.
+ISABELLE
+For what?
+HUGO
+To work again. To do what he’s
+supposed to do.
+ISABELLE
+What happens when you wind him up?
+HUGO
+I don’t know.
+ISABELLE
+What’s the matter?
+HUGO
+I know it’s silly but ... I think
+it’s going to be a message from my
+father.
+ISABELLE
+Do you want me to go?
+HUGO
+What an idiot -- Thinking I could
+fix it--
+ISABELLE
+Hugo--
+HUGO
+It’s broken. It’ll always be
+broken!
+ISABELLE
+Hugo ... You can still--
+HUGO
+You don’t understand. I thought if
+I could fix it ... I wouldn’t be so
+alone.
+ISABELLE
+Hugo ... Hugo, look -- look!
+ISABELLE
+It’s not done! It’s not done!
+HUGO
+It’s not writing ... It’s drawing!
+ISABELLE
+“Georges Melies” ... That’s Papa
+Georges’ name! Why did your
+father’s machine sign Papa Georges’
+name?
+HUGO
+I don’t know...
+ISABELLE
+And why does my key fit it?
+HUGO
+Thank you.
+He turns to her.
+It was a message from my father ...
+Now we have to figure it out.
+ISABELLE
+Come on.
+MAMA
+Isabelle...?
+ISABELLE
+Mama Jeanne, we have to talk to you
+... This is Hugo Cabret.
+HUGO
+Good evening, ma’am.
+MAMA
+Very good manners for a thief.
+HUGO
+I’m not a thief.
+MAMA
+What’s going on, Isabelle?
+ISABELLE
+Oh, well, it’s a terribly long
+story, filled with circumlocutions!
+It all began several weeks ago when
+I was...
+HUGO
+Wait.
+MAMA
+Children ... What have you done?
+ISABELLE
+Mama Jeanne...?
+MAMA
+Where did you get it?
+HUGO
+You’ll call me a liar.
+MAMA
+No, child.
+HUGO
+A mechanical man drew it.
+MAMA
+You have him?
+HUGO
+My father found him in a museum. No
+one wanted him. We fixed him.
+MAMA
+But it needed ...
+My key.
+MAMA
+The key I gave you...
+MAMA
+Please, take it away. We can’t
+dredge up the past now. And
+whatever happens, don’t let Papa
+Georges see it.
+HUGO
+Please tell us what’s going on!
+MAMA
+It’s no business of yours. You must
+forget all this.
+HUGO
+We worked hard to fix it, my father
+and me, and ... it’s all I have
+left of him ... I need to know what
+it means.
+MAMA
+There are things you are too young
+to understand ... You should not
+yet know such sadness.
+ISABELLE
+It’s Papa Georges!
+MAMA
+He can’t know you’re here. This
+way...
+Just keep quiet. I’ll find a way to
+get him out of the apartment. Not a
+noise from either of you.
+HUGO
+She looked at the armoire.
+ISABELLE
+I already searched it when I was
+looking for your notebook.
+HUGO
+I’ll look again. You stand guard!
+ISABELLE
+Splendid!
+HUGO
+Look!
+ISABELLE
+We have to investigate!
+ISABELLE
+Let me, I’m taller.
+GEORGES
+Back from the dead ...
+MAMA
+Stop it, Georges! Stop! This is
+your work!
+GEORGES
+My work?! -- What am I? Nothing but
+a penniless merchant! A broken
+windup toy!
+I trusted you -- and this is how
+you thank me?! You cruel -- cruel--
+An empty box, an old rocket, a lost
+monster ... nothing, nothing,
+nothing...
+MAMA
+I’m sorry, Georges ... I’m so
+sorry...
+ISABELLE
+I should go back.
+HUGO
+Okay.
+ISABELLE
+I’ve never seen him cry before.
+Thank you for the movie today ...
+It was a gift.
+HUGO
+Oh, I’m sorry, sir!
+LABISSE
+You know that volume?
+HUGO
+I used to read it with my father...
+LABISSE
+Hm ... It was intended for my
+godson.
+But now I think it is intended for
+you.
+Monsieur Cabret.
+ROULEAU
+Things aren’t always what they
+seem.
+HUGO
+Why would he give it to me?
+ROULEAU
+Because you needed it.
+HUGO
+I recognize the clock. But it’s
+different.
+ROULEAU
+Sitting here, day after day, I
+watch things. I watch them change
+in the light. A clock becomes a
+wheel becomes a train becomes a
+rocket becomes a robot ... It’s
+like a story.
+HUGO
+How does it end?
+ROULEAU
+I don’t know. The story’s not over
+yet.
+ROULEAU
+But it’ll be surprising.
+HUGO
+Because things aren’t always what
+they seem?
+ROULEAU
+Well, look around you ... Not all
+clocks run forever ... not all
+little boys live in houses ... and
+not all messages are written on
+paper.
+ROULEAU
+Quick, behind the canvas!
+INSPECTOR
+Monsieur Artiste. How goes the
+painting? May I look?
+ROULEAU
+Not ready yet. Soon ... Things must
+happen at the opportune moment.
+INSPECTOR
+If we only knew when that moment
+was...
+ROULEAU
+For the heart, there is only now,
+my friend.
+INSPECTOR
+Do you think?
+ROULEAU
+Of course! Go say hello to her ...
+ROULEAU
+Ahh ... Radiant!
+HUGO
+Thank you, sir ... Your painting is
+going to be magnificent.
+ROULEAU
+So is yours.
+INSPECTOR
+Mademoiselle Lisette, a very
+gracious good evening to you.
+LISETTE
+Monsieur Inspector.
+INSPECTOR
+Hm. Yes ... Those are lovely posies
+there.
+LISETTE
+They’re from Gourdon. They come in
+on the overnight train.
+INSPECTOR
+Ah, Gourdon. Splendid country that.
+All the ... cows and such ... Do
+they have a smell?
+You see I was injured in the war.
+It will never heal ... Good evening
+to you, Mademoiselle.
+LISETTE
+I lost my brother.
+INSPECTOR
+Where?
+LISETTE
+Verdun.
+Good evening, Monsieur Inspector.
+INSPECTOR
+Good evening, Mademoiselle Lisette.
+ISABELLE
+Excuse me, Madame--
+Excuse me, we would like to use the
+library.
+RECEPTIONIST
+No.
+ISABELLE
+No?
+RECEPTIONIST
+You’re too small and too dirty.
+Goodbye.
+HUGO
+Excuse me. I thought the library
+was open to all Frenchmen.
+RECEPTIONIST
+Not small and dirty ones.
+HUGO
+In that case ...
+I would like to see your superior.
+RECEPTIONIST
+What kind of dreadful little
+Jacobin are you?
+HUGO
+The kind that wants to use the
+library.
+Excuse me, sir, we’re looking for a
+book about very early movies.
+STUDENT
+Rene Tabard. THE INVENTION OF
+DREAMS. Row Four. Section Three.
+Top shelf.
+ISABELLE
+Much obliged. What are you reading?
+HUGO 
+“In 1895, one of the very first
+films ever shown was called A TRAIN
+arrive IN THE STATION, which
+showed nothing more than a train
+coming into a station...”
+ISABELLE 
+“But when the train came speeding
+toward the screen, the audience
+screamed because they thought they
+were in danger of being run over.
+No one had ever seen anything like
+it before.”
+HUGO
+No one had ever seen anything like
+it before.
+“What began as a sideshow novelty
+soon grew into something more as
+the first filmmakers discovered
+they could use the new medium to
+tell stories...”
+ISABELLE
+“The filmmaker Georges Melies was
+among the first to realized that
+film had the power to capture
+dreams...”
+HUGO
+“This great pioneer of early cinema
+died during the Great War--”
+ISABELLE
+Died...?
+HUGO
+“Died during the Great War.”
+TABARD
+You’re interested in Melies?
+HUGO
+Yes, uh--
+ISABELLE
+It’s allowed.
+TABARD
+Is it?
+Come with me.
+Here he is at work in his studio
+... And this is a handbill
+advertising his stage act ... And
+this is one of his actual cameras!
+ISABELLE
+Why do you have all this?
+TABARD
+Your godfather is a passion of
+mine. He was a great filmmaker.
+HUGO
+He was a magician?
+TABARD
+Yes, he began on the stage.
+ISABELLE
+How did he start making movies?
+TABARD
+No one really knows.
+HUGO
+Look how happy he is...
+ISABELLE
+Professor Tabard ... Would you like
+to meet him?
+TABARD
+Oh, but you see, I have met him.
+My brother worked as a carpenter
+building sets for Melies. One day
+he took me to visit the studio...
+We see what Young Tabard has been gazing at:
+It was like something out of a
+dream. The whole building was made
+of glass ... In reality this was to
+let in all the sunlight necessary
+for filming, but to my eyes it was
+nothing short of an enchanted
+castle ... a palace made of
+glass...
+GEORGES
+If you’ve ever wondered where your
+dreams come from, just look around.
+This is where they’re made.
+TECHNICIAN
+Think we got it.
+GEORGES
+Very good ... But we need to change
+the scene...
+GEORGES
+We need to add one ... more ...
+knight.
+TABARD
+In the end, he made over 500 movies
+... He was phenomenally popular in
+his day.
+ISABELLE
+But why did he stop?
+TABARD
+Up until today, I believed that he
+died in the war, like so many
+others.
+HUGO
+Can we watch some of his movies?
+TABARD
+I wish you could ... But time
+hasn’t been kind to old movies...
+This is the only one that we know
+of that survived ... Out of
+hundreds ... One.
+And still ... it is a masterpiece.
+HUGO
+... I think it’s the only way.
+He’ll be excited. Why wouldn’t he
+be?
+ISABELLE
+Do you think I should tell Mama
+Jeanne?
+HUGO
+No, it has to be a surprise, like a
+magic trick. We have to have some
+... panache.
+ISABELLE
+Well done.
+HUGO
+Shhh!
+INSPECTOR
+Monsieur Claude? Are you up there?
+... Monsieur Claude?
+HUGO
+Monsieur?
+INSPECTOR
+Is all well up there?
+HUGO
+Yes, sir.
+INSPECTOR
+You’re not ... inebriated, are you?
+HUGO
+No, sir ... I have a sore throat.
+INSPECTOR
+Hmm. Well, be sure to check the
+clock on platform seven. By my
+calculation it is three minutes
+fast ... I will not have time
+running amok in my station.
+HUGO
+Right away, sir.
+... It’s the only way we’ll find
+out everything ... Papa Georges
+will see that there are people who
+remember him. How can that be
+wrong?
+ISABELLE
+I don’t know...
+HUGO
+Please, Isabelle ... My father, the
+Automaton, Papa Georges, it’s like
+a puzzle ... When we put it all
+together, something’s going to
+happen.
+ISABELLE
+A message from your father?
+HUGO
+Maybe.
+ISABELLE
+I just hope ... you won’t be
+disappointed.
+ISABELLE
+Poor Monsieur Rouleau ... He works
+so hard. People just don’t
+understand.
+HUGO
+He keeps at it though. He’s got a
+real ... purpose.
+ISABELLE
+What do you mean?
+HUGO
+Could you hand me that?
+I mean ... Did you ever notice that
+all machines are made for some
+reason? They make you laugh, like
+Papa Georges’ toys, or they tell
+time, like the clocks ... Maybe
+that’s why broken machines always
+make me sad, because they can’t do
+what they’re meant to do.
+HUGO
+Maybe it’s the same with people. If
+you lose your purpose ... it’s like
+you’re broken.
+ISABELLE
+Like Papa Georges.
+HUGO
+Maybe we can fix him.
+ISABELLE
+Is that your purpose?
+HUGO
+What?
+ISABELLE
+That. Fixing things.
+HUGO
+I don’t know. It’s what my father
+did.
+ISABELLE
+I wonder what my purpose is?
+HUGO
+I don’t know.
+ISABELLE
+Maybe if I had known my parents I
+would know.
+HUGO
+Come with me.
+Right after my father died, I would
+come up here a lot ... I would
+imagine that the whole world was
+one big machine. Machines never
+have any extra parts, you know.
+They always have the exact number
+they need. So I figured if the
+entire world was a big machine I
+couldn’t be an extra part, I had to
+be here for some reason ...
+And that means you have to be here
+for some reason, too.
+I’ll bring them at seven o’clock
+tomorrow night. Don’t say anything.
+ISABELLE
+Are you sure about this?
+HUGO
+Not really ... But I think it’s the
+only way...
+ISABELLE
+To fix him.
+TABARD
+Good evening.
+HUGO
+This way, sir.
+ISABELLE
+I’ll get it!
+Oh, what a surprise! Come in, come
+in...
+MAMA
+What is the meaning of this,
+Isabelle?
+ISABELLE
+Please don’t be mad.
+MAMA
+That young man is not welcome here.
+HUGO
+We found out who Papa Georges is.
+TABARD
+I deeply apologize, Madame. I
+thought you were expecting us. I
+will leave immediately and return
+upon your request.
+MAMA
+Please, keep your voices down, my
+husband is sleeping. He hasn’t been
+well ... I ... I’m afraid you will
+not be invited back.
+ISABELLE
+Don’t make them leave...
+TABARD
+I don’t want to impose on you,
+Madame Melies, but if this is to be
+the only time we meet, please let
+me express to you the profound debt
+of gratitude I owe your husband.
+When I was boy I saw all his films.
+They inspired me ... Your husband
+is a very great artist.
+MAMA
+I’m pleased that you remember my
+husband’s films with such fondness,
+but he’s become so fragile ... It
+only hurts him to remember the
+past.
+Then we will take our leave, Madame
+... And I do hope you’ll forgive me
+for saying, you are as lovely now
+as you were in the movies.
+ISABELLE
+Mama Jeanne...?
+HUGO
+You were in the movies?
+TABARD
+She appeared in almost all of his
+films.
+ISABELLE
+You were an actress?!
+MAMA
+That was a long time ago, children.
+Another life ... I was another
+person.
+TABARD
+Would you like to meet her again?
+We have a film.
+MAMA
+One of Georges’ films...? But
+that’s not possible. They’re all
+gone.
+TABARD
+May we show you?
+HUGO
+Oh, please...
+ISABELLE
+Please, Mama Jeanne...
+MAMA
+Be quick with it.
+ISABELLE
+An actress! A cinema actress! It’s
+impossibly romantic!
+MAMA
+It wasn’t like that. We weren’t
+movie stars like they have now ...
+But we did have fun.
+TABARD
+Madame Melies?
+ISABELLE
+Mama Jeanne ... it’s you!
+MAMA
+Yes...
+HUGO
+It’s color!
+MAMA
+We tinted the film ... Painted it
+by hand.
+ISABELLE
+You were so beautiful.
+GEORGES
+She still is.
+I would recognize the sound of a
+movie projector anywhere.
+MAMA
+Georges ... You’ve tried to forget
+the past for so long, and that’s
+brought you nothing but unhappiness
+... Maybe it’s time to remember.
+I remember the man I fell in love
+with ... I don’t want to lose him
+forever.
+GEORGES
+You want to know?
+HUGO
+Yes.
+GEORGES
+Like you ... I loved to fix
+things...
+I started out as a magician, and
+Mama Jeanne was my assistant. We
+were very successful, I must say.
+We even had our own theatre...
+But I was always tinkering with
+machines.
+I had my own workshop at the
+theatre where I could invent new
+illusions ... Once I even built a
+working Automaton. Ah, he was a
+particular treasure. I put my heart
+and soul into him...
+Then one night, Mama Jeanne and I
+went to visit a traveling circus.
+We were walking past the sideshow
+tents when I noticed something ...
+Something strange ... Something
+wonderful...
+The Lumiere brothers had invented
+the movies. I fell in love with
+their invention. How could I not be
+a part of it? It was like a new
+kind of magic...
+I asked the Lumiere brothers to
+sell me a camera, but they refused.
+You see they were convinced the
+movies were only a passing fad and
+didn’t want me to waste my money!
+So I built my own camera using
+leftover pieces from the
+Automaton...
+We risked everything ... We sold
+the theatre and everything we had
+so we could build our own movie
+studio...
+And so the great adventure began! I
+wrote, designed, directed and acted
+in hundreds of movies. Magic tricks
+and illusion became my specialty;
+the world of imagination ...
+My beautiful wife was my muse, my
+star, and we couldn’t have been
+happier ... We thought it would
+never end. How could it?
+Taking us to...
+But then the war came, and youth
+and hope were at an end ... The
+world had no time for magic tricks
+and movie shows...
+The returning soldiers, having seen
+so much of reality, were bored by
+my films ... Tastes had changed,
+but I had not changed with them...
+No one wanted my movies anymore.
+Eventually I couldn’t pay the
+actors or keep the business running
+... And so my enchanted castle fell
+to ruin ... Everything was lost...
+One night, in bitter despair, I
+burned all my old sets and costumes
+... I was forced to sell my movies
+to a company that melted them down
+into chemicals used to make shoe
+heels...
+With the little money I made from
+selling my films I bought the toy
+booth ... And there I have
+remained...
+The only thing I couldn’t bring
+myself to destroy was my beloved
+Automaton. I gave him to a museum,
+hoping he would find a home.
+But they never put him on display.
+And then the museum burned ... It’s
+all gone now. Everything I ever
+made ... Nothing but ashes and
+fading strips of celluloid.
+My life has taught me one lesson,
+Hugo ... Not the one I thought it
+would ... Happy endings only happen
+in the movies.
+HUGO
+The story’s not over yet.
+HUGO
+I’ll be right back!
+INSPECTOR
+There has been ... a disquieting
+development.
+FRICK
+What is it?
+INSPECTOR
+The man who winds the clocks,
+Monsieur Claude, has been found --
+deceased.
+INSPECTOR
+They found his body in the Seine.
+He’s been down there for months it
+seems. Amongst the fishes. And
+such.
+MADAME EMILIE
+Oh dear, oh dear.
+INSPECTOR
+I can’t say I’m surprised this was
+his mortal culmination. He was an
+inebriant of the highest order.
+Time and again I had to warn him
+about it ... These are the wages of
+sin!
+FRICK
+But if Monsieur Claude has been
+dead for months...
+INSPECTOR
+Yes...?
+FRICK
+At the bottom of the river...
+MADAME EMILIE
+Yes...?
+FRICK
+Then who has been winding the
+clocks?
+HUGO 
+You don’t understand -- I have to 
+go! 
+INSPECTOR 
+You’ll go nowhere until your 
+parents can be found. 
+HUGO 
+I don’t have any parents! 
+INSPECTOR 
+Then it’ll be straight to the 
+orphanage with you, little vermin. 
+You and your kind. Spreading 
+disorder everywhere you go. WELL 
+not HERE! THIS IS MY STATION, DO 
+you UNDERSTAND?! -- AND I WILL HAVE 
+ord! 
+Yes, hello? hello? ... Connect me 
+with the Orphanage Bureau. Quickly. 
+I need to arrange a... 
+Maximilian! 
+LABISSE
+Oh, do pardon me!
+INSPECTOR
+Must have gone the other way. Come!
+Stand aside!
+You demented animal! What were you
+thinking?!
+We’ll let the orphanage deal with
+you!
+HUGO
+No! -- I don’t belong there!
+INSPECTOR
+Where do you belong then? A child
+has to belong to somewhere and to
+someone!
+HUGO
+Please ... Please listen to me ...
+You have to let me go ... I don’t
+understand ... why my father died 
+... why I’m alone.... 
+This is my only chance ... To work.
+You should understand.
+GEORGES
+I do ... I do understand.
+Monsieur ... This child belongs to
+me.
+HUGO
+I’m sorry ... He’s broken...
+GEORGES
+No he’s not ... He worked
+perfectly.
+TABARD
+Honored guests, I am proud to
+welcome you to this gala
+celebrating the life and work of
+Georges Melies.
+TABARD
+For years most of his films were
+thought to be lost. Indeed,
+Monsieur Melies believed so
+himself. But we began a search. We
+looked through vaults and longforgotten archives, through private
+collections, barns and catacombs.
+Our work was rewarded with old
+negatives, boxes of prints, and
+trunks full of decaying film, which
+we were able to save ... We now
+have over eighty films by Georges
+Melies!
+And tonight their creator ... and
+the newest member of the Film
+Academy faculty ... is here to
+share them with you.
+GEORGES
+Ladies and gentlemen ... I am
+standing before you tonight because
+of one very brave young man...
+He saw a broken machine. And
+against all odds, he fixed it ...
+It was the kindest magic trick I
+have ever seen.
+Now, my friends, I address you all
+tonight as you truly are: wizards,
+mermaids, travelers, adventurers,
+and magicians ... Come and dream
+with me.
+It is a cornucopia of images from a golden horn. A
+phantasmagoria of...
+Undersea kingdoms...
+Magic tricks...
+Wildly dancing devils...
+Mysterious submarine journeys...
+Gigantic monsters...
+Beautiful damsels...
+Soaring palaces...
+Wondrous balloon voyages...
+Knock-about slapstick...
+Expanding heads...
+Frolicking skeletons...
+Lovely star-like angels...
+And...
+A trip to the moon.
+ISABELLE 
+Once upon a time, I met a boy named
+Hugo Cabret. He lived in a train
+station...
+Why did he live in a train station?
+You might well ask ... That’s
+really what this book is going to
+be about...
+And about how this singular young
+man searched so hard to find a
+secret message from his father...
+And how that message lit his way
+... all the way home.

@@ -1,12 +1,26 @@
-Female Lines
+Female words
 {KI-JUNG=839, CHUNG-SOOK=815, FEMALE=14, MOON-GWANG=992, YON-KYO=2227, DA-HAE=260, OWNER=73}
 
 Total = 5220
 
-Male Lines
+Male words
 {KIWOO=2385, DONG-IK=1162, KITEK=1573, DA-SONG=93, MAN=2, KUN-SAE=297, MIN-HYUK=319, YUN=43}
 
 Total = 5874
+
+********************************
+
+Female words (over 100 words)
+{KI-JUNG=839, CHUNG-SOOK=815, MOON-GWANG=992, YON-KYO=2227, DA-HAE=260}
+
+Total = 5133
+
+Male words (over 100 words)
+{KIWOO=2385, DONG-IK=1162, KITEK=1573, KUN-SAE=297, MIN-HYUK=319}
+
+Total = 5736
+
+********************************
 
 KIWOO
 NO. Not you too “iptime.”

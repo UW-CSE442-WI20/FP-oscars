@@ -1,9 +1,22 @@
-Female Words
+Female Words 
 {URSULA=36, ULLA=240, WOMAN=22, ELSA=13, RECEPTIONIST=25, GERDA=1947, LILI=973, MANAGERESS=33, GIRL=34, NURSE=16}
 Total = 3339
 
+Male Words
 {RASMUSSEN=171, HEXLER=165, HENRIK=215, EINAR=1068, GUARD=8, BUSON=14, MCBRIDE=13, DOORMAN=4, MAN=38, FONNESBECH=20, NIELS=4, WARNEKROS=266, HANS=571}
 Total = 2557
+
+********************************
+
+Female Words (over 100 words)
+{ULLA=240, GERDA=1947, LILI=973}
+Total = 3160
+
+Male Words (over 100 words)
+{RASMUSSEN=171, HEXLER=165, HENRIK=215, EINAR=1068, WARNEKROS=266, HANS=571}
+Total = 2456
+
+********************************
 
 WOMAN
 Don't you wish you could paint like

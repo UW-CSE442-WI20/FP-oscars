@@ -6,6 +6,21 @@ Male Roles
 {CARTER=103, JAY=12, MEDIATOR=108, TERRY=133, CHARLIE=5867, AMIR=30, DP=27, BERT=1101, DIRECTOR=81, MALE=9, HENRY=1005, PABLO=42, FRANK=355, TED=171, GRIP=83}
 = 9127
 
+*********************************
+
+Female Roles (over 100 words)
+{NORA=2549, CASSIE=216, NICOLE=5002, SANDRA=521, FEMALE=306,
+RECEPTIONIST=102, BETH=189}
+
+Total = 8885
+
+Male Roles (over 100 words)
+{CARTER=103, MEDIATOR=108, TERRY=133, CHARLIE=5867, BERT=1101, HENRY=1005, FRANK=355, TED=171}
+
+Total = 8843
+
+*********************************
+
 CHARLIE
 What I love about Nicole...
 She makes people feel comfortable

@@ -1,10 +1,22 @@
-Female Lines
+Female words
 {RITA=69, JUSTINE=226, WOMAN=26, AILEEN=277, SELBY=2521, DEBBIE=298, LEE=5758, WIFE=13, GIRL=4}
 Total = 9192
 
-Male Lines
+Male words
 {BARTENDER=11, BIKER=42, MANAGER=10, HUMPHREY=160, COP=75, LAWYER=139, CHUCK=11, CUBBY=9, VG=27, FATHER=76, NEWSCASTER=29, TOM=8, GENE=20, OPERATOR=87, RICHARD=193, RANDY=22, THOMAS=501, WILL=54, MAN=13, EVAN=59}
 Total = 1546
+
+*********************************
+
+Female words (over 100 words)
+{JUSTINE=226, AILEEN=277, SELBY=2521, DEBBIE=298, LEE=5758}
+Total = 9080
+
+Male words (over 100 words)
+{HUMPHREY=160, LAWYER=139, RICHARD=193, THOMAS=501}
+Total = 993
+
+*********************************
 
 AILEEN 
 I always wanted to be in the movies.
