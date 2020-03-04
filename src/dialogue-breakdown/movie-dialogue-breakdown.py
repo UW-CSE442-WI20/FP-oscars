@@ -16,6 +16,8 @@ for line in lines:
 	if (not (re.match(r'\w', line))):
 		line = line.strip()
 		if (line.isupper()):
+		# for script with names surrounded by brackets instead of all caps
+		# if (len(line) > 0 and line[0] == '['):
 			s1 = re.search('EXT\.', line)
 			s2 = re.search('INT\.', line)
 			if (not (s1 or s2)):
@@ -67,6 +69,7 @@ del temp
 
 totalLineCount = 0
 for char, count in characters.items():
-	print("character: " + char + " count: " + str(count))
-	totalLineCount = totalLineCount + count
+	if (count > 100):
+		print("character: " + char + " count: " + str(count))
+		totalLineCount = totalLineCount + count
 print("total word count: " + str(totalLineCount))

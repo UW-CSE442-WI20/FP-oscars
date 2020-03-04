@@ -1,3189 +1,3189 @@
-[Announcer]
-5, 6, 7, 8!
-
-[Dance Captain]
-[man looking for Kelly sisters]
-Has anybody seen the Kellly sisters?
-You, you're up in 5.
-
-[Velma Kelly] (getting out of the car)
-- Keep the change, Charlie.
-
-[Charlie - driver]
-- Thank you.
-
-[Dance Captain]
-Where the hell have you been? And where is Veronica?
-
-[Velma Kelly]
-she isn't herself tonight
-
-[Dance Captain]
-But tonight's your sister act.
-
-[Velma Kelly]
-Don't sweat it. I'll can do it alone. Shit! All right!
-
-[Dance Captain?]
-Move it! Move it! Hurry up!
-
-[Announcer]
-Ladies and gentlemen, the Onyx club is proud to present Chicago's hottest show
-in the world. Two Jazz babes moving as one. The Kelly sisters!
-
-[Velma Kelly]
-Come on babe
-Why don't we paint the town?
-And all that Jazz
-I'm gonna rouge my knees
-And roll my stockings down
-And all that jazz
-Start the car
-I know a whoopee spot
-Where the gin is cold
-But the piano's hot
-It's just a noisy hall
-Where there's a nightly brawl
-And all
-That
-Jazz
-
-[Announcer]
-Make that two)
-
-[Velma Kelly]
-And all that jazz
-And all that jazz
-Slick your hair
-And wear your buckle shoes
-And all that Jazz
-I hear that Father Dip
-Is gonna blow the blues
-And all that Jazz
-Hold on, hon
-We're gonna bunny hug
-I bought some aspirin
-Down at United Drug
-I case you shake apart
-And want a brand new start
-To do
-that
-
-[Roxie Hart] (imagine)
-Jazz
-
-[Fred Casely]
-Let's go, babe.
-
-[Roxie Hart]
-But l didn't even meet your friend. That:that manager guy.
-
-[Fred Casely]
-Don't worry, Roxie. It's all taken care of.
-
-[Roxie Hart]
-You told him about me?
-
-[Fred Casely]
-Yeah, kid. lt's all arranged.
-
-[Velma Kelly]
-Find a flask
-We're playing fast and loose
-And all that jazz
-Right up here
-Is where I store the juice
-And all that jazz
-Come on, babe
-We're gonna brush the sky
-I bet you luck Lindy
-Never flew so high
-'Cause in the stratosphere
-How could he lend an ear
-to all
-that
-Jazz?
-Oh, you're gonna see your sheba shimmy shake
-
-[Company]
-And all that jazz
-
-[Velma Kelly]
-Oh, she's gonna shimmy 'till her garters break
-
-[Company]
-And all that jazz
-
-[Velma Kelly]
-Show her where to park her girdle
-Oh, her mother's blood'd curdle
-
-[Company]
-If she'd hear her baby's queer
-
-[Velma Kelly]
-For all
-that
-jazz
-
-[Roxie Hart]
-Oh!
-- Hello, Mrs. Borusewicz.
-
-[Mrs. Borusewicz]
-- Mrs. Hart.
-
-[Roxie Hart]
-This is Fred. He's my brother.
-
-[Velma Kelly]
-All
-that
-jazz
-Come on, babe
-Why Don't we paint
-The town?
-And all that jazz
-And all that jazz
-I'm gonna *
-Rouge my knees
-And roll my *
-Stockings down
-And all that jazz
-And all that jazz
-Start the car
-I know a whoopee spot
-Where the gin is cold
-But the piano's hot
-It's just a noisy hall
-Where there's a nightly brawl
-And all
-that
-jazz
-
-[Roxie Hart]
-Say it again.
-
-[Fred Casely]
-You're a star, kid. My little shooting star!
-
-[Velma Kelly]
-No, I'm no one's wife
-But, Oh, I love my life
-And all
-that
-Jazz!
-That Jazz!
-
-[Roxie Hart]
-Say it again, Fred.
-
-[Fred Casely]
-Jesus.
-
-[Roxie Hart]
-Hey, why is the hurry? Amos ain't be home until midnight. Freddie? Fred? Hey,
-you know, I don't like you to feel like I'm nagging or anything. But don't you
-think it's about time for me to meet your friend down at the Onyx? It's been a
-month since you told him about me. I know. Cause that was the night they met
-Kelly, plus her husband and her sister. You know, they said you found them in
-a kit together. Guess from where it from. Amos opened it to somebody else. I
-throw him a party. - You're not going away, right?
-
-[Fred Casely]
-- It's getting late.
-
-[Roxie Hart]
-I've been thinking a lot about my anthem. Whenever I get a really good idea, i
-write it down at my diary before it puts off in my head. And you know what've
-come to me? The other day, that all the really knock-out acts. Have something
-more different going on, you know? Like, a signature bed. And I thought my
-thing could be a loaf. Give them just enough to feel hungry but always leave
-them one more. Once I get a name for myself. Maybe we can open up a club in
-Varum, you know? You could run it, and I could be the headliner.
-
-[Fred Casely]
-- Get off.
-
-[Roxie Hart]
-- What's the idea?
-
-[Fred Casely]
-Wake up, kiddo, you aren't never gonna have an act.
+	[Announcer]
+	5, 6, 7, 8!
+
+	[Dance Captain]
+	[man looking for Kelly sisters]
+	Has anybody seen the Kellly sisters?
+	You, you're up in 5.
+
+	[Velma Kelly] (getting out of the car)
+	- Keep the change, Charlie.
+
+	[Charlie - driver]
+	- Thank you.
+
+	[Dance Captain]
+	Where the hell have you been? And where is Veronica?
+
+	[Velma Kelly]
+	she isn't herself tonight
+
+	[Dance Captain]
+	But tonight's your sister act.
+
+	[Velma Kelly]
+	Don't sweat it. I'll can do it alone. Shit! All right!
+
+	[Dance Captain?]
+	Move it! Move it! Hurry up!
+
+	[Announcer]
+	Ladies and gentlemen, the Onyx club is proud to present Chicago's hottest show
+	in the world. Two Jazz babes moving as one. The Kelly sisters!
+
+	[Velma Kelly]
+	Come on babe
+	Why don't we paint the town?
+	And all that Jazz
+	I'm gonna rouge my knees
+	And roll my stockings down
+	And all that jazz
+	Start the car
+	I know a whoopee spot
+	Where the gin is cold
+	But the piano's hot
+	It's just a noisy hall
+	Where there's a nightly brawl
+	And all
+	That
+	Jazz
+
+	[Announcer]
+	Make that two)
+
+	[Velma Kelly]
+	And all that jazz
+	And all that jazz
+	Slick your hair
+	And wear your buckle shoes
+	And all that Jazz
+	I hear that Father Dip
+	Is gonna blow the blues
+	And all that Jazz
+	Hold on, hon
+	We're gonna bunny hug
+	I bought some aspirin
+	Down at United Drug
+	I case you shake apart
+	And want a brand new start
+	To do
+	that
+
+	[Roxie Hart] (imagine)
+	Jazz
+
+	[Fred Casely]
+	Let's go, babe.
+
+	[Roxie Hart]
+	But l didn't even meet your friend. That:that manager guy.
+
+	[Fred Casely]
+	Don't worry, Roxie. It's all taken care of.
+
+	[Roxie Hart]
+	You told him about me?
+
+	[Fred Casely]
+	Yeah, kid. lt's all arranged.
+
+	[Velma Kelly]
+	Find a flask
+	We're playing fast and loose
+	And all that jazz
+	Right up here
+	Is where I store the juice
+	And all that jazz
+	Come on, babe
+	We're gonna brush the sky
+	I bet you luck Lindy
+	Never flew so high
+	'Cause in the stratosphere
+	How could he lend an ear
+	to all
+	that
+	Jazz?
+	Oh, you're gonna see your sheba shimmy shake
+
+	[Company]
+	And all that jazz
+
+	[Velma Kelly]
+	Oh, she's gonna shimmy 'till her garters break
+
+	[Company]
+	And all that jazz
+
+	[Velma Kelly]
+	Show her where to park her girdle
+	Oh, her mother's blood'd curdle
+
+	[Company]
+	If she'd hear her baby's queer
+
+	[Velma Kelly]
+	For all
+	that
+	jazz
+
+	[Roxie Hart]
+	Oh!
+	- Hello, Mrs. Borusewicz.
+
+	[Mrs. Borusewicz]
+	- Mrs. Hart.
+
+	[Roxie Hart]
+	This is Fred. He's my brother.
+
+	[Velma Kelly]
+	All
+	that
+	jazz
+	Come on, babe
+	Why Don't we paint
+	The town?
+	And all that jazz
+	And all that jazz
+	I'm gonna *
+	Rouge my knees
+	And roll my *
+	Stockings down
+	And all that jazz
+	And all that jazz
+	Start the car
+	I know a whoopee spot
+	Where the gin is cold
+	But the piano's hot
+	It's just a noisy hall
+	Where there's a nightly brawl
+	And all
+	that
+	jazz
+
+	[Roxie Hart]
+	Say it again.
+
+	[Fred Casely]
+	You're a star, kid. My little shooting star!
+
+	[Velma Kelly]
+	No, I'm no one's wife
+	But, Oh, I love my life
+	And all
+	that
+	Jazz!
+	That Jazz!
+
+	[Roxie Hart]
+	Say it again, Fred.
+
+	[Fred Casely]
+	Jesus.
+
+	[Roxie Hart]
+	Hey, why is the hurry? Amos ain't be home until midnight. Freddie? Fred? Hey,
+	you know, I don't like you to feel like I'm nagging or anything. But don't you
+	think it's about time for me to meet your friend down at the Onyx? It's been a
+	month since you told him about me. I know. Cause that was the night they met
+	Kelly, plus her husband and her sister. You know, they said you found them in
+	a kit together. Guess from where it from. Amos opened it to somebody else. I
+	throw him a party. - You're not going away, right?
+
+	[Fred Casely]
+	- It's getting late.
+
+	[Roxie Hart]
+	I've been thinking a lot about my anthem. Whenever I get a really good idea, i
+	write it down at my diary before it puts off in my head. And you know what've
+	come to me? The other day, that all the really knock-out acts. Have something
+	more different going on, you know? Like, a signature bed. And I thought my
+	thing could be a loaf. Give them just enough to feel hungry but always leave
+	them one more. Once I get a name for myself. Maybe we can open up a club in
+	Varum, you know? You could run it, and I could be the headliner.
+
+	[Fred Casely]
+	- Get off.
+
+	[Roxie Hart]
+	- What's the idea?
+
+	[Fred Casely]
+	Wake up, kiddo, you aren't never gonna have an act.
 
-[Roxie Hart]
-Says who?
+	[Roxie Hart]
+	Says who?
 
-[Fred Casely]
-Face it, Roxie. You're two big towers with skinny legs. And l'm just a
-furniture salesman.
+	[Fred Casely]
+	Face it, Roxie. You're two big towers with skinny legs. And l'm just a
+	furniture salesman.
 
-[Roxie Hart]
-But you got connections. You know, that guy down the club...
+	[Roxie Hart]
+	But you got connections. You know, that guy down the club...
 
-[Fred Casely]
-There's no guy.
+	[Fred Casely]
+	There's no guy.
 
-[Roxie Hart]
-Yeah, that night...
+	[Roxie Hart]
+	Yeah, that night...
 
-[Fred Casely]
-It's the first time I set foot in that joint. I get clicked a bet from the
-trombone player.
+	[Fred Casely]
+	It's the first time I set foot in that joint. I get clicked a bet from the
+	trombone player.
 
-[Roxie Hart]
-So you never told anyone about me?
+	[Roxie Hart]
+	So you never told anyone about me?
 
-[Fred Casely]
-Sugar, you're hot stuff. I would say anything to get a piece of that.
-
-[Roxie Hart]
-Stay then. Now?
-
-[Fred Casely]
-It has some laughs. Let's just leave it like that.
-
-[Roxie Hart]
-Fred... You can't do this to me.
-
-[Fred Casely]
-You get off! You touch me again, I'll put your lights out.
-
-[Roxie Hart]
-- Wait...
-
-[Fred Casely]
-- Your husband will be home soon, why don't you watch yourself. Don't head into
-shit again.
-
-[Roxie Hart]
-- You're a liar, Fred.
-
-[Fred Casely]
-- Oh, yeah, so what?
-
-[Roxie Hart]
-You lied to me...
-
-[Fred Casely]
-That's right, sweetheart. That's right.
-
-[Roxie Hart]
-You son of a bitch... (shoot) Son of a bitch! You son of a bitch!
-
-[Photographer]
-Why you bothering, Sal? This one's all wrapped up. I hear it's a new city
-record. From killing to confession in an hour for that.
-
-[Sergeant Fogarty]
-Why did you get a murder weapon?
-
-[Amos Hart]
-I keep a gun in the underway drawer. Just in case it trouble, you know.
-
-[Sergeant Fogarty]
-That's just fine. Sign right there, Mr. Hart.
-
-[Amos Hart]
-For you, I'm gladly. Really in gladly.
-
-[Sergeant Fogarty]
-And mind that you don't say we beat you up when you at the witness stand.
-
-[Amos Hart]
-No, I give myself up. Surrender at my own free will.
-
-[Martin Harrison]
-lt's indeed you're the murderer.
-
-[Roxie Hart]
-Shooting a burglar ain't murder. Just last week jury sent a man
-
-[Martin Harrison]
-I'm always grateful if the citizens know the law. Get him there. You too. Sit
-down. Okay, from the top.
-
-[Amos Hart]
-A man has got the right to protect his home and his love one, right?
-
-[Martin Harrison]
-Of course he has.
-
-[Amos Hart]
-Well, I come home from the garage, I see him climbing through the window.
-
-[Martin Harrison]
-Aha!
-
-[Amos Hart]
-With my wife Roxie lying there, sleeping like an angel.
-
-[Martin Harrison]
-ls that true, Mrs. Hart?
-
-[Amos Hart]
-I'm telling you, that's the truth. My wife has nothing to do with it. She won't
-hurt a worm. Not even a worm. Until I fired the first shot, then she opened
-her eyes. She was somehow in sleep. I would say she sleeps in charisma pray.
-When I think of what would happen if I went off for a beer with the guy instead
-of coming straight home, it makes me sick even think about it...
-
-[Announcer]
-For her first number, Ms. Roxie Hart would like to sing a song of Loving
-Devotion. Dedicated to her dear husband, Amos.
-
-[Roxie]
-Sometime's I'm right
-Sometime's I'm wrong
-But he doesn't care
-He'll String along
-He loves me so
-That funny honey of mine
-Sometime's I'm down
-Sometime's I'm up
-But he follows 'round
-Like some droopy-eyed pup
-He loves me so
-That funny honey of mine
-
-[Amos Hart]
-Like I said, even though I shot him, he kept coming at me. So I had to pull
-the trigger again.
-
-[Roxie Hart]
-He ain't no sheik
-That's no great physique
-And Lord knows he ain't got the smarts
-Oh but look at that soul
-I tell you the whole
-Is a whole lot greater than
-The sum of his parts
-And if you knew him like me
-I know you'd agree
-What if the world
-Slandered my name?
-Why he'd be right there
-Taking the blame
-He loves me so
-And it all suits me fine
-That funny sunny honey
-Hubby of mine
-
-[Amos Hart]
-And supposed if... just supposed if he violated her or something. You know what
-I mean, violated?
-
-[Martin Harrison]
-l know what you mean.
-
-[Amos Hart]
-Or something. Think how terrible it'd have been. It's good thing I got home
-from work on time. - I'm telling you that.
-
-[Roxie Hart]
-He loves me so
-That funny honey of mine
-
-[Amos Hart]
-- I say I'm telling you that.
-
-[Martin Harrison]
-The name of deceased is Fred Casely.
-
-[Amos Hart]
-Fred Casely? How could he be a burglar? My wife knows him. He sold us our
-furniture. He gave us 10% off.
-
-[Roxie Hart]
-Lord knows he ain't got the smarts
-
-[Martin Harrison]
-You told me he was the burglar? - You mean he was dead when you got home?
-
-[Amos Hart]
-I'm covering for her. She was telling me cock and bull story story about this
-burglar. And I'd say I did it because I was sure to get off. 'Help me, Amos.'
-she said, 'lt's my goddamn hour-need.'
-
-[Roxie Hart]
-Now he shot off his trap
-I can't stand that sap
-
-[Amos Hart]
-And i believed that cheap little tramp. She's too smart on me, huh? And i
-protected her... I'm on the garage with my butt 14 hours a day. And she's now
-promoted to a bon-bon? And traveling around like some goddamn pussy! She
-thought she can pull the world by that I wasn't pulled yet. I tell you that
-something that I can take. And this time she pushed me too far. I didn't shoot
-him. Fool, what a sap I was
-
-[Roxie Hart]
-You double-crosser! You big bluffer mouth! You promised you'd stay...
-
-[Amos Hart]
-What're you talking about? You've been setting me up, Roxie!
-
-[Roxie Hart]
-- Goddamn it!
-
-[Amos Hart]
-- You told me it was a burglar! The whole time you've been jazzing...
-
-[Roxie Hart]
-You are a disloyal husband! Look, it's true. l shoot him. But it was
-self-defense. He was trying to burgle me.
-
-[Martin Harrison]
-From what l hear, he's been burgled you three times a week for the last month.
-So what do you say, Mrs.?
-
-[Neighbor]
-- That's him, all right.
-
-[Martin Harrison]
-
-- Thank you. Your story doesn't work, Mrs. Hart. So try this emphasize. Fred
-Casely was a good time on the side but goofy here is a meal ticket.
-
-[Roxie Hart]
-Meal ticket? He couldn't buy my liquor.
-
-[Martin Harrison]
-
-And Fred Casely could? With a wife and five little Caselys? Or he forgot to
-mention them.
-
-[Roxie Hart]
-What?
-
-[Martin Harrison]
-Oh, yes.
-
-[Roxie Hart]
-That bastard! Yes, I killed him. I would kill him again!
-
-[Martin Harrison]
-Once was enough. Take her downtown. Come on.
-
-[Reporter]
-Take off! This way, honey. Oh, come on. lt's a shame to hide such a beautiful
-face. Why you shoot him, honey? Why don't you give a profile, a little smile
-like the girl in the toothpaste ad?
-
-[Martin Harrison]
-Take while you can. The case is down. District attorney Harrison says this is
-a hanging case.
-
-[Roxie Hart]
-Hanging?
-
-[Martin Harrison]
-- I'm ready to go to the jury tomorrow.
-
-[Roxie Hart]
-Wait a minute, what do you mean hanging?
-
-[Martin Harrison]
-Not so confident anymore, are you? Take her to the Cooke County Jail.
-
-[Reporter]
-Come on, sweetie. Headline. What did you shoot him? Is it...
-
-[Roxie Hart]
-Hey, what do you mean hanging?
-
-[Warden]
-...Caffeine, cocaine or opium? Arm length. 31 inches... The matrons are on
-the way. So don't get too cozy. Put off that cigarette!
-
-[Liz]
-Ever had Morton before? She's fine... as long as you keep her happy.
-
-[Announcer]
-And now, ladies and gentlemen. The keeper of the keys, the countess of the
-clink, the mistress of murderers' row. Matron Mama Morton!
-
-[Mama Morton]
-Ask any of the chickies in my pen
-They'll tell you I'm the biggest mother hen
-I love 'em all and all of them love me
-Because the system works
-The system called reciprocity...
-
-[Warden]
-On your feet.
-
-[Mama Morton]
-Welcome, ladies.
-
-Got a little motto
-Always sees me through
-"When you're good to Mama
-Mama's good to you".
-
-You might think l'd make your life a living hell, which is not true.
-
-There's a lot of favors
-I'm prepared to do
-You do one for Mama
-She'll do one for you.
-
-l'd be your friend if you let me.
-So if something upsets you
-or makes you unhappy in any way,
-don't shoot your fat-ass mouth on me
-'cause l won't give a shit. Now move it out.
-
-They say that life is tit for tat
-And that's the way I live
-So, I deserve a lot of tat
-For what I've got to give
-Don't you know that this hand
-Washes that one too
-When you're good to Mama
-Mama's good to you!
-
-[Warden]
-Let's go!
-
-[Mama Morton]
-You must be Hart. You're a pretty one.
-
-[Roxie Hart]
-Thank you, ma'am.
-
-[Mama Morton]
-Why don't you call me Mama? We can take care of you. You'd be happy taken down
-in these block. Murderers' Row, we called it.
-
-[Roxie Hart]
-Oh, is that nicer? I don't think I'm really belonging here. I didn't actually
-do anything wrong.
-
-[Mama Morton]
-Don't need to tell me, honey.
-I've never heard of a man getting killed. When I get used to - just come to
-talk
-
-[Velma Kelly]
-Hey, mama. Come here.
-
-[Roxie Hart]
-Velma Kelly? You're the Velma Kelly? You know I was there that night? I was
-there that night that you got arrested.
-
-[Velma Kelly]
-Yeah, you're a half of Chicago. Look at this, Mama. Another story of
-announcing me in Redbook magazine. Not in memory do we recall so finishing
-horrible in double homicide.
-
-[Mama Morton]
-Maybe you couldn't buy that kind of publicity.
-
-[Velma Kelly]
-Couldn't buy it? I guess I can keep these then.
-
-[Mama Morton]
-Let's try.
-
-If you want my gravy
-Pepper my ragout
-Spice it up for Mama
-She'll get hot for you
-When they pass that basket
-Folk contribute to
-You put in for Mama
-She'll put out for you
-The folks atop the ladder
-Are the ones the world adores
-So boost me up my ladder, Kid
-And I'll boost you up yours
-Let's all stroke together
-Like the Princeton crew
-When you're strokin' Mama
-Mama's strokin' you
-So what's the one conclusion
-I can bring this number to?
-When you're good to Mama
-Mama's good to you!
+	[Fred Casely]
+	Sugar, you're hot stuff. I would say anything to get a piece of that.
+
+	[Roxie Hart]
+	Stay then. Now?
+
+	[Fred Casely]
+	It has some laughs. Let's just leave it like that.
+
+	[Roxie Hart]
+	Fred... You can't do this to me.
+
+	[Fred Casely]
+	You get off! You touch me again, I'll put your lights out.
+
+	[Roxie Hart]
+	- Wait...
+
+	[Fred Casely]
+	- Your husband will be home soon, why don't you watch yourself. Don't head into
+	shit again.
+
+	[Roxie Hart]
+	- You're a liar, Fred.
+
+	[Fred Casely]
+	- Oh, yeah, so what?
+
+	[Roxie Hart]
+	You lied to me...
+
+	[Fred Casely]
+	That's right, sweetheart. That's right.
+
+	[Roxie Hart]
+	You son of a bitch... (shoot) Son of a bitch! You son of a bitch!
+
+	[Photographer]
+	Why you bothering, Sal? This one's all wrapped up. I hear it's a new city
+	record. From killing to confession in an hour for that.
+
+	[Sergeant Fogarty]
+	Why did you get a murder weapon?
+
+	[Amos Hart]
+	I keep a gun in the underway drawer. Just in case it trouble, you know.
+
+	[Sergeant Fogarty]
+	That's just fine. Sign right there, Mr. Hart.
+
+	[Amos Hart]
+	For you, I'm gladly. Really in gladly.
+
+	[Sergeant Fogarty]
+	And mind that you don't say we beat you up when you at the witness stand.
+
+	[Amos Hart]
+	No, I give myself up. Surrender at my own free will.
+
+	[Martin Harrison]
+	lt's indeed you're the murderer.
+
+	[Roxie Hart]
+	Shooting a burglar ain't murder. Just last week jury sent a man
+
+	[Martin Harrison]
+	I'm always grateful if the citizens know the law. Get him there. You too. Sit
+	down. Okay, from the top.
+
+	[Amos Hart]
+	A man has got the right to protect his home and his love one, right?
+
+	[Martin Harrison]
+	Of course he has.
+
+	[Amos Hart]
+	Well, I come home from the garage, I see him climbing through the window.
+
+	[Martin Harrison]
+	Aha!
+
+	[Amos Hart]
+	With my wife Roxie lying there, sleeping like an angel.
+
+	[Martin Harrison]
+	ls that true, Mrs. Hart?
+
+	[Amos Hart]
+	I'm telling you, that's the truth. My wife has nothing to do with it. She won't
+	hurt a worm. Not even a worm. Until I fired the first shot, then she opened
+	her eyes. She was somehow in sleep. I would say she sleeps in charisma pray.
+	When I think of what would happen if I went off for a beer with the guy instead
+	of coming straight home, it makes me sick even think about it...
+
+	[Announcer]
+	For her first number, Ms. Roxie Hart would like to sing a song of Loving
+	Devotion. Dedicated to her dear husband, Amos.
+
+	[Roxie]
+	Sometime's I'm right
+	Sometime's I'm wrong
+	But he doesn't care
+	He'll String along
+	He loves me so
+	That funny honey of mine
+	Sometime's I'm down
+	Sometime's I'm up
+	But he follows 'round
+	Like some droopy-eyed pup
+	He loves me so
+	That funny honey of mine
+
+	[Amos Hart]
+	Like I said, even though I shot him, he kept coming at me. So I had to pull
+	the trigger again.
+
+	[Roxie Hart]
+	He ain't no sheik
+	That's no great physique
+	And Lord knows he ain't got the smarts
+	Oh but look at that soul
+	I tell you the whole
+	Is a whole lot greater than
+	The sum of his parts
+	And if you knew him like me
+	I know you'd agree
+	What if the world
+	Slandered my name?
+	Why he'd be right there
+	Taking the blame
+	He loves me so
+	And it all suits me fine
+	That funny sunny honey
+	Hubby of mine
+
+	[Amos Hart]
+	And supposed if... just supposed if he violated her or something. You know what
+	I mean, violated?
+
+	[Martin Harrison]
+	l know what you mean.
+
+	[Amos Hart]
+	Or something. Think how terrible it'd have been. It's good thing I got home
+	from work on time. - I'm telling you that.
+
+	[Roxie Hart]
+	He loves me so
+	That funny honey of mine
+
+	[Amos Hart]
+	- I say I'm telling you that.
+
+	[Martin Harrison]
+	The name of deceased is Fred Casely.
+
+	[Amos Hart]
+	Fred Casely? How could he be a burglar? My wife knows him. He sold us our
+	furniture. He gave us 10% off.
+
+	[Roxie Hart]
+	Lord knows he ain't got the smarts
+
+	[Martin Harrison]
+	You told me he was the burglar? - You mean he was dead when you got home?
+
+	[Amos Hart]
+	I'm covering for her. She was telling me cock and bull story story about this
+	burglar. And I'd say I did it because I was sure to get off. 'Help me, Amos.'
+	she said, 'lt's my goddamn hour-need.'
+
+	[Roxie Hart]
+	Now he shot off his trap
+	I can't stand that sap
+
+	[Amos Hart]
+	And i believed that cheap little tramp. She's too smart on me, huh? And i
+	protected her... I'm on the garage with my butt 14 hours a day. And she's now
+	promoted to a bon-bon? And traveling around like some goddamn pussy! She
+	thought she can pull the world by that I wasn't pulled yet. I tell you that
+	something that I can take. And this time she pushed me too far. I didn't shoot
+	him. Fool, what a sap I was
+
+	[Roxie Hart]
+	You double-crosser! You big bluffer mouth! You promised you'd stay...
+
+	[Amos Hart]
+	What're you talking about? You've been setting me up, Roxie!
+
+	[Roxie Hart]
+	- Goddamn it!
+
+	[Amos Hart]
+	- You told me it was a burglar! The whole time you've been jazzing...
+
+	[Roxie Hart]
+	You are a disloyal husband! Look, it's true. l shoot him. But it was
+	self-defense. He was trying to burgle me.
+
+	[Martin Harrison]
+	From what l hear, he's been burgled you three times a week for the last month.
+	So what do you say, Mrs.?
+
+	[Neighbor]
+	- That's him, all right.
+
+	[Martin Harrison]
+
+	- Thank you. Your story doesn't work, Mrs. Hart. So try this emphasize. Fred
+	Casely was a good time on the side but goofy here is a meal ticket.
+
+	[Roxie Hart]
+	Meal ticket? He couldn't buy my liquor.
+
+	[Martin Harrison]
+
+	And Fred Casely could? With a wife and five little Caselys? Or he forgot to
+	mention them.
+
+	[Roxie Hart]
+	What?
+
+	[Martin Harrison]
+	Oh, yes.
+
+	[Roxie Hart]
+	That bastard! Yes, I killed him. I would kill him again!
+
+	[Martin Harrison]
+	Once was enough. Take her downtown. Come on.
+
+	[Reporter]
+	Take off! This way, honey. Oh, come on. lt's a shame to hide such a beautiful
+	face. Why you shoot him, honey? Why don't you give a profile, a little smile
+	like the girl in the toothpaste ad?
+
+	[Martin Harrison]
+	Take while you can. The case is down. District attorney Harrison says this is
+	a hanging case.
+
+	[Roxie Hart]
+	Hanging?
+
+	[Martin Harrison]
+	- I'm ready to go to the jury tomorrow.
+
+	[Roxie Hart]
+	Wait a minute, what do you mean hanging?
+
+	[Martin Harrison]
+	Not so confident anymore, are you? Take her to the Cooke County Jail.
+
+	[Reporter]
+	Come on, sweetie. Headline. What did you shoot him? Is it...
+
+	[Roxie Hart]
+	Hey, what do you mean hanging?
+
+	[Warden]
+	...Caffeine, cocaine or opium? Arm length. 31 inches... The matrons are on
+	the way. So don't get too cozy. Put off that cigarette!
+
+	[Liz]
+	Ever had Morton before? She's fine... as long as you keep her happy.
+
+	[Announcer]
+	And now, ladies and gentlemen. The keeper of the keys, the countess of the
+	clink, the mistress of murderers' row. Matron Mama Morton!
+
+	[Mama Morton]
+	Ask any of the chickies in my pen
+	They'll tell you I'm the biggest mother hen
+	I love 'em all and all of them love me
+	Because the system works
+	The system called reciprocity...
+
+	[Warden]
+	On your feet.
+
+	[Mama Morton]
+	Welcome, ladies.
+
+	Got a little motto
+	Always sees me through
+	"When you're good to Mama
+	Mama's good to you".
+
+	You might think l'd make your life a living hell, which is not true.
+
+	There's a lot of favors
+	I'm prepared to do
+	You do one for Mama
+	She'll do one for you.
+
+	l'd be your friend if you let me.
+	So if something upsets you
+	or makes you unhappy in any way,
+	don't shoot your fat-ass mouth on me
+	'cause l won't give a shit. Now move it out.
+
+	They say that life is tit for tat
+	And that's the way I live
+	So, I deserve a lot of tat
+	For what I've got to give
+	Don't you know that this hand
+	Washes that one too
+	When you're good to Mama
+	Mama's good to you!
+
+	[Warden]
+	Let's go!
+
+	[Mama Morton]
+	You must be Hart. You're a pretty one.
+
+	[Roxie Hart]
+	Thank you, ma'am.
+
+	[Mama Morton]
+	Why don't you call me Mama? We can take care of you. You'd be happy taken down
+	in these block. Murderers' Row, we called it.
+
+	[Roxie Hart]
+	Oh, is that nicer? I don't think I'm really belonging here. I didn't actually
+	do anything wrong.
+
+	[Mama Morton]
+	Don't need to tell me, honey.
+	I've never heard of a man getting killed. When I get used to - just come to
+	talk
+
+	[Velma Kelly]
+	Hey, mama. Come here.
+
+	[Roxie Hart]
+	Velma Kelly? You're the Velma Kelly? You know I was there that night? I was
+	there that night that you got arrested.
+
+	[Velma Kelly]
+	Yeah, you're a half of Chicago. Look at this, Mama. Another story of
+	announcing me in Redbook magazine. Not in memory do we recall so finishing
+	horrible in double homicide.
+
+	[Mama Morton]
+	Maybe you couldn't buy that kind of publicity.
+
+	[Velma Kelly]
+	Couldn't buy it? I guess I can keep these then.
+
+	[Mama Morton]
+	Let's try.
+
+	If you want my gravy
+	Pepper my ragout
+	Spice it up for Mama
+	She'll get hot for you
+	When they pass that basket
+	Folk contribute to
+	You put in for Mama
+	She'll put out for you
+	The folks atop the ladder
+	Are the ones the world adores
+	So boost me up my ladder, Kid
+	And I'll boost you up yours
+	Let's all stroke together
+	Like the Princeton crew
+	When you're strokin' Mama
+	Mama's strokin' you
+	So what's the one conclusion
+	I can bring this number to?
+	When you're good to Mama
+	Mama's good to you!
 
-[Roxie Hart]
-Mama? It's... kinda freezing in here. You don't think maybe there's something
-wrong with the heat? Not that I'm complaining, mind you but... you know... lf
-you can bring some blankets on the way...
+	[Roxie Hart]
+	Mama? It's... kinda freezing in here. You don't think maybe there's something
+	wrong with the heat? Not that I'm complaining, mind you but... you know... lf
+	you can bring some blankets on the way...
 
-[Mama Morton]
-Lights out, ladies.
+	[Mama Morton]
+	Lights out, ladies.
 
-[Liz]
-Pop.
+	[Liz]
+	Pop.
 
-[Annie]
-Six.
+	[Annie]
+	Six.
 
-[June]
-Squish.
+	[June]
+	Squish.
 
-[Hunyak]
-Uh-Uh.
+	[Hunyak]
+	Uh-Uh.
 
-[Velma]
-Cicero.
+	[Velma]
+	Cicero.
 
-[Mona]
-Lipschitz!
+	[Mona]
+	Lipschitz!
 
-[Announcer]
-And now, the six merry murderers from the Cooke county jail in their rendition
-of The Cell-block Tango.
+	[Announcer]
+	And now, the six merry murderers from the Cooke county jail in their rendition
+	of The Cell-block Tango.
 
-[Liz]
-Pop.
+	[Liz]
+	Pop.
 
-[Annie]
-Six.
+	[Annie]
+	Six.
 
-[June]
-Squish.
+	[June]
+	Squish.
 
-[Hunyak]
-Uh-Uh.
+	[Hunyak]
+	Uh-Uh.
 
-[Velma]
-Cicero.
+	[Velma]
+	Cicero.
 
-[Mona]
-Lipschitz!
+	[Mona]
+	Lipschitz!
 
-[Liz]
-Pop.
+	[Liz]
+	Pop.
 
-[Annie]
-Six.
+	[Annie]
+	Six.
 
-[June]
-Squish.
-
-[Hunyak]
-Uh-Uh.
+	[June]
+	Squish.
+
+	[Hunyak]
+	Uh-Uh.
 
-[Velma]
-Cicero.
-
-[Mona]
-Lipschitz!
-
-[All Murderess's]
-He had it coming
-He had it coming
-He only had himself to blame.
-If you'd have been there
-If you'd have seen it
-
-[Velma]
-I betcha you would have done the same!
-
-[Liz]
-Pop.
-
-[Annie]
-Six.
-
-[June]
-Squish.
-
-[Hunyak]
-Uh-Uh.
-
-[Velma]
-Cicero.
-
-[Mona]
-Lipschitz!
-
-[Liz]
-Pop.
-
-[Annie]
-Six.
-
-[June]
-Squish.
-
-[Hunyak]
-Uh-Uh.
-
-[Velma]
-Cicero.
-
-[Mona]
-Lipschitz!
-
-[All Murderess's]
-He had it coming
-He had it coming
-He only had himself to blame.
-If you'd have been there
-If you'd have seen it
-
-[Velma]
-I betcha you would have done the same!
-
-[Liz]
-Pop.
-
-[Annie]
-Six.
-
-[June]
-Squish.
-
-[Hunyak]
-Uh-Uh.
-
-[Velma]
-Cicero.
-
-[Mona]
-Lipschitz!
-
-[Liz, girls]
-You know how people have these little habits that get you down. Like Bernie.
-Bernie liked to chew gum. No, not chew. Pop. So, I came home this one day and
-I am really irritated, and looking for a little sympathy and there's Bernie
-layin' on the couch, drinkin' a beer and chewin'. No, not chewin'. Popin'. So,
-I said to him, I said, "Bernie, you pop that gum one more time..."
-And he did!
-So I took the shotgun off the wall and fired two warning shots...
-...into his head.
-
-[All Murderess's]
-He had it coming
-He had it coming
-He only had himself to blame.
-If you'd have been there
-If you'd have heard it
-I betcha you would
-Have done the same!
-
-[Annie]
-I met Ezekiel Young from Salt Lake City about two years ago and he told me he
-was single and we hit it off right away. So, we started living together. He'd
-go to work, he'd come home, I'd mix Him a drink, we'd have dinner.
-And then I found out, "Single" he told me? Single, my ass. Not only was he
-married. ...oh, no, he had six wives. One of those Mormons, you know. So that
-night when he came home from work. I mixed him his drink as usual.
-You know, some guys just can't hold their arsenic!
-
-[All without Annie]
-Hah! He had it coming / Pop, Six, Squish, Uh-Uh,
-He had it coming / Cicero, Lipschitz!
-He took a flower
-In its prime
-And the he used it / Pop, Six, Squish, Uh-Uh,
-And he abused it / Cicero, Lipschitz!
-It was a murder
-But not a crime!
-
-[June]
-Now, I'm standing in the kitchen carvin' up the chicken for dinner, minding my
-own business, and in storms my husband Wilbur, in a jealous rage. "You been
-screwin' the milkman," he says. He was crazy and he kept on screamin' "You
-been screwin' the milkman," And then he ran into my knife! He ran into my
-knife TEN TIMES!
-
-[All Murderess's]
-If you'd have been there
-If you'd have seen it
-I betcha you would have done the same!
-
-[Hunyak]
-Mit keresek, enn itt? Azt mondjok, hogy lakem lefogta a ferjemet en meg
-lecsaptam a fejet. De nem igaz, en artatlan vagyok. Nem tudom mert mondja
-Uncle Sam hogy en tetten. Probaltam a rendorsegen megmagyarazni de nem
-ertettek meg...
-
-[Roxie Hart]
-Yeah, but did you do it?
-
-[Hunyak]
-UH UH, not guilty!
-
-[Velma]
-My sister, Veronica, and I had this double act and my husband, Charlie,
-traveled around with us. Now for the last number in our act, we did these 20
-acrobatic tricks in a row, one, two, three, four, five... Splits, spread
-eagles, back flips, flip flops, one right after the other. Well, this one
-night before the show we are in a hotel Cicero, the three of us, sittin' up
-in a hotel room, boozin' and havin' a few laughs and we ran out of ice, so I
-went out to get some. I come back, open the door And there's Veronica and
-Charlie doing Number Seventeen -the spread eagle.
-Well, I was in such a state of shock, I completely blacked out. I can't
-remember a thing. It wasn't until later, when I was washing the blood off my
-hands I even knew they were dead.
-
-[Velma, Girls]
-They had it coming
-They had it coming
-They had it coming all along.
-I didn't do it/ She does not do it
-But if I'd done it (she'd done it)
-How could you tell me that I was wrong?
-They had it coming
-They had it coming
-They had it coming
-They had it coming
-They had it coming
-They took a flower
-All along
-In its prime
-I didn't do it
-And then they used it
-But if I'd done it
-And they abused it
-How could you tell me
-It was a murder
-That I was wrong? / But not a crime!
-
-[Mona]
-I love Alvin Lipschitz More than I can possibly say. He was a real artistic
-guy... Sensitive...a painter. He was always trying to find himself. He'd go
-out every night looking for himself and along the way he found Ruth, Gladys,
-Rosemary and Irving.
-I guess you can say we broke up because of artistic differences. He saw
-himself as alive and I saw him dead.
-
-[All Murderess's]
-The dirty bum, bum, bum, bum, bum
-The dirty bum, bum, bum, bum, bum
-
-[All without Mona]
-They had it comin'
-They had it comin'
-They had it comin'
-They had it comin'
-They had it comin'
-They had it comin'
-All along
-All along
-'Cause if they used us
-'Cause if they used us
-And they abused us
-And they abused us
-How could you tell us
-How could you tell us
-That we were wrong?
-That we were wrong?
-
-[Velma, June, Hunyak]
-He had it coming
-He had it coming
-He only had
-Himself
-To blame.
-If you'd have been there
-If you'd have seen it
-I betcha
-You would
-Have done
-The same!
-
-[Liz]
-You pop that gum one more time!
-
-[Annie]
-Single my ass.
-
-[June]
-Ten times!
-
-[Hunyak]
-Miert csukott Uncle Sam bortonbe.
-
-[Velma]
-Number Seventeen - the spread eagle.
-
-[Mona]
-Artistic differences.
-
-
-[Liz]
-Pop.
-
-[Annie]
-Six.
-
-[June]
-Squish.
-
-[Hunyak]
-Uh-Uh.
-
-[Velma]
-Cicero.
-
-[Mona]
-Lipschitz!
-
-[Liz]
-Pop.
-
-[Annie]
-Six.
-
-[June]
-Squish.
-
-[Hunyak]
-Uh-Uh.
-
-[Velma]
-Cicero.
-
-[Mona]
-Lipschitz!
-
-[Roxie Hart]
-Who brings along them?
-
-[June]
-- What is to you.
-
-[Roxie Hart]
-- Who then? Nothing Heard they were Velma's.
-
-[Liz]
-Hunyak has done all her laundry for a couple of weeks.
-
-[Roxie Hart]
-Fresh towels for change.
-
-[Warden]
-Make it quick.
-
-[Mama Morton]- Roxie is eavesdropping
-...l can take care of you. There're a couple of things, let me analyze to you.
-Now, Billy Flynn set a travel on March 5th. March 7th, you would be quit. On
-March 8th, you know what Mama gonna do for you? Mama gonna put you back on the
-Vonville circus.
-
-[Velma Kelly]
-So now you're an agent too?
-
-[Mama Morton]
-Until you install private line in your cell, all calls are gonna go through me.
-
-[Velma Kelly]
-What kind of dough are we talking about?
-
-[Mama Morton]
-You know, it's a crazy world. I mean, Babe Ruth is playing in palace for
-$5,000 a week.
-
-[Velma Kelly]
-Yeah. And what about someone with real talent?
-
-[Mama Morton]
-Well, I can talk to the boys over Wianmarx. With your recent sensation
-activity, they seems of thinking to give you $2,500.
-
-[Velma Kelly]
-$2,500? Geez, the most me and Veronica made is 35,000.
-
-[Mama Morton]
-That's what happens when you have a Redbook presentation.
-
-[Velma Kelly]
-You know what, Mama? I always wanted to play in big Gym Conesus most. Do you
-think you can get me that?
-
-[Mama Morton]
-The Gyms? I don't know. It gonna take you another phone call.
-
-[Velma Kelly]
-How much is that gonna cost?
-
-[Mama Morton]
-Come on, Velma. I feel about you. You're like family to me. You're like one of
-my own. - l'll do for 50 bucks.
-
-[Velma Kelly]
-- 50 bucks for a phone call? You must've got a lot of wrong numbers, Mama.
-
-[Roxie Hart]
-Oh, Miss Kelly. That's your personals. Oh, no. It's my pleasure. Hey, listen.
-Can l ask you something? You know that Harrison guy? He said that what I've
-done is a hanging case and he's prepared to ask for the maximum penalty.
-
-[Velma Kelly]
-Yeah? So?
-
-[Roxie Hart]
-So, I'm scared. I'm sure would appreciate some advice, especially from someone
-I admire as much as you. Since I can remember, I have wanted to be on the stage.
-
-[Velma Kelly]
-Really? What's your talent? Washing and drying?
-
-[Roxie Hart]
-No. I dance in the chorus. That was before I met my husband...
-
-[Velma Kelly]
-Look, honey, you want some advice? Here it is, direct from me to you. Keep your
-paws off my underwear, okay?
-
-[Roxie Hart]
-Yeah, okay. Thanks... for nothing.
-
-[Mama Morton]
-She's not that nice, ain't she? I tell you, no matter how big she gives, she's
-still as common as ever. I'd like to help you, baby. Take aloft. So, what do
-you figure to use it for grounds?
-
-[Roxie Hart]
-What do you mean grounds?
-
-[Mama Morton]
-What are you gonna tell the jury?
-
-[Roxie Hart]
-l'm afraid l have to tell him the truth.
-
-[Mama Morton]
-- The truth?
-
-[Roxie Hart]
-- Yeah.
-
-[Mama Morton]
-That's the one we take you to the death house.
-
-[Roxie Hart]
-Holy mother of God.
-
-[Mama Morton]
-Relax. I mean, in this town, murder is a formal entertainment. Besides, in 47
-years Cooke County never hangs a woman yet. So even it's 47 and 1, they won't
-hang you.
-
-[Roxie Hart]
-- Jesus Mary Joseph.
-
-[Mama Morton]
-you're talkin' to the wrong people What you need, is Billy Flynn.
-
-[Roxie Hart]
-- Who?
-
-[Mama Morton]
-- Billy Flynn. Some of the best criminal lawyer in all Illinois. He knows about
-juries and women.
-
-[Roxie Hart]
-How do you get this Billy Flynn?
-
-[Mama Morton]
-Not by prayer, dear. First, you give me a hundred dollars. Then I'll make a
-phone call.
-
-[Roxie Hart]
-A hundred dollars? Will you just... I mean, it seems pretty stiff for a phone
-call.
-
-[Mama Morton]
-Over these work that we sent, he never lost a case for a female client yet. And
-a sweet little puss like yours, let's just say what a blindness you got.
-
-[Roxie Hart]
-He never lost a case?
-
-[Mama Morton]
-Never. Every girl in this place would kill to have Billy Flynn representing
-them.
-
-[Girls]
-We want Billy
-Give us
-B. I. Double L.Y.
-We're all his
-He's our kind of a guy
-And ooh what luck
-Cause here he is...
-
-[Announcer]
-Ladies and gentlemen, presenting the silver tongue, prince of the courtroom,
-the one and only... Billy Flynn!
-
-[Billy Flynn, girls]
-I don't care about expensive things
-Cashmere coats, or diamond rings
-Don't mean a thing
-All I care about is love
-That's what I'm here for
-I don't care for wearin' silk cravats
-Ruby studs, satin spats
-Don't mean a thing
-All I care about is love
-All he cares about is love
-Give me two
-Eyes of blue
-Softly saying
-I need you
-Let me see her standin' there
-And honest, mister, I'm a millionaire
-I don't care for any fine attire
-Vanderbilt might admire
-No, no, not me
-- All I care about is love...
-- All he cares about is love
-
-Good morning, ladies.
-
-[Hunyak]
-Not guilty!
-
-[Billy Flynn]
-You tell him, sweetheart.
-
-[Hunyak]
-��������, �������� ���, ����������!
-
-[Girls]
-That's what he's here for
-
-[Mary Sunshine]
-Excuse me, gentlemen. Miss Kelly, do you remember anything at all about that
-night?
-
-[Velma Kelly]
-I passed out. I can't remember a thing. Only that I didn't do it.
-
-[Mary Sunshine]
-Any idea who did it?
-
-[Billy Flynn]
-No. But my client is offering a substantial reward to anyone with information
-about this crime.
-
-[Mary Sunshine]
-How much is the reward, Miss Kelly?
-
-[Velma Kelly]
-- I don't know, how much?
-
-[Billy Flynn]
-- We'll work it out after the trial. Now, if there's no more question, Miss
-Kelly and I have got a lot of work to do.
-
-[Velma Kelly]
-Flynn, what is that about the reward?
-
-[Billy Flynn]
-If the reporters ask again, deny the whole thing later on.
-- Thank you!
-
-[Reporter]
-- One more question...
-
-[Girls]
-All he cares about is love
-
-[Roxie Hart]
-- Mr. Flynn, I'm Roxie Hart.
-
-[Billy Flynn]
-- Who?
-
-[Roxie Hart]
-Roxie Hart, you heard about me. Oh, yeah. The cute one. I was hoping that you
-might represent me.
-
-[Billy Flynn]
-You have $5,000?
-
-[Roxie Hart]
-That's a lot of money. Mama didn't say anything about $5,000. Look, Mr. Flynn.
-I'm not very good at this sort of thing, but... Maybe we could make some sort
-of arrangement between us. And I can be an awfully good sport.
-
-[Billy Flynn]
-Good, you got the idea system. Listen, you mean just one thing to me. You call
-me when you got $5,000.
-
-[Billy Flynn, girls]
-All he cares about is love
-Show me long Raven hair
-Flowin' down, about to there
-When I 've seen
-Her runnin' free
-Keep your money, that's enough for me
-I don't care for drivin' Packard cars
-Or smoking Long Buck Cigars
-No, no, not me
-All I care about is
-Doin' the guy in
-Who's pickin, on you
-Twistin' the wrist
-That's turnin' the screw
-All I care about
-is love!
-
-[Secretary]
-Oh, he'll see you now.
-
-[Billy Flynn]
-Hello, Andy.
-
-[Amos Hart]
-Amos, my name is Amos.
-
-[Billy Flynn]
-That's right. Take a seat. You know, you're a remarkable man. Your wife used
-you twice. Pluck the guy and try to pick it on you. Most men are gonna dim
-like that swing. But no, you're sticking by her. Actually you're a hero in my
-eyes.
-
-[Amos Hart]
-That's right. I'm a hero.
-
-[Billy Flynn]
-Did you bring the money?
-
-[Amos Hart]
-I didn't do as well as I hoped. But, I will, Mr. Flynn. I will.
-
-[Billy Flynn]
-This is only a thousand.
-
-[Amos Hart]
-Plus this 300 I borrow from the guy down at the garage, and the 700 from the
-building in Long Fund.
-
-[Billy Flynn]
-$2,000?
-
-[Amos Hart]
-And that's all I got so far. But I'd give you $20 of my salary every week.
-I'd give you a note with interest. Double, triple, until every cent is paid, I
-promise.
-
-[Billy Flynn]
-You came to me yesterday, I didn't ask you if she's guilty. I didn't ask if
-she's innocent. I didn't ask you if she's drunk, or a dope, no! All I said was,
-do you have $5,000? You said yes! But you don't have $5,000! So I figure you're
-a dirty liar and I don't waste my time with dirty liars.
-
-[Amos Hart]
-Look... I'm really sorry, Mr. Flynn.
-
-[Billy Flynn]
-On the other hand, your devotion to your wife is really very touching. I'll
-take your wife's case. And I'll keep it. Because I play square. Now look, I
-don't like to blow my own horn. But believe me. If Jesus Christ lives in
-Chicago today and if he had $5,000 and he come to me, things would have turn
-out differently. All right, this is what we gonna do. At the end of the week,
-I'm gonna have Roxie's name at the front page of every newspapers in town.
-Sweetest little Jazz killer in Chicago. That's the angle I'm after. You make an
-announcement, we're gonna have an auction. Tell them we gotta raise some money
-for the defense. They'll buy everything that she touched. Everything. Your
-shoes, your dresses, your perfumes, your underwear.
-
-[Roxie Hart]
-And the trolled records. Like the one I was playing when I shot the bastard.
-
-[Billy Flynn]
-I didn't hear that.
-
-[Roxie Hart]
-Not that I didn't have ground to remind you. Hey, what are they?
-
-[Billy Flynn]
-When we go to trial, nobody is gonna care a lick what your defense is unless
-they care about you. So first thing we gotta do is work up some sympathy from
-the press. And I'll push you like some Mary Sunshine. But there was one thing
-they can never resist. And that is a reformed sinner. So tell me, what's your
-favourite subject in school?
-
-[Roxie Hart]
-There... I was a real damn...
-
-[Billy Flynn]
-There must be something that you're really good at.
-
-[Roxie Hart]
-I got high marks in �ourtesy and in Hygiene.
-
-[Billy Flynn]
-Perfect, you wanted to be a nun.
-
-[Roxie Hart]
-A nun?
-
-[Billy Flynn]
-When were you born?
-
-[Roxie Hart]
-On a chicken farm outside Lopac.
-
-[Billy Flynn]
-Beautiful setting home, feel every luxury in refinement. Where're your parents
-now?
-
-[Roxie Hart]
-Probably on front front porch in their rocking chair
-
-[Billy Flynn]
-They're dead. Family fortune swept away. You're educated as a sacred heart.
-Then you fell into a runaway marriage. Left you miserable, alone, unhappy. Of
-course you got all swept up in a mad world, the city. Jazz, cabarets, liquors.
-You're drawn like a moth to the flame.
-
-[Roxie Hart]
-A moth?
-
-[Billy Flynn]
-Now I am a man who will assist and you're a butterfly. Crushed on a wheel!
-
-[Roxie Hart]
-Wait, what did you say? Is it the moth or the butterfly?
-
-[Billy Flynn]
-- You have sin in your soul.
-
-[Roxie Hart]
-- God, that's beautiful.
-
-[Billy Flynn]
-Cut out God. Stay with your battle acquainted. Kid, when I'm through with you,
-not only will you be acquainted, you can remain on the jury. I wanna take you
-home to meet his mother.
-
-[Roxie Hart]
-I was born on a beautiful Southern corn dent.
-
-[Mama Morton]
-- What?
-
-[Roxie Hart]
-- Holy shit! I'd never gotta get this straight!
-
-[Billy Flynn]
-Pipe down and swearing. Look, from here on, You'd say nothing wrong. Now try it
-again.
-
-[Roxie Hart]
-- I was born on...
-
-[Velma Kelly]
-- Come on... You know what I'm gonna do at witness stand? I thought I'd get all
-teary eyes and ask for your handkerchief. Then I think I'd take a peek at the
-jury like this. Flash a bit of the thigh, what do you think?
-
-[Billy Flynn]
-It sounds great.
-
-[Velma Kelly]
-Hey, don't you want to hear the rest?
-
-[Billy Flynn]
-Knock it off. You're on the top of my list.
-Well, well, well.
-
-[Roxie Hart]
-Sorry to be late, Mr. Flynn. Hope you're not too bored.
-
-[Billy Flynn]
-I like it. I like it.
-
-[Velma Kelly]
-Hey, I heard your press conference is tomorrow.
-
-[Roxie Hart]
-Yeah, what is to you?
-
-[Velma Kelly]
-Well, you wanted my advice, right? Whatever it is, don't forget Billy Flinn's
-number-one client is Billy Flynn.
-
-[Roxie Hart]
-Meaning what?
-
-[Velma Kelly]
-Meaning, don't let him hug the spotlight. You're the one that pays the scene.
-
-[Billy Flynn]
-Remember, we can only sell them one idea.
-
-[Roxie Hart]
-I can still see him coming at me with that awful look in his eyes.
-
-[Billy Flynn]
-And?
-
-[Roxie Hart]
-And we... both reached for the gun.
-
-[Billy Flynn]
-That's right, you both reached for the gun.
-- Ready?
-
-[Roxie Hart]
-- Yeah.
-
-[Billy Flynn]
-Thank you, gentlemen. Miss Sunshine.
-My client just entered pleads of not guilty. We look forward to the trial the
-earliest possible dates. Now is there any question? Miss Sunshine.
-
-[Mary Sunshine]
-As you know, my paper is dry. Do you have any advice for young girls, speaking
-to avoid the life of Jazz and drink?
-
-[Billy Flynn]
-Absolutely yes. Mrs. Hart feels that it was the tragic combination of liquor
-and Jazz, which lead to the downfall. Next question, please.
-
-[Roxie Hart]
-Ladies and gentlemen, I'd just like to say how flattered I am that you all
-came to see me.
-
-[Billy Flynn]
-Mrs. Hart is very...
-
-[Roxie Hart]
-You see, I was a moth... crushed on a wheel. You know, butterfly drawn to
-the... I bet you want to know why I shot the bastard.
-
-[Billy Flynn]
-Shut up, dummy.
-
-[Announcer]
-Mr. Billy Flynn in the press conference.
-Notice how mouth never moves... almost.
-
-[Reporter]
-Where'd you come from?
-
-[Billy Flynn]
-Mississippi
-
-[Reporter]
-And your parents?
-
-[Billy Flynn]
-Very wealthy.
-
-[Reporter]
-Where are they now?
-
-[Billy Flynn]
-Six feet under.
-But she was granted one more start
-The convent of The Sacred Heart!
-
-[Reporter]
-When'd you get here?
-
-[Billy Flynn]
-1920
-
-[Reporter]
-How old were you?
-
-[Billy Flynn]
-Don't remember
-
-[Reporter]
-Then what happened?
-
-[Billy Flynn]
-I met Amos
-And he stole my heart away
-Convinced me to elope one day
-
-[Mary Sunshine]
-Oh, poor girl, I can't believe what you've been through. A convent girl, a
-runaway marriage. Now tell us Roxie.
-Who's Fred Casely?
-
-[Billy Flynn]
-My ex-boyfriend.
-
-[Reporter]
-Why'd you shoot him?
-
-[Billy Flynn]
-I was leavin'.
-
-[Reporter]
-Was he angry?
-
-[Billy Flynn]
-Like a madman
-Still I said, Fred, move along.
-She knew that she was doin' wrong.
-
-[Reporter]
-Then describe it.
-
-[Billy Flynn]
-He came toward me.
-
-[Reporter]
-With a pistol?
-
-[Billy Flynn]
-From my bureau.
-
-[Reporter]
-Did you fight him?
-
-[Billy Flynn]
-Like a tiger.
-He had strength and she had none.
-And yet we both reached for the gun
-Oh yes, oh yes, oh yes we both
-Oh yes we both
-Oh yes, we both reached for
-The gun, the gun, the gun, the gun
-Oh yes, we both reached for the gun
-
-[All]
-Oh yes, oh yes, oh yes they both
-Oh yes, they both
-Oh yes, they both reached for
-The gun, the gun, the gun, the gun,
-Oh yes, they both reached for the gun
-for the gun.
-
-[Billy Flynn]
-understandable. understandable
-Yes, it's perfectly understandable
-Comprehensible. Comprehensible
-Not a bit reprehensible
-It's so defensible!
-
-[Reporter]
-How're you feeling?
-
-[Billy Flynn]
-Very frightened
-
-[Mary Sunshine]
-Are you sorry?
-
-[Roxie Hart]
-Are you kidding?
-
-[Reporter]
-What's your statement?
-
-[Billy Flynn]
-All I'd say is
-Though my choo-choo jumped the track
-I'd give my life to bring him back
-
-[Reporters]
-And?
-
-[Billy Flynn]
-Stay away from
-
-[Reporters]
-What?
-
-[Billy Flynn]
-Jazz and liquor
-
-[Reporters]
-And?
-
-[Billy Flynn]
-And the men who
-
-[Reporters]
-What?
-
-[Billy Flynn]
-Play for fun
-
-[Reporters]
-And what?
-
-[Billy Flynn]
-That's the thought that
-
-[Reporters]
-Yeah
-
-[Billy Flynn]
-Came upon me
-
-[Reporters]
-When?
-
-[Billy Flynn]
-When we both reached for the gun!
-
-[Billy Flynn and Mary Sunshine]
-Understandable, understandable
-Yes, it's perfectly understandable
-Comprehensible, comprehensible
-Not a bit reprehensible
-It's so defensible!
-
-[Reporters]
-Oh yes, oh yes, oh yes, they both
-Oh yes, they both
-Oh yes, they both reached for
-
-[Billy Flynn]
-Let me hear it!
-
-[Reporters]
-The gun, the gun, the gun, the gun
-Oh yes, they both reached
-For the gun
-For the gun
-
-[Billy Flinn]
-A little louder!
-
-[Reporters]
-Oh yes, oh yes, oh yes, they both
-Oh yes, they both
-Oh yes, they both reached
-- Oh, yeah
-For the gun, the gun, the gun, the gun
-Oh yes. They both reached
-For the gun
-Oh yes, oh yes, oh yes, they both
-Oh yes, they both
-Oh yes, they both reached for
-The gun, the gun, the gun,the gun
-Oh yes, they both reached for the gun.
-Oh yes, oh yes, oh yes, they both
-Oh yes, they both
-Oh yes, they both reached for
-The gun, the gun, the gun,the gun
-
-[Billy Flynn]
-Both reached for the...gun
-
-[Announcer]
-...The windy city has taken a new criminal to a charge. Let me remind you the
-name is, Roxie Hart. The sweetest lady ever accused in a murder in Chicago.
-Women want to look like her. Fellows want to go out with her. Some little girls
-even want to take her home. Don't get any idea, little lady. On the other side
-of town, the assistant D.A. promise the game little jump shooter
-
-[Martin Harrison]
-will swing before lridark.
-
-[Announcer]
-Who knows? If he lit up to his word, assistant D.A. Harrison might become
-governor Harrison someday. At the scene of the crime, everybody wants a little
-piece of Roxie Hart. The jar would send her husband back 20 dollars! Maybe this
-pretty little lady would get some of that famous Roxie style. It seems everybody
-these days is looking for Roxie Hart.
-
-[Mama Morton]
-Send the flowers to the yard and you make sure they send them. So, kiddo, you
-have any thought what you wanna do after Billy get you off?
-
-[Roxie Hart]
-Yeah, I think I'd like to go on stage.
-
-[Mama Morton]
-I figure it as much. I already called the Morris office.
-
-[Roxie Hart]
-Really? How much is that gonna cost me?
-
-[Mama Morton]
-It's a fairly deal. 10% of all your takings.
-
-[Roxie Hart]
-Yeah, we'll see, Mama. Besides, I don't even have an act yet.
-
-[Mama Morton]
-Killing Fred Casely was your act. That's solo steps in the audience. That song
-is my favourite.
-
-[Roxie Hart]
-It's a freak act. Besides, I'm better than that.
-
-[Mama Morton]
-Of course you are. I mean, you can be as big as Sophie Tago.
-
-[Roxie Hart]
-You really think so?
-
-[Mama Morton]
-Maybe Canton and Joseph combined.
-
-[Roxie Hart]
-You know, I always wanted to have my name on the papers. Before I met Amos, I
-used to date this wealthy dude, ugly bootlegger. He used to take me out and
-show me off. Ugly guys like to do that.
-Once it said in the paper, gangland alcopaly seen a shade Vito with cute
-blonde. That was me. You know all my life, I wanted to have my own act. But,
-no... Always no, they always turned me down. One big world-full of no. And then
-Amos came along. Save sweet Amos. Who never says no. I've never done this
-before. But you know, it's such a special night. And you are such a great
-audience! And I really feel like I can talk to you, you know? So forget what
-you read in the papers. And forget what you heard on the radio. Because...
-because l'm gonna tell you the truth. Not that the truth really matters. But
-I'm gonna tell you anyway. In the bed apartment, Amos was... zero. I mean, when
-he made love to me,it goes like... was he fixing a carburetor or something. I
-love you, honey... Anyway, I start to fool around. And I start screwing around.
-Which is fooling around without dinner. Then I met Fred Casely. He said he
-could get me into a bought film. But that didn't quite work out like I planned.
-I guess it didn't really work out to Fred either. So I gave up the whole idea.
-lf you can't figure out for all of these, opportunities just pass you by. But...
-And now, with all these publicity, I got me a world full of yes!
-
-The name on everybody's lips
-Is gonna be
-Roxie
-The lady rakin' in the chips
-Is gonna be
-Roxie
-I'm gonna be a celebrity
-That means somebody everyone knows
-They're gonna recognize my eyes
-My hair, my teeth, my boobs, my nose
-From just some dumb mechanic's wife
-I'm gonna be
-Roxie
-Who says that murders not an art?
-And who in case she doesn't hang
-can say she started with a bang?
-Roxie Hart!
-
-Boys
-
-[Roxie Hart and company]
-They're gonna wait outside in line
-To get to see
-Roxie
-Think of those autographs I'll sign
-Good luck to you,
-Roxie
-And I'll appear in Lavaliere
-That goes all the way down to my waist
-Here a ring, there a ring
-Everywhere a ring a ling
-But always in the best of taste
-
-[Roxie Hart (recitative whisper)]
-Oooh I'm a star.
-And the audience loves me.
-And I love the audience and they love me
-for loving them. And I love them for loving me.
-And we jus to love each other.
-That's because none of us got any love in our childhood.
-And that's show biz,
-
-Kid.
-
-[Roxie Hart and comapny]
-She's giving up here humdrum life
-I'm gonna be
-Roxie.
-She made a scandal and a start.
-And Sophie Tucker will shit, I know
-To see her name get billed below
-Roxie Hart!
-Roxy
-Roxy
-Roxy
-Roxy
-Roxy
-Roxy
-
-[Velma Kelly]
-l just can't take it anymore. Can't go anywhere without hearing about that dumb
-tomato! Oh, Mama, not you too.
-
-[Mama Morton]
-I've got some bad news, kid. The tool has been cancelled.
-
-[Velma Kelly]
-What?
-
-[Mama Morton]
-Your name is out of the paper too long. I read about today, it's the Hart kid.
-She's hot.
-
-[Velma Kelly]
-And what am I supposed to do? Suck up to her like everybody else?
-
-[Mama Morton]
-It couldn't hurt.
-
-[Velma Kelly]
-Over my dead body.
-(camera changes, with Roxie)
-Mind if I join you?
-
-[Voice off-camera]
-Lights out
-
-[Velma Kelly]
-Smoke? Look what some Johnny sent me. Triple cream caramel, all the way from
-San Francisco.
-
-[Roxie Hart]
-Oh, I'm watching my figure. You know, the trial.
-
-[Velma Kelly]
-Hey, Great mentioned that you're on a trip today, huh?
-
-[Roxie Hart]
-There have been so many, I just can't keep track.
-
-[Velma Kelly]
-Let me tell you, you're exactly same size as my sister. I mean, you fit into
-her costumes perfectly.
-
-[Roxie Hart]
-Really?
-
-[Velma Kelly]
-Yeah, and I'm just thinking, you know, with all the publicity piled up between
-us when Billy gets us off, we would be a natural to do an act together.
-
-[Roxie Hart]
-You think so?
-
-[Announcer, voice off-camera]
-Ladies and gentlemen, Miss Velma Kelly in Act of Desperation.
-
-[Velma Kelly]
-My sister and I had an act that couldn't flop
-My sister and I were headed straight for the top
-My sister and I earned a thou a week at least
-Oh, yeah!
-But my sister is now, unfortunately, deceased
-Oh, I know it's sad, of course
-But a fact
-is still a fact
-And now all that remains
-Is the remains
-Of a perfect
-double
-act!
-Watch this.
-
-They have to match it with 2 people.
-It's just all two people.
-
-First I'd...
-Then she'd...
-Then we'd...
-But I can't do it alone!
-Then she'd...
-Then I'd...
-Then we'...
-But I can't do it alone!
-She'd say, "What's your sister like?"
-I'd say, "Men,"
-She'd say, "you're the cat's meow"
-Then we'd wow the crowd again
-When she'd go...
-I'd go...
-We'd go...
-And then those ding-dong daddies started to roar
-Whistled, stomped and stamped on the floor
-Yelling, screaming, begging for more.
-And we'd say, "O.K. fellas, keep your socks up."
-you ain't seen nothin' yet!"
-But I simply cannot do it
-alone!
-
-So what do you think?
-Come on, you can say.
-
-[Roxie Hart]
-Pfrrrrrr!!!
-
-[Velma Kelly]
-I know you're right.
-The first part is shit.
-But the second part...
-Second part is really nifty.
-
-Ok, When she'd go...
-I'd go...
-We'd go...
-And then those two-bit Johnnies did it up brown
-To cheer the best attraction in town
-They nearly tore the balcony down
-And we'd say. "Okay, boys...
-we're goin' home, but before we go here's a few more partin' shots!"
-And this...
-this we did in perfect unison.
-Now, you've seen me goin' through it
-It may seem there's nothin' to it
-But I simply cannot do it
-Alone!
-
-[Roxie Hart]
-So where's the part we blew the brains out?
-
-[Velma Kelly]
-Okay, Roxie. I'll leave..
-
-[Roxie Hart]
-No, don't bother. You think you're fooling me? You're all washed up. And it's
-me they want now, and l'm a big star. Single. Oh, I almost forgot. You're in
-the paper today too. In the back. Velma Kelly's trial has been postponed
-indefinitely. Seven words.
-Here a little piece of advice. Direct from me to you. Lay off the caramels.
-
-[Announcer]
-And now, for all you Chicago's stay-up-laters. Night hours would only come
-alive at the dark. We dedicate this tune. Chicago After Midnight.
-
-[Billy Flynn]
-This all took place in Lesurevelt? lncredible. All right. Thanks. They just
-arrest this woman for triple homicide.
-
-[Man]
-Really?
-
-[Billy Flynn]
-Yeah, get this. She's an Aries! And her family is in the pineapple or
-grapefruit, some kind of fruits.
-(camera changes)
-The demon Kitty works in something... She's playing house. On the north side
-in an apartment, she met Harry. What Harry does for living, no one's quite
-sure. But it doesn't really matter cause she's paying all the bills. Anyhow,
-Kitty comes home tonight. Harry was already in bed. She goes to change. When
-she returns, she notices something rather odd, extremely odd. There're
-strippers in the apartment. Kitty disappears for a second. And she returns,
-she gently wakes up Harry. Harry says, ''What? l'm alone!'' ''Alone?'' she
-says, '' you have two other women in bed with you!'' And Harry says, ''Come on,
-darling, you gonna believe what you see or what l tell you?''
-
-[Announcer]
-Good night, folks.
-
-[Mary Sunshine]
-Miss Baxter, Miss Baxter! Mary Sunshine from The Evening Star. Would you mind
-saying a word or two?
-
-[Annie Baxter]
-Sure l'll say things. Go to hell!
-
-[Billy Flynn]
-Please direct your question to the counsel.
-
-[Annie Baxter]
-Tell the counsel I want my money back!
-
-[Billy Flynn]
-It's not your money. It's your mother's money.
-
-[Mary Sunshine]
-Are you sorry, dear?
-
-[Annie Baxter]
-Yeah, I'm sorry that I got caught.
-
-[Roxie Hart]
-Okay, Miss Sunshine.
-
-[Mary Sunshine]
-Hello, Roxie.
-
-[Roxie Hart]
-I got a letter from a guy. He says he gonna hungry strike till I'm free.
-
-[Mary Sunshine]
-That's nice.
-
-[Reporter]
-Miss Baxter, did you know these two ladies personally?
-
-[Annie Baxter]
-Did I know these two ladies personally? Was that your question?
-
-[Reporter]
-Yeah, that's my... (Annie kick reporter)
-
-[Mama Morton]
-She's very hot spirit, isn't she? Miss Baxter...
-
-[Roxie Hart]
-Hey, Mr. Flynn.
-
-[Billy Flynn]
--Yeah, hi, Tracy.
-
-[Roxie Hart]
--lt's Roxie.
-
-[Billy Flynn]
-Yeah, sure, I'm just kidding.
-
-[Roxie Hart]
-Did you get my trial date yet?
-
-[Billy Flynn]
--Listen, kid.
-
-[Roxie Hart]
--I'm on top of your list, right?
-
-[Annie Baxter]
-Go to hell!
-
-[Billy Flynn]
-What a helling, huh? And social-like too. Her mother owns all the pineapples
-in Hawaii.
-
-[Roxie Hart]
-What the hell do I care about pineapples?
-
-[Billy Flynn]
-All right... That's all for the questions. And l'll be happy to get back to
-you myself.
-
-[Roxie Hart]
-Billy...
-
-[Velma Kelly]
-How does it feel, kid? Pretty soon we couldn't find your name in the papers.
-
-[Roxie Hart]
-Mr. Flynn? (passes out)
-
-[Billy Flynn]
-Someone open the door immediately.
-
-[Mary Sunshine]
-Oh, my god. Roxie! What is it to you?
-
-[Roxie Hart]
-Oh, no. Don't worry about me. I only hope the fall didn't hurt the baby.
-
-[Mama Morton]
-Baby?
-
-[Velma Kelly]
-Shit!
-
-[Billy Flynn]
-Well, doctor, is she or isn't she?
-
-[Doctor]
-She is.
-
-[Billy Flynn]
-Would you swear that statement in court?
-
-[Doctor]
--Yes.
-
-[Billy Flynn]
--Good. button your fly.
-
-[Roxie Hart]
-I would just like to say that my own life doesn't matter now. It's just that
-of my unborn child.
-
-[Mary Sunshine]
-Poor girl, you'd have your baby born in jail. My readers won't stand for that.
-
-[Billy Flynn]
-I can assure you that won't happen. The trial would come in the least possible
-moment.
-
-[Mama Morton]
-First time we're ever have one more girl locked up.
-
-[Amos Hart]
-Hey, Roxie... Roxie! I just have the good news! I'm the father.
-
-[Reporter]
-Hey, Roxie, who's the father?
-
-[Billy Flynn]
-The question is completely out of line. How dare you insult this brave young
-woman?
-
-[Amos Hart]
-Roxie, honey! It's me, it's daddy! Roxie, I'd get to you as soon as I could.
-
-If someone stood up in a crowd
-And raised his voice up way out loud
-And waved his arm and shook his leg
-You'd notice him
-If someone in the movie show
-Yelled "Fire in the second row"
-This whole place is a powder keg!
-You'd notice him
-And even without clucking like a hen
-Everyone gets noticed, now and then,
-Unless, of course, that personage should be
-Invisible, inconsequential me!
-Cellophane
-Mister Cellophane
-Shoulda been my name
-Mister Cellophane
-'Cause you can look right through me
-Walk right by me
-And never know I'm there...
-I tell you
-Cellophane
-Mister
-Cellophane
-Shoulda been my name
-Mister
-Cellophane
-'Cause you can look right through me
-Walk right by me
-And never know I'm there...
-
-[Billy Flynn]
-Oh, l didn't see you.
-Sit down.
-Look, Andy, i'm afraid i'm gotta hit you hard.
-i can only hope you would think about it.
-
-[Amos Hart]
--Amos, my name is Amos.
-
-[Billy Flynn]
--Who says it wasn't?
-it was the kid's name i was thinking about.
-You know when she is due?
-September.
-You'd pass out those cigars anyway.
-i don't want you to give a damn on the people.
-
-[Amos Hart]
--People what?
-
-[Billy Flynn]
--Laugh.
-
-[Amos Hart]
--Laugh? Why would they laugh?
-
-[Billy Flynn]
-They can count. Can you count? September.
-it's the first copy of Roxie's statement from D.A. office. Says she hasn't
-copulated with you for four months prior the incidents.
-
-[Amos Hart]
-She would know. Yeah, i guess we've done no copulating since... Wait a minute.
-That doesn't figure out right. i couldn't be the father.
-
-[Billy Flynn]
-Well, forget about that. My client needs your support.
-
-[Amos Hart]
-You mean she needs a meal ticket? That's all l've ever been. This time she's
-gone too far.
-
-[Billy Flynn]
-What you gonna do? Divorce her?
-
-[Amos Hart]
-You're damn right! I'll divorce her! She probably won't even notice.
-
-[Billy Flynn]
-Yeah. I'm sorry.
-
-[Amos Hart]
-A human being's made of more than air
-With all that bulk, you're bound to see him there
-Unless that human bein' next to you
-Is unimpressive, undistinguished
-You
-Know
-who...
-
-[Billy Flynn]
--You're still in here?
-
-[Amos Hart]
--Yeah, l'm still in here.
-Shoulda been my name
-Mister Cellophane
-'Cause you can look right through me
-Walk right by me
-And never know I'm there...
-I tell ya
-Cellophane
-Mister Cellophane
-Shoulda been my name
-Mister Cellophane
-'Cause you can look right through me
-Walk right by me
-And never know I'm there
-Never even know I'm there.
-
-[Amos Hart]
-I hope I didn't take up too much of your time.
-
-[Billy Flynn]
-I've been waiting for you 10 minutes. Don't do that again.
-
-[Roxie Hart]
-This dress makes me look like a woolworth lambshake. l'm not wearing this.
-
-[Billy Flynn]
-You wear it because I tell you to wear it.
-
-[Roxie Hart]
-I'm not wearing this dress.
-
-[Billy Flynn]
-And when Andy's on the stand, I want you to do knitting.
-
-[Roxie Hart]
-Knitting? For Christ's sake.
-
-[Billy Flynn]
-A baby garment.
-
-[Roxie Hart]
-I don't know how to knit!
-
-[Billy Flynn]
-Then learn.
-
-[Roxie Hart]
-That's no way to win the jury's sympathy.
-
-[Billy Flynn]
-You don't need advice anymore?
-
-[Roxie Hart]
-Look at here, Mr. Mouthpiece. It seems to me that I'm the one who's coming up
-with the good ideas. I'm sick of everybody telling me what to do. And you treat
-me like dirt. You treat me like some dump, common criminal.
-
-[Billy Flynn]
-But you're some dump, common criminal.
-
-[Roxie Hart]
-Well, it's better than be a greasy-mite lawyer.
-
-[Billy Flynn]
-Who is up to be saving your ass.
-
-[Roxie Hart]
-Who is up for all that he can steal!
-
-[Billy Flynn]
-Maybe you'd like to appeal on court without me.
-
-[Roxie Hart]
-Maybe I could. Have you read the morning papers? They love me.
-
-[Billy Flynn]
-There maybe a lot more when you hang. You know why? 'Cause it's sold more
-papers.
-
-[Roxie Hart]
-You're fired.
-
-[Billy Flynn]
-I quit.
-
-[Roxie Hart]
-Any lawyer in this town would die to have my case.
-
-[Billy Flynn]
-You're a phony celebrity. You're a flash. ln a couple of weeks, no one would
-give a shit about you. That's Chicago.
-
-[Hunyak screams off-camera]
-No! Not guilty!
-
-[Roxie Hart]
-What happened?
-
-[Velma Kelly]
-lt's Hunyak. She lost the last appeal.
-
-[Roxie Hart]
-So what does that mean?
-
-[Velma Kelly]
-What that means? Next week, she's gonna...
-
-[Mary Sunshine]
-This is Mary Sunshine, coming to you from the Cooke County Jail, where history
-would be made today. Katelin Helinsky would become the first woman in the state
-of lllinois to be executed. And so ladies and gentlemen...
-
-[Announcer]
-And now, ladies and gentlemen, for your pleasure and your entertainment, we
-proudly present Katelin Helinsky and her famous Hungarian Disappearing Act.
-
-[Crowd]
-Bravo! Bravo! Bravo!
-
-[Roxie Hart]
-You know, it's really not that bad.
-
-[Billy Flynn]
-You're clear with everything you read?
-
-[Roxie Hart]
-Yup. I've been up all night rehearsing.
-
-[Billy Flynn]
-What do you do when Harrison come after you?
-
-[Roxie Hart]
-I sit still and look straight ahead. Never look the jury.
-
-[Billy Flynn]
-And?
-
-[Roxie Hart]
-And l look modest.
-
-[Billy Flynn]
-And?
-
-[Roxie Hart]
-And...
-
-[Billy Flynn]
-And say nothing.
-
-[Roxie Hart]
-That's right, that's right.
-
-[Billy Flynn]
-That was the deal, right?
-
-[Roxie Hart]
-Right.
-
-[Billy Flynn]
-You ask me back, I do all the talking and stuff.
-
-[Roxie Hart]
-Absolutely, Billy. Whatever you said.
-
-[Court clerk]
-Mr. Flynn, the honours are here.
-
-[Billy Flynn]
-Thank you.
-(to Roxie) You ready?
-
-[Roxie Hart]
-Yeah.
-Billy...
-I'm scared.
-
-[Billy Flynn]
-Don't be. I've been around a long time. Believe me, you've got nothing to worry
-about. It's all a circus. A three-ring circus. The trial, the whole world...
-is all a show business. Kid, you gonna be a star.
-
-Give 'em the old razzle dazzle
-Razzle dazzle 'em
-Give 'em an act with lots of flash in it
-And the reaction will be passionate
-Give 'em the old hocus pocus
-Bread and feather 'em
-How can they see with sequins in their eyes?
-What if your hinges all are rusting?
-What if, in fact, you're just disgusting ?
-Razzle dazzle 'em
-And they'll never catch wise!
-Give 'em the old razzle dazzle
-Razzle dazzle 'em
-Give 'em a show that's so splendiferous
-Row after row will grow vociferous
-Give 'em the old flim flam flummox
-Fool and fracture 'em
-How can they hear the truth above the roar?
-Roar, roar, roar.
-Throw 'em a fake and a finagle
-They'll never know you're just a bagel,
-Razzle dazzle 'em
-And they'll beg you for more!
-
-[Billy Flynn]
-I object!
-
-[The Judge]
-Sustained.
-
-[Martin Harrison]
-Your honour, l haven't even
-asked the question yet.
-
-Give 'em the old razzle dazzle(cave)
-Razzle dazzle 'em
-Back since the days of old Methuselah
-Everyone loves the big bambooz-a-ler
-Give 'em the old three ring circus
-Stun and stagger 'em
-When you're in trouble, go into your dance
-Though you are stiffer than a girder
-They let ya get away with a murder
-Razzle dazzle 'em
-And you've got a romance
-
-[Billy Flynn]
-Hello, Amos.
-
-[Amos Hart]
-Amos?
-That's right, Mr. Flynn.
-
-[Billy Flynn]
-Amos, when did you file sue for divorce?
-
-[Amos Hart]
-A month ago.
-
-[Billy Flynn]
-Was there any reason for filing at this particular time?
-
-[Amos Hart]
-I'd say, the newspapers said Roxie was expecting a little stranger.
-
-[Billy Flynn]
-That's hardly a cause for divorce, isn't it?
-
-[Amos Hart]
-A little too much of a stranger.
-
-[Billy Flynn]
-You mean you doubted the fraternity of the child.
-
-[Amos Hart]
-Most sure.
-
-[Billy Flynn]
-Tell me something, Amos. Did you share bed with your wife?
-
-[Amos Hart]
-Yes, sir, every night.
-
-[Billy Flynn]
-You expect the jury to believe that you slept next to this woman every night
-without exercising the rights of a husband?
-
-[Amos Hart]
-I could if I want to.
-
-[Billy Flynn]
-Oh, but you didn't.
-
-[Amos Hart]
-No, l did.
-
-[Billy Flynn]
-Did what?
-
-[Amos Hart]
-Want to.
-
-[Billy Flynn]
-But you didn't.
-
-[Amos Hart]
-Didn't what?
-
-[Billy Flynn]
-What you wanted.
-
-[Amos Hart]
-Wait a minute, I'm getting confused here.
-
-[Billy Flynn]
-Hey, you tell me, Hart. Since you ever question Roxie herself, did you even
-bother to ask her if you were the father of the child?
-
-[Amos Hart]
-No, sir.
-
-[Billy Flynn]
-No. What? lf you confirm that you were wrong, you'd be man enough in a minute.
-You would take her back if Roxie swore that you're the father of the child,
-which she does.
-
-[Amos Hart]
-She does?
-
-[Billy Flynn]
-She does! No more question! You can step down now. Well done, Andy.
-
-[Amos Hart]
-Roxie, I'm so sorry.
-
-[Billy Flynn]
-Give 'em the old
-Razzle dazzle
-Razzle dazzle 'em
-Show 'em the first rate sorcerer you are
-Long as you keep 'em way off balance
-How can they spot you got no talents?
-Razzle dazzle 'em
-Razzle dazzle 'em
-Razzle dazzle 'em
-
-[Mary Sunshine]
-This is the moment we've been waiting for. Roxie Hart finally takes the stand
-in her own defense.
-
-[Billy Flynn]
-And they'll make you a star!
-
-[The Judge]
-Order! Order! Proceed, Mr. Flynn.
-
-[Billy Flynn]
-Roxie, I have here a statement that you admitted having illicit relation
-with deceased Fred Casely. Is this statement true or false?
-
-[Roxie Hart]
-I'm afraid that's true.
-
-[Billy Flynn]
-You're an honestly girl, Roxie. When did you first meet Fred Casely?
-
-[Roxie Hart]
-When he sold Amos and me our furniture.
-
-[Billy Flynn]
-In your personal relationship with him, you told the jury when that began.
-
-[Roxie Hart]
-When I permitted him to escort me home one night, I don't think I would've gone
-with him if Mr. Hart and me hadn't quarreled that very morning.
-
-[Billy Flynn]
-Quarrel?
-
-[Roxie Hart]
-Yes, sir.
-
-[Billy Flynn]
-Well, I supposed it's his fault.
-
-[Roxie Hart]
-Oh, no, sir. It was my fault. I supposed I just couldn't stop pestering him.
-
-[Billy Flynn]
-Pestering him? By what?
-
-[Roxie Hart]
-I didn't like him working those long hours at the garage. I wanted him home
-with me... to done his socks and iron his shirts. I wanted a real home. A child.
-
-[Billy Flynn]
-So you drifted into this illicit relationship because you're unhappy at home.
-
-[Roxie Hart]
-Yes, most unhappy.
-
-[Billy Flynn]
-Roxie Hart! The state has accused you the murder of Fred Casely. Are you guilty
-or not?
-
-[Roxie Hart]
-I'm not guilty... I killed him, I did. But I'm not a criminal. l'm not a
-criminal...
-
-[Billy Flynn]
-Roxie... Did you recall the night of June 14th? Could you tell the jury in
-your own words the happening of that night.
-
-[Roxie Hart]
-When Fred came over, I told him a good news.
-
-[Billy Flynn]
-What was it?
-
-[Roxie Hart]
-That me and Amos are gonna have a baby. And it was all over between us.
-
-[Billy Flynn]
-What happened then?
-
-[Roxie Hart]
-Then...
-
-[Billy Flynn]
-Did he threaten you, Roxie?
-
-[Martin Harrison]
-Objection, your honour. Counsel is leading the witness.
-
-[The Judge]
-Sustained.
-
-[Billy Flynn]
-What does Casely say when you told him the news?
-
-[Roxie Hart]
-I'll kill you before I see you have another man's child!
-
-[Billy Flynn]
-Could you tell the audience... the jury, what happened next?
-
-[Roxie Hart]
-In his passion, he tore off my robe and he threw me on the bed. And Mr. Hart's
-pistol was lying there between us.
-
-[Billy Flynn]
-And then!
-
-[Roxie Hart]
-And then we both reached for the gun and I got it first. And then he came
-towards me with this awful look in his eyes. He was angry and wild!
-
-[Billy Flynn]
-Wild! And did you think that he might kill you?
-
-[Roxie Hart]
-Oh, yes, sir!
-
-[Billy Flynn]
-So was his life or yours?
-
-[Roxie Hart]
-And I just mine. I closed my eyes and I shot!
-
-[Billy Flynn]
-To defense for your life!
-
-[Roxie Hart]
-And to save my husband's innocent unborn child. (pass out)
-
-[The Judge]
-Order!
-
-[Roxie Hart]
-What a bull's eye, huh?
-
-[The Judge]
-Order in this court!
-
-[Amos Hart]
-Roxie!
-
-[Mary Sunshine]
-Here in the courtroom... Mrs. Hart's behavior (camera changes to prison)
-has been truly extraordinary. Opening her eyes, she fenced herself with her
-attorney's handkerchief.
-
-[Velma Kelly]
-Handkerchief?
-
-[Mary Sunshine]
-Poor child has no relief. She looks around now, seeming to want something.
-It's a glass of water.
-
-[Velma Kelly]
-Oh, Mama, that was my bid! I told Billy, I wanna do that at my trial!
-
-[Mary Sunshine]
-But now her eyes flatter wildly and she... Mrs. Hart has fainted again.
-She flumps over her chiffon dress up around her knees, revealing a glimpse of
-blue garder with Ryan-stone buckle.
-
-[Velma Kelly]
-Oh, Mama, she stole my garder. She stole my garder!
-
-[Mama Morton]
-Don't break my radio!
-
-[Velma Kelly]
-First she steals my publicity, then she steals my lawyer, my trial date,
-now she stole my goddamn garder.
-
-[Mama Morton]
-What do you expect? I mean these days you get a little success and it's good
-rinse for the people who put you here.
-
-[Velma Kelly]
-It ain't no justice in the world. That's nothing you can do about it.
-
-[Mama Morton]
-You think they got you a page just to listen to my radio? People and publicity
-only interested in things when we think no one's looking. (shows Roxie's diary)
-
-[Velma Kelly]
-Oh, Mama.
-
-[Court clerk]
-State call for the witness. Left down on bible, raise your right hand and swear
-tell the truth, the whole truth and nothing but the truth, help you God!
-
-[Velma Kelly]
-Amen so!
-
-[Court clerk]
-Have a seat.
-
-[Martin Harrison]
-Would you state your name for the record please.
-
-[Velma Kelly]
-Velma Kelly.
-
-[Martin Harrison]
-Miss Kelly, would you please tell the court the object l'm holding is the one
-you have come upon in the defendant jailcell
-
-[Velma Kelly]
-Yes, it is.
-
-[Martin Harrison]
-I submit this as appendix. Roxie Hart's diary.
-
-[Billy Flynn]
-I object! My client never kept a diary. Even if she did, this would be
-invasion of privacy and violation of fourth amendment and illegal search
-without a warrant.
-
-[Roxie Hart]
-Yeah, and she broke the lock.
-
-[The Judge]
-Order! Well, that settles that. I'll allow it.
-
-[Roxie Hart]
-What's the big deal? She's the one that did it.
-
-[The Judge]
-If you would read for us, Miss Kelly.
-
-[Velma Kelly]
-I haven't worked in a while. "What a laugh, plucking Fred Casely. The big
-baboon had a common. I'm just sorry I only glad to kill him once."
-
-[Roxie Hart]
-I never wrote that. You... Hey, she made that up. She made that up!
-
-[The Judge]
-Order! Please, Mr. Flynn, get control of your client.
-
-[Billy Flynn]
-I'm sorry, you honour. It won't happen again. Sit down and shut up.
-Or else it gonna get worse.
-
-[Martin Harrison]
-I have no more questions.
-
-[The Judge]
-Your witness, Mr. Flynn.
-
-[Announcer]
-Ladies and gentlemen, a tap dance.
-
-[Billy Flynn]
-Tell me, Miss Kelly, you make a deal with Mr. Harrison maybe to drop all
-charges against you if you testify here today?
-
-[Velma Kelly]
-Oh, sure. I'm not a complete idiot.
-
-[Billy Flynn]
-Good. Since you gave such an impressive performance for Mr. Harrison, can you
-do me the same honour?
-
-[Velma Kelly]
-I'd be delighted.
-
-[Billy Flynn]
-Thank you.
-
-[Velma Kelly]
-"Fred Casely assured me to get me an audition down at the Onyx. And then he
-reneged on his pledge and that's my motive for attack."
-
-[Billy Flynn]
-Pretty fancy. What you're saying if a big fat liar who rogue on a deal so I
-shot him.
-
-"Amos accused me of having an affair. So I told him that the charge was
-erroneous."
-
-[Martin Harrison]
-Objection, your honour. Mr. Flynn is twisting the evidence to draw conclusion
-to the specious and the...
-
-[Billy Flynn]
-Erroneous?
-
-[Martin Harrison]
-Exactly.
-
-[The Judge]
-Order! Order!
-
-[Billy Flynn]
-Miss Kelly, did you know the meaning of the word perjury?
-
-[Velma Kelly]
-Yes, l do.
-
-[Billy Flynn]
-You also know that is a crime?
-
-[Velma Kelly]
-Yes.
-
-[Billy Flynn]
-And for example if it turns out you knew this diary was a fake, I hate to think
-you rotting away in prison for the next 10 years especially when you just win
-your freedom.
-
-[Velma Kelly]
-All I know is what I was told.
-
-[Billy Flynn]
-So... you didn't find this diary in Roxie's cell?
-
-[Velma Kelly]
-No. Mama... Miss Morton gave it to me. She said someone sent it to her.
-
-[Billy Flynn]
-Someone? Any idea who this mysterious benefactor might be?
+	[Velma]
+	Cicero.
+
+	[Mona]
+	Lipschitz!
+
+	[All Murderess's]
+	He had it coming
+	He had it coming
+	He only had himself to blame.
+	If you'd have been there
+	If you'd have seen it
+
+	[Velma]
+	I betcha you would have done the same!
+
+	[Liz]
+	Pop.
+
+	[Annie]
+	Six.
+
+	[June]
+	Squish.
+
+	[Hunyak]
+	Uh-Uh.
+
+	[Velma]
+	Cicero.
+
+	[Mona]
+	Lipschitz!
+
+	[Liz]
+	Pop.
+
+	[Annie]
+	Six.
+
+	[June]
+	Squish.
+
+	[Hunyak]
+	Uh-Uh.
+
+	[Velma]
+	Cicero.
+
+	[Mona]
+	Lipschitz!
+
+	[All Murderess's]
+	He had it coming
+	He had it coming
+	He only had himself to blame.
+	If you'd have been there
+	If you'd have seen it
+
+	[Velma]
+	I betcha you would have done the same!
+
+	[Liz]
+	Pop.
+
+	[Annie]
+	Six.
+
+	[June]
+	Squish.
+
+	[Hunyak]
+	Uh-Uh.
+
+	[Velma]
+	Cicero.
+
+	[Mona]
+	Lipschitz!
+
+	[Liz, girls]
+	You know how people have these little habits that get you down. Like Bernie.
+	Bernie liked to chew gum. No, not chew. Pop. So, I came home this one day and
+	I am really irritated, and looking for a little sympathy and there's Bernie
+	layin' on the couch, drinkin' a beer and chewin'. No, not chewin'. Popin'. So,
+	I said to him, I said, "Bernie, you pop that gum one more time..."
+	And he did!
+	So I took the shotgun off the wall and fired two warning shots...
+	...into his head.
+
+	[All Murderess's]
+	He had it coming
+	He had it coming
+	He only had himself to blame.
+	If you'd have been there
+	If you'd have heard it
+	I betcha you would
+	Have done the same!
+
+	[Annie]
+	I met Ezekiel Young from Salt Lake City about two years ago and he told me he
+	was single and we hit it off right away. So, we started living together. He'd
+	go to work, he'd come home, I'd mix Him a drink, we'd have dinner.
+	And then I found out, "Single" he told me? Single, my ass. Not only was he
+	married. ...oh, no, he had six wives. One of those Mormons, you know. So that
+	night when he came home from work. I mixed him his drink as usual.
+	You know, some guys just can't hold their arsenic!
+
+	[All without Annie]
+	Hah! He had it coming / Pop, Six, Squish, Uh-Uh,
+	He had it coming / Cicero, Lipschitz!
+	He took a flower
+	In its prime
+	And the he used it / Pop, Six, Squish, Uh-Uh,
+	And he abused it / Cicero, Lipschitz!
+	It was a murder
+	But not a crime!
+
+	[June]
+	Now, I'm standing in the kitchen carvin' up the chicken for dinner, minding my
+	own business, and in storms my husband Wilbur, in a jealous rage. "You been
+	screwin' the milkman," he says. He was crazy and he kept on screamin' "You
+	been screwin' the milkman," And then he ran into my knife! He ran into my
+	knife TEN TIMES!
+
+	[All Murderess's]
+	If you'd have been there
+	If you'd have seen it
+	I betcha you would have done the same!
+
+	[Hunyak]
+	Mit keresek, enn itt? Azt mondjok, hogy lakem lefogta a ferjemet en meg
+	lecsaptam a fejet. De nem igaz, en artatlan vagyok. Nem tudom mert mondja
+	Uncle Sam hogy en tetten. Probaltam a rendorsegen megmagyarazni de nem
+	ertettek meg...
+
+	[Roxie Hart]
+	Yeah, but did you do it?
+
+	[Hunyak]
+	UH UH, not guilty!
+
+	[Velma]
+	My sister, Veronica, and I had this double act and my husband, Charlie,
+	traveled around with us. Now for the last number in our act, we did these 20
+	acrobatic tricks in a row, one, two, three, four, five... Splits, spread
+	eagles, back flips, flip flops, one right after the other. Well, this one
+	night before the show we are in a hotel Cicero, the three of us, sittin' up
+	in a hotel room, boozin' and havin' a few laughs and we ran out of ice, so I
+	went out to get some. I come back, open the door And there's Veronica and
+	Charlie doing Number Seventeen -the spread eagle.
+	Well, I was in such a state of shock, I completely blacked out. I can't
+	remember a thing. It wasn't until later, when I was washing the blood off my
+	hands I even knew they were dead.
+
+	[Velma, Girls]
+	They had it coming
+	They had it coming
+	They had it coming all along.
+	I didn't do it/ She does not do it
+	But if I'd done it (she'd done it)
+	How could you tell me that I was wrong?
+	They had it coming
+	They had it coming
+	They had it coming
+	They had it coming
+	They had it coming
+	They took a flower
+	All along
+	In its prime
+	I didn't do it
+	And then they used it
+	But if I'd done it
+	And they abused it
+	How could you tell me
+	It was a murder
+	That I was wrong? / But not a crime!
+
+	[Mona]
+	I love Alvin Lipschitz More than I can possibly say. He was a real artistic
+	guy... Sensitive...a painter. He was always trying to find himself. He'd go
+	out every night looking for himself and along the way he found Ruth, Gladys,
+	Rosemary and Irving.
+	I guess you can say we broke up because of artistic differences. He saw
+	himself as alive and I saw him dead.
+
+	[All Murderess's]
+	The dirty bum, bum, bum, bum, bum
+	The dirty bum, bum, bum, bum, bum
+
+	[All without Mona]
+	They had it comin'
+	They had it comin'
+	They had it comin'
+	They had it comin'
+	They had it comin'
+	They had it comin'
+	All along
+	All along
+	'Cause if they used us
+	'Cause if they used us
+	And they abused us
+	And they abused us
+	How could you tell us
+	How could you tell us
+	That we were wrong?
+	That we were wrong?
+
+	[Velma, June, Hunyak]
+	He had it coming
+	He had it coming
+	He only had
+	Himself
+	To blame.
+	If you'd have been there
+	If you'd have seen it
+	I betcha
+	You would
+	Have done
+	The same!
+
+	[Liz]
+	You pop that gum one more time!
+
+	[Annie]
+	Single my ass.
+
+	[June]
+	Ten times!
+
+	[Hunyak]
+	Miert csukott Uncle Sam bortonbe.
+
+	[Velma]
+	Number Seventeen - the spread eagle.
+
+	[Mona]
+	Artistic differences.
+
+
+	[Liz]
+	Pop.
+
+	[Annie]
+	Six.
+
+	[June]
+	Squish.
+
+	[Hunyak]
+	Uh-Uh.
+
+	[Velma]
+	Cicero.
+
+	[Mona]
+	Lipschitz!
+
+	[Liz]
+	Pop.
+
+	[Annie]
+	Six.
+
+	[June]
+	Squish.
+
+	[Hunyak]
+	Uh-Uh.
+
+	[Velma]
+	Cicero.
+
+	[Mona]
+	Lipschitz!
+
+	[Roxie Hart]
+	Who brings along them?
+
+	[June]
+	- What is to you.
+
+	[Roxie Hart]
+	- Who then? Nothing Heard they were Velma's.
+
+	[Liz]
+	Hunyak has done all her laundry for a couple of weeks.
+
+	[Roxie Hart]
+	Fresh towels for change.
+
+	[Warden]
+	Make it quick.
+
+	[Mama Morton]- Roxie is eavesdropping
+	...l can take care of you. There're a couple of things, let me analyze to you.
+	Now, Billy Flynn set a travel on March 5th. March 7th, you would be quit. On
+	March 8th, you know what Mama gonna do for you? Mama gonna put you back on the
+	Vonville circus.
+
+	[Velma Kelly]
+	So now you're an agent too?
+
+	[Mama Morton]
+	Until you install private line in your cell, all calls are gonna go through me.
+
+	[Velma Kelly]
+	What kind of dough are we talking about?
+
+	[Mama Morton]
+	You know, it's a crazy world. I mean, Babe Ruth is playing in palace for
+	$5,000 a week.
+
+	[Velma Kelly]
+	Yeah. And what about someone with real talent?
+
+	[Mama Morton]
+	Well, I can talk to the boys over Wianmarx. With your recent sensation
+	activity, they seems of thinking to give you $2,500.
+
+	[Velma Kelly]
+	$2,500? Geez, the most me and Veronica made is 35,000.
+
+	[Mama Morton]
+	That's what happens when you have a Redbook presentation.
+
+	[Velma Kelly]
+	You know what, Mama? I always wanted to play in big Gym Conesus most. Do you
+	think you can get me that?
+
+	[Mama Morton]
+	The Gyms? I don't know. It gonna take you another phone call.
+
+	[Velma Kelly]
+	How much is that gonna cost?
+
+	[Mama Morton]
+	Come on, Velma. I feel about you. You're like family to me. You're like one of
+	my own. - l'll do for 50 bucks.
+
+	[Velma Kelly]
+	- 50 bucks for a phone call? You must've got a lot of wrong numbers, Mama.
+
+	[Roxie Hart]
+	Oh, Miss Kelly. That's your personals. Oh, no. It's my pleasure. Hey, listen.
+	Can l ask you something? You know that Harrison guy? He said that what I've
+	done is a hanging case and he's prepared to ask for the maximum penalty.
+
+	[Velma Kelly]
+	Yeah? So?
+
+	[Roxie Hart]
+	So, I'm scared. I'm sure would appreciate some advice, especially from someone
+	I admire as much as you. Since I can remember, I have wanted to be on the stage.
+
+	[Velma Kelly]
+	Really? What's your talent? Washing and drying?
+
+	[Roxie Hart]
+	No. I dance in the chorus. That was before I met my husband...
+
+	[Velma Kelly]
+	Look, honey, you want some advice? Here it is, direct from me to you. Keep your
+	paws off my underwear, okay?
+
+	[Roxie Hart]
+	Yeah, okay. Thanks... for nothing.
+
+	[Mama Morton]
+	She's not that nice, ain't she? I tell you, no matter how big she gives, she's
+	still as common as ever. I'd like to help you, baby. Take aloft. So, what do
+	you figure to use it for grounds?
+
+	[Roxie Hart]
+	What do you mean grounds?
+
+	[Mama Morton]
+	What are you gonna tell the jury?
+
+	[Roxie Hart]
+	l'm afraid l have to tell him the truth.
+
+	[Mama Morton]
+	- The truth?
+
+	[Roxie Hart]
+	- Yeah.
+
+	[Mama Morton]
+	That's the one we take you to the death house.
+
+	[Roxie Hart]
+	Holy mother of God.
+
+	[Mama Morton]
+	Relax. I mean, in this town, murder is a formal entertainment. Besides, in 47
+	years Cooke County never hangs a woman yet. So even it's 47 and 1, they won't
+	hang you.
+
+	[Roxie Hart]
+	- Jesus Mary Joseph.
+
+	[Mama Morton]
+	you're talkin' to the wrong people What you need, is Billy Flynn.
+
+	[Roxie Hart]
+	- Who?
+
+	[Mama Morton]
+	- Billy Flynn. Some of the best criminal lawyer in all Illinois. He knows about
+	juries and women.
+
+	[Roxie Hart]
+	How do you get this Billy Flynn?
+
+	[Mama Morton]
+	Not by prayer, dear. First, you give me a hundred dollars. Then I'll make a
+	phone call.
+
+	[Roxie Hart]
+	A hundred dollars? Will you just... I mean, it seems pretty stiff for a phone
+	call.
+
+	[Mama Morton]
+	Over these work that we sent, he never lost a case for a female client yet. And
+	a sweet little puss like yours, let's just say what a blindness you got.
+
+	[Roxie Hart]
+	He never lost a case?
+
+	[Mama Morton]
+	Never. Every girl in this place would kill to have Billy Flynn representing
+	them.
+
+	[Girls]
+	We want Billy
+	Give us
+	B. I. Double L.Y.
+	We're all his
+	He's our kind of a guy
+	And ooh what luck
+	Cause here he is...
+
+	[Announcer]
+	Ladies and gentlemen, presenting the silver tongue, prince of the courtroom,
+	the one and only... Billy Flynn!
+
+	[Billy Flynn, girls]
+	I don't care about expensive things
+	Cashmere coats, or diamond rings
+	Don't mean a thing
+	All I care about is love
+	That's what I'm here for
+	I don't care for wearin' silk cravats
+	Ruby studs, satin spats
+	Don't mean a thing
+	All I care about is love
+	All he cares about is love
+	Give me two
+	Eyes of blue
+	Softly saying
+	I need you
+	Let me see her standin' there
+	And honest, mister, I'm a millionaire
+	I don't care for any fine attire
+	Vanderbilt might admire
+	No, no, not me
+	- All I care about is love...
+	- All he cares about is love
+
+	Good morning, ladies.
+
+	[Hunyak]
+	Not guilty!
+
+	[Billy Flynn]
+	You tell him, sweetheart.
+
+	[Hunyak]
+	��������, �������� ���, ����������!
+
+	[Girls]
+	That's what he's here for
+
+	[Mary Sunshine]
+	Excuse me, gentlemen. Miss Kelly, do you remember anything at all about that
+	night?
+
+	[Velma Kelly]
+	I passed out. I can't remember a thing. Only that I didn't do it.
+
+	[Mary Sunshine]
+	Any idea who did it?
+
+	[Billy Flynn]
+	No. But my client is offering a substantial reward to anyone with information
+	about this crime.
+
+	[Mary Sunshine]
+	How much is the reward, Miss Kelly?
+
+	[Velma Kelly]
+	- I don't know, how much?
+
+	[Billy Flynn]
+	- We'll work it out after the trial. Now, if there's no more question, Miss
+	Kelly and I have got a lot of work to do.
+
+	[Velma Kelly]
+	Flynn, what is that about the reward?
+
+	[Billy Flynn]
+	If the reporters ask again, deny the whole thing later on.
+	- Thank you!
+
+	[Reporter]
+	- One more question...
+
+	[Girls]
+	All he cares about is love
+
+	[Roxie Hart]
+	- Mr. Flynn, I'm Roxie Hart.
+
+	[Billy Flynn]
+	- Who?
+
+	[Roxie Hart]
+	Roxie Hart, you heard about me. Oh, yeah. The cute one. I was hoping that you
+	might represent me.
+
+	[Billy Flynn]
+	You have $5,000?
+
+	[Roxie Hart]
+	That's a lot of money. Mama didn't say anything about $5,000. Look, Mr. Flynn.
+	I'm not very good at this sort of thing, but... Maybe we could make some sort
+	of arrangement between us. And I can be an awfully good sport.
+
+	[Billy Flynn]
+	Good, you got the idea system. Listen, you mean just one thing to me. You call
+	me when you got $5,000.
+
+	[Billy Flynn, girls]
+	All he cares about is love
+	Show me long Raven hair
+	Flowin' down, about to there
+	When I 've seen
+	Her runnin' free
+	Keep your money, that's enough for me
+	I don't care for drivin' Packard cars
+	Or smoking Long Buck Cigars
+	No, no, not me
+	All I care about is
+	Doin' the guy in
+	Who's pickin, on you
+	Twistin' the wrist
+	That's turnin' the screw
+	All I care about
+	is love!
+
+	[Secretary]
+	Oh, he'll see you now.
+
+	[Billy Flynn]
+	Hello, Andy.
+
+	[Amos Hart]
+	Amos, my name is Amos.
+
+	[Billy Flynn]
+	That's right. Take a seat. You know, you're a remarkable man. Your wife used
+	you twice. Pluck the guy and try to pick it on you. Most men are gonna dim
+	like that swing. But no, you're sticking by her. Actually you're a hero in my
+	eyes.
+
+	[Amos Hart]
+	That's right. I'm a hero.
+
+	[Billy Flynn]
+	Did you bring the money?
+
+	[Amos Hart]
+	I didn't do as well as I hoped. But, I will, Mr. Flynn. I will.
+
+	[Billy Flynn]
+	This is only a thousand.
+
+	[Amos Hart]
+	Plus this 300 I borrow from the guy down at the garage, and the 700 from the
+	building in Long Fund.
+
+	[Billy Flynn]
+	$2,000?
+
+	[Amos Hart]
+	And that's all I got so far. But I'd give you $20 of my salary every week.
+	I'd give you a note with interest. Double, triple, until every cent is paid, I
+	promise.
+
+	[Billy Flynn]
+	You came to me yesterday, I didn't ask you if she's guilty. I didn't ask if
+	she's innocent. I didn't ask you if she's drunk, or a dope, no! All I said was,
+	do you have $5,000? You said yes! But you don't have $5,000! So I figure you're
+	a dirty liar and I don't waste my time with dirty liars.
+
+	[Amos Hart]
+	Look... I'm really sorry, Mr. Flynn.
+
+	[Billy Flynn]
+	On the other hand, your devotion to your wife is really very touching. I'll
+	take your wife's case. And I'll keep it. Because I play square. Now look, I
+	don't like to blow my own horn. But believe me. If Jesus Christ lives in
+	Chicago today and if he had $5,000 and he come to me, things would have turn
+	out differently. All right, this is what we gonna do. At the end of the week,
+	I'm gonna have Roxie's name at the front page of every newspapers in town.
+	Sweetest little Jazz killer in Chicago. That's the angle I'm after. You make an
+	announcement, we're gonna have an auction. Tell them we gotta raise some money
+	for the defense. They'll buy everything that she touched. Everything. Your
+	shoes, your dresses, your perfumes, your underwear.
+
+	[Roxie Hart]
+	And the trolled records. Like the one I was playing when I shot the bastard.
+
+	[Billy Flynn]
+	I didn't hear that.
+
+	[Roxie Hart]
+	Not that I didn't have ground to remind you. Hey, what are they?
+
+	[Billy Flynn]
+	When we go to trial, nobody is gonna care a lick what your defense is unless
+	they care about you. So first thing we gotta do is work up some sympathy from
+	the press. And I'll push you like some Mary Sunshine. But there was one thing
+	they can never resist. And that is a reformed sinner. So tell me, what's your
+	favourite subject in school?
+
+	[Roxie Hart]
+	There... I was a real damn...
+
+	[Billy Flynn]
+	There must be something that you're really good at.
+
+	[Roxie Hart]
+	I got high marks in �ourtesy and in Hygiene.
+
+	[Billy Flynn]
+	Perfect, you wanted to be a nun.
+
+	[Roxie Hart]
+	A nun?
+
+	[Billy Flynn]
+	When were you born?
+
+	[Roxie Hart]
+	On a chicken farm outside Lopac.
+
+	[Billy Flynn]
+	Beautiful setting home, feel every luxury in refinement. Where're your parents
+	now?
+
+	[Roxie Hart]
+	Probably on front front porch in their rocking chair
+
+	[Billy Flynn]
+	They're dead. Family fortune swept away. You're educated as a sacred heart.
+	Then you fell into a runaway marriage. Left you miserable, alone, unhappy. Of
+	course you got all swept up in a mad world, the city. Jazz, cabarets, liquors.
+	You're drawn like a moth to the flame.
+
+	[Roxie Hart]
+	A moth?
+
+	[Billy Flynn]
+	Now I am a man who will assist and you're a butterfly. Crushed on a wheel!
+
+	[Roxie Hart]
+	Wait, what did you say? Is it the moth or the butterfly?
+
+	[Billy Flynn]
+	- You have sin in your soul.
+
+	[Roxie Hart]
+	- God, that's beautiful.
+
+	[Billy Flynn]
+	Cut out God. Stay with your battle acquainted. Kid, when I'm through with you,
+	not only will you be acquainted, you can remain on the jury. I wanna take you
+	home to meet his mother.
+
+	[Roxie Hart]
+	I was born on a beautiful Southern corn dent.
+
+	[Mama Morton]
+	- What?
+
+	[Roxie Hart]
+	- Holy shit! I'd never gotta get this straight!
+
+	[Billy Flynn]
+	Pipe down and swearing. Look, from here on, You'd say nothing wrong. Now try it
+	again.
+
+	[Roxie Hart]
+	- I was born on...
+
+	[Velma Kelly]
+	- Come on... You know what I'm gonna do at witness stand? I thought I'd get all
+	teary eyes and ask for your handkerchief. Then I think I'd take a peek at the
+	jury like this. Flash a bit of the thigh, what do you think?
+
+	[Billy Flynn]
+	It sounds great.
+
+	[Velma Kelly]
+	Hey, don't you want to hear the rest?
+
+	[Billy Flynn]
+	Knock it off. You're on the top of my list.
+	Well, well, well.
+
+	[Roxie Hart]
+	Sorry to be late, Mr. Flynn. Hope you're not too bored.
+
+	[Billy Flynn]
+	I like it. I like it.
+
+	[Velma Kelly]
+	Hey, I heard your press conference is tomorrow.
+
+	[Roxie Hart]
+	Yeah, what is to you?
+
+	[Velma Kelly]
+	Well, you wanted my advice, right? Whatever it is, don't forget Billy Flinn's
+	number-one client is Billy Flynn.
+
+	[Roxie Hart]
+	Meaning what?
+
+	[Velma Kelly]
+	Meaning, don't let him hug the spotlight. You're the one that pays the scene.
+
+	[Billy Flynn]
+	Remember, we can only sell them one idea.
+
+	[Roxie Hart]
+	I can still see him coming at me with that awful look in his eyes.
+
+	[Billy Flynn]
+	And?
+
+	[Roxie Hart]
+	And we... both reached for the gun.
+
+	[Billy Flynn]
+	That's right, you both reached for the gun.
+	- Ready?
+
+	[Roxie Hart]
+	- Yeah.
+
+	[Billy Flynn]
+	Thank you, gentlemen. Miss Sunshine.
+	My client just entered pleads of not guilty. We look forward to the trial the
+	earliest possible dates. Now is there any question? Miss Sunshine.
+
+	[Mary Sunshine]
+	As you know, my paper is dry. Do you have any advice for young girls, speaking
+	to avoid the life of Jazz and drink?
+
+	[Billy Flynn]
+	Absolutely yes. Mrs. Hart feels that it was the tragic combination of liquor
+	and Jazz, which lead to the downfall. Next question, please.
+
+	[Roxie Hart]
+	Ladies and gentlemen, I'd just like to say how flattered I am that you all
+	came to see me.
+
+	[Billy Flynn]
+	Mrs. Hart is very...
+
+	[Roxie Hart]
+	You see, I was a moth... crushed on a wheel. You know, butterfly drawn to
+	the... I bet you want to know why I shot the bastard.
+
+	[Billy Flynn]
+	Shut up, dummy.
+
+	[Announcer]
+	Mr. Billy Flynn in the press conference.
+	Notice how mouth never moves... almost.
+
+	[Reporter]
+	Where'd you come from?
+
+	[Billy Flynn]
+	Mississippi
+
+	[Reporter]
+	And your parents?
+
+	[Billy Flynn]
+	Very wealthy.
+
+	[Reporter]
+	Where are they now?
+
+	[Billy Flynn]
+	Six feet under.
+	But she was granted one more start
+	The convent of The Sacred Heart!
+
+	[Reporter]
+	When'd you get here?
+
+	[Billy Flynn]
+	1920
+
+	[Reporter]
+	How old were you?
+
+	[Billy Flynn]
+	Don't remember
+
+	[Reporter]
+	Then what happened?
+
+	[Billy Flynn]
+	I met Amos
+	And he stole my heart away
+	Convinced me to elope one day
+
+	[Mary Sunshine]
+	Oh, poor girl, I can't believe what you've been through. A convent girl, a
+	runaway marriage. Now tell us Roxie.
+	Who's Fred Casely?
+
+	[Billy Flynn]
+	My ex-boyfriend.
+
+	[Reporter]
+	Why'd you shoot him?
+
+	[Billy Flynn]
+	I was leavin'.
+
+	[Reporter]
+	Was he angry?
+
+	[Billy Flynn]
+	Like a madman
+	Still I said, Fred, move along.
+	She knew that she was doin' wrong.
+
+	[Reporter]
+	Then describe it.
+
+	[Billy Flynn]
+	He came toward me.
+
+	[Reporter]
+	With a pistol?
+
+	[Billy Flynn]
+	From my bureau.
+
+	[Reporter]
+	Did you fight him?
+
+	[Billy Flynn]
+	Like a tiger.
+	He had strength and she had none.
+	And yet we both reached for the gun
+	Oh yes, oh yes, oh yes we both
+	Oh yes we both
+	Oh yes, we both reached for
+	The gun, the gun, the gun, the gun
+	Oh yes, we both reached for the gun
+
+	[All]
+	Oh yes, oh yes, oh yes they both
+	Oh yes, they both
+	Oh yes, they both reached for
+	The gun, the gun, the gun, the gun,
+	Oh yes, they both reached for the gun
+	for the gun.
+
+	[Billy Flynn]
+	understandable. understandable
+	Yes, it's perfectly understandable
+	Comprehensible. Comprehensible
+	Not a bit reprehensible
+	It's so defensible!
+
+	[Reporter]
+	How're you feeling?
+
+	[Billy Flynn]
+	Very frightened
+
+	[Mary Sunshine]
+	Are you sorry?
+
+	[Roxie Hart]
+	Are you kidding?
+
+	[Reporter]
+	What's your statement?
+
+	[Billy Flynn]
+	All I'd say is
+	Though my choo-choo jumped the track
+	I'd give my life to bring him back
+
+	[Reporters]
+	And?
+
+	[Billy Flynn]
+	Stay away from
+
+	[Reporters]
+	What?
+
+	[Billy Flynn]
+	Jazz and liquor
+
+	[Reporters]
+	And?
+
+	[Billy Flynn]
+	And the men who
+
+	[Reporters]
+	What?
+
+	[Billy Flynn]
+	Play for fun
+
+	[Reporters]
+	And what?
+
+	[Billy Flynn]
+	That's the thought that
+
+	[Reporters]
+	Yeah
+
+	[Billy Flynn]
+	Came upon me
+
+	[Reporters]
+	When?
+
+	[Billy Flynn]
+	When we both reached for the gun!
+
+	[Billy Flynn and Mary Sunshine]
+	Understandable, understandable
+	Yes, it's perfectly understandable
+	Comprehensible, comprehensible
+	Not a bit reprehensible
+	It's so defensible!
+
+	[Reporters]
+	Oh yes, oh yes, oh yes, they both
+	Oh yes, they both
+	Oh yes, they both reached for
+
+	[Billy Flynn]
+	Let me hear it!
+
+	[Reporters]
+	The gun, the gun, the gun, the gun
+	Oh yes, they both reached
+	For the gun
+	For the gun
+
+	[Billy Flinn]
+	A little louder!
+
+	[Reporters]
+	Oh yes, oh yes, oh yes, they both
+	Oh yes, they both
+	Oh yes, they both reached
+	- Oh, yeah
+	For the gun, the gun, the gun, the gun
+	Oh yes. They both reached
+	For the gun
+	Oh yes, oh yes, oh yes, they both
+	Oh yes, they both
+	Oh yes, they both reached for
+	The gun, the gun, the gun,the gun
+	Oh yes, they both reached for the gun.
+	Oh yes, oh yes, oh yes, they both
+	Oh yes, they both
+	Oh yes, they both reached for
+	The gun, the gun, the gun,the gun
+
+	[Billy Flynn]
+	Both reached for the...gun
+
+	[Announcer]
+	...The windy city has taken a new criminal to a charge. Let me remind you the
+	name is, Roxie Hart. The sweetest lady ever accused in a murder in Chicago.
+	Women want to look like her. Fellows want to go out with her. Some little girls
+	even want to take her home. Don't get any idea, little lady. On the other side
+	of town, the assistant D.A. promise the game little jump shooter
+
+	[Martin Harrison]
+	will swing before lridark.
+
+	[Announcer]
+	Who knows? If he lit up to his word, assistant D.A. Harrison might become
+	governor Harrison someday. At the scene of the crime, everybody wants a little
+	piece of Roxie Hart. The jar would send her husband back 20 dollars! Maybe this
+	pretty little lady would get some of that famous Roxie style. It seems everybody
+	these days is looking for Roxie Hart.
+
+	[Mama Morton]
+	Send the flowers to the yard and you make sure they send them. So, kiddo, you
+	have any thought what you wanna do after Billy get you off?
+
+	[Roxie Hart]
+	Yeah, I think I'd like to go on stage.
+
+	[Mama Morton]
+	I figure it as much. I already called the Morris office.
+
+	[Roxie Hart]
+	Really? How much is that gonna cost me?
+
+	[Mama Morton]
+	It's a fairly deal. 10% of all your takings.
+
+	[Roxie Hart]
+	Yeah, we'll see, Mama. Besides, I don't even have an act yet.
+
+	[Mama Morton]
+	Killing Fred Casely was your act. That's solo steps in the audience. That song
+	is my favourite.
+
+	[Roxie Hart]
+	It's a freak act. Besides, I'm better than that.
+
+	[Mama Morton]
+	Of course you are. I mean, you can be as big as Sophie Tago.
+
+	[Roxie Hart]
+	You really think so?
+
+	[Mama Morton]
+	Maybe Canton and Joseph combined.
+
+	[Roxie Hart]
+	You know, I always wanted to have my name on the papers. Before I met Amos, I
+	used to date this wealthy dude, ugly bootlegger. He used to take me out and
+	show me off. Ugly guys like to do that.
+	Once it said in the paper, gangland alcopaly seen a shade Vito with cute
+	blonde. That was me. You know all my life, I wanted to have my own act. But,
+	no... Always no, they always turned me down. One big world-full of no. And then
+	Amos came along. Save sweet Amos. Who never says no. I've never done this
+	before. But you know, it's such a special night. And you are such a great
+	audience! And I really feel like I can talk to you, you know? So forget what
+	you read in the papers. And forget what you heard on the radio. Because...
+	because l'm gonna tell you the truth. Not that the truth really matters. But
+	I'm gonna tell you anyway. In the bed apartment, Amos was... zero. I mean, when
+	he made love to me,it goes like... was he fixing a carburetor or something. I
+	love you, honey... Anyway, I start to fool around. And I start screwing around.
+	Which is fooling around without dinner. Then I met Fred Casely. He said he
+	could get me into a bought film. But that didn't quite work out like I planned.
+	I guess it didn't really work out to Fred either. So I gave up the whole idea.
+	lf you can't figure out for all of these, opportunities just pass you by. But...
+	And now, with all these publicity, I got me a world full of yes!
+
+	The name on everybody's lips
+	Is gonna be
+	Roxie
+	The lady rakin' in the chips
+	Is gonna be
+	Roxie
+	I'm gonna be a celebrity
+	That means somebody everyone knows
+	They're gonna recognize my eyes
+	My hair, my teeth, my boobs, my nose
+	From just some dumb mechanic's wife
+	I'm gonna be
+	Roxie
+	Who says that murders not an art?
+	And who in case she doesn't hang
+	can say she started with a bang?
+	Roxie Hart!
+
+	Boys
+
+	[Roxie Hart and company]
+	They're gonna wait outside in line
+	To get to see
+	Roxie
+	Think of those autographs I'll sign
+	Good luck to you,
+	Roxie
+	And I'll appear in Lavaliere
+	That goes all the way down to my waist
+	Here a ring, there a ring
+	Everywhere a ring a ling
+	But always in the best of taste
+
+	[Roxie Hart (recitative whisper)]
+	Oooh I'm a star.
+	And the audience loves me.
+	And I love the audience and they love me
+	for loving them. And I love them for loving me.
+	And we jus to love each other.
+	That's because none of us got any love in our childhood.
+	And that's show biz,
+
+	Kid.
+
+	[Roxie Hart and comapny]
+	She's giving up here humdrum life
+	I'm gonna be
+	Roxie.
+	She made a scandal and a start.
+	And Sophie Tucker will shit, I know
+	To see her name get billed below
+	Roxie Hart!
+	Roxy
+	Roxy
+	Roxy
+	Roxy
+	Roxy
+	Roxy
+
+	[Velma Kelly]
+	l just can't take it anymore. Can't go anywhere without hearing about that dumb
+	tomato! Oh, Mama, not you too.
+
+	[Mama Morton]
+	I've got some bad news, kid. The tool has been cancelled.
+
+	[Velma Kelly]
+	What?
+
+	[Mama Morton]
+	Your name is out of the paper too long. I read about today, it's the Hart kid.
+	She's hot.
+
+	[Velma Kelly]
+	And what am I supposed to do? Suck up to her like everybody else?
+
+	[Mama Morton]
+	It couldn't hurt.
+
+	[Velma Kelly]
+	Over my dead body.
+	(camera changes, with Roxie)
+	Mind if I join you?
+
+	[Voice off-camera]
+	Lights out
+
+	[Velma Kelly]
+	Smoke? Look what some Johnny sent me. Triple cream caramel, all the way from
+	San Francisco.
+
+	[Roxie Hart]
+	Oh, I'm watching my figure. You know, the trial.
+
+	[Velma Kelly]
+	Hey, Great mentioned that you're on a trip today, huh?
+
+	[Roxie Hart]
+	There have been so many, I just can't keep track.
+
+	[Velma Kelly]
+	Let me tell you, you're exactly same size as my sister. I mean, you fit into
+	her costumes perfectly.
+
+	[Roxie Hart]
+	Really?
+
+	[Velma Kelly]
+	Yeah, and I'm just thinking, you know, with all the publicity piled up between
+	us when Billy gets us off, we would be a natural to do an act together.
+
+	[Roxie Hart]
+	You think so?
+
+	[Announcer, voice off-camera]
+	Ladies and gentlemen, Miss Velma Kelly in Act of Desperation.
+
+	[Velma Kelly]
+	My sister and I had an act that couldn't flop
+	My sister and I were headed straight for the top
+	My sister and I earned a thou a week at least
+	Oh, yeah!
+	But my sister is now, unfortunately, deceased
+	Oh, I know it's sad, of course
+	But a fact
+	is still a fact
+	And now all that remains
+	Is the remains
+	Of a perfect
+	double
+	act!
+	Watch this.
+
+	They have to match it with 2 people.
+	It's just all two people.
+
+	First I'd...
+	Then she'd...
+	Then we'd...
+	But I can't do it alone!
+	Then she'd...
+	Then I'd...
+	Then we'...
+	But I can't do it alone!
+	She'd say, "What's your sister like?"
+	I'd say, "Men,"
+	She'd say, "you're the cat's meow"
+	Then we'd wow the crowd again
+	When she'd go...
+	I'd go...
+	We'd go...
+	And then those ding-dong daddies started to roar
+	Whistled, stomped and stamped on the floor
+	Yelling, screaming, begging for more.
+	And we'd say, "O.K. fellas, keep your socks up."
+	you ain't seen nothin' yet!"
+	But I simply cannot do it
+	alone!
+
+	So what do you think?
+	Come on, you can say.
+
+	[Roxie Hart]
+	Pfrrrrrr!!!
+
+	[Velma Kelly]
+	I know you're right.
+	The first part is shit.
+	But the second part...
+	Second part is really nifty.
+
+	Ok, When she'd go...
+	I'd go...
+	We'd go...
+	And then those two-bit Johnnies did it up brown
+	To cheer the best attraction in town
+	They nearly tore the balcony down
+	And we'd say. "Okay, boys...
+	we're goin' home, but before we go here's a few more partin' shots!"
+	And this...
+	this we did in perfect unison.
+	Now, you've seen me goin' through it
+	It may seem there's nothin' to it
+	But I simply cannot do it
+	Alone!
+
+	[Roxie Hart]
+	So where's the part we blew the brains out?
+
+	[Velma Kelly]
+	Okay, Roxie. I'll leave..
+
+	[Roxie Hart]
+	No, don't bother. You think you're fooling me? You're all washed up. And it's
+	me they want now, and l'm a big star. Single. Oh, I almost forgot. You're in
+	the paper today too. In the back. Velma Kelly's trial has been postponed
+	indefinitely. Seven words.
+	Here a little piece of advice. Direct from me to you. Lay off the caramels.
+
+	[Announcer]
+	And now, for all you Chicago's stay-up-laters. Night hours would only come
+	alive at the dark. We dedicate this tune. Chicago After Midnight.
+
+	[Billy Flynn]
+	This all took place in Lesurevelt? lncredible. All right. Thanks. They just
+	arrest this woman for triple homicide.
+
+	[Man]
+	Really?
+
+	[Billy Flynn]
+	Yeah, get this. She's an Aries! And her family is in the pineapple or
+	grapefruit, some kind of fruits.
+	(camera changes)
+	The demon Kitty works in something... She's playing house. On the north side
+	in an apartment, she met Harry. What Harry does for living, no one's quite
+	sure. But it doesn't really matter cause she's paying all the bills. Anyhow,
+	Kitty comes home tonight. Harry was already in bed. She goes to change. When
+	she returns, she notices something rather odd, extremely odd. There're
+	strippers in the apartment. Kitty disappears for a second. And she returns,
+	she gently wakes up Harry. Harry says, ''What? l'm alone!'' ''Alone?'' she
+	says, '' you have two other women in bed with you!'' And Harry says, ''Come on,
+	darling, you gonna believe what you see or what l tell you?''
+
+	[Announcer]
+	Good night, folks.
+
+	[Mary Sunshine]
+	Miss Baxter, Miss Baxter! Mary Sunshine from The Evening Star. Would you mind
+	saying a word or two?
+
+	[Annie Baxter]
+	Sure l'll say things. Go to hell!
+
+	[Billy Flynn]
+	Please direct your question to the counsel.
+
+	[Annie Baxter]
+	Tell the counsel I want my money back!
+
+	[Billy Flynn]
+	It's not your money. It's your mother's money.
+
+	[Mary Sunshine]
+	Are you sorry, dear?
+
+	[Annie Baxter]
+	Yeah, I'm sorry that I got caught.
+
+	[Roxie Hart]
+	Okay, Miss Sunshine.
+
+	[Mary Sunshine]
+	Hello, Roxie.
+
+	[Roxie Hart]
+	I got a letter from a guy. He says he gonna hungry strike till I'm free.
+
+	[Mary Sunshine]
+	That's nice.
+
+	[Reporter]
+	Miss Baxter, did you know these two ladies personally?
+
+	[Annie Baxter]
+	Did I know these two ladies personally? Was that your question?
+
+	[Reporter]
+	Yeah, that's my... (Annie kick reporter)
+
+	[Mama Morton]
+	She's very hot spirit, isn't she? Miss Baxter...
+
+	[Roxie Hart]
+	Hey, Mr. Flynn.
+
+	[Billy Flynn]
+	-Yeah, hi, Tracy.
+
+	[Roxie Hart]
+	-lt's Roxie.
+
+	[Billy Flynn]
+	Yeah, sure, I'm just kidding.
+
+	[Roxie Hart]
+	Did you get my trial date yet?
+
+	[Billy Flynn]
+	-Listen, kid.
+
+	[Roxie Hart]
+	-I'm on top of your list, right?
+
+	[Annie Baxter]
+	Go to hell!
+
+	[Billy Flynn]
+	What a helling, huh? And social-like too. Her mother owns all the pineapples
+	in Hawaii.
+
+	[Roxie Hart]
+	What the hell do I care about pineapples?
+
+	[Billy Flynn]
+	All right... That's all for the questions. And l'll be happy to get back to
+	you myself.
+
+	[Roxie Hart]
+	Billy...
+
+	[Velma Kelly]
+	How does it feel, kid? Pretty soon we couldn't find your name in the papers.
+
+	[Roxie Hart]
+	Mr. Flynn? (passes out)
+
+	[Billy Flynn]
+	Someone open the door immediately.
+
+	[Mary Sunshine]
+	Oh, my god. Roxie! What is it to you?
+
+	[Roxie Hart]
+	Oh, no. Don't worry about me. I only hope the fall didn't hurt the baby.
+
+	[Mama Morton]
+	Baby?
+
+	[Velma Kelly]
+	Shit!
+
+	[Billy Flynn]
+	Well, doctor, is she or isn't she?
+
+	[Doctor]
+	She is.
+
+	[Billy Flynn]
+	Would you swear that statement in court?
+
+	[Doctor]
+	-Yes.
+
+	[Billy Flynn]
+	-Good. button your fly.
+
+	[Roxie Hart]
+	I would just like to say that my own life doesn't matter now. It's just that
+	of my unborn child.
+
+	[Mary Sunshine]
+	Poor girl, you'd have your baby born in jail. My readers won't stand for that.
+
+	[Billy Flynn]
+	I can assure you that won't happen. The trial would come in the least possible
+	moment.
+
+	[Mama Morton]
+	First time we're ever have one more girl locked up.
+
+	[Amos Hart]
+	Hey, Roxie... Roxie! I just have the good news! I'm the father.
+
+	[Reporter]
+	Hey, Roxie, who's the father?
+
+	[Billy Flynn]
+	The question is completely out of line. How dare you insult this brave young
+	woman?
+
+	[Amos Hart]
+	Roxie, honey! It's me, it's daddy! Roxie, I'd get to you as soon as I could.
+
+	If someone stood up in a crowd
+	And raised his voice up way out loud
+	And waved his arm and shook his leg
+	You'd notice him
+	If someone in the movie show
+	Yelled "Fire in the second row"
+	This whole place is a powder keg!
+	You'd notice him
+	And even without clucking like a hen
+	Everyone gets noticed, now and then,
+	Unless, of course, that personage should be
+	Invisible, inconsequential me!
+	Cellophane
+	Mister Cellophane
+	Shoulda been my name
+	Mister Cellophane
+	'Cause you can look right through me
+	Walk right by me
+	And never know I'm there...
+	I tell you
+	Cellophane
+	Mister
+	Cellophane
+	Shoulda been my name
+	Mister
+	Cellophane
+	'Cause you can look right through me
+	Walk right by me
+	And never know I'm there...
+
+	[Billy Flynn]
+	Oh, l didn't see you.
+	Sit down.
+	Look, Andy, i'm afraid i'm gotta hit you hard.
+	i can only hope you would think about it.
+
+	[Amos Hart]
+	-Amos, my name is Amos.
+
+	[Billy Flynn]
+	-Who says it wasn't?
+	it was the kid's name i was thinking about.
+	You know when she is due?
+	September.
+	You'd pass out those cigars anyway.
+	i don't want you to give a damn on the people.
+
+	[Amos Hart]
+	-People what?
+
+	[Billy Flynn]
+	-Laugh.
+
+	[Amos Hart]
+	-Laugh? Why would they laugh?
+
+	[Billy Flynn]
+	They can count. Can you count? September.
+	it's the first copy of Roxie's statement from D.A. office. Says she hasn't
+	copulated with you for four months prior the incidents.
+
+	[Amos Hart]
+	She would know. Yeah, i guess we've done no copulating since... Wait a minute.
+	That doesn't figure out right. i couldn't be the father.
+
+	[Billy Flynn]
+	Well, forget about that. My client needs your support.
+
+	[Amos Hart]
+	You mean she needs a meal ticket? That's all l've ever been. This time she's
+	gone too far.
+
+	[Billy Flynn]
+	What you gonna do? Divorce her?
+
+	[Amos Hart]
+	You're damn right! I'll divorce her! She probably won't even notice.
+
+	[Billy Flynn]
+	Yeah. I'm sorry.
+
+	[Amos Hart]
+	A human being's made of more than air
+	With all that bulk, you're bound to see him there
+	Unless that human bein' next to you
+	Is unimpressive, undistinguished
+	You
+	Know
+	who...
+
+	[Billy Flynn]
+	-You're still in here?
+
+	[Amos Hart]
+	-Yeah, l'm still in here.
+	Shoulda been my name
+	Mister Cellophane
+	'Cause you can look right through me
+	Walk right by me
+	And never know I'm there...
+	I tell ya
+	Cellophane
+	Mister Cellophane
+	Shoulda been my name
+	Mister Cellophane
+	'Cause you can look right through me
+	Walk right by me
+	And never know I'm there
+	Never even know I'm there.
+
+	[Amos Hart]
+	I hope I didn't take up too much of your time.
+
+	[Billy Flynn]
+	I've been waiting for you 10 minutes. Don't do that again.
+
+	[Roxie Hart]
+	This dress makes me look like a woolworth lambshake. l'm not wearing this.
+
+	[Billy Flynn]
+	You wear it because I tell you to wear it.
+
+	[Roxie Hart]
+	I'm not wearing this dress.
+
+	[Billy Flynn]
+	And when Andy's on the stand, I want you to do knitting.
+
+	[Roxie Hart]
+	Knitting? For Christ's sake.
+
+	[Billy Flynn]
+	A baby garment.
+
+	[Roxie Hart]
+	I don't know how to knit!
+
+	[Billy Flynn]
+	Then learn.
+
+	[Roxie Hart]
+	That's no way to win the jury's sympathy.
+
+	[Billy Flynn]
+	You don't need advice anymore?
+
+	[Roxie Hart]
+	Look at here, Mr. Mouthpiece. It seems to me that I'm the one who's coming up
+	with the good ideas. I'm sick of everybody telling me what to do. And you treat
+	me like dirt. You treat me like some dump, common criminal.
+
+	[Billy Flynn]
+	But you're some dump, common criminal.
+
+	[Roxie Hart]
+	Well, it's better than be a greasy-mite lawyer.
+
+	[Billy Flynn]
+	Who is up to be saving your ass.
+
+	[Roxie Hart]
+	Who is up for all that he can steal!
+
+	[Billy Flynn]
+	Maybe you'd like to appeal on court without me.
+
+	[Roxie Hart]
+	Maybe I could. Have you read the morning papers? They love me.
+
+	[Billy Flynn]
+	There maybe a lot more when you hang. You know why? 'Cause it's sold more
+	papers.
+
+	[Roxie Hart]
+	You're fired.
+
+	[Billy Flynn]
+	I quit.
+
+	[Roxie Hart]
+	Any lawyer in this town would die to have my case.
+
+	[Billy Flynn]
+	You're a phony celebrity. You're a flash. ln a couple of weeks, no one would
+	give a shit about you. That's Chicago.
+
+	[Hunyak screams off-camera]
+	No! Not guilty!
+
+	[Roxie Hart]
+	What happened?
+
+	[Velma Kelly]
+	lt's Hunyak. She lost the last appeal.
+
+	[Roxie Hart]
+	So what does that mean?
+
+	[Velma Kelly]
+	What that means? Next week, she's gonna...
+
+	[Mary Sunshine]
+	This is Mary Sunshine, coming to you from the Cooke County Jail, where history
+	would be made today. Katelin Helinsky would become the first woman in the state
+	of lllinois to be executed. And so ladies and gentlemen...
+
+	[Announcer]
+	And now, ladies and gentlemen, for your pleasure and your entertainment, we
+	proudly present Katelin Helinsky and her famous Hungarian Disappearing Act.
+
+	[Crowd]
+	Bravo! Bravo! Bravo!
+
+	[Roxie Hart]
+	You know, it's really not that bad.
+
+	[Billy Flynn]
+	You're clear with everything you read?
+
+	[Roxie Hart]
+	Yup. I've been up all night rehearsing.
+
+	[Billy Flynn]
+	What do you do when Harrison come after you?
+
+	[Roxie Hart]
+	I sit still and look straight ahead. Never look the jury.
+
+	[Billy Flynn]
+	And?
+
+	[Roxie Hart]
+	And l look modest.
+
+	[Billy Flynn]
+	And?
+
+	[Roxie Hart]
+	And...
+
+	[Billy Flynn]
+	And say nothing.
+
+	[Roxie Hart]
+	That's right, that's right.
+
+	[Billy Flynn]
+	That was the deal, right?
+
+	[Roxie Hart]
+	Right.
+
+	[Billy Flynn]
+	You ask me back, I do all the talking and stuff.
+
+	[Roxie Hart]
+	Absolutely, Billy. Whatever you said.
+
+	[Court clerk]
+	Mr. Flynn, the honours are here.
+
+	[Billy Flynn]
+	Thank you.
+	(to Roxie) You ready?
+
+	[Roxie Hart]
+	Yeah.
+	Billy...
+	I'm scared.
+
+	[Billy Flynn]
+	Don't be. I've been around a long time. Believe me, you've got nothing to worry
+	about. It's all a circus. A three-ring circus. The trial, the whole world...
+	is all a show business. Kid, you gonna be a star.
+
+	Give 'em the old razzle dazzle
+	Razzle dazzle 'em
+	Give 'em an act with lots of flash in it
+	And the reaction will be passionate
+	Give 'em the old hocus pocus
+	Bread and feather 'em
+	How can they see with sequins in their eyes?
+	What if your hinges all are rusting?
+	What if, in fact, you're just disgusting ?
+	Razzle dazzle 'em
+	And they'll never catch wise!
+	Give 'em the old razzle dazzle
+	Razzle dazzle 'em
+	Give 'em a show that's so splendiferous
+	Row after row will grow vociferous
+	Give 'em the old flim flam flummox
+	Fool and fracture 'em
+	How can they hear the truth above the roar?
+	Roar, roar, roar.
+	Throw 'em a fake and a finagle
+	They'll never know you're just a bagel,
+	Razzle dazzle 'em
+	And they'll beg you for more!
+
+	[Billy Flynn]
+	I object!
+
+	[The Judge]
+	Sustained.
+
+	[Martin Harrison]
+	Your honour, l haven't even
+	asked the question yet.
+
+	Give 'em the old razzle dazzle(cave)
+	Razzle dazzle 'em
+	Back since the days of old Methuselah
+	Everyone loves the big bambooz-a-ler
+	Give 'em the old three ring circus
+	Stun and stagger 'em
+	When you're in trouble, go into your dance
+	Though you are stiffer than a girder
+	They let ya get away with a murder
+	Razzle dazzle 'em
+	And you've got a romance
+
+	[Billy Flynn]
+	Hello, Amos.
+
+	[Amos Hart]
+	Amos?
+	That's right, Mr. Flynn.
+
+	[Billy Flynn]
+	Amos, when did you file sue for divorce?
+
+	[Amos Hart]
+	A month ago.
+
+	[Billy Flynn]
+	Was there any reason for filing at this particular time?
+
+	[Amos Hart]
+	I'd say, the newspapers said Roxie was expecting a little stranger.
+
+	[Billy Flynn]
+	That's hardly a cause for divorce, isn't it?
+
+	[Amos Hart]
+	A little too much of a stranger.
+
+	[Billy Flynn]
+	You mean you doubted the fraternity of the child.
+
+	[Amos Hart]
+	Most sure.
+
+	[Billy Flynn]
+	Tell me something, Amos. Did you share bed with your wife?
+
+	[Amos Hart]
+	Yes, sir, every night.
+
+	[Billy Flynn]
+	You expect the jury to believe that you slept next to this woman every night
+	without exercising the rights of a husband?
+
+	[Amos Hart]
+	I could if I want to.
+
+	[Billy Flynn]
+	Oh, but you didn't.
+
+	[Amos Hart]
+	No, l did.
+
+	[Billy Flynn]
+	Did what?
+
+	[Amos Hart]
+	Want to.
+
+	[Billy Flynn]
+	But you didn't.
+
+	[Amos Hart]
+	Didn't what?
+
+	[Billy Flynn]
+	What you wanted.
+
+	[Amos Hart]
+	Wait a minute, I'm getting confused here.
+
+	[Billy Flynn]
+	Hey, you tell me, Hart. Since you ever question Roxie herself, did you even
+	bother to ask her if you were the father of the child?
+
+	[Amos Hart]
+	No, sir.
+
+	[Billy Flynn]
+	No. What? lf you confirm that you were wrong, you'd be man enough in a minute.
+	You would take her back if Roxie swore that you're the father of the child,
+	which she does.
+
+	[Amos Hart]
+	She does?
+
+	[Billy Flynn]
+	She does! No more question! You can step down now. Well done, Andy.
+
+	[Amos Hart]
+	Roxie, I'm so sorry.
+
+	[Billy Flynn]
+	Give 'em the old
+	Razzle dazzle
+	Razzle dazzle 'em
+	Show 'em the first rate sorcerer you are
+	Long as you keep 'em way off balance
+	How can they spot you got no talents?
+	Razzle dazzle 'em
+	Razzle dazzle 'em
+	Razzle dazzle 'em
+
+	[Mary Sunshine]
+	This is the moment we've been waiting for. Roxie Hart finally takes the stand
+	in her own defense.
+
+	[Billy Flynn]
+	And they'll make you a star!
+
+	[The Judge]
+	Order! Order! Proceed, Mr. Flynn.
+
+	[Billy Flynn]
+	Roxie, I have here a statement that you admitted having illicit relation
+	with deceased Fred Casely. Is this statement true or false?
+
+	[Roxie Hart]
+	I'm afraid that's true.
+
+	[Billy Flynn]
+	You're an honestly girl, Roxie. When did you first meet Fred Casely?
+
+	[Roxie Hart]
+	When he sold Amos and me our furniture.
+
+	[Billy Flynn]
+	In your personal relationship with him, you told the jury when that began.
+
+	[Roxie Hart]
+	When I permitted him to escort me home one night, I don't think I would've gone
+	with him if Mr. Hart and me hadn't quarreled that very morning.
+
+	[Billy Flynn]
+	Quarrel?
+
+	[Roxie Hart]
+	Yes, sir.
+
+	[Billy Flynn]
+	Well, I supposed it's his fault.
+
+	[Roxie Hart]
+	Oh, no, sir. It was my fault. I supposed I just couldn't stop pestering him.
+
+	[Billy Flynn]
+	Pestering him? By what?
+
+	[Roxie Hart]
+	I didn't like him working those long hours at the garage. I wanted him home
+	with me... to done his socks and iron his shirts. I wanted a real home. A child.
+
+	[Billy Flynn]
+	So you drifted into this illicit relationship because you're unhappy at home.
+
+	[Roxie Hart]
+	Yes, most unhappy.
+
+	[Billy Flynn]
+	Roxie Hart! The state has accused you the murder of Fred Casely. Are you guilty
+	or not?
+
+	[Roxie Hart]
+	I'm not guilty... I killed him, I did. But I'm not a criminal. l'm not a
+	criminal...
+
+	[Billy Flynn]
+	Roxie... Did you recall the night of June 14th? Could you tell the jury in
+	your own words the happening of that night.
+
+	[Roxie Hart]
+	When Fred came over, I told him a good news.
+
+	[Billy Flynn]
+	What was it?
+
+	[Roxie Hart]
+	That me and Amos are gonna have a baby. And it was all over between us.
+
+	[Billy Flynn]
+	What happened then?
+
+	[Roxie Hart]
+	Then...
+
+	[Billy Flynn]
+	Did he threaten you, Roxie?
+
+	[Martin Harrison]
+	Objection, your honour. Counsel is leading the witness.
+
+	[The Judge]
+	Sustained.
+
+	[Billy Flynn]
+	What does Casely say when you told him the news?
+
+	[Roxie Hart]
+	I'll kill you before I see you have another man's child!
+
+	[Billy Flynn]
+	Could you tell the audience... the jury, what happened next?
+
+	[Roxie Hart]
+	In his passion, he tore off my robe and he threw me on the bed. And Mr. Hart's
+	pistol was lying there between us.
+
+	[Billy Flynn]
+	And then!
+
+	[Roxie Hart]
+	And then we both reached for the gun and I got it first. And then he came
+	towards me with this awful look in his eyes. He was angry and wild!
+
+	[Billy Flynn]
+	Wild! And did you think that he might kill you?
+
+	[Roxie Hart]
+	Oh, yes, sir!
+
+	[Billy Flynn]
+	So was his life or yours?
+
+	[Roxie Hart]
+	And I just mine. I closed my eyes and I shot!
+
+	[Billy Flynn]
+	To defense for your life!
+
+	[Roxie Hart]
+	And to save my husband's innocent unborn child. (pass out)
+
+	[The Judge]
+	Order!
+
+	[Roxie Hart]
+	What a bull's eye, huh?
+
+	[The Judge]
+	Order in this court!
+
+	[Amos Hart]
+	Roxie!
+
+	[Mary Sunshine]
+	Here in the courtroom... Mrs. Hart's behavior (camera changes to prison)
+	has been truly extraordinary. Opening her eyes, she fenced herself with her
+	attorney's handkerchief.
+
+	[Velma Kelly]
+	Handkerchief?
+
+	[Mary Sunshine]
+	Poor child has no relief. She looks around now, seeming to want something.
+	It's a glass of water.
+
+	[Velma Kelly]
+	Oh, Mama, that was my bid! I told Billy, I wanna do that at my trial!
+
+	[Mary Sunshine]
+	But now her eyes flatter wildly and she... Mrs. Hart has fainted again.
+	She flumps over her chiffon dress up around her knees, revealing a glimpse of
+	blue garder with Ryan-stone buckle.
+
+	[Velma Kelly]
+	Oh, Mama, she stole my garder. She stole my garder!
+
+	[Mama Morton]
+	Don't break my radio!
+
+	[Velma Kelly]
+	First she steals my publicity, then she steals my lawyer, my trial date,
+	now she stole my goddamn garder.
+
+	[Mama Morton]
+	What do you expect? I mean these days you get a little success and it's good
+	rinse for the people who put you here.
+
+	[Velma Kelly]
+	It ain't no justice in the world. That's nothing you can do about it.
+
+	[Mama Morton]
+	You think they got you a page just to listen to my radio? People and publicity
+	only interested in things when we think no one's looking. (shows Roxie's diary)
+
+	[Velma Kelly]
+	Oh, Mama.
+
+	[Court clerk]
+	State call for the witness. Left down on bible, raise your right hand and swear
+	tell the truth, the whole truth and nothing but the truth, help you God!
+
+	[Velma Kelly]
+	Amen so!
+
+	[Court clerk]
+	Have a seat.
+
+	[Martin Harrison]
+	Would you state your name for the record please.
+
+	[Velma Kelly]
+	Velma Kelly.
+
+	[Martin Harrison]
+	Miss Kelly, would you please tell the court the object l'm holding is the one
+	you have come upon in the defendant jailcell
+
+	[Velma Kelly]
+	Yes, it is.
+
+	[Martin Harrison]
+	I submit this as appendix. Roxie Hart's diary.
+
+	[Billy Flynn]
+	I object! My client never kept a diary. Even if she did, this would be
+	invasion of privacy and violation of fourth amendment and illegal search
+	without a warrant.
+
+	[Roxie Hart]
+	Yeah, and she broke the lock.
+
+	[The Judge]
+	Order! Well, that settles that. I'll allow it.
+
+	[Roxie Hart]
+	What's the big deal? She's the one that did it.
+
+	[The Judge]
+	If you would read for us, Miss Kelly.
+
+	[Velma Kelly]
+	I haven't worked in a while. "What a laugh, plucking Fred Casely. The big
+	baboon had a common. I'm just sorry I only glad to kill him once."
+
+	[Roxie Hart]
+	I never wrote that. You... Hey, she made that up. She made that up!
+
+	[The Judge]
+	Order! Please, Mr. Flynn, get control of your client.
+
+	[Billy Flynn]
+	I'm sorry, you honour. It won't happen again. Sit down and shut up.
+	Or else it gonna get worse.
+
+	[Martin Harrison]
+	I have no more questions.
+
+	[The Judge]
+	Your witness, Mr. Flynn.
+
+	[Announcer]
+	Ladies and gentlemen, a tap dance.
+
+	[Billy Flynn]
+	Tell me, Miss Kelly, you make a deal with Mr. Harrison maybe to drop all
+	charges against you if you testify here today?
+
+	[Velma Kelly]
+	Oh, sure. I'm not a complete idiot.
+
+	[Billy Flynn]
+	Good. Since you gave such an impressive performance for Mr. Harrison, can you
+	do me the same honour?
+
+	[Velma Kelly]
+	I'd be delighted.
+
+	[Billy Flynn]
+	Thank you.
+
+	[Velma Kelly]
+	"Fred Casely assured me to get me an audition down at the Onyx. And then he
+	reneged on his pledge and that's my motive for attack."
+
+	[Billy Flynn]
+	Pretty fancy. What you're saying if a big fat liar who rogue on a deal so I
+	shot him.
+
+	"Amos accused me of having an affair. So I told him that the charge was
+	erroneous."
+
+	[Martin Harrison]
+	Objection, your honour. Mr. Flynn is twisting the evidence to draw conclusion
+	to the specious and the...
+
+	[Billy Flynn]
+	Erroneous?
+
+	[Martin Harrison]
+	Exactly.
+
+	[The Judge]
+	Order! Order!
+
+	[Billy Flynn]
+	Miss Kelly, did you know the meaning of the word perjury?
+
+	[Velma Kelly]
+	Yes, l do.
+
+	[Billy Flynn]
+	You also know that is a crime?
+
+	[Velma Kelly]
+	Yes.
+
+	[Billy Flynn]
+	And for example if it turns out you knew this diary was a fake, I hate to think
+	you rotting away in prison for the next 10 years especially when you just win
+	your freedom.
+
+	[Velma Kelly]
+	All I know is what I was told.
+
+	[Billy Flynn]
+	So... you didn't find this diary in Roxie's cell?
+
+	[Velma Kelly]
+	No. Mama... Miss Morton gave it to me. She said someone sent it to her.
+
+	[Billy Flynn]
+	Someone? Any idea who this mysterious benefactor might be?
 
-[Velma Kelly]
-No. She didn't know.
+	[Velma Kelly]
+	No. She didn't know.
 
-[Billy Flynn]
-All right, let's work this out. Someone who writes about reneging on pledges.
-And... erroneous charges... Call me crazy, does that sound like a lawyer to
-you? A lawyer, who honestly has a sample of my client's handwriting.
-Mr. Harrison, do you have Roxie to write out a confession to you?
+	[Billy Flynn]
+	All right, let's work this out. Someone who writes about reneging on pledges.
+	And... erroneous charges... Call me crazy, does that sound like a lawyer to
+	you? A lawyer, who honestly has a sample of my client's handwriting.
+	Mr. Harrison, do you have Roxie to write out a confession to you?
 
-[Martin Harrison]
-Yes, but you're not suggesting that I tempered with evidence, are you?
+	[Martin Harrison]
+	Yes, but you're not suggesting that I tempered with evidence, are you?
 
-[Billy Flynn]
-No, let's not be ridiculous. That's absurd. Unless you mention it.
-
-[Martin Harrison]
-Your honour, this is outrageous.
-
-[Billy Flynn]
-Outrageous? Yes. The prosecutor would made a thief bargain with Velma Kelly.
-And then fabricated the very evidence and set her free!
-
-[Martin Harrison]
-Your honour:.
-
-[The Judge]
-Mr. Flynn, hold your contempt.
-
-[Billy Flynn]
-No, it's not even conceivable. But does it worked? Would it be time to say,
-Come clean, Mr. Harrison, come clean... This guy is a corruption. I cannot stand.
-
-[The Judge]
-That's enough, Mr. Flynn!
-
-[Billy Flynn]
-I agree, your honour. That's enough!
-It defend stress.
-
-[Mary Sunshine]
-Ladies and gentlemen, this is Mary Sunshine reporting live from the Cooke
-County Courthouse. The city of Chicago has come to a complete stand still.
-As the trial of century finally draws to a close. Mrs. Hart sits quietly at the
-defense table, hands folded. What fate has installed for her? There's hassles
-over the courtroom as the 12 men of the jury have back slowly to their seats.
-
-[The Judge]
-Gentlemen of jury, have you reached a verdict?
-
-[The Jury]
-We have, your honour.
-
-[Mary Sunshine]
-The jury has reached a verdict.
-
-[The judge]
-The defendant please rise. What is your verdict?
-
-[The Jury]
-We, the jury, find the defendant...
-
-[Boy]
-Roxie Hart is innocent! She's innocent! Roxie Hart is free! (shot gun)
-
-[Reporter]
-Come on! Move it! She shoots her husband and she crossed the lawyer!
-
-[Roxie Hart]
-Hey, don't you wanna take my picture? Hey, I'm the famous Roxie Hart.
-Hey, what happened? What the hell happened?
-
-[Billy Flynn]
-It's Chicago, kid. You can't beat fresh blood on the walls.
-
-[Roxie Hart]
-What about my publicity, Billy? My name on the papers. I was counting on that.
-
-[Billy Flynn]
-Your attitude is not the one I get. I just save your life.
-
-[Roxie Hart]
-You got $5,000. What do I get? I get nothing.
-
-[Billy Flynn]
-Five? Actually it's ten once I collect from Velma. I get nothing? Don't forget
-your diary. It could be on mine. I had a few erroneous phrases in there. Sorry,
-I couldn't tell you. Take a chance. Never lost a case. You're a free woman,
-Roxie Hart. And God save lllinois.
-
-[Amos Hart]
-Roxie.
-
-[Roxie Hart]
-What do you want?
-
-[Amos Hart]
-I want you to come home. You said you still wanted to... and the baby...
-
-[Roxie Hart]
-Baby, what baby? Oh, Jesus. What do you take me for? There ain't no baby.
-
-[Amos Hart]
-There ain't no baby?
-
-[Roxie Hart]
-They didn't even want my picture. I just can't understand that. What didn't
-they even want my picture?
-
-It's good,
-Isn't it, grand?
-Isn't it, great?
-Isn't it, swell?
-Isn't it, fun?
-Isn't it?
-Nowadays
-
-[Announcer]
-Ladies and gentlemen,
-Miss Roxie Hart says Good Night.
-
-[Roxie Hart]
-There's man,
-Everywhere jazz,
-Everywhere booze,
-Everywhere life,
-Everywhere joy,
-Everywhere
-Nowadays
-You can like the life you're living
-You can live the life you like
-You can even marry Harry
-But mess around with Ike
-And that's
-Good,
-Isn't it, grand?
-Isn't it, great?
-Isn't it, swell?
-Isn't it, fun?
-Isn't it...
-But nothing
-stays
-You can like the life you're living
-You can live the life you like
-
-[Man I]
-Didn't she kill a guy a while back?
-
-[Man II]
-Yeah, who can keep it straight anymore?
-
-[Roxie Hart]
-But mess around with Ike
-And that's
-Good,
-Isn't it, grand?
-Isn't it, great?
-Isn't it, swell?
-
-[Man I]
-That's great. We'll keep in touch.
-
-[Roxie Hart]
-You know I'm not quite finished yet.
-I have a...
-Wait, don't go.
-I could... just a second...
-Goddamn it!
-Thank you!
-
-[Announcer]
-Here's your music, honey.
-
-[Roxie Hart]
-Thanks.
-
-[Velma Kelly]
-You know you're really pretty good.
-
-[Roxie Hart]
-Yeah. What are you doing here?
-
-[Velma Kelly]
-I've been making around.
-
-[Roxie Hart]
-Well, if not fooled up by you, I'll be swinging right now.
-
-[Velma Kelly]
-Come on, I was there to get you off. You should learn how to put things behind
-you.
-
-[Roxie Hart]
-Thank you. I'll put that at the top of my list right after finding a job and an
-apartment with a John.
-
-[Velma Kelly]
-Can you shut up and listen to me?
-
-[Roxie Hart]
-You really are something. Coming in here like some goddamn queen bee, full of
-advice for a poor slop like me. Let me tell you something, Miss Velma Kelly.
-I got a new life now. And one of the best thing about it, is it don't include
-you.
-
-[Velma Kelly]
-Fine. Ijust thought we could help each other out.
-
-[Roxie Hart]
-Wait, you thought wrong, didn't you?
-
-[Velma Kelly]
-Listen to me. I talked to this guy in downtown. He says one chance hurts
-nothing these days, but two... We can make a couple hundred a week. Think about
-it, Roxie. Faces back on the papers and names in the market. Velma Kelly and
-Roxie Hart.
-
-[Roxie Hart]
-Should it be alphabetical?
-
-[Velma Kelly]
-That could work.
-
-[Roxie Hart]
-A couple hundred? Maybe we can ask for a thousand. We'll worth it. Forget it,
-it'll never work.
-
-[Velma Kelly]
-Why not?
-
-[Roxie Hart]
-'Cause I hate you.
-
-[Velma Kelly]
-There's only one business in the world that's no problem at all.
-
-[Announcer]
-Ladies and gentlemen, the Chicago theatre is proud to announce the first.
-The first time anywhere that's been an act throughout this nation. Not only one
-little lady, but two. You red about them in the papers, and now here they are.
-Chicago zone killer-dealers, the lady-sinners, Roxie Hart and Velma Kelly!
-
-[Roxie Hart and Velma Kelly]
-You can like the life you're living
-You can live the life you like
-You can even marry Harry
-But mess around with Ike
-And that's good?
-Isn't it, grand?
-Isn't it, great?
-Isn't it, swell?
-Isn't it, fun?
-isn't it?
-But nothing stays
-In fifty years or so
-It's gonna change, you know
-But, oh, it's heaven
-Nowadays
-
-[Announcer]
-Okay, you babes of Jazz, let's kick up the bass. Let's make the party longer,
-let's make the skirt shorter. Let's all go to the heaven that makes all the
-people hot!
-
-[Velma Kelly]
-Me and Roxie would just like to say thank you.
-
-[Roxie Hart]
-Thank you!
-Believe us, we could've never
-done anything without you!
-
-And all
-That
-Jazz!
-That Jazz!
-
-[Announcer]
-5, 6, 7, 8
-
-[Velma Kelly]
-While trucking down the road of life
-Although all hope seems gone
-I just move on
-
-[Roxie Hart]
-When I can't find a single star
-To hang my wish upon
-I just move on
-I move on
-
-[Velma Kelly]
-I run so fast
-A shot gun blast
-Can hurt me not one bit
-
-[Roxie Hart]
-I'm on my toes
-Cause heaven knows
-A moving target's hard to hit
-
-[Both]
-So as we play an ex-ballet
-We're not the dying swan
-We just move on
-We move on
-
-[Roxie Hart]
-Just when it seems
-We're out of dreams
-And things have got us down
-
-[Velma Kelly]
-We don't despair
-We don't go there
-We hang our bonnets out of town
-
-[Both]
-So there's no doubt
-We're well cut out
-To run life's marathon
-We just move on
-We just move on
-So light of foot
-We can't stay put
-We just move on
-Yes, we move on
-
-[Thanks to nibleswik@yahoo.com for corrections]
+	[Billy Flynn]
+	No, let's not be ridiculous. That's absurd. Unless you mention it.
+
+	[Martin Harrison]
+	Your honour, this is outrageous.
+
+	[Billy Flynn]
+	Outrageous? Yes. The prosecutor would made a thief bargain with Velma Kelly.
+	And then fabricated the very evidence and set her free!
+
+	[Martin Harrison]
+	Your honour:.
+
+	[The Judge]
+	Mr. Flynn, hold your contempt.
+
+	[Billy Flynn]
+	No, it's not even conceivable. But does it worked? Would it be time to say,
+	Come clean, Mr. Harrison, come clean... This guy is a corruption. I cannot stand.
+
+	[The Judge]
+	That's enough, Mr. Flynn!
+
+	[Billy Flynn]
+	I agree, your honour. That's enough!
+	It defend stress.
+
+	[Mary Sunshine]
+	Ladies and gentlemen, this is Mary Sunshine reporting live from the Cooke
+	County Courthouse. The city of Chicago has come to a complete stand still.
+	As the trial of century finally draws to a close. Mrs. Hart sits quietly at the
+	defense table, hands folded. What fate has installed for her? There's hassles
+	over the courtroom as the 12 men of the jury have back slowly to their seats.
+
+	[The Judge]
+	Gentlemen of jury, have you reached a verdict?
+
+	[The Jury]
+	We have, your honour.
+
+	[Mary Sunshine]
+	The jury has reached a verdict.
+
+	[The judge]
+	The defendant please rise. What is your verdict?
+
+	[The Jury]
+	We, the jury, find the defendant...
+
+	[Boy]
+	Roxie Hart is innocent! She's innocent! Roxie Hart is free! (shot gun)
+
+	[Reporter]
+	Come on! Move it! She shoots her husband and she crossed the lawyer!
+
+	[Roxie Hart]
+	Hey, don't you wanna take my picture? Hey, I'm the famous Roxie Hart.
+	Hey, what happened? What the hell happened?
+
+	[Billy Flynn]
+	It's Chicago, kid. You can't beat fresh blood on the walls.
+
+	[Roxie Hart]
+	What about my publicity, Billy? My name on the papers. I was counting on that.
+
+	[Billy Flynn]
+	Your attitude is not the one I get. I just save your life.
+
+	[Roxie Hart]
+	You got $5,000. What do I get? I get nothing.
+
+	[Billy Flynn]
+	Five? Actually it's ten once I collect from Velma. I get nothing? Don't forget
+	your diary. It could be on mine. I had a few erroneous phrases in there. Sorry,
+	I couldn't tell you. Take a chance. Never lost a case. You're a free woman,
+	Roxie Hart. And God save lllinois.
+
+	[Amos Hart]
+	Roxie.
+
+	[Roxie Hart]
+	What do you want?
+
+	[Amos Hart]
+	I want you to come home. You said you still wanted to... and the baby...
+
+	[Roxie Hart]
+	Baby, what baby? Oh, Jesus. What do you take me for? There ain't no baby.
+
+	[Amos Hart]
+	There ain't no baby?
+
+	[Roxie Hart]
+	They didn't even want my picture. I just can't understand that. What didn't
+	they even want my picture?
+
+	It's good,
+	Isn't it, grand?
+	Isn't it, great?
+	Isn't it, swell?
+	Isn't it, fun?
+	Isn't it?
+	Nowadays
+
+	[Announcer]
+	Ladies and gentlemen,
+	Miss Roxie Hart says Good Night.
+
+	[Roxie Hart]
+	There's man,
+	Everywhere jazz,
+	Everywhere booze,
+	Everywhere life,
+	Everywhere joy,
+	Everywhere
+	Nowadays
+	You can like the life you're living
+	You can live the life you like
+	You can even marry Harry
+	But mess around with Ike
+	And that's
+	Good,
+	Isn't it, grand?
+	Isn't it, great?
+	Isn't it, swell?
+	Isn't it, fun?
+	Isn't it...
+	But nothing
+	stays
+	You can like the life you're living
+	You can live the life you like
+
+	[Man I]
+	Didn't she kill a guy a while back?
+
+	[Man II]
+	Yeah, who can keep it straight anymore?
+
+	[Roxie Hart]
+	But mess around with Ike
+	And that's
+	Good,
+	Isn't it, grand?
+	Isn't it, great?
+	Isn't it, swell?
+
+	[Man I]
+	That's great. We'll keep in touch.
+
+	[Roxie Hart]
+	You know I'm not quite finished yet.
+	I have a...
+	Wait, don't go.
+	I could... just a second...
+	Goddamn it!
+	Thank you!
+
+	[Announcer]
+	Here's your music, honey.
+
+	[Roxie Hart]
+	Thanks.
+
+	[Velma Kelly]
+	You know you're really pretty good.
+
+	[Roxie Hart]
+	Yeah. What are you doing here?
+
+	[Velma Kelly]
+	I've been making around.
+
+	[Roxie Hart]
+	Well, if not fooled up by you, I'll be swinging right now.
+
+	[Velma Kelly]
+	Come on, I was there to get you off. You should learn how to put things behind
+	you.
+
+	[Roxie Hart]
+	Thank you. I'll put that at the top of my list right after finding a job and an
+	apartment with a John.
+
+	[Velma Kelly]
+	Can you shut up and listen to me?
+
+	[Roxie Hart]
+	You really are something. Coming in here like some goddamn queen bee, full of
+	advice for a poor slop like me. Let me tell you something, Miss Velma Kelly.
+	I got a new life now. And one of the best thing about it, is it don't include
+	you.
+
+	[Velma Kelly]
+	Fine. Ijust thought we could help each other out.
+
+	[Roxie Hart]
+	Wait, you thought wrong, didn't you?
+
+	[Velma Kelly]
+	Listen to me. I talked to this guy in downtown. He says one chance hurts
+	nothing these days, but two... We can make a couple hundred a week. Think about
+	it, Roxie. Faces back on the papers and names in the market. Velma Kelly and
+	Roxie Hart.
+
+	[Roxie Hart]
+	Should it be alphabetical?
+
+	[Velma Kelly]
+	That could work.
+
+	[Roxie Hart]
+	A couple hundred? Maybe we can ask for a thousand. We'll worth it. Forget it,
+	it'll never work.
+
+	[Velma Kelly]
+	Why not?
+
+	[Roxie Hart]
+	'Cause I hate you.
+
+	[Velma Kelly]
+	There's only one business in the world that's no problem at all.
+
+	[Announcer]
+	Ladies and gentlemen, the Chicago theatre is proud to announce the first.
+	The first time anywhere that's been an act throughout this nation. Not only one
+	little lady, but two. You red about them in the papers, and now here they are.
+	Chicago zone killer-dealers, the lady-sinners, Roxie Hart and Velma Kelly!
+
+	[Roxie Hart and Velma Kelly]
+	You can like the life you're living
+	You can live the life you like
+	You can even marry Harry
+	But mess around with Ike
+	And that's good?
+	Isn't it, grand?
+	Isn't it, great?
+	Isn't it, swell?
+	Isn't it, fun?
+	isn't it?
+	But nothing stays
+	In fifty years or so
+	It's gonna change, you know
+	But, oh, it's heaven
+	Nowadays
+
+	[Announcer]
+	Okay, you babes of Jazz, let's kick up the bass. Let's make the party longer,
+	let's make the skirt shorter. Let's all go to the heaven that makes all the
+	people hot!
+
+	[Velma Kelly]
+	Me and Roxie would just like to say thank you.
+
+	[Roxie Hart]
+	Thank you!
+	Believe us, we could've never
+	done anything without you!
+
+	And all
+	That
+	Jazz!
+	That Jazz!
+
+	[Announcer]
+	5, 6, 7, 8
+
+	[Velma Kelly]
+	While trucking down the road of life
+	Although all hope seems gone
+	I just move on
+
+	[Roxie Hart]
+	When I can't find a single star
+	To hang my wish upon
+	I just move on
+	I move on
+
+	[Velma Kelly]
+	I run so fast
+	A shot gun blast
+	Can hurt me not one bit
+
+	[Roxie Hart]
+	I'm on my toes
+	Cause heaven knows
+	A moving target's hard to hit
+
+	[Both]
+	So as we play an ex-ballet
+	We're not the dying swan
+	We just move on
+	We move on
+
+	[Roxie Hart]
+	Just when it seems
+	We're out of dreams
+	And things have got us down
+
+	[Velma Kelly]
+	We don't despair
+	We don't go there
+	We hang our bonnets out of town
+
+	[Both]
+	So there's no doubt
+	We're well cut out
+	To run life's marathon
+	We just move on
+	We just move on
+	So light of foot
+	We can't stay put
+	We just move on
+	Yes, we move on
+
+	[Thanks to nibleswik@yahoo.com for corrections]

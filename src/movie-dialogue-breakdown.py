@@ -71,6 +71,7 @@ del temp
 
 totalLineCount = 0
 for char, count in characters.items():
-	print("character: " + char + " count: " + str(count))
-	totalLineCount = totalLineCount + count
+	if (count > 100):
+		print("character: " + char + " count: " + str(count))
+		totalLineCount = totalLineCount + count
 print("total word count: " + str(totalLineCount))
