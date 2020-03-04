@@ -570,7 +570,7 @@ const d3 = require('d3');
 		//SVG setup
 		const margin = {top: 60, right: 30, bottom: 30, left: 30},
 		      width = 700 - margin.left - margin.right,
-		      height = 450 - margin.top - margin.bottom;
+		      height = 500 - margin.top - margin.bottom;
 
 		//x scales
 		const x = d3.scaleLinear()
@@ -671,6 +671,14 @@ const d3 = require('d3');
 				  .attr("class", "axis axis--x")
 				  .attr("transform", "translate(0," + height + ")")
 				  .call(d3.axisBottom(x));
+
+			svg.append("text")
+				   .attr("x", (width) / 2)
+				   .attr("y", 460)
+				   .attr("text-anchor", "middle")
+				   .text("Percent")
+				   .style("fill", "white")
+				   .style("font-size", "18px");
 			// svg.append("circle")
 			// 	  .attr("cx", (width / 2) - 120)
 			// 	  .attr("cy", height)
