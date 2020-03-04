@@ -6,6 +6,18 @@ Male words
 {KEVIN=1652, CHIRON=195, TRAVIS=68, TERRELL=486, LITTLE=84, JUAN=650, BLACK=407, AZU=13, TERRENCE=31, WILLIAMS=102, PIZZO=63}
 Total = 3751
 
+*********************************
+
+Female words (over 100 words)
+{TERESA=240, PAULA=768}
+Total = 1008
+
+Male words (over 100 words)
+{KEVIN=1652, CHIRON=195, TERRELL=486, JUAN=650, BLACK=407, WILLIAMS=102}
+Total = 3492
+
+*********************************
+
 JUAN
 Business good?
 TERRENCE

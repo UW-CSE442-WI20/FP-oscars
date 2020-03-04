@@ -1,12 +1,26 @@
-Female lines
+Female words
 {ANNIE=43, WOMAN=10, SARAH=20, RUBY=27, PROSTITUTE=28, VIRGINIA=29, BETTY=10}
 
 Total = 167
 
-Male lines
+Male words
 {MICHAEL=456, PETER=64, SULLIVAN=1236, ROONEY=611, CONNOR=388, MCGOVERN=222, NITTI=346, MAGUIRE=228, RANCE=205, HARRY=25, MCDOUGAL=55, FRANK=144, KELLY=169, CALVINO=46, MANAGER=36, MURDERER=22, COP=57}
 
 Total = 4310
+
+*********************************
+
+Female words (over 100 words)
+{}
+
+Total = 0
+
+Male words (over 100 words)
+{MICHAEL=456, SULLIVAN=1236, ROONEY=611, CONNOR=388, MCGOVERN=222, NITTI=346, MAGUIRE=228, RANCE=205, FRANK=144, KELLY=169}
+
+Total = 4005
+
+*********************************
 
 MICHAEL 
 There are many stories about Michael
