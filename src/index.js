@@ -339,14 +339,14 @@ const d3 = require('d3');
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
 			  .style("fill", "#6BA6D9")
-			  .style("stroke", "white")
+			  .style("stroke", "white");
 
 		legend.append("circle")
 			  .attr("cx", (width / 2) + 80)
 			  .attr("cy", height - 35)
 			  .attr("r", 10)
 			  .style("fill", "#D873CF")
-			  .style("stroke", "white")
+			  .style("stroke", "white");
 
 		legend.append("text")
 			  .attr("x", (width / 2) - 105)
@@ -354,7 +354,7 @@ const d3 = require('d3');
 			  .text("Male")
 			  .style("font-size", "15px")
 			  .style("fill", "white")
-			  .attr("alignment-baseline","middle")
+			  .attr("alignment-baseline","middle");
 
 		legend.append("text")
 			  .attr("x", (width / 2) + 95)
@@ -362,7 +362,7 @@ const d3 = require('d3');
 			  .text("Female")
 			  .style("font-size", "15px")
 			  .style("fill", "white")
-			  .attr("alignment-baseline","middle")
+			  .attr("alignment-baseline","middle");
 	}
 
 	// Adapted from http://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
@@ -598,7 +598,7 @@ const d3 = require('d3');
 		//set up svg
 		let svg = d3.select("#dialog-dot-chart")
 			.attr("width", width + margin.left + margin.right)
-	    	.attr("height", height + margin.top + margin.bottom)
+	    	.attr("height", height + margin.bottom + margin.top + 20)
 		  	.append("g")
 		    	.attr("transform",
 		            `translate(${margin.left}, ${margin.top / 2})`);
@@ -627,7 +627,6 @@ const d3 = require('d3');
 
 		    //binning data and filtering out empty bins
 		    const bins = histogram(allData).filter(d => d.length>0);
-		    console.log(bins)
 		    let binContainer = svg.selectAll("g.gBin")
 	          .data(bins)
 	          .enter()
@@ -689,39 +688,52 @@ const d3 = require('d3');
 
 			svg.append("text")
 				   .attr("x", (width) / 2)
-				   .attr("y", 460)
+				   .attr("y", 450)
 				   .attr("text-anchor", "middle")
 				   .text("Percent")
 				   .style("fill", "white")
 				   .style("font-size", "18px");
-			// svg.append("circle")
-			// 	  .attr("cx", (width / 2) - 120)
-			// 	  .attr("cy", height)
-			// 	  .attr("r", 10)
-			// 	  .style("fill", "#6BA6D9")
-			// 	  .style("stroke", "white")
+			
+			svg.append("circle")
+			  .attr("cx", (width / 2) + 180)
+			  .attr("cy", height / 3)
+			  .attr("r", 10)
+			  .style("fill", "#6BA6D9")
 
-			// svg.append("circle")
-			// 	  .attr("cx", (width / 2) + 80)
-			// 	  .attr("cy", height)
-			// 	  .attr("r", 10)
-			// 	  .style("fill", "#D873CF")
-			// 	  .style("stroke", "white")
-			// svg.append("text")
-			//   .attr("x", (width / 2) - 105)
-			//   .attr("y", height)
-			//   .text("Male-dominated")
-			//   .style("font-size", "15px")
-			//   .style("fill", "white")
-			//   .attr("alignment-baseline","middle")
+			svg.append("circle")
+				  .attr("cx", (width / 2) + 180)
+				  .attr("cy", (height / 3) + 25)
+				  .attr("r", 10)
+				  .style("fill", "#9D82BC")
 
-			// svg.append("text")
-			// 	  .attr("x", (width / 2) + 95)
-			// 	  .attr("y", height)
-			// 	  .text("Female-dominated")
-			// 	  .style("font-size", "15px")
-			// 	  .style("fill", "white")
-			// 	  .attr("alignment-baseline","middle")
+			svg.append("circle")
+				  .attr("cx", (width / 2) + 180)
+				  .attr("cy", (height / 3) + 50)
+				  .attr("r", 10)
+				  .style("fill", "#D873CF")
+
+			svg.append("text")
+				  .attr("x", (width / 2) + 200)
+				  .attr("y", (height / 3) + 2)
+				  .text("Male dominated")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
+			svg.append("text")
+				  .attr("x", (width / 2) + 200)
+				  .attr("y", (height / 3) + 27)
+				  .text("Equal")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
+
+			svg.append("text")
+				  .attr("x", (width / 2) + 200)
+				  .attr("y", (height / 3) + 52)
+				  .text("Female dominated")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
 	     	});
 	}
 
