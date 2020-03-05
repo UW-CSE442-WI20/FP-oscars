@@ -294,12 +294,12 @@ const d3 = require('d3');
 						  .style("opacity", 0);
 		
 		// Generate title for pi chart
-		svg.append("text")
-		   .attr("class", "chart-title")
-		   .attr("x", (width / 2))
-		   .attr("y", 35)
-		   .attr("text-anchor", "middle")
-		   .text("Gender Breakdown of Directors of Oscar-Winning Movies");
+		// svg.append("text")
+		//    .attr("class", "chart-title")
+		//    .attr("x", (width / 2))
+		//    .attr("y", 35)
+		//    .attr("text-anchor", "middle")
+		//    .text("Gender Breakdown of Directors of Oscar-Winning Movies");
 
 		//Draw arc paths
 		arcs.append("path")
@@ -397,12 +397,12 @@ const d3 = require('d3');
             height = svg.attr("height") - margin;
 
         // Generate title for bar chart
-        svg.append("text")
-           .attr("class", "chart-title")
-           .attr("x", ((width + margin) / 2))
-           .attr("y", 40)
-           .attr("text-anchor", "middle")
-		   .text("Genre Breakdown of Oscar-Winning Movies");
+     //    svg.append("text")
+     //       .attr("class", "chart-title")
+     //       .attr("x", ((width + margin) / 2))
+     //       .attr("y", 40)
+     //       .attr("text-anchor", "middle")
+		   // .text("Genre Breakdown of Oscar-Winning Movies");
 
 		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
 						 "Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
@@ -479,12 +479,12 @@ const d3 = require('d3');
             height = svg.attr("height") - margin;
 
         // Generate title for bar chart
-        svg.append("text")
-           .attr("class", "chart-title")
-           .attr("x", ((width + margin) / 2))
-           .attr("y", 40)
-           .attr("text-anchor", "middle")
-		   .text("Nationality Breakdown of Directors of Oscar-Winning Movies");
+     //    svg.append("text")
+     //       .attr("class", "chart-title")
+     //       .attr("x", ((width + margin) / 2))
+     //       .attr("y", 40)
+     //       .attr("text-anchor", "middle")
+		   // .text("Nationality Breakdown of Directors of Oscar-Winning Movies");
 
 		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
 							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
@@ -571,9 +571,9 @@ const d3 = require('d3');
 
 	function makeDialogueDotPlot() {
 		//SVG setup
-		const margin = {top: 60, right: 30, bottom: 30, left: 30},
-		      width = 700 - margin.left - margin.right,
-		      height = 500 - margin.top - margin.bottom;
+		const margin = {top: 60, right: 30, bottom: 150, left: 30},
+		      width = 600 - margin.left - margin.right,
+		      height = 600 - margin.top - margin.bottom;
 
 		//x scales
 		const x = d3.scaleLinear()
@@ -591,12 +591,12 @@ const d3 = require('d3');
 		    	.attr("transform",
 		            `translate(${margin.left}, ${margin.top / 2})`);
 
-		svg.append("text")
-            .attr("class", "chart-title")
-            .attr("x", ((width + margin.left) / 2))
-            .attr("y", 40)
-            .attr("text-anchor", "middle")
-		    .text("Percent of Words Spoken By Women in Oscar-Winning Movies");
+		// svg.append("text")
+  //           .attr("class", "chart-title")
+  //           .attr("x", ((width + margin.left) / 2))
+  //           .attr("y", 40)
+  //           .attr("text-anchor", "middle")
+		//     .text("Percent of Words Spoken By Women in Oscar-Winning Movies");
 
 	    //number of bins for histogram
 		const nbins = 20;
@@ -625,7 +625,7 @@ const d3 = require('d3');
 	          .data(d => d.map((p, i) => {
 	              	return {value: p["Percent Female"],
 	              			title: p["Movie Title"],
-	                      	radius: (x(d.x1) - x(d.x0)) / 4};
+	                      	radius: (x(d.x1) - x(d.x0)) / 3.75};
 	          }))
 	          .enter()
 	          .append("circle")
@@ -640,7 +640,7 @@ const d3 = require('d3');
 	          })
 	          .attr("cx", 0) //g element already at correct x pos
 	          .attr("cy", (d, i) => {
-	              return - i * 2.5 * d.radius - d.radius})
+	              return - i * 2.75 * d.radius - d.radius})
          	  .attr("r", d => d.radius)
          	  .on("mouseover", function(d) {
          	  	tooltip.transition()
@@ -676,49 +676,49 @@ const d3 = require('d3');
 
 			svg.append("text")
 				   .attr("x", (width) / 2)
-				   .attr("y", 450)
+				   .attr("y", 440)
 				   .attr("text-anchor", "middle")
 				   .text("Percent")
 				   .style("fill", "white")
 				   .style("font-size", "18px");
 			
 			svg.append("circle")
-			  .attr("cx", (width / 2) + 180)
+			  .attr("cx", (width / 2) + 130)
 			  .attr("cy", height / 3)
 			  .attr("r", 10)
 			  .style("fill", "#6BA6D9")
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 180)
+				  .attr("cx", (width / 2) + 130)
 				  .attr("cy", (height / 3) + 25)
 				  .attr("r", 10)
 				  .style("fill", "#9D82BC")
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 180)
+				  .attr("cx", (width / 2) + 130)
 				  .attr("cy", (height / 3) + 50)
 				  .attr("r", 10)
 				  .style("fill", "#D873CF")
 
 			svg.append("text")
-				  .attr("x", (width / 2) + 200)
+				  .attr("x", (width / 2) + 150)
 				  .attr("y", (height / 3) + 2)
-				  .text("Male dominated")
+				  .text("Predominantly male")
 				  .style("font-size", "15px")
 				  .style("fill", "white")
 				  .attr("alignment-baseline","middle")
 			svg.append("text")
-				  .attr("x", (width / 2) + 200)
+				  .attr("x", (width / 2) + 150)
 				  .attr("y", (height / 3) + 27)
-				  .text("Equal")
+				  .text("Evenly distributed")
 				  .style("font-size", "15px")
 				  .style("fill", "white")
 				  .attr("alignment-baseline","middle")
 
 			svg.append("text")
-				  .attr("x", (width / 2) + 200)
+				  .attr("x", (width / 2) + 150)
 				  .attr("y", (height / 3) + 52)
-				  .text("Female dominated")
+				  .text("Predominantly female")
 				  .style("font-size", "15px")
 				  .style("fill", "white")
 				  .attr("alignment-baseline","middle")

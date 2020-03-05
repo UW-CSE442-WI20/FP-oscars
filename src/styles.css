@@ -71,7 +71,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 5%;
+	margin-bottom: 8%;
 }
 
 .component {
@@ -281,10 +281,17 @@ img {
 }
 
 #results-button-container, #back-button-container {
-	margin-top: 20px;
 	margin-bottom: 40px;
 	text-align: center;
 	font-family: 'AndesRoundedRegular';
+}
+
+#result-button-container {
+	margin-top: 20px;
+}
+
+#back-button-container {
+	margin-top: -3%;
 }
 
 button {
@@ -365,8 +372,16 @@ div.tooltip {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	margin-bottom: 4%;
-	margin-top: 4%;
+	margin-bottom: 7%;
+}
+
+.chart-title {
+	margin-top: 5%;
+	margin-bottom: -0.5%;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 0%;
+	font-family: 'AndesRoundedMedium';
 }
 
 .chart-image {
@@ -379,11 +394,11 @@ div.tooltip {
 	width: 25%;
 }
 
-.chart-title {
+/*.chart-title {
 	font-family: 'AndesRoundedBold';
 	font-size: 20px;
 	fill: white;
-}
+}*/
 
 .female-circle {
 	fill: #D873CF;
