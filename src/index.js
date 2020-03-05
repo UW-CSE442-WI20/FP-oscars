@@ -3,7 +3,7 @@ const d3 = require('d3');
 (function() {
 	// Turn this off when programming so you don't need to
 	// always select a genre/director to get to the next page.
-	const WARNING_MODE = false;
+	const WARNING_MODE = true;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
@@ -217,25 +217,13 @@ const d3 = require('d3');
 			
 	function lockInSelections() {
 		if (WARNING_MODE) {
-			id("dialog-selection").innerText = id("gender-percent").innerText;
-			id("director-gender").innerText = id("female").classList.contains("female-color") ? "female" : "male";
-			id("director-nationality").innerText = qs(".is-selected .carousel-text").innerText;
-			id("genre-selection").innerText = qs(".highlighted-box span").innerText.toLowerCase();
+			id("dialog-selection").value = id("gender-percent").innerText;
+			id("director-gender").value = id("female").classList.contains("female-color") ? "female" : "male";
+			id("director-nationality").value = qs(".is-selected .carousel-text").innerText.toLowerCase();
+			id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
 		} else {
 			console.log("Turn off WARNING_MODE to see the selections");
 		}
-		
-		// $('#director-gender').selectize({
-
-		// 	options: [
-		// 		{gender: "Male"},
-		// 		{gender: "Female"}
-		// 	],
-		// 	labelField: 'Gender',
-		// 	placeholder: id("director-gender").innerText,
-		//     create: true,
-		//     sortField: 'text'
-		// });
 	}
 
 	function goBackToMainPage() {
