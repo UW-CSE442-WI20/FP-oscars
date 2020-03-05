@@ -217,24 +217,9 @@
 			<img id="gauge-img" src="./SVG/gauge.svg"/>
 		</div>
 		<h2>Charts</h2>
-		<p class="page-description">Let's see how your choices compared to the actual winners! Blah blah add more here so it's not just a single line of text...</p>
-		<h3 class="chart-title">Nationality Breakdown of Directors of Oscar-Winning Films</h3>
-		<div class="chart">
-			<svg id="nationality-bar-chart" class="chart-image" width="700" height="700"></svg>
-			<p class="chart-description">There are 20 different nationalities that correspond to directors of Oscar-winning films. Some directors have dual nationality, for example, British-American, We've handled these cases by counting 0.5 towards each nationality present, i.e 0.5 British and 0.5 American.</p>
-		</div>
-		<h3 class="chart-title">Genre Breakdown of Oscar-Winning Films</h3>
-		<div class="chart">
-			<svg id="genre-bar-chart" class="chart-image" width="700" height="700"></svg>
-			<p class="chart-description">Over the years, films with a variety of different genres have won Oscars, but drama films have won the most by far. These results span Oscar awards from 2001-2020. Sometimes a film can be categorized by more than one genre, for example Black Swan is both a drama and a thriller. In this case, we count 1 Oscar winning film towards each of these genres.<p>
-		</div>
-		<h3 class="chart-title">Gender Breakdown of Directors of Oscar-Winning Films</h3>
-		<div class="chart">
-			<svg id="gender-director-pi-chart" class="chart-image" width="700" height="475"></svg>
-			<p class="chart-description">Directors of Oscar-winning films are predominantly male. In fact, over the last 20 years of Oscar awards, only 7 winning films have had female directors, and only 1 female director, Kathryn Bigelow, has won Best Director.<p>
-		</div>
-		<h3 class="chart-title">Percent of Words Spoken By Women in Oscar-Winning Films</h3>
-		<div class="chart">
+		<p class="page-description chart-intro">Let's see how your choices compare to the actual winners! These results span Oscar awards from 2001 - 2020.</p>
+		<h3 class="chart-title">Percent of Words Spoken By Women</h3>
+		<div class="chart" id="gender-chart">
 			<svg id="dialog-dot-chart" class="chart-image" width="700" height="550"></svg>
 			<div class="chart-description">
 				<p>Most film dialogues are made up of a majority of male spoken words. These percentages were calculated by counting the number of words spoken by each character in each screenplay. Characters with at least 100 spoken words were then mapped to IMDB pages to identify them as male or female.</p> 
@@ -242,6 +227,21 @@
 				<p>
 				Additionally, some of the data for this chart was found <a href=https://pudding.cool/2017/03/film-dialogue/">here</a>, which also uses the 100 word threshold. For screenplays that weren't included in their dataset, we wanted to maintain consistency when calculating percentages.</p>
 			</div>
+		</div>
+		<h3 class="chart-title">Gender Breakdown of Directors</h3>
+		<div class="chart">
+			<svg id="gender-director-pi-chart" class="chart-image" width="600" height="475"></svg>
+			<p class="chart-description">Directors of Oscar-winning films are predominantly male. In fact, over the last 20 years of Oscar awards, only 7 winning films have had female directors, and only 1 female director, Kathryn Bigelow, has won Best Director.<p>
+		</div>
+		<h3 class="chart-title">Nationality Breakdown of Directors</h3>
+		<div class="chart">
+			<svg id="nationality-bar-chart" class="chart-image" width="600" height="700"></svg>
+			<p class="chart-description">There are 20 different nationalities that correspond to directors of Oscar-winning films. Some directors have dual nationality, for example, British-American, We've handled these cases by counting 0.5 towards each nationality present, i.e 0.5 British and 0.5 American.</p>
+		</div>
+		<h3 class="chart-title">Genre Breakdown</h3>
+		<div class="chart">
+			<svg id="genre-bar-chart" class="chart-image" width="600" height="700"></svg>
+			<p class="chart-description">Over the years, films with a variety of different genres have won Oscars, but drama films have won the most by far. Sometimes a film can be categorized by more than one genre, for example Black Swan is both a drama and a thriller. In this case, we count 1 Oscar winning film towards each of these genres.</p>
 		</div>
 		<div id="back-button-container">
 			<p id="go-back">You done? You wanna go...</p> 

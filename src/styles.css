@@ -384,6 +384,10 @@ div.tooltip {
 	font-family: 'AndesRoundedMedium';
 }
 
+#gender-chart {
+	margin-bottom: -3%;
+}
+
 .chart-image {
 	max-width: 75%;
 }
@@ -399,6 +403,10 @@ div.tooltip {
 	font-size: 20px;
 	fill: white;
 }*/
+
+.chart-intro {
+	padding-bottom: 1%;
+}
 
 .female-circle {
 	fill: #D873CF;
