@@ -102,26 +102,10 @@ h2 {
 	margin-right: 20%;
 }
 
-.chart-description {
-	margin-left: 60%;
-	margin-right: 20%;
-	padding-bottom: 10px;
-}
-
-.chart {
-	font-family: 'AndesRoundedRegular';
-	float: left;
-}
-
-.chart-title {
-	font-family: 'AndesRoundedBold';
-	font-size: 20px;
-	fill: white;
-}
-
 hr {
 	border: 2px solid white;
   	border-radius: 3px;
+  	width: 100%;
 }
 
 img {
@@ -365,6 +349,40 @@ div.tooltip {
 
 #gauge-img {
 	height: 300px;
+}
+
+.chart-description a {
+	color: #F7ECB5;
+}
+
+.chart-description a:hover {
+	color: #FED800;
+}
+
+.chart {
+	font-family: 'AndesRoundedRegular';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.chart-image {
+	max-width: 75%;
+}
+
+.chart-description {
+	margin-left: 5%;
+	margin-right: 10%;
+	width: 25%;
+}
+
+.chart-title {
+	font-family: 'AndesRoundedBold';
+	font-size: 20px;
+	fill: white;
 }
 
 .female-circle {
