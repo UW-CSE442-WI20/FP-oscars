@@ -102,8 +102,15 @@ h2 {
 	margin-right: 20%;
 }
 
+.chart-description {
+	margin-left: 60%;
+	margin-right: 20%;
+	padding-bottom: 10px;
+}
+
 .chart {
 	font-family: 'AndesRoundedRegular';
+	float: left;
 }
 
 .chart-title {

@@ -222,17 +222,28 @@
 			<img id="gauge-img" src="./SVG/gauge.svg"/>
 		</div>
 		<div id="charts">
-			
+			<div>
+				<p class="chart-description">There are 20 different nationalities that correspond to directors of Oscar-winning films. Some directors have dual nationality, for example, British-American, We've handled these cases by counting 0.5 towards each nationality present, i.e 0.5 British and 0.5 American.</p>
+			</div>
 			<br>
 			<div class="chart">
 				<svg id="nationality-bar-chart" width="700" height="700"></svg>
+			</div>
+			<div>
+				<p class="chart-description">Over the years, films with a variety of different genres have won Oscars, but Drama films have won the most by far. These results span Oscar awards from 2001-2020. Sometimes a film can be categorized by more than one genre, for example Black Swan is both a genre and a thriller. In this case, we count 1 oscar winning film towards each of these genres.<p>
 			</div>
 			<br>
 			<div class="chart">
 				<svg id="genre-bar-chart" width="700" height="700"></svg>
 			</div>
+			<div>
+				<p class="chart-description">Directors of Oscar-winning films are predominantly male. In fact, over the last 20 years of Oscar awards, only 7 winning films have had female directors, and only 1 female director, Kathryn Bigelow, has won Best Director.<p>
+			</div>
 			<div class="chart">
 				<svg id="gender-director-pi-chart" width="700" height="475"></svg>
+			</div>
+			<div>
+				<p class="chart-description">Most film dialogues are made up of a majority of male spoken words. These percentages were calculated by counting up the number of words spoken by each character for each screenplay. Each character with at least 100 spoken words was then mapped to a person's IMDB page to identify them as male or female. The reason for the 100 word threshold was because minor characters on IMDB are often labeled differently than they are in the screenplay, and it's difficult to be sure that 2 characters are the same. This exclusion does end up with some movies being labeled as having 100% male dialogue, when that's not exactly true. For example, 1917 is labeled as having 0.0% female dialogue, when really there are 88 words spoken by Lauri, a female character, so in reality it has a 1.7% female dialogue. This count does not reach our threshold though, so it's not included. Additonally, some of the data for this chart was found at https://pudding.cool/2017/03/film-dialogue/, which uses the 100 word threshold. For screenplays that weren't included in their dataset, we wanted to maintain consitency we calculating percentages.<p>
 			</div>
 			<div class="chart">
 				<svg id="dialog-dot-chart" width="700" height="600"></svg>
