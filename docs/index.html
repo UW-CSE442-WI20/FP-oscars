@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>How to Win an Oscar</title>
+    <link rel="icon" href="https://uw-cse442-wi20.github.io/FP-oscars/favicon.714f2a23.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap2.min.css">
+	<link rel="stylesheet" type="text/css" href="https://uw-cse442-wi20.github.io/FP-oscars/styles.00785d78.css">
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://uw-cse442-wi20.github.io/FP-oscars/nouislider.ca7a1492.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://uw-cse442-wi20.github.io/FP-oscars/src.9b5644fe.js"></script>
+  </head>
+  <body>
+	  <div id="questions">
+		<div id="title-subtitle">
+			<h1>Let's Craft <br>an Oscar<br> Winning <br>Movie!</h1>
+			<div id="subtitle">
+				<p>The Academy of Motion Picture Arts and Sciences annually gives out Academy Awards, more popularly known as Oscars, to films that have exemplified artistic and technical excellence. Some of the more revered awards are </p>
+				<ul>
+					<li>Best Picture</li>
+					<li>Best Director</li>
+					<li>Best Actor/Actress</li>
+					<li>Best Supporting Actor/Actress</li>
+					<li>Best Cinematography</li>
+					<li>Best Adapted/Original Screenplay</li>
+				</ul>
+				<p>We believe there is a recipe for success for getting a film to win one of these Oscars. Let’s dive in and try it out!</p>
+			</div>
+		</div>
+		<div id="oscar-components" class="side-by-side">
+			<img class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/dialogue.94ca577d.svg">
+			<p class="operator">+</p>
+			<img class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/director.9bf6b2d6.svg">
+			<p class="operator">+</p>
+			<img class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/genre.7fdb6526.svg">
+			<p class="operator">=</p>
+			<img src="https://uw-cse442-wi20.github.io/FP-oscars/oscar.4996d294.svg">
+			<p class="operator question-mark">?</p>
+		</div>
+		<div id="dialogue-page">
+			<h2>Dialogue</h2>
+			<div class="page-description">
+				<p class="intro">The dialogue is the meat of your film. It's what gets your audience interested (or uninterested).</p>
+				<p>What percent of the lines should female characters speak?</p>
+				<div id="percent-container">
+				<div id="slider-container">
+					<div id="slider"></div>
+				</div>
+				<span id="gender-percent"></span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div id="director-page">
+			<h2>Director</h2>
+			<div class="page-description">
+				<p class="intro">The director determines how the story unravels before the audience's eyes. Directors also typically have recognizable filmmaking styles that differ from other directors. Let's pick who will direct your film!</p>
+				<div id="director-components" class="side-by-side">
+					<div>
+						<p>What gender are they?</p>
+						<div id="male-female">
+							<div id="male">
+								<img id="male-icon" src="https://uw-cse442-wi20.github.io/FP-oscars/male-white.32ab82a2.svg">
+								<p id="male-text">Male</p>
+							</div>
+							<div id="female" class="female-color">
+								<img id="female-icon" src="https://uw-cse442-wi20.github.io/FP-oscars/female-white.c62b8f67.svg">
+								<p id="female-text">Female</p>
+							</div>
+						</div>
+					</div>
+					<div id="carousel-content">
+						<p>What nationality are they?</p>
+						<div id="flag-carousel">
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/153-united-states-of-america.b8a27dbd.png"><span class="carousel-text">American</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/130-australia.0a061352.png"><span class="carousel-text">Australian</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/250-brazil.55c97748.png"><span class="carousel-text">Brazilian</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/262-united-kingdom.fc402adb.png"><span class="carousel-text">British</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/206-canada.556700ea.png"><span class="carousel-text">Canadian</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/152-england.8cf7c596.png"><span class="carousel-text">English</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/077-france.f07ae4d3.png"><span class="carousel-text">French</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/066-germany.3443014c.png"><span class="carousel-text">German</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/071-greece.1ad42aa6.png"><span class="carousel-text">Greek</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/070-ireland.cf15c05a.png"><span class="carousel-text">Irish</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/011-italy.1826217d.png"><span class="carousel-text">Italian</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/239-mexico.f265b98e.png"><span class="carousel-text">Mexican</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/048-new-zealand.cf27f953.png"><span class="carousel-text">New Zealander</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/058-norway.5282f766.png"><span class="carousel-text">Norwegian</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/108-poland.5c8f16ba.png"><span class="carousel-text">Polish</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/036-scotland.519fbba4.png"><span class="carousel-text">Scottish</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/055-south-korea.a0ab0596.png"><span class="carousel-text">South Korean</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/044-spain.efb77808.png"><span class="carousel-text">Spanish</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/097-switzerland.f27e7052.png"><span class="carousel-text">Swiss</span></span>
+						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/080-taiwan.b526f669.png"><span class="carousel-text">Taiwanese</span></span>
+						</div>
+						<p id="nationality-disclaimer">*Note that we only have nationalities that have won Oscars in the past!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="genre-page">
+				<h2>Genre</h2>
+				<div class="page-description">
+					<p class="intro">Film genres are associated with conventions, settings, narratives, characters, and actors. Often, movies are bucketed into many different genres.</p>
+					<p>What genre is your film?</p>
+					<div class="flex-container">
+						<div class="flex-element 1"><span>Action</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/action.075a2f7e.svg"></div>
+						<div class="flex-element 2"><span>Adventure</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/adventure.165661b1.svg"></div>
+						<div class="flex-element 4"><span>Comedy</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/comedy.3296dc27.svg"></div>
+						<div class="flex-element 5"><span>Crime</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/crime.da791ec2.svg"></div>
+						<div class="flex-element 6"><span>Drama</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/drama.02fe7fff.svg"></div>
+						<div class="flex-element 7"><span>Family</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/family.31f3320b.svg"></div>
+						<div class="flex-element 8"><span>Fantasy</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/fantasy.81c6bf8b.svg"></div>
+						<div class="flex-element 9"><span>History</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/history.0a581a39.svg"></div>
+						<div class="flex-element 10"><span>Horror</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/horror.9cc16a5f.svg"></div>
+						<div class="flex-element 11"><span>Music</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/music.99990a41.svg"></div>
+						<div class="flex-element 11 highlighted-box"><span>Musical</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/musical.7aea4f1f.svg"></div>
+						<div class="flex-element 12"><span>Mystery</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/mystery.aced9d4e.svg"></div>
+						<div class="flex-element 13"><span>Romance</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/heart.bc85ed56.svg"></div>
+						<div class="flex-element 14"><span>Sci-Fi</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/sci-fi.a407ffde.svg"></div>
+						<div class="flex-element 15"><span>Sport</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/sport.f60fc20d.svg"></div>
+						<div class="flex-element 16"><span>Thriller</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/thriller.1b7d20b1.svg"></div>
+						<div class="flex-element 17"><span>War</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/war.ff751094.svg"></div>
+						<div class="flex-element 18"><span>Western</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/western.a50653a9.svg"></div>
+					</div>
+				</div>
+		</div>
+		<div id="results-button-container">
+			<p id="warning" class="warning">Okay, now let's...</p>
+			<button id="switch-views">Get results!</button>
+		</div>
+	</div>
+
+    <div id="calculation-page" class="visually-hidden hidden">
+		<h2>Results</h2>
+    	<div class="page-description">
+			<p class="intro selections">Based on your selection of 
+				<select id="dialog-selection">
+						<option value="0%">0%</option>
+						<option value="5%">5%</option>
+						<option value="10%">10%</option>
+						<option value="15%">15%</option>
+						<option value="20%">20%</option>
+						<option value="25%">25%</option>
+						<option value="30%">30%</option>
+						<option value="35%">35%</option>
+						<option value="40%">40%</option>
+						<option value="45%">45%</option>
+						<option value="50%">50%</option>
+						<option value="55%">55%</option>
+						<option value="60%">60%</option>
+						<option value="65%">65%</option>
+						<option value="70%">70%</option>
+						<option value="75%">75%</option>
+						<option value="80%">80%</option>
+						<option value="85%">85%</option>
+						<option value="90%">90%</option>
+						<option value="95%">95%</option>
+						<option value="100%">100%</option>
+					</select> female speaking lines, a director who is 
+				
+				<select id="director-gender">
+						<option value="male">male</option>
+						<option value="female">female</option>
+				</select> and 
+				<select id="director-nationality">
+						<option value="american">American</option>
+						<option value="australian">Australian</option>
+						<option value="brazilian">Brazilian</option>
+						<option value="british">British</option>
+						<option value="canadian">Canadian</option>
+						<option value="english">English</option>
+						<option value="french">French</option>
+						<option value="german">German</option>
+						<option value="greek">Greek</option>
+						<option value="irish">Irish</option>
+						<option value="italian">Italian</option>
+						<option value="mexican">Mexican</option>
+						<option value="new zealander">New Zealander</option>
+						<option value="norwegian">Norwegian</option>
+						<option value="polish">Polish</option>
+						<option value="scottish">Scottish</option>
+						<option value="south korean">South Korean</option>
+						<option value="spanish">Spanish</option>
+						<option value="swiss">Swiss</option>
+						<option value="taiwanese">Taiwanese</option>
+					</select>, and a choice of 
+					<select id="genre-selection">
+						<option value="action">action</option>
+						<option value="adventure">adventure</option>
+						<option value="comedy">comedy</option>
+						<option value="crime">crime</option>
+						<option value="drama">drama</option>
+						<option value="family">family</option>
+						<option value="fantasy">fantasy</option>
+						<option value="history">history</option>
+						<option value="horror">horror</option>
+						<option value="music">music</option>
+						<option value="musical">musical</option>
+						<option value="mystery">mystery</option>
+						<option value="Romance">romance</option>
+						<option value="sci-fi">sci-fi</option>
+						<option value="sport">sport</option>
+						<option value="thriller">thriller</option>
+						<option value="war">war</option>
+						<option value="western">western</option>
+					</select>
+					genre, the Oscar goes to...</p>
+		</div>
+		<div id="gauge">
+			<img id="gauge-img" src="https://uw-cse442-wi20.github.io/FP-oscars/gauge.0f204a98.svg">
+		</div>
+		<h2>Charts</h2>
+		<p class="page-description">Let's see how your choices compared to the actual winners! Blah blah add more here so it's not just a single line of text...</p>
+		<h3 class="chart-title">Nationality Breakdown of Directors of Oscar-Winning Films</h3>
+		<div class="chart">
+			<svg id="nationality-bar-chart" class="chart-image" width="700" height="700"></svg>
+			<p class="chart-description">There are 20 different nationalities that correspond to directors of Oscar-winning films. Some directors have dual nationality, for example, British-American, We've handled these cases by counting 0.5 towards each nationality present, i.e 0.5 British and 0.5 American.</p>
+		</div>
+		<h3 class="chart-title">Genre Breakdown of Oscar-Winning Films</h3>
+		<div class="chart">
+			<svg id="genre-bar-chart" class="chart-image" width="700" height="700"></svg>
+			<p class="chart-description">Over the years, films with a variety of different genres have won Oscars, but drama films have won the most by far. These results span Oscar awards from 2001-2020. Sometimes a film can be categorized by more than one genre, for example Black Swan is both a drama and a thriller. In this case, we count 1 Oscar winning film towards each of these genres.</p><p>
+		</p></div>
+		<h3 class="chart-title">Gender Breakdown of Directors of Oscar-Winning Films</h3>
+		<div class="chart">
+			<svg id="gender-director-pi-chart" class="chart-image" width="700" height="475"></svg>
+			<p class="chart-description">Directors of Oscar-winning films are predominantly male. In fact, over the last 20 years of Oscar awards, only 7 winning films have had female directors, and only 1 female director, Kathryn Bigelow, has won Best Director.</p><p>
+		</p></div>
+		<h3 class="chart-title">Percent of Words Spoken By Women in Oscar-Winning Films</h3>
+		<div class="chart">
+			<svg id="dialog-dot-chart" class="chart-image" width="700" height="550"></svg>
+			<div class="chart-description">
+				<p>Most film dialogues are made up of a majority of male spoken words. These percentages were calculated by counting the number of words spoken by each character in each screenplay. Characters with at least 100 spoken words were then mapped to IMDB pages to identify them as male or female.</p> 
+				<p>The reason behind this threshold is because characters with few words don't consistently have the same name in the screenplay as IMDB. Unfortunately, this exclusion categorizes some movies as having 100% male dialogue, when that's not the case. For example, 1917 supposedly has 0.0% female dialogue, but a female character named Lauri says 88 words, so it actually has 1.7% female dialogue.</p>
+				<p>
+				Additionally, some of the data for this chart was found <a href="https://pudding.cool/2017/03/film-dialogue/&quot;">here</a>, which also uses the 100 word threshold. For screenplays that weren't included in their dataset, we wanted to maintain consistency when calculating percentages.</p>
+			</div>
+		</div>
+		<div id="back-button-container">
+			<p id="go-back">You done? You wanna go...</p> 
+			<button id="back">Back</button>
+		</div>
+		</div>
+	
+  </body>
+</html>

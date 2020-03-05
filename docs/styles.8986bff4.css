@@ -1,0 +1,416 @@
+@font-face {
+   font-family: 'AndesRoundedBold' ;
+   src: url('/AndesRoundedBold.4bc5f4f7.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'AndesRoundedMedium' ;
+   src: url('/AndesRoundedMedium.eb23c74f.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'AndesRoundedRegular' ;
+   src: url('/AndesRoundedRegular.a08a725d.ttf') format('truetype');
+}
+
+body {
+	color: white;
+	background-color: #252528;
+}
+
+#questions {
+  	transition: all 1s linear;
+  	display: block;
+}
+
+#questions.hidden {
+	display: none;
+}
+
+#calculation-page {
+  	transition: all 1s linear;
+  	display: block;
+}
+
+#calculation-page.hidden {
+  	display: none;
+}
+
+.visually-hidden {
+    opacity: 0;
+}
+
+#title-subtitle {
+	display: flex;
+	justify-content: center;
+}
+
+#subtitle {
+	margin-right: 5%;
+	font-size: 20px;
+	margin-top: 8%;
+	margin-left: 5%;
+	font-family: 'AndesRoundedRegular';
+	max-width: 40%;
+	font-size: 20px;
+}
+
+h1 {
+	margin-left: 5%;
+	font-size: 90px;
+	font-family: 'AndesRoundedBold';
+}
+
+h2 {
+	font-family: 'AndesRoundedMedium';
+	margin-left: 13.5%;
+	font-size: 40px;
+}
+
+#oscar-components {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 8%;
+}
+
+.component {
+	padding: 20px;
+	border-radius: 7%;
+	vertical-align: middle;
+	margin-right: 2.5%;
+}
+
+.question-mark {
+	margin-left: 2%;
+}
+
+.operator {
+	font-size: 40px;
+	vertical-align: middle;
+	margin-right: 2.5%;
+	font-family: 'AndesRoundedBold';
+}
+
+.page-description {
+	margin-left: 17%;
+	font-family: 'AndesRoundedRegular';
+	font-size: 20px;
+}
+
+.page-description .intro {
+	margin-right: 20%;
+}
+
+hr {
+	border: 2px solid white;
+  	border-radius: 3px;
+  	width: 100%;
+}
+
+img {
+	height: 120px;
+}
+
+#male-female {
+	display: flex;
+	width: 300px;
+}
+
+#male, #female {
+	width: 35%;
+    text-align: center;
+}
+
+#male-text, #female-text {
+	cursor: pointer;
+}
+
+#male-female div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	cursor: pointer;
+}
+
+#slider-container {
+	width: 60%;
+	margin-bottom: 7%;
+}
+
+#percent-container {
+	display: flex;
+}
+
+#gender-percent {
+	margin-left: 10%;
+	font-size: 60px;
+	vertical-align: center;
+	line-height: 50px;
+}
+
+.underline {
+	text-decoration: underline solid white;
+}
+
+.male-color {
+	color: #6BA6D9;
+	text-decoration: underline solid #6BA6D9;
+}
+
+.female-color {
+	color: #D873CF;
+	text-decoration: underline solid #D873CF;
+}
+
+.c-1-color {
+	background: #D873CF;
+}
+
+.c-2-color {
+	background: #6BA6D9;
+}
+
+#flag-carousel {
+	height: 150px;
+	width: 300px;
+}
+
+#carousel-content {
+	margin-left: 20%;
+}
+
+#nationality-disclaimer {
+	margin-top: 15%;
+	font-size: 16px;
+	margin-right: 15%;
+}
+
+.noUi-marker {
+	background: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.noUi-pips {
+	color: #FFFFFF;
+}
+
+.noUi-target {
+	border: 2px solid #FFFFFF;
+}
+
+.carousel-image {
+  display: block;
+  height: 150px;
+  /* set min-width,
+     allow images to determine cell width */
+  min-width: 150px;
+  max-width: 100%;
+  margin-left: 10px;
+  /* vertically center */
+  top: 50%;
+}
+
+.carousel-text {
+	visibility: hidden;
+  	opacity: 0;
+  	transition: visibility 0s, opacity 1s ease-in-out;
+}
+
+.side-by-side {
+	display: flex;
+}
+
+.is-selected {
+	text-decoration: underline;
+}
+
+.is-selected .carousel-text {
+	text-align: center;
+    display: block;
+    visibility: visible;
+  	opacity: 1;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: -1%;
+	margin-bottom: 5%;
+	width: 92%;
+}
+
+.flex-element:hover {
+	background: #565656;
+}
+
+.flex-element {
+	background: #333333;
+	width: 12.9%;
+	height: 150px;
+	margin: 0.75% 0 0 0.75%;
+	color: white;
+	font-family: 'AndesRoundedMedium';
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	border-radius: 7%;
+	border: 5px solid transparent;
+}
+
+.flex-element span {
+	position: relative;
+	top: 15px;
+}
+
+.flex-element img {
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	height: 70px;
+	width: auto;
+}
+
+.highlighted-box {
+	border: 5px solid #FFFFFF;
+}
+
+#results-button-container, #back-button-container {
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: 'AndesRoundedRegular';
+}
+
+#result-button-container {
+	margin-top: 20px;
+}
+
+#back-button-container {
+	margin-top: -3%;
+}
+
+button {
+	font-size: 30px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border: 0px solid #FFFFFF;
+    color: #000000;
+    background-color: #FED800;
+    border-radius: 10px;
+    font-family: 'AndesRoundedRegular';
+}
+
+button:hover {
+	background-color: #F9E26E;
+}
+
+.red-text {
+	color: red;
+}
+
+.enter {
+	fill: white;
+}
+
+#charts {
+	flex-wrap: wrap;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.selections span {
+	text-decoration: underline;
+}
+
+div.tooltip {
+  color: black;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 15px sans-serif;
+  border: 0px;
+  border-radius: 7px;
+  pointer-events: none;
+}
+
+.display-none {
+	display: none;
+}
+
+#gauge {
+	margin-left: 0%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+}
+
+#gauge-img {
+	height: 300px;
+}
+
+.chart-description a {
+	color: #F7ECB5;
+}
+
+.chart-description a:hover {
+	color: #FED800;
+}
+
+.chart {
+	font-family: 'AndesRoundedRegular';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 7%;
+}
+
+.chart-title {
+	margin-top: 5%;
+	margin-bottom: -0.5%;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 0%;
+	font-family: 'AndesRoundedMedium';
+}
+
+.chart-image {
+	max-width: 75%;
+}
+
+.chart-description {
+	margin-left: 5%;
+	margin-right: 10%;
+	width: 25%;
+}
+
+/*.chart-title {
+	font-family: 'AndesRoundedBold';
+	font-size: 20px;
+	fill: white;
+}*/
+
+.female-circle {
+	fill: #D873CF;
+}
+
+.male-circle {
+	fill: #6BA6D9;
+}
+
+.purple-circle {
+	fill: #9D82BC;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
