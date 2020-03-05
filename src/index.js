@@ -3,7 +3,7 @@ const d3 = require('d3');
 (function() {
 	// Turn this off when programming so you don't need to
 	// always select a genre/director to get to the next page.
-	const WARNING_MODE = true;
+	const WARNING_MODE = false;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
@@ -457,8 +457,8 @@ const d3 = require('d3');
 					   .attr("width", 15)
 					   .style("fill", randomColor)
 					   .style("opacity", 0.8)
-					   .style("stroke", "white")
-					   .style("stroke-width", "2px");
+					   .style("stroke", "black")
+					   .style("stroke-width", "1px");
 
 			bar.append("title")
 			.text(genreDict[genre]);
@@ -496,14 +496,19 @@ const d3 = require('d3');
            .attr("x", ((width + margin) / 2))
            .attr("y", 40)
            .attr("text-anchor", "middle")
-		   .text("Nationality Breakdown of Directors of Oscar-Winning-Movies");
+		   .text("Nationality Breakdown of Directors of Oscar-Winning Movies");
 
 		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
 							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
 							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
 							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
 							   "Mexican": 14, "English": 15, "American": 105.5};
-		   
+		
+		let europe = ["German", "Swiss", "Greek", "Italian", "Norwegian", "Scottish", "Spanish",
+					  "Polish", "Irish", "French", "British", "English"]; // red 
+		let america = ["Canadian", "Mexican", "American", "Brazilian"]; // blue
+		let oceania = ["Australian", "New Zealand"]; // green
+		let asia = ["South Korean", "Taiwanese"]; // yellow
 		// Create scales for x and y axes
 		var xScale = d3.scaleBand()
 					    .domain(Object.keys(nationalityDict))
@@ -531,19 +536,29 @@ const d3 = require('d3');
 		 .call(d3.axisLeft(yScale)
 				 .ticks(20));
 		
-		// Draw bars for each genre
-		for (genre in nationalityDict) {
+		// Draw bars for each nationality
+		for (nationality in nationalityDict) {
 			let bar = g.append("rect")
-					   .attr("x", xScale(genre))
-					   .attr("y", yScale(nationalityDict[genre]))
-					   .attr("height", height - yScale(nationalityDict[genre]))
+					   .attr("x", xScale(nationality))
+					   .attr("y", yScale(nationalityDict[nationality]))
+					   .attr("height", height - yScale(nationalityDict[nationality]))
 					   .attr("width", 15)
-					   .style("fill", randomColor)
-					   .style("stroke", "white")
-					   .style("stroke-width", "2px");
+					   .style("fill", function() {
+					   		if (europe.includes(nationality)) {
+					   			return "#D86C6C";
+					   		} else if (america.includes(nationality)) {
+					   			return "#6BA6D9";
+					   		} else if (oceania.includes(nationality)) {
+					   			return "#91C95C";
+					   		} else {
+					   			return "#FED800";
+					   		}
+					   })
+					   .style("stroke", "black")
+					   .style("stroke-width", "1px");
 
 			bar.append("title")
-			.text(nationalityDict[genre]);
+			.text(nationalityDict[nationality]);
 		}
 
 		// Create x axis label
