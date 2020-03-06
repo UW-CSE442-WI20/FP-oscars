@@ -5,6 +5,8 @@ const d3 = require('d3');
 	// always select a genre/director to get to the next page.
 	const WARNING_MODE = true;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
+	const genreCSV = require("./genre.csv");
+	const nationalityCSV = require("./nationalities.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
@@ -385,159 +387,187 @@ const d3 = require('d3');
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
 
-		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
-						 "Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
-						 "Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
-						 "Romance": 23, "History": 31, "Drama": 80};
-		   
-		// Create scales for x and y axes
-		var xScale = d3.scaleLinear()
-					   .domain([0, 80])
-					   .range([0, width]);
-
-		var yScale = d3.scaleBand()
-					   .domain(Object.keys(genreDict))
-					   .range([0, height]);
-
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
-		
-		// Draw bars for each genre
-		for (genre in genreDict) {
-			let bar = g.append("rect")
-					   .attr("x", 0)
-					   .attr("y", yScale(genre))
-					   .attr("width", xScale(genreDict[genre]))
-					   .attr("height", 25)
-					   .style("fill", randomColor)
-					   .style("opacity", 0.8)
-					   .style("stroke", "black")
-					   .style("stroke-width", "1px");
 
-			bar.append("title")
-			.text(genreDict[genre]);
-		}
+		// Make tooltip element
+		const tooltip = d3.select("body")
+						  .append("div")
+						  .attr("class", "tooltip")
+						  .style("opacity", 0);
 
-		// Create x axis
-		g.append("g")
-		 .attr("transform", "translate(0," + height + ")")
-		 .call(d3.axisBottom(xScale)
-		         .ticks(20));
+		d3.csv(genreCSV).then(function(data) {
+			// Create scales for x and y axes
+			var xScale = d3.scaleLinear()
+						   .domain([0, 80])
+						   .range([0, width]);
 
-		// Create y axis
-		g.append("g")
-		 .call(d3.axisLeft(yScale)
-				 .tickSize(0)
-				 .tickPadding(10));
+			var yScale = d3.scaleBand()
+			               .domain(data.map(function(d) { return d.genre; } ))
+						   .range([0, height]);
 
-		// Create x axis label
-		svg.append("text")
-		   .attr("x", (width + margin) / 2)
-		   .attr("y", 650)
-		   .attr("text-anchor", "middle")
-		   .text("# of Oscars")
-		   .style("fill", "white")
-		   .style("font-size", "18px");
+			svg.selectAll(".bar")
+			   .data(data)
+			   .enter()
+			   .append("rect")
+			   .attr("class", "bar")
+			   .attr("x", xScale(0) + 100)
+			   .attr("y", function(d) { return yScale(d.genre) + 100; })
+			   .attr("width", function(d) { return xScale(d.value); })
+			   .attr("height", 20)
+			   .style("fill", randomColor)
+			   .style("opacity", 0.8)
+			   .style("stroke", "black")
+			   .style("stroke-width", "1px")
+			   .on("mouseover", function(d) {
+				   tooltip.transition()
+					      .duration(200)		
+						  .style("opacity", 1.0)		
+				   tooltip.html("<b>" + d.genre + ": " + "</b>" + d.value)	
+					      .style("left", (d3.event.pageX) + "px")		
+						  .style("top", (d3.event.pageY) + "px")
+						  .style("background-color", d3.select(this).style("fill"))		
+			   })	
+			   .on("mouseout", function() {
+				   tooltip.transition()
+					      .duration(500)		
+					      .style("opacity", 0);	
+		       });
 
-		// Create y axis label
-		svg.append("text")
-		   .attr("x", -((height + margin) / 2))
-		   .attr("y", 20)
-		   .attr("transform", "rotate(-90)")
-		   .attr("text-anchor", "middle")
-		   .text("Genre")
-		   .style("fill", "white")
-		   .style("font-size", "18px");
+			// Create x axis
+			g.append("g")
+			 .attr("transform", "translate(0," + height + ")")
+			 .call(d3.axisBottom(xScale)
+					 .ticks(20));
+
+			// Create y axis
+			g.append("g")
+			 .call(d3.axisLeft(yScale)
+			 		 .tickSize(0)
+					 .tickPadding(10));
+
+			// Create x axis label
+			svg.append("text")
+			   .attr("x", (width + margin) / 2)
+			   .attr("y", 650)
+			   .attr("text-anchor", "middle")
+			   .text("# of Oscars")
+			   .style("fill", "white")
+			   .style("font-size", "18px");
+
+			// Create y axis label
+			svg.append("text")
+			   .attr("x", -((height + margin) / 2))
+			   .attr("y", 20)
+			   .attr("transform", "rotate(-90)")
+			   .attr("text-anchor", "middle")
+			   .text("Genre")
+			   .style("fill", "white")
+			   .style("font-size", "18px");
+		});
 	}
 
 	function makeNationalityBarChart() {
 		let svg = d3.select("#nationality-bar-chart"),
             margin = 200,
             width = svg.attr("width") - margin,
-            height = svg.attr("height") - margin;
+			height = svg.attr("height") - margin;
+			
+		// Add group for the chart axes
+		var g = svg.append("g")
+				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
-		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
-							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
-							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
-							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
-							   "Mexican": 14, "English": 15, "American": 105.5};
+		// Make tooltip element
+		const tooltip = d3.select("body")
+						  .append("div")
+						  .attr("class", "tooltip")
+						  .style("opacity", 0);
 		
 		let europe = ["German", "Swiss", "Greek", "Italian", "Norwegian", "Scottish", "Spanish",
 					  "Polish", "Irish", "French", "British", "English"]; // red 
 		let america = ["Canadian", "Mexican", "American", "Brazilian"]; // blue
 		let oceania = ["Australian", "New Zealand"]; // green
 		let asia = ["South Korean", "Taiwanese"]; // yellow
-		
-		// Create scales for x and y axes
-		var xScale = d3.scaleLinear()
-					   .domain([0, 110])
-					   .range([0, width]);
 
-		var yScale = d3.scaleBand()
-					   .domain(Object.keys(nationalityDict))
-					   .range([0, height])
-   
-		// Add group for the chart axes
-		var g = svg.append("g")
-				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
-		
-		// Draw bars for each nationality
-		for (nationality in nationalityDict) {
-			let bar = g.append("rect")
-					   .attr("x", 0)
-					   .attr("y", yScale(nationality))
-					   .attr("width", xScale(nationalityDict[nationality]))
-					   .attr("height", 25)
+		d3.csv(nationalityCSV).then(function(data) {
+			// Create scales for x and y axes
+			var xScale = d3.scaleLinear()
+						   .domain([0, 110])
+						   .range([0, width]);
 
-					   .style("fill", function() {
-					   		if (europe.includes(nationality)) {
-					   			return "#D86C6C";
-					   		} else if (america.includes(nationality)) {
-					   			return "#6BA6D9";
-					   		} else if (oceania.includes(nationality)) {
-					   			return "#91C95C";
-					   		} else {
-					   			return "#FED800";
-					   		}
-					   })
-					   .style("stroke", "black")
-					   .style("stroke-width", "1px");
+			var yScale = d3.scaleBand()
+						   .domain(data.map(function(d) { return d.nationality; } ))
+						   .range([0, height]);
 
-			bar.append("title")
-			.text(nationalityDict[nationality]);
-		}
+			svg.selectAll(".bar")
+			   .data(data)
+			   .enter()
+			   .append("rect")
+			   .attr("class", "bar")
+			   .attr("x", xScale(0) + 100)
+			   .attr("y", function(d) { return yScale(d.nationality) + 100; })
+			   .attr("width", function(d) { return xScale(d.value); })
+			   .attr("height", 20)
+			   .style("fill", function(d) {
+					   if (europe.includes(d.nationality)) {
+						   return "#D86C6C";
+					   } else if (america.includes(d.nationality)) {
+						   return "#6BA6D9";
+					   } else if (oceania.includes(d.nationality)) {
+						   return "#91C95C";
+					   } else {
+						   return "#FED800";
+					   }
+			   })
+			   .style("stroke", "black")
+			   .style("stroke-width", "1px")
+			   .on("mouseover", function(d) {
+				   tooltip.transition()
+					      .duration(200)		
+						  .style("opacity", 1.0)		
+				   tooltip.html("<b>" + d.nationality + ": " + "</b>" + d.value)	
+					      .style("left", (d3.event.pageX) + "px")		
+						  .style("top", (d3.event.pageY) + "px")
+						  .style("background-color", d3.select(this).style("fill"))		
+			   })	
+			   .on("mouseout", function() {
+				   tooltip.transition()
+					      .duration(500)		
+					      .style("opacity", 0);	
+		       });;
 
-		// Create x axis
-		g.append("g")
-		 .attr("transform", "translate(0," + height + ")")
-		 .call(d3.axisBottom(xScale)
-				.ticks(20));
+			// Create x axis
+			g.append("g")
+			 .attr("transform", "translate(0," + height + ")")
+			 .call(d3.axisBottom(xScale)
+			   		 .ticks(20));
 
-		// Create y axis
-		g.append("g")
-		 .call(d3.axisLeft(yScale)
-				 .tickSize(0)
-		 		 .tickPadding(10));
+	   		// Create y axis
+	   		g.append("g")
+			 .call(d3.axisLeft(yScale)
+				 	 .tickSize(0)
+				 	 .tickPadding(7));
 
-		// Create x axis label
-		svg.append("text")
-		   .attr("x", (width + margin) / 2)
-		   .attr("y", 650)
-		   .attr("text-anchor", "middle")
-		   .text("# of Oscars")
-		   .style("fill", "white")
-		   .style("font-size", "18px");
+	   		// Create x axis label
+	   		svg.append("text")
+		  	   .attr("x", (width + margin) / 2)
+		  	   .attr("y", 650)
+		  	   .attr("text-anchor", "middle")
+		  	   .text("# of Oscars")
+		  	   .style("fill", "white")
+		  	   .style("font-size", "18px");
 
-		// Create y axis label
-		svg.append("text")
-		   .attr("x", -((height + margin) / 2))
-		   .attr("y", 20)
-		   .attr("transform", "rotate(-90)")
-		   .attr("text-anchor", "middle")
-		   .text("Director Nationality")
-		   .style("fill", "white")
-		   .style("font-size", "18px");
+	   		// Create y axis label
+	   		svg.append("text")
+		  	   .attr("x", -((height + margin) / 2))
+		  	   .attr("y", 20)
+		  	   .attr("transform", "rotate(-90)")
+		  	   .attr("text-anchor", "middle")
+		  	   .text("Director Nationality")
+		  	   .style("fill", "white")
+		  	   .style("font-size", "18px");
+		});
 	}
 
 	function makeDialogueDotPlot() {
