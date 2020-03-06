@@ -376,7 +376,7 @@ const d3 = require('d3');
 				return color(i);
 			})
 			.attr("d", arc)
-			.transition().delay(500).duration(2000)
+			.transition().delay(500).duration(5000)
 			.attrTween("d", function(d) {
 				let i = d3.interpolate(d.startAngle+0.1, d.endAngle);
 				return function(t) {
@@ -384,9 +384,6 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			  });
-
-		// arcs.append("title")
-		// 	.text(function(d) {return d.value});
 			
 		// Draw a legend
 		let legend = d3.select("#gender-director-pi-chart")
@@ -461,13 +458,15 @@ const d3 = require('d3');
 
 	function makeGenreBarChart() {
 		let svg = d3.select("#genre-bar-chart"),
+			marginLeft = 150,
+			marginTop = 100,
             margin = 200,
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
 
 		// Add group for the chart axes
 		let g = svg.append("g")
-				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+				   .attr("transform", "translate(" + marginLeft + "," + marginTop + ")");
 
 		// Make tooltip element
 		const tooltip = d3.select("body")
@@ -485,34 +484,6 @@ const d3 = require('d3');
 			               .domain(data.map(function(d) { return d.genre; } ))
 						   .range([0, height]);
 
-			svg.selectAll(".bar")
-			   .data(data)
-			   .enter()
-			   .append("rect")
-			   .attr("class", "bar")
-			   .attr("x", xScale(0) + 100)
-			   .attr("y", function(d) { return yScale(d.genre) + 100; })
-			   .attr("width", function(d) { return xScale(d.value); })
-			   .attr("height", 20)
-			   .style("fill", randomColor)
-			   .style("opacity", 0.8)
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
-			   .on("mouseover", function(d) {
-				   tooltip.transition()
-					      .duration(200)		
-						  .style("opacity", 1.0)		
-				   tooltip.html("<b>" + d.genre + ": " + "</b>" + d.value)	
-					      .style("left", (d3.event.pageX) + "px")		
-						  .style("top", (d3.event.pageY) + "px")
-						  .style("background-color", d3.select(this).style("fill"))		
-			   })	
-			   .on("mouseout", function() {
-				   tooltip.transition()
-					      .duration(500)		
-					      .style("opacity", 0);	
-		       });
-
 			// Create x axis
 			g.append("g")
 			 .attr("transform", "translate(0," + height + ")")
@@ -527,7 +498,7 @@ const d3 = require('d3');
 
 			// Create x axis label
 			svg.append("text")
-			   .attr("x", (width + margin) / 2)
+			   .attr("x", (width + 2 * marginLeft) / 2)
 			   .attr("y", 650)
 			   .attr("text-anchor", "middle")
 			   .text("# of Oscars")
@@ -536,25 +507,59 @@ const d3 = require('d3');
 
 			// Create y axis label
 			svg.append("text")
-			   .attr("x", -((height + margin) / 2))
+			   .attr("x", -((height + 2 * marginTop) / 2))
 			   .attr("y", 20)
 			   .attr("transform", "rotate(-90)")
 			   .attr("text-anchor", "middle")
 			   .text("Genre")
 			   .style("fill", "white")
 			   .style("font-size", "18px");
+
+			svg.selectAll(".bar")
+			   .data(data)
+			   .enter()
+			   .append("rect")
+			   .attr("class", "bar")
+			   .attr("x", xScale(0) + marginLeft)
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
+			   .attr("height", 20)
+			   .style("fill", "#6BA6D9")
+			   .style("opacity", 0.8)
+			   .style("stroke", "black")
+			   .style("stroke-width", "1px")
+			   .attr("width", 0)
+        	   .transition()
+               .duration(7000)
+               .delay(function(d, i){ return i * 250 })
+			   .attr("width", function(d) { return xScale(d.value); })
+			   .on("mouseover", function(d) {
+				   tooltip.transition()
+					      .duration(200)		
+						  .style("opacity", 1.0)		
+				   tooltip.html("<b>" + d.genre + ": " + "</b>" + d.value)	
+					      .style("left", (d3.event.pageX) + "px")		
+						  .style("top", (d3.event.pageY) + "px")
+						  .style("background-color", d3.select(this).style("fill"))		
+			   })	
+			   .on("mouseout", function() {
+				   tooltip.transition()
+					      .duration(500)		
+					      .style("opacity", 0);	
+		       });
 		});
 	}
 
 	function makeNationalityBarChart() {
 		let svg = d3.select("#nationality-bar-chart"),
+			marginLeft = 150,
+			marginTop = 100,
             margin = 200,
             width = svg.attr("width") - margin,
 			height = svg.attr("height") - margin;
 			
 		// Add group for the chart axes
 		let g = svg.append("g")
-				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+				   .attr("transform", "translate(" + marginLeft + "," + marginTop + ")");
 
 		// Make tooltip element
 		const tooltip = d3.select("body")
@@ -578,28 +583,63 @@ const d3 = require('d3');
 						   .domain(data.map(function(d) { return d.nationality; } ))
 						   .range([0, height]);
 
+			// Create x axis
+			g.append("g")
+			 .attr("transform", "translate(0," + height + ")")
+			 .call(d3.axisBottom(xScale)
+			   		 .ticks(20));
+
+	   		// Create y axis
+	   		g.append("g")
+			 .call(d3.axisLeft(yScale)
+					 .tickFormat((d) => '')
+					 .tickSize(0));
+
+	   		// Create x axis label
+	   		svg.append("text")
+		  	   .attr("x", (width + 2 * marginLeft) / 2)
+		  	   .attr("y", 650)
+		  	   .attr("text-anchor", "middle")
+		  	   .text("# of Oscars")
+		  	   .style("fill", "white")
+		  	   .style("font-size", "18px");
+
+	   		// Create y axis label
+	   		svg.append("text")
+		  	   .attr("x", -((height + 2 * marginTop) / 2))
+		  	   .attr("y", 20)
+		  	   .attr("transform", "rotate(-90)")
+		  	   .attr("text-anchor", "middle")
+		  	   .text("Director Nationality")
+		  	   .style("fill", "white")
+		  	   .style("font-size", "18px");
+
 			svg.selectAll(".bar")
 			   .data(data)
 			   .enter()
 			   .append("rect")
 			   .attr("class", "bar")
-			   .attr("x", xScale(0) + 100)
-			   .attr("y", function(d) { return yScale(d.nationality) + 100; })
-			   .attr("width", function(d) { return xScale(d.value); })
+			   .attr("x", xScale(0) + marginLeft)
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
 			   .attr("height", 20)
 			   .style("fill", function(d) {
-				   if (europe.includes(d.nationality)) {
-					   return "#D86C6C";
-				   } else if (america.includes(d.nationality)) {
-					   return "#6BA6D9";
-				   } else if (oceania.includes(d.nationality)) {
-					   return "#91C95C";
-				   } else {
-					   return "#FED800";
-				   }
+					   if (europe.includes(d.nationality)) {
+						   return "#C677B1";
+					   } else if (america.includes(d.nationality)) {
+						   return "#6BA6D9";
+					   } else if (oceania.includes(d.nationality)) {
+						   return "#91C95C"; 
+					   } else {
+						   return "#FED800";
+					   }
 			   })
 			   .style("stroke", "black")
 			   .style("stroke-width", "1px")
+			   .attr("width", 0)
+        	   .transition()
+               .duration(3000)
+               .delay(function(d, i){ return i * 250 })
+			   .attr("width", function(d) { return xScale(d.value); })
 			   .on("mouseover", function(d) {
 				   tooltip.transition()
 					      .duration(200)		
@@ -613,7 +653,7 @@ const d3 = require('d3');
 				   tooltip.transition()
 					      .duration(500)		
 					      .style("opacity", 0);	
-		       });;
+		       });
 
 			// Create x axis
 			g.append("g")
