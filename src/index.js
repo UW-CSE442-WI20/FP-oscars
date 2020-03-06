@@ -186,6 +186,7 @@ const d3 = require('d3');
 			makeNationalityBarChart();
 			makeGenreBarChart();
 			makeDialogueDotPlot();
+			calculateLikelihood();
 		}
 	}
 
@@ -226,6 +227,65 @@ const d3 = require('d3');
 		} else {
 			console.log("Turn off WARNING_MODE to see the selections");
 		}
+	}
+
+
+	function calculateLikelihood() {
+		let director_data = [177, 8]; // numbers from director_gender.txt
+		let director_total = 185;
+		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
+		"Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
+		"Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
+		"Romance": 23, "History": 31, "Drama": 80};
+		let total_genres = 237;
+
+		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
+							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
+							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
+							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
+							   "Mexican": 14, "English": 15, "American": 105.5};
+		let total_nationalities = 185;
+		let total_dialogue_counts = 0;
+		let total_female_count = 0;
+		selected_gender = id("director-gender").value;
+		selected_nationality = capitalize(id("director-nationality").value);
+		selected_genre = capitalize(id("genre-selection").value);
+		selected_dialogue = id("dialog-selection").value;
+		selected_dialogue = parseInt(selected_dialogue.substring(0, selected_dialogue.length - 1));
+
+		// count up the number of films with dialogue percentages similar to the 
+		// users selection
+		d3.csv(genderDialogueCSV).then(function(allData) {
+			let total_female_count = 0;
+			allData.forEach(function(d) { 
+				percent_female = parseInt(d["Percent Female"]);
+				console.log(Math.abs(percent_female - selected_dialogue));
+				if (Math.abs(percent_female - selected_dialogue) <= 10) {
+					total_female_count = total_female_count + 1;
+				}
+				total_dialogue_counts = total_dialogue_counts + 1;
+			});
+		});
+
+		// get probabilities for each category separately
+		gender_to_use = selected_gender == "female" ? director_data[1] : director_data[0];
+		gender_prob = gender_to_use / director_total;
+		nationality_prob = nationalityDict[selected_nationality] / total_nationalities
+		genre_prob = genreDict[selected_genre] / total_genres;
+		dialogue_prob = total_female_count / total_dialogue_counts;
+		console.log("director gender prob: " + gender_prob);
+		console.log("nationality prob: " + nationality_prob);
+		console.log("genre prob: " + genre_prob);
+		console.log("dialogue prob: " + dialogue_prob);
+	}
+
+	function capitalize(selection) {
+		result = selection.charAt(0).toUpperCase() + selection.substring(1);
+		hyphen = selection.indexOf("-");
+		if (hyphen != -1) {
+			result = result.substring(0, hyphen) + result.substring(hyphen + 1);
+		}
+		return result;
 	}
 
 	function goBackToMainPage() {
