@@ -376,7 +376,7 @@ const d3 = require('d3');
 				return color(i);
 			})
 			.attr("d", arc)
-			.transition().delay(500).duration(2000)
+			.transition().delay(500).duration(5000)
 			.attrTween("d", function(d) {
 				let i = d3.interpolate(d.startAngle+0.1, d.endAngle);
 				return function(t) {
@@ -384,9 +384,6 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			  });
-
-		// arcs.append("title")
-		// 	.text(function(d) {return d.value});
 			
 		// Draw a legend
 		let legend = d3.select("#gender-director-pi-chart")
@@ -487,34 +484,6 @@ const d3 = require('d3');
 			               .domain(data.map(function(d) { return d.genre; } ))
 						   .range([0, height]);
 
-			svg.selectAll(".bar")
-			   .data(data)
-			   .enter()
-			   .append("rect")
-			   .attr("class", "bar")
-			   .attr("x", xScale(0) + marginLeft)
-			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
-			   .attr("width", function(d) { return xScale(d.value); })
-			   .attr("height", 20)
-			   .style("fill", randomColor)
-			   .style("opacity", 0.8)
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
-			   .on("mouseover", function(d) {
-				   tooltip.transition()
-					      .duration(200)		
-						  .style("opacity", 1.0)		
-				   tooltip.html("<b>" + d.genre + ": " + "</b>" + d.value)	
-					      .style("left", (d3.event.pageX) + "px")		
-						  .style("top", (d3.event.pageY) + "px")
-						  .style("background-color", d3.select(this).style("fill"))		
-			   })	
-			   .on("mouseout", function() {
-				   tooltip.transition()
-					      .duration(500)		
-					      .style("opacity", 0);	
-		       });
-
 			// Create x axis
 			g.append("g")
 			 .attr("transform", "translate(0," + height + ")")
@@ -545,6 +514,38 @@ const d3 = require('d3');
 			   .text("Genre")
 			   .style("fill", "white")
 			   .style("font-size", "18px");
+
+			svg.selectAll(".bar")
+			   .data(data)
+			   .enter()
+			   .append("rect")
+			   .attr("class", "bar")
+			   .attr("x", xScale(0) + marginLeft)
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
+			   .attr("height", 20)
+			   .style("fill", "#6BA6D9")
+			   .style("opacity", 0.8)
+			   .style("stroke", "black")
+			   .style("stroke-width", "1px")
+			   .attr("width", 0)
+        	   .transition()
+               .duration(7000)
+               .delay(function(d, i){ return i * 250 })
+			   .attr("width", function(d) { return xScale(d.value); })
+			   .on("mouseover", function(d) {
+				   tooltip.transition()
+					      .duration(200)		
+						  .style("opacity", 1.0)		
+				   tooltip.html("<b>" + d.genre + ": " + "</b>" + d.value)	
+					      .style("left", (d3.event.pageX) + "px")		
+						  .style("top", (d3.event.pageY) + "px")
+						  .style("background-color", d3.select(this).style("fill"))		
+			   })	
+			   .on("mouseout", function() {
+				   tooltip.transition()
+					      .duration(500)		
+					      .style("opacity", 0);	
+		       });
 		});
 	}
 
@@ -582,43 +583,6 @@ const d3 = require('d3');
 						   .domain(data.map(function(d) { return d.nationality; } ))
 						   .range([0, height]);
 
-			svg.selectAll(".bar")
-			   .data(data)
-			   .enter()
-			   .append("rect")
-			   .attr("class", "bar")
-			   .attr("x", xScale(0) + marginLeft)
-			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
-			   .attr("width", function(d) { return xScale(d.value); })
-			   .attr("height", 20)
-			   .style("fill", function(d) {
-					   if (europe.includes(d.nationality)) {
-						   return "#D86C6C";
-					   } else if (america.includes(d.nationality)) {
-						   return "#6BA6D9";
-					   } else if (oceania.includes(d.nationality)) {
-						   return "#91C95C";
-					   } else {
-						   return "#FED800";
-					   }
-			   })
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
-			   .on("mouseover", function(d) {
-				   tooltip.transition()
-					      .duration(200)		
-						  .style("opacity", 1.0)		
-				   tooltip.html("<b>" + d.nationality + ": " + "</b>" + d.value)	
-					      .style("left", (d3.event.pageX) + "px")		
-						  .style("top", (d3.event.pageY) + "px")
-						  .style("background-color", d3.select(this).style("fill"))		
-			   })	
-			   .on("mouseout", function() {
-				   tooltip.transition()
-					      .duration(500)		
-					      .style("opacity", 0);	
-		       });;
-
 			// Create x axis
 			g.append("g")
 			 .attr("transform", "translate(0," + height + ")")
@@ -628,8 +592,8 @@ const d3 = require('d3');
 	   		// Create y axis
 	   		g.append("g")
 			 .call(d3.axisLeft(yScale)
-				 	 .tickSize(0)
-				 	 .tickPadding(7));
+					 .tickFormat((d) => '')
+					 .tickSize(0));
 
 	   		// Create x axis label
 	   		svg.append("text")
@@ -649,7 +613,48 @@ const d3 = require('d3');
 		  	   .text("Director Nationality")
 		  	   .style("fill", "white")
 		  	   .style("font-size", "18px");
-		});
+
+			svg.selectAll(".bar")
+			   .data(data)
+			   .enter()
+			   .append("rect")
+			   .attr("class", "bar")
+			   .attr("x", xScale(0) + marginLeft)
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
+			   .attr("height", 20)
+			   .style("fill", function(d) {
+					   if (europe.includes(d.nationality)) {
+						   return "#c677b1";
+					   } else if (america.includes(d.nationality)) {
+						   return "#6BA6D9";
+					   } else if (oceania.includes(d.nationality)) {
+						   return "#91C95C"; 
+					   } else {
+						   return "#FED800";
+					   }
+			   })
+			   .style("stroke", "black")
+			   .style("stroke-width", "1px")
+			   .attr("width", 0)
+        	   .transition()
+               .duration(3000)
+               .delay(function(d, i){ return i * 250 })
+			   .attr("width", function(d) { return xScale(d.value); })
+			   .on("mouseover", function(d) {
+				   tooltip.transition()
+					      .duration(200)		
+						  .style("opacity", 1.0)		
+				   tooltip.html("<b>" + d.nationality + ": " + "</b>" + d.value)	
+					      .style("left", (d3.event.pageX) + "px")		
+						  .style("top", (d3.event.pageY) + "px")
+						  .style("background-color", d3.select(this).style("fill"))		
+			   })	
+			   .on("mouseout", function() {
+				   tooltip.transition()
+					      .duration(500)		
+					      .style("opacity", 0);	
+			   });
+			});
 	}
 
 	function makeDialogueDotPlot() {
