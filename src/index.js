@@ -461,13 +461,15 @@ const d3 = require('d3');
 
 	function makeGenreBarChart() {
 		let svg = d3.select("#genre-bar-chart"),
+			marginLeft = 150,
+			marginTop = 100,
             margin = 200,
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
 
 		// Add group for the chart axes
 		let g = svg.append("g")
-				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+				   .attr("transform", "translate(" + marginLeft + "," + marginTop + ")");
 
 		// Make tooltip element
 		const tooltip = d3.select("body")
@@ -490,8 +492,8 @@ const d3 = require('d3');
 			   .enter()
 			   .append("rect")
 			   .attr("class", "bar")
-			   .attr("x", xScale(0) + 100)
-			   .attr("y", function(d) { return yScale(d.genre) + 100; })
+			   .attr("x", xScale(0) + marginLeft)
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
 			   .attr("width", function(d) { return xScale(d.value); })
 			   .attr("height", 20)
 			   .style("fill", randomColor)
@@ -527,7 +529,7 @@ const d3 = require('d3');
 
 			// Create x axis label
 			svg.append("text")
-			   .attr("x", (width + margin) / 2)
+			   .attr("x", (width + 2 * marginLeft) / 2)
 			   .attr("y", 650)
 			   .attr("text-anchor", "middle")
 			   .text("# of Oscars")
@@ -536,7 +538,7 @@ const d3 = require('d3');
 
 			// Create y axis label
 			svg.append("text")
-			   .attr("x", -((height + margin) / 2))
+			   .attr("x", -((height + 2 * marginTop) / 2))
 			   .attr("y", 20)
 			   .attr("transform", "rotate(-90)")
 			   .attr("text-anchor", "middle")
@@ -548,13 +550,15 @@ const d3 = require('d3');
 
 	function makeNationalityBarChart() {
 		let svg = d3.select("#nationality-bar-chart"),
+			marginLeft = 150,
+			marginTop = 100,
             margin = 200,
             width = svg.attr("width") - margin,
 			height = svg.attr("height") - margin;
 			
 		// Add group for the chart axes
 		let g = svg.append("g")
-				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+				   .attr("transform", "translate(" + marginLeft + "," + marginTop + ")");
 
 		// Make tooltip element
 		const tooltip = d3.select("body")
@@ -583,8 +587,8 @@ const d3 = require('d3');
 			   .enter()
 			   .append("rect")
 			   .attr("class", "bar")
-			   .attr("x", xScale(0) + 100)
-			   .attr("y", function(d) { return yScale(d.nationality) + 100; })
+			   .attr("x", xScale(0) + marginLeft)
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
 			   .attr("width", function(d) { return xScale(d.value); })
 			   .attr("height", 20)
 			   .style("fill", function(d) {
@@ -629,7 +633,7 @@ const d3 = require('d3');
 
 	   		// Create x axis label
 	   		svg.append("text")
-		  	   .attr("x", (width + margin) / 2)
+		  	   .attr("x", (width + 2 * marginLeft) / 2)
 		  	   .attr("y", 650)
 		  	   .attr("text-anchor", "middle")
 		  	   .text("# of Oscars")
@@ -638,7 +642,7 @@ const d3 = require('d3');
 
 	   		// Create y axis label
 	   		svg.append("text")
-		  	   .attr("x", -((height + margin) / 2))
+		  	   .attr("x", -((height + 2 * marginTop) / 2))
 		  	   .attr("y", 20)
 		  	   .attr("transform", "rotate(-90)")
 		  	   .attr("text-anchor", "middle")
