@@ -397,9 +397,8 @@ const d3 = require('d3');
 
 		var yScale = d3.scaleBand()
 					   .domain(Object.keys(genreDict))
-					   .range([0, height])
-					   .padding([1]);
-   
+					   .range([0, height]);
+
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
@@ -412,7 +411,9 @@ const d3 = require('d3');
 
 		// Create y axis
 		g.append("g")
-		 .call(d3.axisLeft(yScale));
+		 .call(d3.axisLeft(yScale)
+				 .tickSize(0)
+				 .tickPadding(10));
 		
 		// Draw bars for each genre
 		for (genre in genreDict) {
@@ -420,7 +421,7 @@ const d3 = require('d3');
 					   .attr("x", 0)
 					   .attr("y", yScale(genre))
 					   .attr("width", xScale(genreDict[genre]))
-					   .attr("height", 20)
+					   .attr("height", 25)
 					   .style("fill", randomColor)
 					   .style("opacity", 0.8)
 					   .style("stroke", "black")
@@ -476,7 +477,6 @@ const d3 = require('d3');
 		var yScale = d3.scaleBand()
 					   .domain(Object.keys(nationalityDict))
 					   .range([0, height])
-		  			   .padding([1]);
    
 		// Add group for the chart axes
 		var g = svg.append("g")
@@ -490,7 +490,9 @@ const d3 = require('d3');
 
 		// Create y axis
 		g.append("g")
-		 .call(d3.axisLeft(yScale));
+		 .call(d3.axisLeft(yScale)
+				 .tickSize(0)
+		 		 .tickPadding(10));
 		
 		// Draw bars for each nationality
 		for (nationality in nationalityDict) {
@@ -498,7 +500,7 @@ const d3 = require('d3');
 					   .attr("x", 0)
 					   .attr("y", yScale(nationality))
 					   .attr("width", xScale(nationalityDict[nationality]))
-					   .attr("height", 20)
+					   .attr("height", 25)
 
 					   .style("fill", function() {
 					   		if (europe.includes(nationality)) {
