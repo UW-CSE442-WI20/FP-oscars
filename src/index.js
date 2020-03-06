@@ -5,8 +5,6 @@ const d3 = require('d3');
 	// always select a genre/director to get to the next page.
 	const WARNING_MODE = true;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
-	const genreCSV = require("./genre.csv");
-	const nationalityCSV = require("./nationalities.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
@@ -229,7 +227,6 @@ const d3 = require('d3');
 		}
 	}
 
-
 	function calculateLikelihood() {
 		let director_data = [177, 8]; // numbers from director_gender.txt
 		let director_total = 185;
@@ -370,7 +367,7 @@ const d3 = require('d3');
 						  .append("div")
 						  .attr("class", "tooltip")
 						  .style("opacity", 0);
-
+		
 		//Draw arc paths
 		arcs.append("path")
 			.attr("fill", function(d, i) {
@@ -379,15 +376,18 @@ const d3 = require('d3');
 			.attr("d", arc)
 			.transition().delay(500).duration(2000)
 			.attrTween("d", function(d) {
-				var i = d3.interpolate(d.startAngle+0.1, d.endAngle);
+				let i = d3.interpolate(d.startAngle+0.1, d.endAngle);
 				return function(t) {
 					d.endAngle = i(t);
         			return arc(d);
        			}
 			  });
+
+		// arcs.append("title")
+		// 	.text(function(d) {return d.value});
 			
 		// Draw a legend
-		var legend = d3.select("#gender-director-pi-chart")
+		let legend = d3.select("#gender-director-pi-chart")
 
 		legend.append("circle")
 			  .attr("cx", (width / 2) - 120)
@@ -421,12 +421,12 @@ const d3 = require('d3');
 	}
 
 	// Adapted from http://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
-	var randomColor = (function(){
-		var golden_ratio_conjugate = 0.618033988749895;
-		var h = Math.random();
+	let randomColor = (function(){
+		let golden_ratio_conjugate = 0.618033988749895;
+		let h = Math.random();
 	
-		var hslToRgb = function (h, s, l){
-			var r, g, b;
+		let hslToRgb = function (h, s, l){
+			let r, g, b;
 	
 			if(s == 0){
 				r = g = b = l; // achromatic
@@ -440,8 +440,8 @@ const d3 = require('d3');
 					return p;
 				}
 	
-				var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-				var p = 2 * l - q;
+				let q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+				let p = 2 * l - q;
 				r = hue2rgb(p, q, h + 1/3);
 				g = hue2rgb(p, q, h);
 				b = hue2rgb(p, q, h - 1/3);
@@ -463,187 +463,161 @@ const d3 = require('d3');
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
 
+		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
+						 "Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
+						 "Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
+						 "Romance": 23, "History": 31, "Drama": 80};
+		   
+		// Create scales for x and y axes
+		let xScale = d3.scaleBand()
+					    .domain(Object.keys(genreDict))
+						.range([0, width])
+						.padding([1]);
+
+		let yScale = d3.scaleLinear()
+					   .domain([0, 80])
+					   .range([height, 0]);
+   
 		// Add group for the chart axes
-		var g = svg.append("g")
+		let g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
-		// Make tooltip element
-		const tooltip = d3.select("body")
-						  .append("div")
-						  .attr("class", "tooltip")
-						  .style("opacity", 0);
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale))
+		 .selectAll("text")
+		 .attr("transform", "translate(-10,10)rotate(-45)")
+		 .style("text-anchor", "end");
 
-		d3.csv(genreCSV).then(function(data) {
-			// Create scales for x and y axes
-			var xScale = d3.scaleLinear()
-						   .domain([0, 80])
-						   .range([0, width]);
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .ticks(20));
+		
+		// Draw bars for each genre
+		for (genre in genreDict) {
+			let bar = g.append("rect")
+					   .attr("x", xScale(genre))
+					   .attr("y", yScale(genreDict[genre]))
+					   .attr("height", height - yScale(genreDict[genre]))
+					   .attr("width", 15)
+					   .style("fill", randomColor)
+					   .style("opacity", 0.8)
+					   .style("stroke", "black")
+					   .style("stroke-width", "1px");
 
-			var yScale = d3.scaleBand()
-			               .domain(data.map(function(d) { return d.genre; } ))
-						   .range([0, height]);
+			bar.append("title")
+			.text(genreDict[genre]);
+		}
 
-			svg.selectAll(".bar")
-			   .data(data)
-			   .enter()
-			   .append("rect")
-			   .attr("class", "bar")
-			   .attr("x", xScale(0) + 100)
-			   .attr("y", function(d) { return yScale(d.genre) + 100; })
-			   .attr("width", function(d) { return xScale(d.value); })
-			   .attr("height", 20)
-			   .style("fill", randomColor)
-			   .style("opacity", 0.8)
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
-			   .on("mouseover", function(d) {
-				   tooltip.transition()
-					      .duration(200)		
-						  .style("opacity", 1.0)		
-				   tooltip.html("<b>" + d.genre + ": " + "</b>" + d.value)	
-					      .style("left", (d3.event.pageX) + "px")		
-						  .style("top", (d3.event.pageY) + "px")
-						  .style("background-color", d3.select(this).style("fill"))		
-			   })	
-			   .on("mouseout", function() {
-				   tooltip.transition()
-					      .duration(500)		
-					      .style("opacity", 0);	
-		       });
+		// Create x axis label
+		svg.append("text")
+		   .attr("x", (width + margin) / 2)
+		   .attr("y", 690)
+		   .attr("text-anchor", "middle")
+		   .text("Genre")
+		   .style("fill", "white")
+		   .style("font-size", "18px");
 
-			// Create x axis
-			g.append("g")
-			 .attr("transform", "translate(0," + height + ")")
-			 .call(d3.axisBottom(xScale)
-					 .ticks(20));
-
-			// Create y axis
-			g.append("g")
-			 .call(d3.axisLeft(yScale)
-			 		 .tickSize(0)
-					 .tickPadding(10));
-
-			// Create x axis label
-			svg.append("text")
-			   .attr("x", (width + margin) / 2)
-			   .attr("y", 650)
-			   .attr("text-anchor", "middle")
-			   .text("# of Oscars")
-			   .style("fill", "white")
-			   .style("font-size", "18px");
-
-			// Create y axis label
-			svg.append("text")
-			   .attr("x", -((height + margin) / 2))
-			   .attr("y", 20)
-			   .attr("transform", "rotate(-90)")
-			   .attr("text-anchor", "middle")
-			   .text("Genre")
-			   .style("fill", "white")
-			   .style("font-size", "18px");
-		});
+		// Create y axis label
+		svg.append("text")
+		   .attr("x", -((height + margin) / 2))
+		   .attr("y", 70)
+		   .attr("transform", "rotate(-90)")
+		   .attr("text-anchor", "middle")
+		   .text("# of Oscars")
+		   .style("fill", "white")
+		   .style("font-size", "18px");
 	}
 
 	function makeNationalityBarChart() {
 		let svg = d3.select("#nationality-bar-chart"),
             margin = 200,
             width = svg.attr("width") - margin,
-			height = svg.attr("height") - margin;
-			
-		// Add group for the chart axes
-		var g = svg.append("g")
-				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
+            height = svg.attr("height") - margin;
 
-		// Make tooltip element
-		const tooltip = d3.select("body")
-						  .append("div")
-						  .attr("class", "tooltip")
-						  .style("opacity", 0);
+		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
+							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
+							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
+							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
+							   "Mexican": 14, "English": 15, "American": 105.5};
 		
 		let europe = ["German", "Swiss", "Greek", "Italian", "Norwegian", "Scottish", "Spanish",
 					  "Polish", "Irish", "French", "British", "English"]; // red 
 		let america = ["Canadian", "Mexican", "American", "Brazilian"]; // blue
 		let oceania = ["Australian", "New Zealand"]; // green
 		let asia = ["South Korean", "Taiwanese"]; // yellow
+		// Create scales for x and y axes
+		let xScale = d3.scaleBand()
+					    .domain(Object.keys(nationalityDict))
+						.range([0, width])
+						.padding([1]);
 
-		d3.csv(nationalityCSV).then(function(data) {
-			// Create scales for x and y axes
-			var xScale = d3.scaleLinear()
-						   .domain([0, 110])
-						   .range([0, width]);
+		let yScale = d3.scaleLinear()
+					   .domain([0, 110])
+					   .range([height, 0]);
+   
+		// Add group for the chart axes
+		let g = svg.append("g")
+				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
-			var yScale = d3.scaleBand()
-						   .domain(data.map(function(d) { return d.nationality; } ))
-						   .range([0, height]);
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale))
+		 .selectAll("text")
+		 .attr("transform", "translate(-10,10)rotate(-45)")
+		 .style("text-anchor", "end");
 
-			svg.selectAll(".bar")
-			   .data(data)
-			   .enter()
-			   .append("rect")
-			   .attr("class", "bar")
-			   .attr("x", xScale(0) + 100)
-			   .attr("y", function(d) { return yScale(d.nationality) + 100; })
-			   .attr("width", function(d) { return xScale(d.value); })
-			   .attr("height", 20)
-			   .style("fill", function(d) {
-					   if (europe.includes(d.nationality)) {
-						   return "#D86C6C";
-					   } else if (america.includes(d.nationality)) {
-						   return "#6BA6D9";
-					   } else if (oceania.includes(d.nationality)) {
-						   return "#91C95C";
-					   } else {
-						   return "#FED800";
-					   }
-			   })
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
-			   .on("mouseover", function(d) {
-				   tooltip.transition()
-					      .duration(200)		
-						  .style("opacity", 1.0)		
-				   tooltip.html("<b>" + d.nationality + ": " + "</b>" + d.value)	
-					      .style("left", (d3.event.pageX) + "px")		
-						  .style("top", (d3.event.pageY) + "px")
-						  .style("background-color", d3.select(this).style("fill"))		
-			   })	
-			   .on("mouseout", function() {
-				   tooltip.transition()
-					      .duration(500)		
-					      .style("opacity", 0);	
-		       });;
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .ticks(20));
+		
+		// Draw bars for each nationality
+		for (nationality in nationalityDict) {
+			let bar = g.append("rect")
+					   .attr("x", xScale(nationality))
+					   .attr("y", yScale(nationalityDict[nationality]))
+					   .attr("height", height - yScale(nationalityDict[nationality]))
+					   .attr("width", 15)
+					   .style("fill", function() {
+					   		if (europe.includes(nationality)) {
+					   			return "#D86C6C";
+					   		} else if (america.includes(nationality)) {
+					   			return "#6BA6D9";
+					   		} else if (oceania.includes(nationality)) {
+					   			return "#91C95C";
+					   		} else {
+					   			return "#FED800";
+					   		}
+					   })
+					   .style("stroke", "black")
+					   .style("stroke-width", "1px");
 
-			// Create x axis
-			g.append("g")
-			 .attr("transform", "translate(0," + height + ")")
-			 .call(d3.axisBottom(xScale)
-			   		 .ticks(20));
+			bar.append("title")
+			.text(nationalityDict[nationality]);
+		}
 
-	   		// Create y axis
-	   		g.append("g")
-			 .call(d3.axisLeft(yScale)
-				 	 .tickSize(0)
-				 	 .tickPadding(7));
+		// Create x axis label
+		svg.append("text")
+		   .attr("x", (width + margin) / 2)
+		   .attr("y", 690)
+		   .attr("text-anchor", "middle")
+		   .text("Director Nationality")
+		   .style("fill", "white")
+		   .style("font-size", "18px");
 
-	   		// Create x axis label
-	   		svg.append("text")
-		  	   .attr("x", (width + margin) / 2)
-		  	   .attr("y", 650)
-		  	   .attr("text-anchor", "middle")
-		  	   .text("# of Oscars")
-		  	   .style("fill", "white")
-		  	   .style("font-size", "18px");
-
-	   		// Create y axis label
-	   		svg.append("text")
-		  	   .attr("x", -((height + margin) / 2))
-		  	   .attr("y", 20)
-		  	   .attr("transform", "rotate(-90)")
-		  	   .attr("text-anchor", "middle")
-		  	   .text("Director Nationality")
-		  	   .style("fill", "white")
-		  	   .style("font-size", "18px");
-		});
+		// Create y axis label
+		svg.append("text")
+		   .attr("x", -((height + margin) / 2))
+		   .attr("y", 70)
+		   .attr("transform", "rotate(-90)")
+		   .attr("text-anchor", "middle")
+		   .text("# of Oscars")
+		   .style("fill", "white")
+		   .style("font-size", "18px");
 	}
 
 	function makeDialogueDotPlot() {
