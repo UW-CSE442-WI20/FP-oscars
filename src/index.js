@@ -466,7 +466,7 @@ const d3 = require('d3');
             height = svg.attr("height") - margin;
 
 		// Add group for the chart axes
-		var g = svg.append("g")
+		let g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
 		// Make tooltip element
@@ -477,11 +477,11 @@ const d3 = require('d3');
 
 		d3.csv(genreCSV).then(function(data) {
 			// Create scales for x and y axes
-			var xScale = d3.scaleLinear()
+			let xScale = d3.scaleLinear()
 						   .domain([0, 80])
 						   .range([0, width]);
 
-			var yScale = d3.scaleBand()
+			let yScale = d3.scaleBand()
 			               .domain(data.map(function(d) { return d.genre; } ))
 						   .range([0, height]);
 
@@ -553,7 +553,7 @@ const d3 = require('d3');
 			height = svg.attr("height") - margin;
 			
 		// Add group for the chart axes
-		var g = svg.append("g")
+		let g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
 		// Make tooltip element
@@ -570,11 +570,11 @@ const d3 = require('d3');
 
 		d3.csv(nationalityCSV).then(function(data) {
 			// Create scales for x and y axes
-			var xScale = d3.scaleLinear()
+			let xScale = d3.scaleLinear()
 						   .domain([0, 110])
 						   .range([0, width]);
 
-			var yScale = d3.scaleBand()
+			let yScale = d3.scaleBand()
 						   .domain(data.map(function(d) { return d.nationality; } ))
 						   .range([0, height]);
 
