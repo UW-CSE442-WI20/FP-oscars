@@ -292,14 +292,6 @@ const d3 = require('d3');
 						  .append("div")
 						  .attr("class", "tooltip")
 						  .style("opacity", 0);
-		
-		// Generate title for pi chart
-		// svg.append("text")
-		//    .attr("class", "chart-title")
-		//    .attr("x", (width / 2))
-		//    .attr("y", 35)
-		//    .attr("text-anchor", "middle")
-		//    .text("Gender Breakdown of Directors of Oscar-Winning Movies");
 
 		//Draw arc paths
 		arcs.append("path")
@@ -315,9 +307,6 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			  });
-
-		// arcs.append("title")
-		// 	.text(function(d) {return d.value});
 			
 		// Draw a legend
 		var legend = d3.select("#gender-director-pi-chart")
@@ -396,28 +385,20 @@ const d3 = require('d3');
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
 
-        // Generate title for bar chart
-     //    svg.append("text")
-     //       .attr("class", "chart-title")
-     //       .attr("x", ((width + margin) / 2))
-     //       .attr("y", 40)
-     //       .attr("text-anchor", "middle")
-		   // .text("Genre Breakdown of Oscar-Winning Movies");
-
 		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
 						 "Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
 						 "Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
 						 "Romance": 23, "History": 31, "Drama": 80};
 		   
 		// Create scales for x and y axes
-		var xScale = d3.scaleBand()
-					    .domain(Object.keys(genreDict))
-						.range([0, width])
-						.padding([1]);
-
-		var yScale = d3.scaleLinear()
+		var xScale = d3.scaleLinear()
 					   .domain([0, 80])
-					   .range([height, 0]);
+					   .range([0, width]);
+
+		var yScale = d3.scaleBand()
+					   .domain(Object.keys(genreDict))
+					   .range([0, height])
+					   .padding([1]);
    
 		// Add group for the chart axes
 		var g = svg.append("g")
@@ -426,23 +407,20 @@ const d3 = require('d3');
 		// Create x axis
 		g.append("g")
 		 .attr("transform", "translate(0," + height + ")")
-		 .call(d3.axisBottom(xScale))
-		 .selectAll("text")
-		 .attr("transform", "translate(-10,10)rotate(-45)")
-		 .style("text-anchor", "end");
+		 .call(d3.axisBottom(xScale)
+		         .ticks(20));
 
 		// Create y axis
 		g.append("g")
-		 .call(d3.axisLeft(yScale)
-				 .ticks(20));
+		 .call(d3.axisLeft(yScale));
 		
 		// Draw bars for each genre
 		for (genre in genreDict) {
 			let bar = g.append("rect")
-					   .attr("x", xScale(genre))
-					   .attr("y", yScale(genreDict[genre]))
-					   .attr("height", height - yScale(genreDict[genre]))
-					   .attr("width", 15)
+					   .attr("x", 0)
+					   .attr("y", yScale(genre))
+					   .attr("width", xScale(genreDict[genre]))
+					   .attr("height", 20)
 					   .style("fill", randomColor)
 					   .style("opacity", 0.8)
 					   .style("stroke", "black")
@@ -455,19 +433,19 @@ const d3 = require('d3');
 		// Create x axis label
 		svg.append("text")
 		   .attr("x", (width + margin) / 2)
-		   .attr("y", 690)
+		   .attr("y", 650)
 		   .attr("text-anchor", "middle")
-		   .text("Genre")
+		   .text("# of Oscars")
 		   .style("fill", "white")
 		   .style("font-size", "18px");
 
 		// Create y axis label
 		svg.append("text")
 		   .attr("x", -((height + margin) / 2))
-		   .attr("y", 70)
+		   .attr("y", 20)
 		   .attr("transform", "rotate(-90)")
 		   .attr("text-anchor", "middle")
-		   .text("# of Oscars")
+		   .text("Genre")
 		   .style("fill", "white")
 		   .style("font-size", "18px");
 	}
@@ -477,14 +455,6 @@ const d3 = require('d3');
             margin = 200,
             width = svg.attr("width") - margin,
             height = svg.attr("height") - margin;
-
-        // Generate title for bar chart
-     //    svg.append("text")
-     //       .attr("class", "chart-title")
-     //       .attr("x", ((width + margin) / 2))
-     //       .attr("y", 40)
-     //       .attr("text-anchor", "middle")
-		   // .text("Nationality Breakdown of Directors of Oscar-Winning Movies");
 
 		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
 							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
@@ -497,15 +467,16 @@ const d3 = require('d3');
 		let america = ["Canadian", "Mexican", "American", "Brazilian"]; // blue
 		let oceania = ["Australian", "New Zealand"]; // green
 		let asia = ["South Korean", "Taiwanese"]; // yellow
+		
 		// Create scales for x and y axes
-		var xScale = d3.scaleBand()
-					    .domain(Object.keys(nationalityDict))
-						.range([0, width])
-						.padding([1]);
-
-		var yScale = d3.scaleLinear()
+		var xScale = d3.scaleLinear()
 					   .domain([0, 110])
-					   .range([height, 0]);
+					   .range([0, width]);
+
+		var yScale = d3.scaleBand()
+					   .domain(Object.keys(nationalityDict))
+					   .range([0, height])
+		  			   .padding([1]);
    
 		// Add group for the chart axes
 		var g = svg.append("g")
@@ -514,23 +485,21 @@ const d3 = require('d3');
 		// Create x axis
 		g.append("g")
 		 .attr("transform", "translate(0," + height + ")")
-		 .call(d3.axisBottom(xScale))
-		 .selectAll("text")
-		 .attr("transform", "translate(-10,10)rotate(-45)")
-		 .style("text-anchor", "end");
+		 .call(d3.axisBottom(xScale)
+				.ticks(20));
 
 		// Create y axis
 		g.append("g")
-		 .call(d3.axisLeft(yScale)
-				 .ticks(20));
+		 .call(d3.axisLeft(yScale));
 		
 		// Draw bars for each nationality
 		for (nationality in nationalityDict) {
 			let bar = g.append("rect")
-					   .attr("x", xScale(nationality))
-					   .attr("y", yScale(nationalityDict[nationality]))
-					   .attr("height", height - yScale(nationalityDict[nationality]))
-					   .attr("width", 15)
+					   .attr("x", 0)
+					   .attr("y", yScale(nationality))
+					   .attr("width", xScale(nationalityDict[nationality]))
+					   .attr("height", 20)
+
 					   .style("fill", function() {
 					   		if (europe.includes(nationality)) {
 					   			return "#D86C6C";
@@ -552,19 +521,19 @@ const d3 = require('d3');
 		// Create x axis label
 		svg.append("text")
 		   .attr("x", (width + margin) / 2)
-		   .attr("y", 690)
+		   .attr("y", 650)
 		   .attr("text-anchor", "middle")
-		   .text("Director Nationality")
+		   .text("# of Oscars")
 		   .style("fill", "white")
 		   .style("font-size", "18px");
 
 		// Create y axis label
 		svg.append("text")
 		   .attr("x", -((height + margin) / 2))
-		   .attr("y", 70)
+		   .attr("y", 20)
 		   .attr("transform", "rotate(-90)")
 		   .attr("text-anchor", "middle")
-		   .text("# of Oscars")
+		   .text("Director Nationality")
 		   .style("fill", "white")
 		   .style("font-size", "18px");
 	}
@@ -590,13 +559,6 @@ const d3 = require('d3');
 		  	.append("g")
 		    	.attr("transform",
 		            `translate(${margin.left}, ${margin.top / 2})`);
-
-		// svg.append("text")
-  //           .attr("class", "chart-title")
-  //           .attr("x", ((width + margin.left) / 2))
-  //           .attr("y", 40)
-  //           .attr("text-anchor", "middle")
-		//     .text("Percent of Words Spoken By Women in Oscar-Winning Movies");
 
 	    //number of bins for histogram
 		const nbins = 20;
