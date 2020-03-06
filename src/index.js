@@ -402,18 +402,6 @@ const d3 = require('d3');
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
-
-		// Create x axis
-		g.append("g")
-		 .attr("transform", "translate(0," + height + ")")
-		 .call(d3.axisBottom(xScale)
-		         .ticks(20));
-
-		// Create y axis
-		g.append("g")
-		 .call(d3.axisLeft(yScale)
-				 .tickSize(0)
-				 .tickPadding(10));
 		
 		// Draw bars for each genre
 		for (genre in genreDict) {
@@ -430,6 +418,18 @@ const d3 = require('d3');
 			bar.append("title")
 			.text(genreDict[genre]);
 		}
+
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale)
+		         .ticks(20));
+
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .tickSize(0)
+				 .tickPadding(10));
 
 		// Create x axis label
 		svg.append("text")
@@ -481,18 +481,6 @@ const d3 = require('d3');
 		// Add group for the chart axes
 		var g = svg.append("g")
 				   .attr("transform", "translate(" + 100 + "," + 100 + ")");
-
-		// Create x axis
-		g.append("g")
-		 .attr("transform", "translate(0," + height + ")")
-		 .call(d3.axisBottom(xScale)
-				.ticks(20));
-
-		// Create y axis
-		g.append("g")
-		 .call(d3.axisLeft(yScale)
-				 .tickSize(0)
-		 		 .tickPadding(10));
 		
 		// Draw bars for each nationality
 		for (nationality in nationalityDict) {
@@ -519,6 +507,18 @@ const d3 = require('d3');
 			bar.append("title")
 			.text(nationalityDict[nationality]);
 		}
+
+		// Create x axis
+		g.append("g")
+		 .attr("transform", "translate(0," + height + ")")
+		 .call(d3.axisBottom(xScale)
+				.ticks(20));
+
+		// Create y axis
+		g.append("g")
+		 .call(d3.axisLeft(yScale)
+				 .tickSize(0)
+		 		 .tickPadding(10));
 
 		// Create x axis label
 		svg.append("text")
