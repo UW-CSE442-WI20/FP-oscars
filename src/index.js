@@ -588,15 +588,15 @@ const d3 = require('d3');
 			   .attr("width", function(d) { return xScale(d.value); })
 			   .attr("height", 20)
 			   .style("fill", function(d) {
-					   if (europe.includes(d.nationality)) {
-						   return "#D86C6C";
-					   } else if (america.includes(d.nationality)) {
-						   return "#6BA6D9";
-					   } else if (oceania.includes(d.nationality)) {
-						   return "#91C95C";
-					   } else {
-						   return "#FED800";
-					   }
+				   if (europe.includes(d.nationality)) {
+					   return "#D86C6C";
+				   } else if (america.includes(d.nationality)) {
+					   return "#6BA6D9";
+				   } else if (oceania.includes(d.nationality)) {
+					   return "#91C95C";
+				   } else {
+					   return "#FED800";
+				   }
 			   })
 			   .style("stroke", "black")
 			   .style("stroke-width", "1px")
@@ -645,6 +645,69 @@ const d3 = require('d3');
 		  	   .text("Director Nationality")
 		  	   .style("fill", "white")
 		  	   .style("font-size", "18px");
+
+		  	svg.append("text")
+				  .attr("x", (width / 2) + 265)
+				  .attr("y", (height / 3) - 30)
+				  .text("Continents")
+				  .style("font-size", "17px")
+				  .style("text-decoration", "underline solid white")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
+
+		  	svg.append("circle")
+			  .attr("cx", (width / 2) + 270)
+			  .attr("cy", height / 3)
+			  .attr("r", 10)
+			  .style("fill", "#6BA6D9")
+
+			svg.append("circle")
+				  .attr("cx", (width / 2) + 270)
+				  .attr("cy", (height / 3) + 25)
+				  .attr("r", 10)
+				  .style("fill", "#D76C6C")
+
+			svg.append("circle")
+				  .attr("cx", (width / 2) + 270)
+				  .attr("cy", (height / 3) + 50)
+				  .attr("r", 10)
+				  .style("fill", "#FED800")
+
+			svg.append("circle")
+				  .attr("cx", (width / 2) + 270)
+				  .attr("cy", (height / 3) + 75)
+				  .attr("r", 10)
+				  .style("fill", "#91C95B")
+
+			svg.append("text")
+				  .attr("x", (width / 2) + 290)
+				  .attr("y", (height / 3) + 2)
+				  .text("Americas")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
+			svg.append("text")
+				  .attr("x", (width / 2) + 290)
+				  .attr("y", (height / 3) + 27)
+				  .text("Europe")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
+
+			svg.append("text")
+				  .attr("x", (width / 2) + 290)
+				  .attr("y", (height / 3) + 52)
+				  .text("Asia")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
+			svg.append("text")
+				  .attr("x", (width / 2) + 290)
+				  .attr("y", (height / 3) + 77)
+				  .text("Oceania")
+				  .style("font-size", "15px")
+				  .style("fill", "white")
+				  .attr("alignment-baseline","middle")
 		});
 	}
 
