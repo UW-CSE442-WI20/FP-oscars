@@ -181,7 +181,6 @@ const d3 = require('d3');
 			setTimeout(function() {
 				document.body.scrollTop = 0; // For Safari
 				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-				createGauge(2);
 			}, 1000);
 			lockInSelections();
 			makeGenderDirectorPiChart();
@@ -294,7 +293,17 @@ const d3 = require('d3');
 		console.log("genre prob: " + genre_prob);
 		console.log("dialogue prob: " + dialogue_prob);
 		console.log("total prob: " + (total_prob / max_percent) * 100);
-
+		let totalProb = (total_prob / max_percent) * 100;
+		console.log("total prob: "  + totalProb);
+		if (totalProb < 25) {
+			createGauge(0);
+		} else if (totalProb >= 25 && totalProb < 50) {
+			createGauge(1);
+		} else if (totalProb >= 50 && totalProb < 75) {
+			createGauge(2);
+		} else {
+			createGauge(3);
+		}
 	}
 
 	function capitalize(selection) {
@@ -877,7 +886,6 @@ const d3 = require('d3');
 			transitionMs: 4000,
 		});
 		powerGauge.render();
-		likelihood = 2;
 		powerGauge.update(likelihood * 4 + 2);
 		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
 		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
