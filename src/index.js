@@ -622,37 +622,7 @@ const d3 = require('d3');
                .delay(function(d, i){ return i * 250 })
 			   .attr("width", function(d) { return xScale(d.value); });
 
-			// Create x axis
-			g.append("g")
-			 .attr("transform", "translate(0," + height + ")")
-			 .call(d3.axisBottom(xScale)
-			   		 .ticks(20));
-
-	   		// Create y axis
-	   		g.append("g")
-			 .call(d3.axisLeft(yScale)
-				 	 .tickSize(0)
-				 	 .tickPadding(7));
-
-	   		// Create x axis label
-	   		svg.append("text")
-		  	   .attr("x", (width + margin) / 2)
-		  	   .attr("y", 650)
-		  	   .attr("text-anchor", "middle")
-		  	   .text("# of Oscars")
-		  	   .style("fill", "white")
-		  	   .style("font-size", "18px");
-
-	   		// Create y axis label
-	   		svg.append("text")
-		  	   .attr("x", -((height + margin) / 2))
-		  	   .attr("y", 20)
-		  	   .attr("transform", "rotate(-90)")
-		  	   .attr("text-anchor", "middle")
-		  	   .text("Director Nationality")
-		  	   .style("fill", "white")
-		  	   .style("font-size", "18px");
-
+			// Make continent legend
 		  	svg.append("text")
 				  .attr("x", (width / 2) + 265)
 				  .attr("y", (height / 3) - 30)
