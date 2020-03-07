@@ -670,7 +670,7 @@ const d3 = require('d3');
 				.attr("cx", (width / 2) + 270)
 				.attr("cy", (height / 3) + 25)
 				.attr("r", 10)
-				.style("fill", "#D76C6C");
+				.style("fill", "#C677B1");
 
 			svg.append("circle")
 				.attr("cx", (width / 2) + 270)
