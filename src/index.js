@@ -31,7 +31,7 @@ const d3 = require('d3');
 		id("male").addEventListener("mouseout", changeBackToMale); 
 		id("male").addEventListener("click", clickMale); 
 		id("switch-views").addEventListener("click", goToResultsPage);
-		id("back").addEventListener("click", goBackToMainPage);
+		id("back").addEventListener("click",	 goBackToMainPage);
 		let elements = qsa(".flex-element");
 		for (let i = 0; i < elements.length; i++) {
 			let currElement = elements[i];
@@ -184,6 +184,12 @@ const d3 = require('d3');
 				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 				createGauge();
 			}, 1000);
+			// use this for drop down menu changes to be reflected on graph
+			document.addEventListener("input", function(event) { 
+				d3.selectAll("g > *").remove()
+				calculateLikelihood();
+				createGauge();
+			});
 			lockInSelections();
 			d3.selectAll("g > *").remove()
 			makeGenderDirectorPiChart();
