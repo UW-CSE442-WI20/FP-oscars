@@ -11,6 +11,26 @@ const d3 = require('d3');
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
+	const germanFlag = require("./flags/066-germany.png");
+	const swissFlag = require("./flags/097-switzerland.png");
+	const brazilFlag = require("./flags/250-brazil.png");
+	const greekFlag = require("./flags/071-greece.png");
+	const italianFlag = require("./flags/011-italy.png");
+	const norwegianFlag = require("./flags/058-norway.png");
+	const scottishFlag = require("./flags/036-scotland.png");
+	const spanishFlag = require("./flags/044-spain.png");
+	const polishFlag = require("./flags/108-poland.png");
+	const australianFlag = require("./flags/130-australia.png");
+	const irishFlag = require("./flags/070-ireland.png");
+	const southKoreanFlag = require("./flags/055-south-korea.png");
+	const newZealandFlag = require("./flags/048-new-zealand.png");
+	const taiwaneseFlag = require("./flags/080-taiwan.png");
+	const canadianFlag = require("./flags/206-canada.png");
+	const frenchFlag = require("./flags/077-france.png");
+	const britishFlag = require("./flags/262-united-kingdom.png");
+	const mexicanFlag = require("./flags/239-mexico.png");
+	const englishFlag = require("./flags/152-england.png");
+	const usFlag = require("./flags/153-united-states-of-america.png");
 	const noUiSlider = require("nouislider");
 	const selectize = require("selectize");
 	let femaleIconSelected = false;
@@ -547,6 +567,11 @@ const d3 = require('d3');
 		let oceania = ["Australian", "New Zealand"]; // green
 		let asia = ["South Korean", "Taiwanese"]; // yellow
 
+		let flags = [germanFlag, swissFlag, brazilFlag, greekFlag, italianFlag, norwegianFlag,
+					 scottishFlag, spanishFlag, polishFlag, australianFlag, irishFlag,
+					 southKoreanFlag, newZealandFlag, taiwaneseFlag, canadianFlag, frenchFlag,
+					 britishFlag, mexicanFlag, englishFlag, usFlag];
+
 		d3.csv(nationalityCSV).then(function(data) {
 			// Create scales for x and y axes
 			let xScale = d3.scaleLinear()
@@ -568,7 +593,7 @@ const d3 = require('d3');
 			 .call(d3.axisLeft(yScale)
 					 .tickFormat((d) => '')
 					 .tickSize(0));
-
+					 
 	   		// Create x axis label
 	   		svg.append("text")
 		  	   .attr("x", (width + 2 * marginLeft) / 2)
@@ -628,6 +653,28 @@ const d3 = require('d3');
                .duration(3000)
                .delay(function(d, i){ return i * 250 })
 			   .attr("width", function(d) { return xScale(d.value); });
+
+			// Put nationality name along y-axis
+			svg.selectAll("nationality-name")
+			   .data(data)
+			   .enter()
+			   .append("text")
+			   .attr("x", xScale(0) + marginLeft / 3)
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop + 10; })
+			   .text(function(d) { return d.nationality; })
+			   .style("fill", "white")
+			   .style("font-size", "10px");
+
+			// Put nationality flag along y-axis
+			svg.selectAll("flag")
+			   .data(data)
+			   .enter()
+			   .append("image")
+			   .attr("x", xScale(0) + marginLeft / 3 + 70)
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
+			   .attr("height", "18")
+			   .attr("width", "18")
+			   .attr("xlink:href", function(d, i) { return flags[i]; });
 
 			// Make continent legend
 		  	svg.append("text")
