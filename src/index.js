@@ -872,12 +872,12 @@ const d3 = require('d3');
 			clipWidth: 500,
 			clipHeight: 500,
 			ringWidth: 60,
-			maxValue: 3,
+			maxValue: 16,
 			transitionMs: 4000,
 		});
 		powerGauge.render();
-		likelihood = 3;
-		powerGauge.update(likelihood);
+		likelihood = 2;
+		powerGauge.update(likelihood * 4 + 2);
 		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
 		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
 		id("gauge-text").innerText = response[likelihood];
@@ -898,7 +898,7 @@ const d3 = require('d3');
 				pointerHeadLengthPercent	: 0.9,
 				
 				minValue					: 0,
-				maxValue					: 3,
+				maxValue					: 8,
 				
 				minAngle					: -90,
 				maxAngle					: 90,
