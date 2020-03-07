@@ -661,58 +661,58 @@ const d3 = require('d3');
 				  .attr("alignment-baseline","middle")
 
 		  	svg.append("circle")
-			  .attr("cx", (width / 2) + 270)
-			  .attr("cy", height / 3)
-			  .attr("r", 10)
-			  .style("fill", "#6BA6D9")
+				.attr("cx", (width / 2) + 270)
+				.attr("cy", height / 3)
+				.attr("r", 10)
+				.style("fill", "#6BA6D9");
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 270)
-				  .attr("cy", (height / 3) + 25)
-				  .attr("r", 10)
-				  .style("fill", "#D76C6C")
+				.attr("cx", (width / 2) + 270)
+				.attr("cy", (height / 3) + 25)
+				.attr("r", 10)
+				.style("fill", "#D76C6C");
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 270)
-				  .attr("cy", (height / 3) + 50)
-				  .attr("r", 10)
-				  .style("fill", "#FED800")
+				.attr("cx", (width / 2) + 270)
+				.attr("cy", (height / 3) + 50)
+				.attr("r", 10)
+				.style("fill", "#FED800");
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 270)
-				  .attr("cy", (height / 3) + 75)
-				  .attr("r", 10)
-				  .style("fill", "#91C95B")
+				.attr("cx", (width / 2) + 270)
+				.attr("cy", (height / 3) + 75)
+				.attr("r", 10)
+				.style("fill", "#91C95B");
 
 			svg.append("text")
-				  .attr("x", (width / 2) + 290)
-				  .attr("y", (height / 3) + 2)
-				  .text("Americas")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
+				.attr("x", (width / 2) + 290)
+				.attr("y", (height / 3) + 2)
+				.text("Americas")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
 			svg.append("text")
-				  .attr("x", (width / 2) + 290)
-				  .attr("y", (height / 3) + 27)
-				  .text("Europe")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
+				.attr("x", (width / 2) + 290)
+				.attr("y", (height / 3) + 27)
+				.text("Europe")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
 
 			svg.append("text")
-				  .attr("x", (width / 2) + 290)
-				  .attr("y", (height / 3) + 52)
-				  .text("Asia")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
+				.attr("x", (width / 2) + 290)
+				.attr("y", (height / 3) + 52)
+				.text("Asia")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
 			svg.append("text")
-				  .attr("x", (width / 2) + 290)
-				  .attr("y", (height / 3) + 77)
-				  .text("Oceania")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
+				.attr("x", (width / 2) + 290)
+				.attr("y", (height / 3) + 77)
+				.text("Oceania")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
 		});
 	}
 
@@ -894,7 +894,7 @@ const d3 = require('d3');
 				ringWidth					: 20,
 				
 				pointerWidth				: 10,
-				pointerTailLength			: 5,
+				pointerTailLength			: 9,
 				pointerHeadLengthPercent	: 0.9,
 				
 				minValue					: 0,
@@ -1025,7 +1025,7 @@ const d3 = require('d3');
 				let newAngle = config.minAngle + (ratio * range);
 				pointer.transition()
 					.duration(config.transitionMs)
-					.ease(d3.easeElastic)
+					.ease(d3.easeElasticOut)
 					.attr('transform', 'rotate(' +newAngle +')');
 			}
 			that.update = update;
