@@ -346,6 +346,10 @@ div.tooltip {
 	display: none;
 }
 
+.gauage {
+	height: 600px;
+}
+
 #gauge {
 	margin-left: 0%;
 	margin-top: 5%;
@@ -354,8 +358,31 @@ div.tooltip {
 	justify-content: center;
 }
 
-#gauge-img {
-	height: 300px;
+#gauge-text {
+	font-family: "AndesRoundedBold";
+	text-align: center;
+	font-size: 30px;
+}
+
+#power-gauge {
+	height: 250px;
+	width: 500px;
+}
+
+#power-gauge g.arc {
+	fill: steelblue;
+}
+
+#power-gauge g.pointer {
+	fill: #FFFFFF;
+}
+
+#power-gauge g.label text {
+	text-anchor: middle;
+	font-size: 14px;
+	font-weight: bold;
+	fill: #666;
+	font-family: "AndesRoundedRegular";
 }
 
 .chart-description a {

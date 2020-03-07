@@ -16,6 +16,7 @@ const d3 = require('d3');
 	let femaleIconSelected = false;
 	let maleIconSelected = false;
 	let lastGenreSelected;
+	let powerGauge;
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -180,6 +181,7 @@ const d3 = require('d3');
 			setTimeout(function() {
 				document.body.scrollTop = 0; // For Safari
 				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+				createGauge(2);
 			}, 1000);
 			lockInSelections();
 			makeGenderDirectorPiChart();
@@ -898,6 +900,176 @@ const d3 = require('d3');
 				  .style("fill", "white")
 				  .attr("alignment-baseline","middle")
 	     	});
+	}
+
+	// Code from https://blockbuilder.org/rishabhfitkids/305e8da9f4311917c6046afcf7bfd0bc
+	function createGauge(likelihood) {
+		powerGauge = gauge('#power-gauge', {
+			size: 500,
+			clipWidth: 500,
+			clipHeight: 500,
+			ringWidth: 60,
+			maxValue: 3,
+			transitionMs: 4000,
+		});
+		powerGauge.render();
+		likelihood = 3;
+		powerGauge.update(likelihood);
+		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
+		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
+		id("gauge-text").innerText = response[likelihood];
+		id("gauge-text").style.color = colors[likelihood];
+	}
+
+	let gauge = function(container, configuration) {
+			let that = {};
+			let config = {
+				size						: 400,
+				clipWidth					: 500,
+				clipHeight					: 500,
+				ringInset					: 20,
+				ringWidth					: 20,
+				
+				pointerWidth				: 10,
+				pointerTailLength			: 5,
+				pointerHeadLengthPercent	: 0.9,
+				
+				minValue					: 0,
+				maxValue					: 3,
+				
+				minAngle					: -90,
+				maxAngle					: 90,
+				
+				transitionMs				: 750,
+				
+				majorTicks					: 4,
+				labelFormat					: d3.format('d'),
+				labelInset					: 10,
+				
+				arcColorFn					: function(i) {
+												const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
+												return colors[i];
+												}
+			};
+			let range = undefined;
+			let r = undefined;
+			let pointerHeadLength = undefined;
+			let value = 0;
+			
+			let svg = undefined;
+			let arc = undefined;
+			let scale = undefined;
+			let ticks = undefined;
+			let tickData = undefined;
+			let pointer = undefined;
+
+			let donut = d3.pie();
+			
+			function deg2rad(deg) {
+				return deg * Math.PI / 180;
+			}
+			
+			function newAngle(d) {
+				let ratio = scale(d);
+				let newAngle = config.minAngle + (ratio * range);
+				return newAngle;
+			}
+			
+			function configure(configuration) {
+				let prop = undefined;
+				for ( prop in configuration ) {
+					config[prop] = configuration[prop];
+				}
+				
+				range = config.maxAngle - config.minAngle;
+				r = config.size / 2;
+				pointerHeadLength = Math.round(r * config.pointerHeadLengthPercent);
+
+				// a linear scale that maps domain values to a percent from 0..1
+				scale = d3.scaleLinear()
+					.range([0,1])
+					.domain([config.minValue, config.maxValue]);
+					
+				ticks = scale.ticks(config.majorTicks);
+				tickData = d3.range(config.majorTicks).map(function() {return 1/config.majorTicks;});
+				
+				arc = d3.arc()
+					.innerRadius(r - config.ringWidth - config.ringInset)
+					.outerRadius(r - config.ringInset)
+					.startAngle(function(d, i) {
+						let ratio = d * i;
+						return deg2rad(config.minAngle + (ratio * range));
+					})
+					.endAngle(function(d, i) {
+						let ratio = d * (i+1);
+						return deg2rad(config.minAngle + (ratio * range));
+					});
+			}
+			that.configure = configure;
+			
+			function centerTranslation() {
+				return 'translate('+r +','+ r +')';
+			}
+			
+			function isRendered() {
+				return (svg !== undefined);
+			}
+			that.isRendered = isRendered;
+			
+			function render(newValue) {
+				svg = d3.select(container)
+					.append('svg:svg')
+						.attr('class', 'gauge')
+						.attr('width', config.clipWidth)
+						.attr('height', config.clipHeight);
+				
+				let centerTx = centerTranslation();
+				
+				let arcs = svg.append('g')
+						.attr('class', 'arc')
+						.attr('transform', centerTx);
+				
+				arcs.selectAll('path')
+						.data(tickData)
+					.enter().append('path')
+						.attr('fill', function(d, i) {
+							return config.arcColorFn(i);
+						})
+						.attr('d', arc);
+
+				let lineData = [ [config.pointerWidth / 2, 0], 
+								[0, -pointerHeadLength],
+								[-(config.pointerWidth / 2), 0],
+								[0, config.pointerTailLength],
+								[config.pointerWidth / 2, 0] ];
+				let pointerLine = d3.line().curve(d3.curveLinear)
+				let pg = svg.append('g').data([lineData])
+						.attr('class', 'pointer')
+						.attr('transform', centerTx);
+						
+				pointer = pg.append('path')
+					.attr('d', pointerLine/*function(d) { return pointerLine(d) +'Z';}*/ )
+					.attr('transform', 'rotate(' +config.minAngle +')');
+					
+				update(newValue === undefined ? 0 : newValue);
+			}
+			that.render = render;
+			function update(newValue, newConfiguration) {
+				if ( newConfiguration  !== undefined) {
+					configure(newConfiguration);
+				}
+				let ratio = scale(newValue);
+				let newAngle = config.minAngle + (ratio * range);
+				pointer.transition()
+					.duration(config.transitionMs)
+					.ease(d3.easeElastic)
+					.attr('transform', 'rotate(' +newAngle +')');
+			}
+			that.update = update;
+
+			configure(configuration);
+			
+			return that;
 	}
 
 	function id(idName) {
