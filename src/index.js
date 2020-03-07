@@ -254,6 +254,7 @@ const d3 = require('d3');
 		let total_nationalities = 185;
 		let total_dialogue_counts = dialogue_percentages.length;
 		let total_female_count = 0;
+		let max_percent = 0.08068;
 		selected_gender = id("director-gender").value;
 		selected_nationality = capitalize(id("director-nationality").value);
 		selected_genre = capitalize(id("genre-selection").value);
@@ -292,7 +293,7 @@ const d3 = require('d3');
 		console.log("nationality prob: " + nationality_prob);
 		console.log("genre prob: " + genre_prob);
 		console.log("dialogue prob: " + dialogue_prob);
-		console.log("total prob: " + total_prob * 100);
+		console.log("total prob: " + (total_prob / max_percent) * 100);
 
 	}
 
