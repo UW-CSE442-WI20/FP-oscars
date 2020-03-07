@@ -17,6 +17,7 @@ const d3 = require('d3');
 	let maleIconSelected = false;
 	let lastGenreSelected;
 	let powerGauge;
+	let totalProb;
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -181,6 +182,7 @@ const d3 = require('d3');
 			setTimeout(function() {
 				document.body.scrollTop = 0; // For Safari
 				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+				createGauge();
 			}, 1000);
 			lockInSelections();
 			makeGenderDirectorPiChart();
@@ -293,17 +295,7 @@ const d3 = require('d3');
 		console.log("genre prob: " + genre_prob);
 		console.log("dialogue prob: " + dialogue_prob);
 		console.log("total prob: " + (total_prob / max_percent) * 100);
-		let totalProb = (total_prob / max_percent) * 100;
-		console.log("total prob: "  + totalProb);
-		if (totalProb < 25) {
-			createGauge(0);
-		} else if (totalProb >= 25 && totalProb < 50) {
-			createGauge(1);
-		} else if (totalProb >= 50 && totalProb < 75) {
-			createGauge(2);
-		} else {
-			createGauge(3);
-		}
+		totalProb = (total_prob / max_percent) * 100;
 	}
 
 	function capitalize(selection) {
@@ -876,7 +868,7 @@ const d3 = require('d3');
 	}
 
 	// Code from https://blockbuilder.org/rishabhfitkids/305e8da9f4311917c6046afcf7bfd0bc
-	function createGauge(likelihood) {
+	function createGauge() {
 		powerGauge = gauge('#power-gauge', {
 			size: 500,
 			clipWidth: 500,
@@ -886,6 +878,18 @@ const d3 = require('d3');
 			transitionMs: 4000,
 		});
 		powerGauge.render();
+		if (totalProb < 25) {
+			updateGauge(0);
+		} else if (totalProb >= 25 && totalProb < 50) {
+			updateGauge(1);
+		} else if (totalProb >= 50 && totalProb < 75) {
+			updateGauge(2);
+		} else {
+			updateGauge(3);
+		}
+	}
+
+	function updateGauge(likelihood) {
 		powerGauge.update(likelihood * 4 + 2);
 		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
 		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
