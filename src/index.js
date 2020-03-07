@@ -185,6 +185,7 @@ const d3 = require('d3');
 				createGauge();
 			}, 1000);
 			lockInSelections();
+			d3.selectAll("g > *").remove()
 			makeGenderDirectorPiChart();
 			makeNationalityBarChart();
 			makeGenreBarChart();
@@ -1021,8 +1022,7 @@ const d3 = require('d3');
 				let pointerLine = d3.line().curve(d3.curveLinear)
 				let pg = svg.append('g').data([lineData])
 						.attr('class', 'pointer')
-						.attr('transform', centerTx);
-						
+						.attr('transform', centerTx);		
 				pointer = pg.append('path')
 					.attr('d', pointerLine/*function(d) { return pointerLine(d) +'Z';}*/ )
 					.attr('transform', 'rotate(' +config.minAngle +')');
