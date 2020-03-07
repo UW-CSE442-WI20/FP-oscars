@@ -659,11 +659,12 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("text")
-			   .attr("x", xScale(0) + marginLeft / 3)
+			   .attr("x", xScale(0) + marginLeft - 45)
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop + 10; })
 			   .text(function(d) { return d.nationality; })
 			   .style("fill", "white")
-			   .style("font-size", "10px");
+			   .style("font-size", "10px")
+			   .attr("text-anchor", "end");
 
 			// Put nationality flag along y-axis
 			svg.selectAll("flag")
