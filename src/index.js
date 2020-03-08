@@ -11,6 +11,8 @@ const d3 = require('d3');
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
+
+	// flags
 	const germanFlag = require("./flags/066-germany.png");
 	const swissFlag = require("./flags/097-switzerland.png");
 	const brazilFlag = require("./flags/250-brazil.png");
@@ -31,6 +33,27 @@ const d3 = require('d3');
 	const mexicanFlag = require("./flags/239-mexico.png");
 	const englishFlag = require("./flags/152-england.png");
 	const usFlag = require("./flags/153-united-states-of-america.png");
+	
+	// genre icons
+	const familyIcon = require("./SVG/family.svg");
+	const horrorIcon = require("./SVG/horror.svg");
+	const westernIcon = require("./SVG/western.svg");
+	const sportIcon = require("./SVG/sport.svg");
+	const musicalIcon = require("./SVG/musical.svg");
+	const actionIcon = require("./SVG/action.svg");
+	const fantasyIcon = require("./SVG/fantasy.svg");
+	const sciFiIcon = require("./SVG/sci-fi.svg");
+	const mysteryIcon = require("./SVG/mystery.svg");
+	const musicIcon = require("./SVG/music.svg");
+	const adventureIcon = require("./SVG/adventure.svg");
+	const warIcon = require("./SVG/war.svg");
+	const crimeIcon = require("./SVG/crime.svg");
+	const thrillerIcon = require("./SVG/thriller.svg");
+	const comedyIcon = require("./SVG/comedy.svg");
+	const romanceIcon = require("./SVG/heart.svg");
+	const historyIcon = require("./SVG/history.svg");
+	const dramaIcon = require("./SVG/drama.svg");
+
 	const noUiSlider = require("nouislider");
 	const selectize = require("selectize");
 	let femaleIconSelected = false;
@@ -468,6 +491,11 @@ const d3 = require('d3');
 						  .attr("class", "tooltip")
 						  .style("opacity", 0);
 
+		let genres = [familyIcon, horrorIcon, westernIcon, sportIcon, musicalIcon,
+					  actionIcon, fantasyIcon, sciFiIcon, mysteryIcon, musicIcon,
+					  adventureIcon, warIcon, crimeIcon, thrillerIcon, comedyIcon,
+					  romanceIcon, historyIcon, dramaIcon];
+
 		d3.csv(genreCSV).then(function(data) {
 			// Create scales for x and y axes
 			let xScale = d3.scaleLinear()
@@ -487,8 +515,8 @@ const d3 = require('d3');
 			// Create y axis
 			g.append("g")
 			 .call(d3.axisLeft(yScale)
-			 		 .tickSize(0)
-					 .tickPadding(10));
+			 		 .tickFormat((d) => '')
+					 .tickSize(0));
 
 			// Create x axis label
 			svg.append("text")
@@ -509,6 +537,7 @@ const d3 = require('d3');
 			   .style("fill", "white")
 			   .style("font-size", "18px");
 
+			// Draw bars
 			svg.selectAll(".bar")
 			   .data(data)
 			   .enter()
@@ -540,6 +569,29 @@ const d3 = require('d3');
                .duration(7000)
                .delay(function(d, i){ return i * 250 })
 			   .attr("width", function(d) { return xScale(d.value); });
+
+			// Put genre name along y-axis
+			svg.selectAll("genre-name")
+			   .data(data)
+			   .enter()
+			   .append("text")
+			   .attr("x", xScale(0) + marginLeft - 45)
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop + 10; })
+			   .text(function(d) { return d.genre; })
+			   .style("fill", "white")
+			   .style("font-size", "10px")
+			   .attr("text-anchor", "end");
+
+			// Put genre icon along y-axis
+			svg.selectAll("genre-icon")
+			   .data(data)
+			   .enter()
+			   .append("image")
+			   .attr("x", xScale(0) + marginLeft / 3 + 70)
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
+			   .attr("height", "18")
+			   .attr("width", "18")
+			   .attr("xlink:href", function(d, i) { return genres[i]; });
 		});
 	}
 
@@ -613,6 +665,7 @@ const d3 = require('d3');
 		  	   .style("fill", "white")
 		  	   .style("font-size", "18px");
 
+			// Draw bars
 			svg.selectAll(".bar")
 			   .data(data)
 			   .enter()
