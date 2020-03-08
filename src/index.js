@@ -589,8 +589,7 @@ const d3 = require('d3');
 		       })
 			   .attr("width", 0)
         	   .transition()
-               .duration(7000)
-               .delay(function(d, i){ return i * 250 })
+               .duration(1500)
 			   .attr("width", function(d) { return xScale(d.value); });
 
 			// Put genre name along y-axis
@@ -726,8 +725,7 @@ const d3 = require('d3');
 		       })
 			   .attr("width", 0)
         	   .transition()
-               .duration(3000)
-               .delay(function(d, i){ return i * 250 })
+               .duration(1500)
 			   .attr("width", function(d) { return xScale(d.value); });
 
 			// Put nationality name along y-axis
