@@ -358,6 +358,12 @@ select {
 	height: 600px;
 }
 
+#boost-breakdown {
+	text-align: center;
+	font-size: 20px;
+	font-family: "AndesRoundedMedium";
+}
+
 #gauge {
 	margin-left: 0%;
 	margin-top: 5%;
