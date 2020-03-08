@@ -1106,10 +1106,24 @@ const d3 = require('d3');
 				}
 				let ratio = scale(newValue);
 				let newAngle = config.minAngle + (ratio * range);
-				pointer.transition()
+				console.log(newAngle);
+				if (newAngle == -90) {
+					pointer.transition()
+					.duration(500)
+					.ease(d3.easeElasticOut)
+					.attr('transform', 'rotate(' + -85 +')');
+					pointer.transition()
+					.duration(config.transitionMs)
+					.delay(500)
+					.ease(d3.easeElasticOut)
+					.attr('transform', 'rotate(' + -90 +')');
+				} else {
+					pointer.transition()
 					.duration(config.transitionMs)
 					.ease(d3.easeElasticOut)
 					.attr('transform', 'rotate(' +newAngle +')');
+				}
+				
 			}
 			that.update = update;
 
