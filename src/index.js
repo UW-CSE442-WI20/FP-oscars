@@ -371,11 +371,11 @@ const d3 = require('d3');
 		console.log("total prob: " + (total_prob / max_percent) * 100);
 		totalProb = (total_prob / max_percent) * 100;
 
-		id("dialogue-breakdown-percent").innerText = dialogue_prob.toFixed(2);
-		id("director-gender-percent").innerText = gender_prob.toFixed(2);
-		id("director-nationality-percent").innerText = nationality_prob.toFixed(2);
-		id("genre-percent").innerText = genre_prob.toFixed(2);
-		id("total-percent").innerText = total_prob.toFixed(2);
+		// id("dialogue-breakdown-percent").innerText = dialogue_prob.toFixed(2);
+		// id("director-gender-percent").innerText = gender_prob.toFixed(2);
+		// id("director-nationality-percent").innerText = nationality_prob.toFixed(2);
+		// id("genre-percent").innerText = genre_prob.toFixed(2);
+		// id("total-percent").innerText = total_prob.toFixed(2);
 	}
 
 	function capitalize(selection) {
@@ -1016,7 +1016,7 @@ const d3 = require('d3');
 				minAngle					: -90,
 				maxAngle					: 90,
 				
-				transitionMs				: 750,
+				transitionMs				: 500,
 				
 				majorTicks					: 4,
 				labelFormat					: d3.format('d'),
