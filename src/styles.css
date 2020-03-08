@@ -325,6 +325,10 @@ button:hover {
 	justify-content: center;
 }
 
+.selections {
+	line-height: 16px;
+}
+
 .selections span {
 	text-decoration: underline;
 }
@@ -340,6 +344,10 @@ div.tooltip {
   border: 0px;
   border-radius: 7px;
   pointer-events: none;
+}
+
+select {
+	margin: 0px 5px;
 }
 
 .display-none {
@@ -439,4 +447,11 @@ div.tooltip {
 
 .purple-circle {
 	fill: #9D82BC;
+}
+
+select {
+  margin: 0;
+  font-family: inherit;
+  font-size: 16px;
+  margin: 3px 5px;
 }

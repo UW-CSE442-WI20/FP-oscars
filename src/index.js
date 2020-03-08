@@ -985,8 +985,9 @@ const d3 = require('d3');
 		powerGauge.update(likelihood);
 		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
 		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
-		id("gauge-text").innerText = response[Math.floor(likelihood / 25) % 4];
-		id("gauge-text").style.color = colors[Math.floor(likelihood / 25) % 4];
+		let index = likelihood == 100 ? 3 : Math.floor(likelihood / 25) % 4;
+		id("gauge-text").innerText = response[index];
+		id("gauge-text").style.color = colors[index];
 	}
 
 	let gauge = function(container, configuration) {
