@@ -206,12 +206,12 @@ const d3 = require('d3');
 			}, 1000);
 			// use this for drop down menu changes to be reflected on graph
 			document.addEventListener("input", function(event) { 
-				d3.selectAll("g > *").remove()
+				d3.selectAll("#power-gauge > *").remove()
 				calculateLikelihood();
 				createGauge();
 			});
 			lockInSelections();
-			d3.selectAll("g > *").remove()
+			d3.selectAll("#power-gauge > *").remove();
 			makeGenderDirectorPiChart();
 			makeNationalityBarChart();
 			makeGenreBarChart();
