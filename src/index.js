@@ -419,15 +419,17 @@ const d3 = require('d3');
 		let arc = d3.arc()
 					.innerRadius(0)
 					.outerRadius(radius);
+
+		const tooltip = d3.select("body")
+						  .append("div")
+						  .attr("class", "tooltip")
+						  .style("opacity", 0);
 		
-		//Generate groups
-		let arcs = g.selectAll("arc")
+		// Generate groups
+		let arcs = g.selectAll(".arc")
 					.data(pie(data))
 					.enter()
 					.append("g")
-					.attr("class", "arc")
-        			.attr("stroke", "white")
-					.style("stroke-width", "2px")
 					.on("mouseover", function(d) {
 						tooltip.transition()
 							.duration(200)		
@@ -448,26 +450,31 @@ const d3 = require('d3');
 						       .duration(500)		
 						       .style("opacity", 0);	
 				   });
-		
-		const tooltip = d3.select("body")
-						  .append("div")
-						  .attr("class", "tooltip")
-						  .style("opacity", 0);
-		
-		//Draw arc paths
+
 		arcs.append("path")
 			.attr("fill", function(d, i) {
-				return color(i);
+				return "#252528";
 			})
 			.attr("d", arc)
-			.transition().delay(500).duration(5000)
-			.attrTween("d", function(d) {
+			.transition()
+			.delay(function(d, i) {
+				return i * 4000;
+			}).duration(4000)
+			.attrTween('d', function(d) {
 				let i = d3.interpolate(d.startAngle+0.1, d.endAngle);
 				return function(t) {
 					d.endAngle = i(t);
         			return arc(d);
        			}
-			  });
+			 })
+			.attr("fill", function(d, i) {
+				return color(i);
+			})
+			.attr("class", "arc")
+        			.attr("stroke", "white")
+					.style("stroke-width", "2px")
+
+
 			
 		// Draw a legend
 		let legend = d3.select("#gender-director-pi-chart")
@@ -596,7 +603,7 @@ const d3 = require('d3');
 		       })
 			   .attr("width", 0)
         	   .transition()
-               .duration(1500)
+               .duration(3000)
 			   .attr("width", function(d) { return xScale(d.value); });
 
 			// Put genre name along y-axis
@@ -794,14 +801,14 @@ const d3 = require('d3');
 
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
-				.attr("y", (height / 3) + 5)
+				.attr("y", (height / 3) + 1.5)
 				.text("Americas")
 				.style("font-size", "15px")
 				.style("fill", "white")
 				.attr("alignment-baseline","middle")
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
-				.attr("y", (height / 3) + 30)
+				.attr("y", (height / 3) + 26.5)
 				.text("Europe")
 				.style("font-size", "15px")
 				.style("fill", "white")
@@ -809,14 +816,14 @@ const d3 = require('d3');
 
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
-				.attr("y", (height / 3) + 55)
+				.attr("y", (height / 3) + 51.5)
 				.text("Asia")
 				.style("font-size", "15px")
 				.style("fill", "white")
 				.attr("alignment-baseline","middle")
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
-				.attr("y", (height / 3) + 80)
+				.attr("y", (height / 3) + 76.5)
 				.text("Oceania")
 				.style("font-size", "15px")
 				.style("fill", "white")
