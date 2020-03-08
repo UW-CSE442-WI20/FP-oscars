@@ -61,6 +61,7 @@ const d3 = require('d3');
 	let lastGenreSelected;
 	let powerGauge;
 	let totalProb;
+	let nationalityChartMade = false;
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -235,8 +236,17 @@ const d3 = require('d3');
 			});
 			lockInSelections();
 			d3.selectAll("#power-gauge > *").remove();
+			$(document).on("scroll", function() {
+
+				if (isScrolledIntoView("nationality-bar-chart") && !nationalityChartMade) {
+					console.log("scrolled to!!");
+					nationalityChartMade = true;
+					makeNationalityBarChart();
+				}
+			});
+			//makeNationalityBarChart();
 			makeGenderDirectorPiChart();
-			makeNationalityBarChart();
+			
 			makeGenreBarChart();
 			makeDialogueDotPlot();
 			calculateLikelihood();
@@ -269,6 +279,15 @@ const d3 = require('d3');
 		      passive: false
 		    });
 		}
+	}
+
+	function isScrolledIntoView(elem) {
+	    var rect = id(elem).getBoundingClientRect();
+	    var elemTop = rect.top;
+	    var elemBottom = rect.bottom;
+
+	    var isVisible = elemTop < window.innerHeight && elemBottom > 0;
+	    return isVisible;
 	}
 			
 	function lockInSelections() {
@@ -703,6 +722,9 @@ const d3 = require('d3');
 		       })
 			   .attr("width", 0)
         	   .transition()
+        	   .delay(function() {
+
+        	   })
                .duration(3000)
                .delay(function(d, i){ return i * 250 })
 			   .attr("width", function(d) { return xScale(d.value); });
@@ -1106,7 +1128,6 @@ const d3 = require('d3');
 				}
 				let ratio = scale(newValue);
 				let newAngle = config.minAngle + (ratio * range);
-				console.log(newAngle);
 				if (newAngle == -90) {
 					pointer.transition()
 					.duration(500)
