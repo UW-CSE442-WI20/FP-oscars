@@ -282,11 +282,11 @@ const d3 = require('d3');
 	}
 
 	function isScrolledIntoView(elem) {
-	    var rect = id(elem).getBoundingClientRect();
-	    var elemTop = rect.top;
-	    var elemBottom = rect.bottom;
+	    let rect = id(elem).getBoundingClientRect();
+	    let elemTop = rect.top;
+	    let elemBottom = rect.bottom;
 
-	    var isVisible = elemTop < window.innerHeight && elemBottom > 0;
+	    let isVisible = elemTop < window.innerHeight && elemBottom > 0;
 	    return isVisible;
 	}
 			
@@ -607,7 +607,7 @@ const d3 = require('d3');
 			   .enter()
 			   .append("image")
 			   .attr("x", xScale(0) + marginLeft / 3 + 70)
-			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
 			   .attr("xlink:href", function(d, i) { return genres[i]; });
@@ -747,7 +747,7 @@ const d3 = require('d3');
 			   .enter()
 			   .append("image")
 			   .attr("x", xScale(0) + marginLeft / 3 + 60)
-			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
 			   .attr("xlink:href", function(d, i) { return flags[i]; });
