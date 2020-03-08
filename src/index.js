@@ -64,6 +64,7 @@ const d3 = require('d3');
 	let nationalityChartMade = false;
 	let genreChartMade = false;
 	let genderDirectorChartMade = false;
+	let currentAngle;
 
 	// Make sure the window has loaded before we start trying to 
 	// modify the DOM.
@@ -1114,10 +1115,11 @@ const d3 = require('d3');
 				let pointerLine = d3.line().curve(d3.curveLinear)
 				let pg = svg.append('g').data([lineData])
 						.attr('class', 'pointer')
-						.attr('transform', centerTx);		
+						.attr('transform', centerTx);	
+				let angle = currentAngle != null ? currentAngle : config.minAngle;	
 				pointer = pg.append('path')
 					.attr('d', pointerLine/*function(d) { return pointerLine(d) +'Z';}*/ )
-					.attr('transform', 'rotate(' +config.minAngle +')');
+					.attr('transform', 'rotate(' + angle +')');
 					
 				update(newValue === undefined ? 0 : newValue);
 			}
@@ -1127,8 +1129,8 @@ const d3 = require('d3');
 					configure(newConfiguration);
 				}
 				let ratio = scale(newValue);
-				let newAngle = config.minAngle + (ratio * range);
-				if (newAngle == -90) {
+				currentAngle = config.minAngle + (ratio * range);
+				if (currentAngle == -90) {
 					pointer.transition()
 					.duration(500)
 					.ease(d3.easePolyOut)
@@ -1142,7 +1144,7 @@ const d3 = require('d3');
 					pointer.transition()
 					.duration(config.transitionMs)
 					.ease(d3.easePolyOut)
-					.attr('transform', 'rotate(' +newAngle +')');
+					.attr('transform', 'rotate(' +currentAngle +')');
 				}
 				
 			}
