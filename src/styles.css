@@ -370,10 +370,11 @@ select {
 	font-family: "AndesRoundedBold";
 	text-align: center;
 	font-size: 30px;
+	margin-top: -10%;
 }
 
 #power-gauge {
-	height: 300px;
+	height: 400px;
 	width: 500px;
 }
 

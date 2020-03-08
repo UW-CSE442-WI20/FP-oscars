@@ -1131,17 +1131,17 @@ const d3 = require('d3');
 				if (newAngle == -90) {
 					pointer.transition()
 					.duration(500)
-					.ease(d3.easeElasticOut)
+					.ease(d3.easePolyOut)
 					.attr('transform', 'rotate(' + -85 +')');
 					pointer.transition()
 					.duration(config.transitionMs)
 					.delay(500)
-					.ease(d3.easeElasticOut)
+					.ease(d3.easePolyOut)
 					.attr('transform', 'rotate(' + -90 +')');
 				} else {
 					pointer.transition()
 					.duration(config.transitionMs)
-					.ease(d3.easeElasticOut)
+					.ease(d3.easePolyOut)
 					.attr('transform', 'rotate(' +newAngle +')');
 				}
 				
