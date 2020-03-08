@@ -724,7 +724,7 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("image")
-			   .attr("x", xScale(0) + marginLeft / 3 + 70)
+			   .attr("x", xScale(0) + marginLeft / 3 + 60)
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop; })
 			   .attr("height", "18")
 			   .attr("width", "18")
@@ -952,27 +952,20 @@ const d3 = require('d3');
 			clipWidth: 500,
 			clipHeight: 500,
 			ringWidth: 60,
-			maxValue: 16,
+			maxValue: 100,
 			transitionMs: 4000,
 		});
 		powerGauge.render();
-		if (totalProb < 25) {
-			updateGauge(0);
-		} else if (totalProb >= 25 && totalProb < 50) {
-			updateGauge(1);
-		} else if (totalProb >= 50 && totalProb < 75) {
-			updateGauge(2);
-		} else {
-			updateGauge(3);
-		}
+		updateGauge(Math.round(totalProb));
 	}
 
 	function updateGauge(likelihood) {
-		powerGauge.update(likelihood * 4 + 2);
+		console.log(likelihood);
+		powerGauge.update(likelihood);
 		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
 		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
-		id("gauge-text").innerText = response[likelihood];
-		id("gauge-text").style.color = colors[likelihood];
+		id("gauge-text").innerText = response[Math.floor(likelihood / 25) % 4];
+		id("gauge-text").style.color = colors[Math.floor(likelihood / 25) % 4];
 	}
 
 	let gauge = function(container, configuration) {
@@ -989,7 +982,7 @@ const d3 = require('d3');
 				pointerHeadLengthPercent	: 0.9,
 				
 				minValue					: 0,
-				maxValue					: 8,
+				maxValue					: 100,
 				
 				minAngle					: -90,
 				maxAngle					: 90,
