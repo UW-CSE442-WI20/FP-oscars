@@ -121,15 +121,17 @@ const d3 = require('d3');
 	    				}
     				
 	    				let anotherArr = getRandomMovies(numNeeded, bins, percentIndex);
-	    				numNeeded -= anotherArr.length;
-	    				movieArr = movieArr.concat(anotherArr);
+	    				if (movieArr[0] != anotherArr[0]) {
+	    					numNeeded -= anotherArr.length;
+	    					movieArr = movieArr.concat(anotherArr);
+	    				}
+	    				
 	    			}
 	    		}
 	    		$(".poster").remove().fadeOut();
 	    		$(".poster-text").remove();
 	    		$(".poster-container").remove();
 	    		for (let i = 0; i < movieArr.length; i++) {
-	    			console.log(movieArr[i]);
 					addPoster(posters[movieArr[i]], movieArr[i]);
 	    		}
 		    }
