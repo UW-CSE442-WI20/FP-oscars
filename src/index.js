@@ -300,7 +300,8 @@ const d3 = require('d3');
 			id("dialog-selection").value = id("gender-percent").innerText;
 			id("director-gender").value = id("female").classList.contains("female-color") ? "female" : "male";
 			id("director-nationality").value = qs(".is-selected .carousel-text").innerText.toLowerCase();
-			id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
+			// id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
+			id("genre-selection").value = lastGenreSelected.innerText;
 		} else {
 			console.log("Turn off WARNING_MODE to see the selections");
 		}
