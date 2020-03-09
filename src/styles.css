@@ -446,7 +446,7 @@ select {
 	width: 25%;
 }
 
-.chart-intro {
+.chart-intro, #film-disclaimer {
 	padding-bottom: 1%;
 	margin-right: 20%;
 }
@@ -493,6 +493,11 @@ select {
 	font-size: 15px;
 	margin-top: 3%;
 	text-align: center;
+}
+
+#film-disclaimer {
+	margin-left: 20%;
+	font-family: "AndesRoundedRegular";
 }
 
 select {
