@@ -967,18 +967,7 @@ const d3 = require('d3');
 	          }))
 	          .enter()
 	          .append("circle")
-	          .attr("class", function(d) {
-	          	if (d.value < 50) {
-	          		return "male-circle";
-	          	} else if (d.value > 50 && d.value < 55) {
-	          		return "purple-circle";
-	          	} else {
-	          		return "female-circle";
-	          	}
-	          })
 	          .attr("cx", 0) //g element already at correct x pos
-	          .attr("cy", (d, i) => {
-	              return - i * 2.75 * d.radius - d.radius})
          	  .attr("r", d => d.radius)
          	  .on("mouseover", function(d) {
          	  	tooltip.transition()
@@ -1001,11 +990,23 @@ const d3 = require('d3');
 	        	  	tooltip.transition()		
 	                .duration(500)		
 	                .style("opacity", 0);	
-        	  })
-        	  .transition()
-	          .duration(500)
-	          .attr("r", function(d) {
-	          return (d.length==0) ? 0 : d.radius; });
+			  })
+			  .attr("cy", -height)
+			  .attr("display", "none")
+              .transition()
+			  .duration(3000)
+			  .delay(function(d, i){ return i * 250 })
+			  .attr("display", "block")
+			  .attr("class", function(d) {
+	          	if (d.value < 50) {
+	          		return "male-circle";
+	          	} else if (d.value > 50 && d.value < 55) {
+	          		return "purple-circle";
+	          	} else {
+	          		return "female-circle";
+	          	}
+	          })
+              .attr("cy", (d, i) => {return - i * 2.75 * d.radius - d.radius});
 
 	        svg.append("g")
 				  .attr("class", "axis axis--x")
