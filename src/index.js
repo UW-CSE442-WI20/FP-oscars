@@ -124,6 +124,8 @@ const d3 = require('d3');
 	    			}
 	    		}
 	    		$(".poster").remove();
+	    		$(".poster-text").remove();
+	    		$(".poster-container").remove();
 	    		for (let i = 0; i < movieArr.length; i++) {
 	    			console.log(movieArr[i]);
     				let request = new XMLHttpRequest()
@@ -146,13 +148,18 @@ const d3 = require('d3');
 	}
 
 	function addPoster(data, num) {
+		let div = document.createElement("div");
+		div.className = "poster-container";
 		let poster = document.createElement("img");
 		poster.src = data.Poster;
 		poster.className = "poster";
 		id("similar-movies-images").appendChild(poster);
-		let span = document.createElement("span");
-		span.innerText = data.Title + " ";
-		id("similar-movies-intro-text").append(span);
+		let title = document.createElement("div");
+		title.innerText = data.Title + " ";
+		title.className = "poster-text";
+		div.appendChild(poster);
+		div.appendChild(title);
+		id("similar-movies-images").append(div);
 	}
 
 	function getRandomMovies(numMovies, bins, percentIndex) {

@@ -462,16 +462,27 @@ select {
 }
 
 #similar-movies img {
-	margin-top: 5%;
-	margin-right: 5%;
 	height: 175px;
+	margin-bottom: 2%;
 	border: white solid 3px;
 	border-radius: 7px;
+	margin: auto;
 }
 
 #similar-movies-images {
 	height: 175px;
 	margin-bottom: 7%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.poster-container {
+	margin-top: 5%;
+	margin-right: 5%;
+}
+
+.poster-text {
+	margin-top: 3%;
 }
 
 select {
