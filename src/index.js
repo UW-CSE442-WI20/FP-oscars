@@ -149,7 +149,7 @@ const d3 = require('d3');
 		let poster = document.createElement("img");
 		poster.src = data.Poster;
 		poster.className = "poster";
-		id("similar-movies").appendChild(poster);
+		id("similar-movies-images").appendChild(poster);
 		let span = document.createElement("span");
 		span.innerText = data.Title + " ";
 		id("similar-movies-intro-text").append(span);

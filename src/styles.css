@@ -467,6 +467,11 @@ select {
 	height: 150px;
 }
 
+#similar-movies-images {
+	height: 150px;
+	margin-bottom: 7%;
+}
+
 select {
   margin: 0;
   font-family: inherit;
