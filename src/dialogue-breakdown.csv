@@ -1,103 +1,106 @@
-Movie Title,Percent Female
-Master and Commander:  The Far Side of the World,0
-The Hurt Locker,0
-The Revenant,0
-There Will Be Blood,0
-Training Day,1.14
-Bridge of Spies,2.95
-Milk,3.21
-The Lord of the Rings: The Return of the King,3.6
-Argo,3.72
-Life of Pi,4.01
-Whiplash,5.59
-Spotlight,6.41
-Syriana,6.87
-Slumdog Millionaire,7.04
-The Departed,7.65
-The Social Network,9.55
-The Dark Knight,9.68
-Mystic River,9.77
-The King's Speech,10.27
-Brokeback Mountain,12.01
-Lincoln,13.69
-The Lord of the Rings: The Fellowship of the Ring,13.94
-No Country for Old Men,14.6
-Crazy Heart,14.8
-Michael Clayton,15.05
-Gladiator,15.12
-The Big Short,15.23
-Capote,15.44
-Dallas Buyers Club,15.46
-12 Years a Slave,16.29
-The Aviator,17.66
-Inception,17.75
-Sideways,18.16
-A Beautiful Mind,18.74
-Million Dollar Baby,19.29
-Inglourious Basterds,20.39
-Les Misérables,21.91
-Beginners,22.02
-Crash,23.94
-The Pianist,24.21
-Monster's Ball,24.99
-The Fighter,26.73
-Talk to Her,28.55
-Adaptation.,29.58
-The Theory of Everything,30.58
-The Descendants,30.9
-The Imitation Game,31.96
-Traffic,32.26
-Birdman,32.55
-The Reader,32.97
-Little Miss Sunshine,33.77
-Avatar,34.2
-Boyhood,35.7
-Almost Famous,37.03
-Midnight in Paris,39.5
-Pan's Labyrinth,43.66
-The Queen,44.29
-Gravity,45.51
-Vicky Cristina Barcelona,47.96
-Gosford Park,50.31
-Cold Mountain,51.48
-The Blind Side,52.48
-Eternal Sunshine of the Spotless Mind,52.92
-Lost in Translation,54.35
-Black Swan,55.66
-Room,61.12
-Still Alice,61.18
-Erin Brockovich,61.72
-The Iron Lady,70.23
-Memories of a Geisha,71.38
-Blue Jasmine,75.65
-Juno,77.34
-Her,87.17
-The Help,91.69
-Precious,99.35
-1917,1.7
-BlacKkKlansman,10.1
-Blade Runner 2049,43
-Bohemian Rhapsody,7.1
-Chicago,53
-"Crouching Tiger, Hidden Dragon",70
-Call Me by Your Name,15.6
-Darkest Hour,10.6
-Django Unchained,3.1
-Fences,22.6
-Get Out,25
-Green Book,7.5
-"I, Tonya ",53
-If Beale Street Could Talk,46
-Jojo Rabbit,28
-Joker,18.5
-La La Land,54.73075753
-Manchester by the Sea,15.3972378
-Marriage Story,49.5522883
-Monster,85.60253306
-Moonlight,21.13120269
-Parasite,47.05246079
-Road to Perdition,3.730176457
-Roma,64.93013628
-Silver Linings Playbook,25.96899225
-The Artist,33.6858006
-The Danish Girl,56.63161465
+Movie Title,Percent Female,Year
+Master and Commander:  The Far Side of the World,0,2003
+The Hurt Locker,0,2009
+The Revenant,0,2015
+There Will Be Blood,0,2007
+Road to Perdition,0,2002
+Training Day,1.14,2001
+1917,1.7,2019
+Bridge of Spies,2.95,2015
+Django Unchained,3.1,2012
+Milk,3.21,2008
+The Lord of the Rings: The Return of the King,3.6,2003
+Argo,3.72,2012
+Life of Pi,4.01,2012
+Whiplash,5.59,2014
+Spotlight,6.41,2015
+Syriana,6.87,2005
+Slumdog Millionaire,7.04,2008
+Bohemian Rhapsody,7.1,2018
+Green Book,7.5,2018
+The Departed,7.65,2006
+The Social Network,9.55,2010
+The Dark Knight,9.68,2008
+Mystic River,9.77,2003
+BlacKkKlansman,10.1,2018
+The King's Speech,10.27,2010
+Darkest Hour,10.6,2017
+Brokeback Mountain,12.01,2005
+Lincoln,13.69,2012
+The Lord of the Rings: The Fellowship of the Ring,13.94,2001
+No Country for Old Men,14.6,2007
+Crazy Heart,14.8,2009
+Michael Clayton,15.05,2007
+Gladiator,15.12,2000
+The Big Short,15.23,2015
+Capote,15.44,2005
+Dallas Buyers Club,15.46,2013
+Call Me by Your Name,15.6,2017
+12 Years a Slave,16.29,2013
+Manchester by the Sea,16.99261993,2016
+The Aviator,17.66,2004
+Inception,17.75,2010
+Sideways,18.16,2004
+Joker,18.5,2019
+A Beautiful Mind,18.74,2001
+The Shape of Water,19,2017
+Million Dollar Baby,19.29,2004
+Inglourious Basterds,20.39,2009
+Les Misérables,21.91,2012
+Beginners,22.02,2010
+Moonlight,22.4,2016
+Fences,22.6,2016
+Crash,23.94,2004
+The Pianist,24.21,2002
+Monster's Ball,24.99,2001
+Get Out,25,2017
+Silver Linings Playbook,25.67189432,2012
+The Fighter,26.73,2010
+Jojo Rabbit,28,2019
+Talk to Her,28.55,2002
+Adaptation.,29.58,2002
+The Theory of Everything,30.58,2014
+The Descendants,30.9,2011
+The Imitation Game,31.96,2014
+Traffic,32.26,2000
+Birdman,32.55,2014
+The Reader,32.97,2008
+The Artist,33.6858006,2011
+Little Miss Sunshine,33.77,2006
+Avatar,34.2,2009
+"Three Billboards Outside Ebbing, Missouri",35.33859669,2017
+Boyhood,35.7,2014
+Almost Famous,37.03,2000
+Hugo,39.1291975,2011
+Midnight in Paris,39.5,2011
+Blade Runner 2049,43,2017
+Pan's Labyrinth,43.66,2006
+The Queen,44.29,2006
+Gravity,45.51,2013
+If Beale Street Could Talk,46,2018
+Parasite,47.22605575,2019
+Vicky Cristina Barcelona,47.96,2008
+Marriage Story,50.11845668,2019
+Gosford Park,50.31,2001
+Cold Mountain,51.48,2003
+The Blind Side,52.48,2009
+Eternal Sunshine of the Spotless Mind,52.92,2004
+Chicago,53,2002
+"I, Tonya ",53,2017
+Lost in Translation,54.35,2003
+La La Land,54.73075753,2016
+Black Swan,55.66,2010
+The Danish Girl,56.26780627,2015
+Room,61.12,2015
+Still Alice,61.18,2014
+Erin Brockovich,61.72,2000
+"Crouching Tiger, Hidden Dragon",70,2000
+Roma,70.17954723,2018
+The Iron Lady,70.23,2011
+Memoirs of a Geisha,71.38,2005
+Blue Jasmine,75.65,2013
+Juno,77.34,2007
+Her,87.17,2013
+Monster,90.14196367,2003
+The Help,91.69,2011
+Precious,99.35,2009
