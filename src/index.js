@@ -4,6 +4,7 @@ const d3 = require('d3');
 	// Turn this off when programming so you don't need to
 	// always select a genre/director to get to the next page.
 	const WARNING_MODE = true;
+	const NUM_SIMILAR_MOVIES = 2;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const genreCSV = require("./genre.csv");
 	const nationalityCSV = require("./nationalities.csv");
@@ -88,6 +89,68 @@ const d3 = require('d3');
 		makeCountryCarousel();
 	}
 
+	function getSimilarDialogueMovies() {
+		let percent = id("gender-percent").innerText;
+		console.log(percent);
+		d3.csv(genderDialogueCSV).then(function(allData) {
+			const x = d3.scaleLinear()
+		    	.domain([0, 100]);
+			let nbins = 20;
+			const histogram = d3.histogram()
+		      .domain(x.domain())
+		      .thresholds(x.ticks(nbins))
+		      .value(d => d["Percent Female"]);
+
+		    //binning data and filtering out empty bins
+		    const bins = histogram(allData);
+		    let percentIndex = parseInt(percent) / 5;
+		    let numMovies = 0;
+		    if (bins[percentIndex] != null) {
+	    		let movieArr = getRandomMovies(bins[percentIndex].length, bins, percentIndex);
+	    		if (movieArr.length <  NUM_SIMILAR_MOVIES) {
+	    			let numNeeded = NUM_SIMILAR_MOVIES - movieArr.length;
+	    			while (numNeeded > 0) {
+    					let random = Math.floor(Math.random() * Math.floor(2));
+	    				if (random == 0) {
+	    					percentIndex++;
+	    				} else {
+	    					percentIndex--;
+	    				}
+    				
+	    				let anotherArr = getRandomMovies(numNeeded, bins, percentIndex);
+	    				console.log(anotherArr);
+	    				numNeeded -= anotherArr.length;
+	    				movieArr = movieArr.concat(anotherArr);
+	    			}
+	    		}
+	    		// id("similar-movies").innerText = "Some examples of movies with a similar female dialogue percentage are: " + movieArr.toString();
+
+		    }
+		});
+	}
+
+	function getRandomMovies(numMovies, bins, percentIndex) {
+		let totalInBin = bins[percentIndex].length;
+	    let movies = getRandomNumbers(totalInBin > numMovies ? numMovies : totalInBin);
+		let movieArr = [];
+		for (let i = 0; i < movies.length; i++) {
+			movieArr[i] = bins[percentIndex][movies[i]]["Movie Title"];
+		}
+		return movieArr;
+	}
+
+	function getRandomNumbers(max) {
+		let arr = [];
+		let numNumbers = max > NUM_SIMILAR_MOVIES ? NUM_SIMILAR_MOVIES : max;
+		while (arr.length < numNumbers){
+		    let random = Math.floor(Math.random() * Math.floor(max));
+		    if (arr.indexOf(random) === -1) {
+		    	arr.push(random);
+		    }
+		}
+		return arr;
+	}
+
 	function makeSlider() {
 		let slider = id('slider');
 		noUiSlider.create(slider, {
@@ -134,6 +197,7 @@ const d3 = require('d3');
 		slider.noUiSlider.on('update', function () {
 	        let value = slider.noUiSlider.get();
 	        id("gender-percent").innerText = Math.round(value) + "%";
+	        getSimilarDialogueMovies();
 	    });
 	}
 
@@ -431,6 +495,7 @@ const d3 = require('d3');
 					.data(pie(data))
 					.enter()
 					.append("g")
+					.attr("class", "arc")
 					.on("mouseover", function(d) {
 						tooltip.transition()
 							.duration(200)		
@@ -453,10 +518,9 @@ const d3 = require('d3');
 				   });
 
 		arcs.append("path")
-			.attr("fill", function(d, i) {
-				return "#252528";
+			.style("fill", function(d, i) {
+				return color(i);
 			})
-			.attr("d", arc)
 			.transition()
 			.delay(function(d, i) {
 				return i * 4000;
@@ -468,12 +532,7 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			 })
-			.attr("fill", function(d, i) {
-				return color(i);
-			})
-			.attr("class", "arc")
-        			.attr("stroke", "white")
-					.style("stroke-width", "2px")
+			
 
 
 			
@@ -760,7 +819,7 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("image")
-			   .attr("x", xScale(0) + marginLeft / 3 + 60)
+			   .attr("x", xScale(0) + marginLeft / 3 + 70)
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
