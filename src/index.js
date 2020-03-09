@@ -973,6 +973,7 @@ const d3 = require('d3');
 	          .data(d => d.map((p, i) => {
 	              	return {value: p["Percent Female"],
 	              			title: p["Movie Title"],
+	              			year: p["Year"],
 	                      	radius: (x(d.x1) - x(d.x0)) / 3.75};
 	          }))
 	          .enter()
@@ -994,7 +995,7 @@ const d3 = require('d3');
          	  	tooltip.transition()
                 .duration(200)		
                 .style("opacity", 1.0);		
-		            tooltip.html("<b>" + d.title + "</b><br/>"  + (Math.round(d.value * 100) / 100).toFixed(2) + "%")	
+		            tooltip.html("<b>" + d.title + " (" + d.year + ")" + "</b><br/>"  + (Math.round(d.value * 100) / 100).toFixed(2) + "%")	
 		                .style("left", (d3.event.pageX) + 20 + "px")		
 		                .style("top", (d3.event.pageY - 28) + "px")
 		                .style("background-color", function() {
