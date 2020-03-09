@@ -102,6 +102,12 @@ h2 {
 	margin-right: 20%;
 }
 
+.film-disclaimer {
+	margin-right: 20%;
+	margin-left: 20%;
+	font-size: 15px;
+}
+
 hr {
 	border: 2px solid white;
   	border-radius: 3px;
