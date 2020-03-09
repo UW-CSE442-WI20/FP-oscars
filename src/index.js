@@ -359,7 +359,6 @@ const d3 = require('d3');
 		}, 5000)
 	}
 
-
 	function transition(element) {
 		if (element.classList.contains('hidden')) {
 		    element.classList.remove('hidden');
@@ -560,10 +559,7 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			 })
-			
-
-
-			
+				
 		// Draw a legend
 		let legend = d3.select("#gender-director-pi-chart")
 
@@ -748,6 +744,9 @@ const d3 = require('d3');
 					 southKoreanFlag, newZealandFlag, taiwaneseFlag, canadianFlag, frenchFlag,
 					 britishFlag, mexicanFlag, englishFlag, usFlag];
 
+		const legendDelay = 2500;
+		const legendDuration = 2000;
+
 		d3.csv(nationalityCSV).then(function(data) {
 			// Create scales for x and y axes
 			let xScale = d3.scaleLinear()
@@ -862,30 +861,55 @@ const d3 = require('d3');
 				  .style("text-decoration", "underline solid white")
 				  .style("fill", "white")
 				  .attr("alignment-baseline","middle")
+				  .style("opacity", 0)
+                  .transition()
+                  .delay(legendDelay)
+                  .duration(legendDuration)
+                  .style("opacity", 1);
 
 		  	svg.append("circle")
 				.attr("cx", (width / 2) + 270)
 				.attr("cy", height / 3)
 				.attr("r", 10)
-				.style("fill", "#6BA6D9");
+				.style("fill", "#6BA6D9")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);  
 
 			svg.append("circle")
 				.attr("cx", (width / 2) + 270)
 				.attr("cy", (height / 3) + 25)
 				.attr("r", 10)
-				.style("fill", "#C677B1");
+				.style("fill", "#C677B1")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 
 			svg.append("circle")
 				.attr("cx", (width / 2) + 270)
 				.attr("cy", (height / 3) + 50)
 				.attr("r", 10)
-				.style("fill", "#FED800");
+				.style("fill", "#FED800")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 
 			svg.append("circle")
 				.attr("cx", (width / 2) + 270)
 				.attr("cy", (height / 3) + 75)
 				.attr("r", 10)
-				.style("fill", "#91C95B");
+				.style("fill", "#91C95B")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
@@ -894,6 +918,12 @@ const d3 = require('d3');
 				.style("font-size", "15px")
 				.style("fill", "white")
 				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
+
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
 				.attr("y", (height / 3) + 26.5)
@@ -901,6 +931,11 @@ const d3 = require('d3');
 				.style("font-size", "15px")
 				.style("fill", "white")
 				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
@@ -909,6 +944,12 @@ const d3 = require('d3');
 				.style("font-size", "15px")
 				.style("fill", "white")
 				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
+
 			svg.append("text")
 				.attr("x", (width / 2) + 290)
 				.attr("y", (height / 3) + 76.5)
@@ -916,6 +957,11 @@ const d3 = require('d3');
 				.style("font-size", "15px")
 				.style("fill", "white")
 				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+                  .transition()
+                  .delay(legendDelay)
+                  .duration(legendDuration)
+                  .style("opacity", 1);
 		});
 	}
 
@@ -946,7 +992,10 @@ const d3 = require('d3');
 		const tooltip = d3.select("body")	
 		  	.append("div")
 		    .attr("class", "tooltip")
-		    .style("opacity", 0);
+			.style("opacity", 0);
+		
+		const legendDelay = 3750;
+		const legendDuration = 2000;
 
 		d3.csv(genderDialogueCSV).then(function(allData) {
 
@@ -1000,7 +1049,7 @@ const d3 = require('d3');
 			  .attr("cy", -height)
 			  .attr("display", "none")
               .transition()
-			  .duration(2000)
+			  .duration(1250)
 			  .delay(function(d, i){ return i * 250 })
 			  .attr("display", "block")
 			  .attr("class", function(d) {
@@ -1027,46 +1076,78 @@ const d3 = require('d3');
 				   .style("fill", "white")
 				   .style("font-size", "18px");
 			
+			// Make dialogue legend
 			svg.append("circle")
-			  .attr("cx", (width / 2) + 130)
-			  .attr("cy", height / 3)
-			  .attr("r", 10)
-			  .style("fill", "#6BA6D9")
+			    .attr("cx", (width / 2) + 130)
+			    .attr("cy", height / 3)
+			    .attr("r", 10)
+			    .style("fill", "#6BA6D9")
+			    .style("opacity", 0)
+			    .transition()
+			    .delay(legendDelay)
+			    .duration(legendDuration)
+			    .style("opacity", 1);
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 130)
-				  .attr("cy", (height / 3) + 25)
-				  .attr("r", 10)
-				  .style("fill", "#9D82BC")
+				.attr("cx", (width / 2) + 130)
+				.attr("cy", (height / 3) + 25)
+				.attr("r", 10)
+				.style("fill", "#9D82BC")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1); 
 
 			svg.append("circle")
-				  .attr("cx", (width / 2) + 130)
-				  .attr("cy", (height / 3) + 50)
-				  .attr("r", 10)
-				  .style("fill", "#D873CF")
+				.attr("cx", (width / 2) + 130)
+				.attr("cy", (height / 3) + 50)
+				.attr("r", 10)
+				.style("fill", "#D873CF")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1); 
 
 			svg.append("text")
-				  .attr("x", (width / 2) + 150)
-				  .attr("y", (height / 3) + 2)
-				  .text("Predominantly male")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
-			svg.append("text")
-				  .attr("x", (width / 2) + 150)
-				  .attr("y", (height / 3) + 27)
-				  .text("Evenly distributed")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
+				.attr("x", (width / 2) + 150)
+				.attr("y", (height / 3) + 2)
+				.text("Predominantly male")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 
 			svg.append("text")
-				  .attr("x", (width / 2) + 150)
-				  .attr("y", (height / 3) + 52)
-				  .text("Predominantly female")
-				  .style("font-size", "15px")
-				  .style("fill", "white")
-				  .attr("alignment-baseline","middle")
+				.attr("x", (width / 2) + 150)
+				.attr("y", (height / 3) + 27)
+				.text("Evenly distributed")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1); 
+
+			svg.append("text")
+				.attr("x", (width / 2) + 150)
+				.attr("y", (height / 3) + 52)
+				.text("Predominantly female")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 	     	});
 	}
 
