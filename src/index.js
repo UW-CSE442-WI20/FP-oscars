@@ -62,6 +62,7 @@ const d3 = require('d3');
 	let lastGenreSelected;
 	let powerGauge;
 	let totalProb;
+	let dialogueDotPlotMade = false;
 	let nationalityChartMade = false;
 	let genreChartMade = false;
 	let genderDirectorChartMade = false;
@@ -328,6 +329,10 @@ const d3 = require('d3');
 			lockInSelections();
 			d3.selectAll("#power-gauge > *").remove();
 			$(document).on("scroll", function() {
+				if(isScrolledIntoView("dialog-dot-chart") && !dialogueDotPlotMade) {
+					dialogueDotPlotMade = true;
+					makeDialogueDotPlot();
+				}
 				if (isScrolledIntoView("gender-director-pi-chart") && !genderDirectorChartMade) {
 					genderDirectorChartMade = true;
 					makeGenderDirectorPiChart();
@@ -341,7 +346,6 @@ const d3 = require('d3');
 					makeGenreBarChart();
 				}
 			});
-			makeDialogueDotPlot();
 			calculateLikelihood();
 		}
 	}
@@ -996,7 +1000,7 @@ const d3 = require('d3');
 			  .attr("cy", -height)
 			  .attr("display", "none")
               .transition()
-			  .duration(3000)
+			  .duration(2000)
 			  .delay(function(d, i){ return i * 250 })
 			  .attr("display", "block")
 			  .attr("class", function(d) {
