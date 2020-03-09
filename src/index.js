@@ -699,11 +699,11 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("text")
-			   .attr("x", xScale(0) + marginLeft - 45)
+			   .attr("x", xScale(0) + marginLeft - 41)
 			   .attr("y", function(d) { return yScale(d.genre) + marginTop + 10; })
 			   .text(function(d) { return d.genre; })
 			   .style("fill", "white")
-			   .style("font-size", "10px")
+			   .style("font-size", "11px")
 			   .attr("text-anchor", "end");
 
 			// Put genre icon along y-axis
@@ -711,7 +711,7 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("image")
-			   .attr("x", xScale(0) + marginLeft / 3 + 60)
+			   .attr("x", xScale(0) + marginLeft / 3 + 64.5)
 			   .attr("y", function(d) { return yScale(d.genre) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
@@ -835,11 +835,11 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("text")
-			   .attr("x", xScale(0) + marginLeft - 40)
+			   .attr("x", xScale(0) + marginLeft - 43)
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop + 10; })
 			   .text(function(d) { return d.nationality; })
 			   .style("fill", "white")
-			   .style("font-size", "10px")
+			   .style("font-size", "11px")
 			   .attr("text-anchor", "end");
 
 			// Put nationality flag along y-axis
@@ -847,7 +847,7 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("image")
-			   .attr("x", xScale(0) + marginLeft / 3 + 65)
+			   .attr("x", xScale(0) + marginLeft / 3 + 64.5)
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
