@@ -445,6 +445,10 @@ select {
 	margin-right: 20%;
 }
 
+.arc path {
+  stroke: #FFFFFF;
+}
+
 .female-circle {
 	fill: #D873CF;
 }

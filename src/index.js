@@ -430,6 +430,7 @@ const d3 = require('d3');
 					.data(pie(data))
 					.enter()
 					.append("g")
+					.attr("class", "arc")
 					.on("mouseover", function(d) {
 						tooltip.transition()
 							.duration(200)		
@@ -452,10 +453,9 @@ const d3 = require('d3');
 				   });
 
 		arcs.append("path")
-			.attr("fill", function(d, i) {
-				return "#252528";
+			.style("fill", function(d, i) {
+				return color(i);
 			})
-			.attr("d", arc)
 			.transition()
 			.delay(function(d, i) {
 				return i * 4000;
@@ -467,12 +467,7 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			 })
-			.attr("fill", function(d, i) {
-				return color(i);
-			})
-			.attr("class", "arc")
-        			.attr("stroke", "white")
-					.style("stroke-width", "2px")
+			
 
 
 			
@@ -759,7 +754,7 @@ const d3 = require('d3');
 			   .data(data)
 			   .enter()
 			   .append("image")
-			   .attr("x", xScale(0) + marginLeft / 3 + 60)
+			   .attr("x", xScale(0) + marginLeft / 3 + 70)
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
