@@ -471,7 +471,7 @@ select {
 
 #similar-movies-images {
 	height: 175px;
-	margin-bottom: 7%;
+	margin-bottom: 8%;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -479,9 +479,11 @@ select {
 .poster-container {
 	margin-top: 5%;
 	margin-right: 5%;
+	width: 150px;
 }
 
 .poster-text {
+	font-size: 16px;
 	margin-top: 3%;
 }
 
