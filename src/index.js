@@ -390,8 +390,7 @@ const d3 = require('d3');
 			id("dialog-selection").value = id("gender-percent").innerText;
 			id("director-gender").value = id("female").classList.contains("female-color") ? "female" : "male";
 			id("director-nationality").value = qs(".is-selected .carousel-text").innerText.toLowerCase();
-			// id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
-			id("genre-selection").value = lastGenreSelected.innerText;
+			id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
 		} else {
 			console.log("Turn off WARNING_MODE to see the selections");
 		}
@@ -400,17 +399,17 @@ const d3 = require('d3');
 	function calculateLikelihood() {
 		let director_data = [177, 8]; // numbers from director_gender.txt
 		let director_total = 185;
-		let genreDict = {"Family": 1, "Horror": 1, "Western": 1, "Sport": 2, "Musical": 4,
-		"Action": 6, "Fantasy": 6, "Sci-Fi": 6, "Mystery": 7, "Music": 8,
-		"Adventure": 9,  "War": 9, "Crime": 12, "Thriller": 17, "Comedy": 19,
-		"Romance": 23, "History": 31, "Drama": 80};
+		let genreDict = {"family": 1, "horror": 1, "western": 1, "sport": 2, "musical": 4,
+		"action": 6, "fantasy": 6, "sci-fi": 6, "mystery": 7, "music": 8,
+		"adventure": 9,  "war": 9, "crime": 12, "thriller": 17, "comedy": 19,
+		"romance": 23, "history": 31, "drama": 80};
 		let total_genres = 237;
 
-		let nationalityDict = {"German": 0.5, "Swiss": 0.5, "Brazilian": 1, "Greek": 1, "Italian": 1,
-							   "Norwegian": 1, "Scottish": 1, "Spanish": 1, "Polish": 1.5, 
-							   "Australian": 2, "Irish": 2, "South Korean": 3, "New Zealand": 5,
-							   "Taiwanese": 5, "Canadian": 5.5, "French": 9, "British": 10,
-							   "Mexican": 14, "English": 15, "American": 105.5};
+		let nationalityDict = {"german": 0.5, "swiss": 0.5, "brazilian": 1, "greek": 1, "italian": 1,
+							   "norwegian": 1, "scottish": 1, "spanish": 1, "polish": 1.5, 
+							   "australian": 2, "irish": 2, "south Korean": 3, "new Zealand": 5,
+							   "taiwanese": 5, "canadian": 5.5, "french": 9, "british": 10,
+							   "mexican": 14, "english": 15, "american": 105.5};
 		
 		let dialogue_percentages = [0, 0, 0, 0, 0, 1.14, 1.7, 2.95, 3.1, 3.21, 3.6, 3.72, 4.01, 5.59, 6.41, 6.87, 7.04, 7.1, 7.5, 7.65, 9.55, 9.68, 9.77, 10.1, 10.27, 10.6, 12.01, 13.69, 13.94, 14.6, 14.8,
 		15.05, 15.12, 15.23, 15.44, 15.46, 15.6, 16.29, 16.99261993, 17.66, 17.75, 18.16, 18.5,
@@ -422,8 +421,9 @@ const d3 = require('d3');
 		let total_female_count = 0;
 		let max_percent = 0.08068;
 		selected_gender = id("director-gender").value;
-		selected_nationality = capitalize(id("director-nationality").value);
-		selected_genre = capitalize(id("genre-selection").value);
+		selected_nationality = id("director-nationality").value;
+		console.log(id("director-nationality").value);
+		selected_genre = id("genre-selection").value;
 		selected_dialogue = id("dialog-selection").value;
 		selected_dialogue = parseInt(selected_dialogue.substring(0, selected_dialogue.length - 1));
 
@@ -473,7 +473,7 @@ const d3 = require('d3');
 		result = selection.charAt(0).toUpperCase() + selection.substring(1);
 		hyphen = selection.indexOf("-");
 		if (hyphen != -1) {
-			result = result.substring(0, hyphen) + result.substring(hyphen + 1);
+			result = result.substring(0, hyphen + 1) + + result.charAt(hyphen + 1).toUpperCase + result.substring(hyphen + 2);
 		}
 		return result;
 	}
