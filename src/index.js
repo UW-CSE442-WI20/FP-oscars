@@ -90,8 +90,9 @@ const d3 = require('d3');
 	}
 
 	function getSimilarDialogueMovies() {
+		$(".poster").remove();
 		let percent = id("gender-percent").innerText;
-		console.log(percent);
+		id("similar-movies-intro-text").innerText = "Some examples of movies with a similar female dialogue percentage are: ";
 		d3.csv(genderDialogueCSV).then(function(allData) {
 			const x = d3.scaleLinear()
 		    	.domain([0, 100]);
@@ -111,10 +112,10 @@ const d3 = require('d3');
 	    			let numNeeded = NUM_SIMILAR_MOVIES - movieArr.length;
 	    			while (numNeeded > 0) {
     					let random = Math.floor(Math.random() * Math.floor(2));
-	    				if (random == 0) {
-	    					percentIndex++;
-	    				} else {
+	    				if (random == 0 || percentIndex >= 19) {
 	    					percentIndex--;
+	    				} else {
+	    					percentIndex++;
 	    				}
     				
 	    				let anotherArr = getRandomMovies(numNeeded, bins, percentIndex);
@@ -123,10 +124,35 @@ const d3 = require('d3');
 	    				movieArr = movieArr.concat(anotherArr);
 	    			}
 	    		}
-	    		// id("similar-movies").innerText = "Some examples of movies with a similar female dialogue percentage are: " + movieArr.toString();
+	    		for (let i = 0; i < movieArr.length; i++) {
+	    			console.log(movieArr[i]);
+    				let request = new XMLHttpRequest()
+	    			request.open('GET', 'http://omdbapi.com?apikey=22a62a70&t=' + movieArr[i], true)
 
+					request.onload = function() {
+						let data = JSON.parse(this.response);
+						console.log(data);
+					    if (request.status >= 200 && request.status < 400) {
+					    	addPoster(data, i);
+					    } else {
+					    	console.log('error');
+					  	}
+					}
+
+					request.send();
+	    		}
 		    }
 		});
+	}
+
+	function addPoster(data, num) {
+		let poster = document.createElement("img");
+		poster.src = data.Poster;
+		poster.className = "poster";
+		id("similar-movies").appendChild(poster);
+		let span = document.createElement("span");
+		span.innerText = data.Title + " ";
+		id("similar-movies-intro-text").append(span);
 	}
 
 	function getRandomMovies(numMovies, bins, percentIndex) {

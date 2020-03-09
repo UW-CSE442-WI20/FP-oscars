@@ -461,6 +461,12 @@ select {
 	fill: #9D82BC;
 }
 
+#similar-movies img {
+	margin-top: 5%;
+	margin-right: 5%;
+	height: 150px;
+}
+
 select {
   margin: 0;
   font-family: inherit;
