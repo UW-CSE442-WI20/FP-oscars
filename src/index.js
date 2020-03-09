@@ -90,7 +90,6 @@ const d3 = require('d3');
 	}
 
 	function getSimilarDialogueMovies() {
-		$(".poster").remove();
 		let percent = id("gender-percent").innerText;
 		id("similar-movies-intro-text").innerText = "Some examples of movies with a similar female dialogue percentage are: ";
 		d3.csv(genderDialogueCSV).then(function(allData) {
@@ -124,6 +123,7 @@ const d3 = require('d3');
 	    				movieArr = movieArr.concat(anotherArr);
 	    			}
 	    		}
+	    		$(".poster").remove();
 	    		for (let i = 0; i < movieArr.length; i++) {
 	    			console.log(movieArr[i]);
     				let request = new XMLHttpRequest()
