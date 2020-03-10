@@ -547,11 +547,11 @@ select {
 }
 
 .left-panel p {
-	left: 45%;
+	right: 5%;
 }
 
 .right-panel p {
-	left: 3%;
+	left: 5%;
 }
 
 .left-panel p, .right-panel p {
