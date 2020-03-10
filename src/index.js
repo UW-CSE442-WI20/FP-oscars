@@ -490,8 +490,8 @@ const d3 = require('d3');
 	}
 
 	function makeGenderDirectorPiChart() {
-		let data = [177, 8]; // numbers from director_gender.txt
-		let total = 185;
+		let data = [113, 4]; // numbers from director_gender.txt
+		let total = 117;
 
 		let color = d3.scaleOrdinal(['#6BA6D9','#D873CF']);
 
