@@ -334,12 +334,16 @@ const d3 = require('d3');
 			}, 1000);
 			setTimeout(function() {
 				createGauge();
+				updateYourGenreSelectionText();
+				updateYourNationalitySelectionText();
 			}, 2000);
 			// use this for drop down menu changes to be reflected on graph
 			document.addEventListener("input", function(event) { 
 				d3.selectAll("#power-gauge > *").remove()
 				calculateLikelihood();
 				createGauge();
+				updateYourGenreSelectionText();
+				updateYourNationalitySelectionText();
 			});
 			lockInSelections();
 			d3.selectAll("#power-gauge > *").remove();
@@ -361,6 +365,28 @@ const d3 = require('d3');
 					makeGenreBarChart();
 				}
 			});
+		}
+	}
+
+	function updateYourGenreSelectionText() {
+		if (genreChartMade) {
+			let genreSelections = qsa(".your-genre-selection");
+			for (let i = 0; i < genreSelections.length; i++) {
+				genreSelections[i].style.opacity = 0;
+			}
+			let selectedGenre = id("genre-selection").value;
+			id(selectedGenre).style.opacity = 1;
+		}
+	}
+
+	function updateYourNationalitySelectionText() {
+		if (nationalityChartMade) {
+			let nationalitySelections = qsa(".your-nationality-selection");
+			for (let i = 0; i < nationalitySelections.length; i++) {
+				nationalitySelections[i].style.opacity = 0;
+			}
+			let selectedNationality = id("director-nationality").value;
+			id(selectedNationality).style.opacity = 1;
 		}
 	}
 
@@ -725,7 +751,11 @@ const d3 = require('d3');
 			   .append("text")
 			   .attr("x", function(d) { return xScale(0) + marginLeft + xScale(d.value) + 10; })
 			   .attr("y", function(d) { return yScale(d.genre) + marginTop + 15; })
-			   .text("<--- your selection")
+			   .text("← your selection")
+			   .attr("class", "your-genre-selection")
+			   .attr("id", function(d, i) {
+			   		return genreNames[i];
+			   })
 			   .style("fill", "white")
 			   .style("font-size", "12px")
 			   .style("opacity", 0)
@@ -889,10 +919,14 @@ const d3 = require('d3');
 			   .append("text")
 			   .attr("x", function(d) { return xScale(0) + marginLeft + xScale(d.value) + 10; })
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop + 15; })
-			   .text("<--- your selection")
+			   .text("← your selection")
 			   .style("fill", "white")
 			   .style("font-size", "12px")
 			   .style("opacity", 0)
+			   .attr("id", function(d, i) {
+			   		return nationalities[i];
+			   })
+			   .attr("class", "your-nationality-selection")
 			   .transition()
 		       .delay(textDelay)
 			   .duration(textFadeInDuration)
