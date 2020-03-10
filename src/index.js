@@ -553,8 +553,8 @@ const d3 = require('d3');
 		// Generate the pie
 		let pie = d3.pie()
 					.sort(null)
-					.startAngle(1.1*Math.PI)
-					.endAngle(3.1*Math.PI);
+					.startAngle(Math.PI / 2)
+					.endAngle(6 * Math.PI/2);
 
 		// Generate the arcs
 		let arc = d3.arc()
