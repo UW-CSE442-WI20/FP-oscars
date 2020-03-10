@@ -535,6 +535,7 @@ const d3 = require('d3');
 		leftCurtain.classList.remove("translate-left");
 		rightCurtain.classList.remove("translate-right");
 		id("to-be-curtained").classList.remove("curtain");
+		currentAngle = null;
 	}
 
 	function makeGenderDirectorPiChart() {
@@ -1353,7 +1354,6 @@ const d3 = require('d3');
 			}
 			
 			function configure(configuration) {
-				currentAngle = null;
 				let prop = undefined;
 				for ( prop in configuration ) {
 					config[prop] = configuration[prop];
