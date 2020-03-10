@@ -542,6 +542,9 @@ const d3 = require('d3');
 		let data = [113, 4]; // numbers from director_gender.txt
 		let total = 117;
 
+		const textDelay = 5500;
+		const textFadeInDuration = 200;
+
 		let color = d3.scaleOrdinal(['#6BA6D9','#D873CF']);
 
 		let svg = d3.select("#gender-director-pi-chart"),
@@ -549,6 +552,11 @@ const d3 = require('d3');
 			height = svg.attr("height"),
 			radius = 150,
 			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+		let selected_gender = id("director-gender").value;
+		let genders = ["male", "female"];
+		let xValues = [radius - 10, radius + 5];
+		let yValues = [-75, -15];
 
 		// Generate the pie
 		let pie = d3.pie()
@@ -608,6 +616,29 @@ const d3 = require('d3');
         			return arc(d);
        			}
 			 })
+		
+		// indicate user's selection
+		g.selectAll("indicator")
+			.data(pie(data))
+			.enter()
+			.append("text")
+			.attr("x", function(d, i) { return xValues[i]; })
+			.attr("y", function(d, i) { return yValues[i]; })
+			.text("← your selection")
+			.attr("class", "your-genre-selection")
+			.style("fill", "white")
+			.style("font-size", "12px")
+			.style("opacity", 0)
+			.transition()
+			.delay(textDelay)
+			.duration(textFadeInDuration)
+			.style("opacity", function(d, i) {
+				if (genders[i] == selected_gender) {
+					return 1;
+				} else {
+					return 0;
+				}
+			});
 				
 		// Draw a legend
 		let legend = d3.select("#gender-director-pi-chart")
