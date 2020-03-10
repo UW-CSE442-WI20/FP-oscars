@@ -311,15 +311,29 @@ const d3 = require('d3');
 		} else if (WARNING_MODE && notSelectedGenre) {
 			issueWarning("a movie genre!");
 	  	} else {
+			id("to-be-curtained").classList.add("curtain");
+			let curtains = qsa(".hidden-curtain");
+			for (let i = 0; i < curtains.length; i++) {
+				curtains[i].classList.remove("hidden-curtain");
+			}
+			setTimeout(function() {
+				let leftCurtain = qs(".left-panel");
+				let rightCurtain = qs(".right-panel");
+				leftCurtain.classList.add("translate-left");
+				rightCurtain.classList.add("translate-right");
+			}, 1500);
 			transition(id("questions"));
 			setTimeout(function() {
 				transition(id("calculation-page"));
-			}, 1000);
+			}, 2000);
 			setTimeout(function() {
 				document.body.scrollTop = 0; // For Safari
 				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-				createGauge();
+				calculateLikelihood();
 			}, 1000);
+			setTimeout(function() {
+				createGauge();
+			}, 2000);
 			// use this for drop down menu changes to be reflected on graph
 			document.addEventListener("input", function(event) { 
 				d3.selectAll("#power-gauge > *").remove()
@@ -346,7 +360,6 @@ const d3 = require('d3');
 					makeGenreBarChart();
 				}
 			});
-			calculateLikelihood();
 		}
 	}
 

@@ -23,6 +23,10 @@ body {
   	display: block;
 }
 
+.hidden-curtain {
+	display: none;
+}
+
 #questions.hidden {
 	display: none;
 }
@@ -520,24 +524,47 @@ select {
   float: left;
   z-index: 2;
   position: relative;
-  background: turquoise;
-  transition: all 1s ease-in;
+  transition: all 4s ease-in;
+  
+}
+
+.left-panel {
+ 	background-image: url("./curtains.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.right-panel {
+ 	background-image: url("./curtains2.png");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.left-panel p {
+	left: 45%;
+}
+
+.right-panel p {
+	left: 3%;
+}
+
+.left-panel p, .right-panel p {
+	font-family: "AndesRoundedRegular";
+	top: 40%;
+	position: absolute;
+	font-size: 50px;
 }
 
 .content {
   position: absolute;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
   background: 333;
   z-index: 1;
-  text-align: center;
 }
 
-.curtain:hover .left-panel {
+.translate-left {
     transform: translateX(-100%);
   }
 
-.curtain:hover .right-panel {
+.translate-right {
     transform: translateX(100%);
 }
