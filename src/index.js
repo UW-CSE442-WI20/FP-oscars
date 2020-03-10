@@ -1252,6 +1252,7 @@ const d3 = require('d3');
 			}
 			
 			function configure(configuration) {
+				currentAngle = null;
 				let prop = undefined;
 				for ( prop in configuration ) {
 					config[prop] = configuration[prop];
