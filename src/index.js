@@ -627,16 +627,16 @@ const d3 = require('d3');
 			  .style("stroke", "white");
 
 		legend.append("text")
-			  .attr("x", (width / 2) - 105)
-			  .attr("y", height - 30)
+			  .attr("x", (width / 2) - 103)
+			  .attr("y", height - 33)
 			  .text("Male")
 			  .style("font-size", "15px")
 			  .style("fill", "white")
 			  .attr("alignment-baseline","middle");
 
 		legend.append("text")
-			  .attr("x", (width / 2) + 95)
-			  .attr("y", height - 30)
+			  .attr("x", (width / 2) + 97)
+			  .attr("y", height - 33)
 			  .text("Female")
 			  .style("font-size", "15px")
 			  .style("fill", "white")
