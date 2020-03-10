@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./fonts/AndesRoundedBold.ttf":[["AndesRoundedBold.4bc5f4f7.ttf","fonts/AndesRoundedBold.ttf"],"fonts/AndesRoundedBold.ttf"],"./fonts/AndesRoundedMedium.ttf":[["AndesRoundedMedium.eb23c74f.ttf","fonts/AndesRoundedMedium.ttf"],"fonts/AndesRoundedMedium.ttf"],"./fonts/AndesRoundedRegular.ttf":[["AndesRoundedRegular.a08a725d.ttf","fonts/AndesRoundedRegular.ttf"],"fonts/AndesRoundedRegular.ttf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./fonts/AndesRoundedBold.ttf":[["AndesRoundedBold.4bc5f4f7.ttf","fonts/AndesRoundedBold.ttf"],"fonts/AndesRoundedBold.ttf"],"./fonts/AndesRoundedMedium.ttf":[["AndesRoundedMedium.eb23c74f.ttf","fonts/AndesRoundedMedium.ttf"],"fonts/AndesRoundedMedium.ttf"],"./fonts/AndesRoundedRegular.ttf":[["AndesRoundedRegular.a08a725d.ttf","fonts/AndesRoundedRegular.ttf"],"fonts/AndesRoundedRegular.ttf"],"./curtains.png":[["curtains.ad6e8616.png","curtains.png"],"curtains.png"],"./curtains2.png":[["curtains2.f7e2a4b4.png","curtains2.png"],"curtains2.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54781" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50089" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

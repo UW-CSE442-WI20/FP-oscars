@@ -8,15 +8,16 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap2.min.css">
-	<link rel="stylesheet" type="text/css" href="https://uw-cse442-wi20.github.io/FP-oscars/styles.4c5a525a.css">
+	<link rel="stylesheet" type="text/css" href="https://uw-cse442-wi20.github.io/FP-oscars/styles.87cbc808.css">
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://uw-cse442-wi20.github.io/FP-oscars/nouislider.ca7a1492.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-	<script src="https://uw-cse442-wi20.github.io/FP-oscars/src.ef4ef3d8.js"></script>
+	<script src="https://uw-cse442-wi20.github.io/FP-oscars/src.41edc69e.js"></script>
   </head>
   <body>
+    
 	  <div id="questions">
 		<div id="title-subtitle">
 			<h1>Let's Craft <br>an Oscar<br> Winning <br>Movie!</h1>
@@ -49,10 +50,14 @@
 				<p class="intro">The dialogue is the meat of your film. It's what gets your audience interested (or uninterested).</p>
 				<p>What percent of the lines should female characters speak?</p>
 				<div id="percent-container">
-				<div id="slider-container">
-					<div id="slider"></div>
+					<div id="slider-container">
+						<div id="slider"></div>
+					</div>
+					<span id="gender-percent"></span>
 				</div>
-				<span id="gender-percent"></span>
+				<div id="similar-movies">
+					<div id="similar-movies-intro-text"></div>
+					<div id="similar-movies-images"></div>
 				</div>
 			</div>
 		</div>
@@ -108,10 +113,10 @@
 		<div id="genre-page">
 				<h2>Genre</h2>
 				<div class="page-description">
-					<p class="intro">Film genres are associated with conventions, settings, narratives, characters, and actors. Often, movies are bucketed into many different genres.</p>
+					<p class="intro">Film genres are associated with conventions, settings, narratives, characters, and actors. Often, films are bucketed into many different genres.</p>
 					<p>What genre is your film?</p>
 					<div class="flex-container">
-						<div class="flex-element 1"><span>Action</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/action.075a2f7e.svg"></div>
+						<div class="flex-element 1"><span>Action</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/action.fba97dbc.svg"></div>
 						<div class="flex-element 2"><span>Adventure</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/adventure.165661b1.svg"></div>
 						<div class="flex-element 4"><span>Comedy</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/comedy.3296dc27.svg"></div>
 						<div class="flex-element 5"><span>Crime</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/crime.da791ec2.svg"></div>
@@ -122,7 +127,7 @@
 						<div class="flex-element 10"><span>Horror</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/horror.9cc16a5f.svg"></div>
 						<div class="flex-element 11"><span>Music</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/music.99990a41.svg"></div>
 						<div class="flex-element 11 highlighted-box"><span>Musical</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/musical.7aea4f1f.svg"></div>
-						<div class="flex-element 12"><span>Mystery</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/mystery.aced9d4e.svg"></div>
+						<div class="flex-element 12"><span>Mystery</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/mystery.f4b788d7.svg"></div>
 						<div class="flex-element 13"><span>Romance</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/heart.bc85ed56.svg"></div>
 						<div class="flex-element 14"><span>Sci-Fi</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/sci-fi.a407ffde.svg"></div>
 						<div class="flex-element 15"><span>Sport</span><img src="https://uw-cse442-wi20.github.io/FP-oscars/sport.f60fc20d.svg"></div>
@@ -137,119 +142,129 @@
 			<button id="switch-views">Get results!</button>
 		</div>
 	</div>
-
-    <div id="calculation-page" class="visually-hidden hidden">
-		<h2>Results</h2>
-    	<div class="page-description">
-			<p class="intro selections">Based on your selection of 
-				<select id="dialog-selection">
-						<option value="0%">0%</option>
-						<option value="5%">5%</option>
-						<option value="10%">10%</option>
-						<option value="15%">15%</option>
-						<option value="20%">20%</option>
-						<option value="25%">25%</option>
-						<option value="30%">30%</option>
-						<option value="35%">35%</option>
-						<option value="40%">40%</option>
-						<option value="45%">45%</option>
-						<option value="50%">50%</option>
-						<option value="55%">55%</option>
-						<option value="60%">60%</option>
-						<option value="65%">65%</option>
-						<option value="70%">70%</option>
-						<option value="75%">75%</option>
-						<option value="80%">80%</option>
-						<option value="85%">85%</option>
-						<option value="90%">90%</option>
-						<option value="95%">95%</option>
-						<option value="100%">100%</option>
-					</select> female speaking lines, a director who is 
-				
-				<select id="director-gender">
-						<option value="male">male</option>
-						<option value="female">female</option>
-				</select> and 
-				<select id="director-nationality">
-						<option value="american">American</option>
-						<option value="australian">Australian</option>
-						<option value="brazilian">Brazilian</option>
-						<option value="british">British</option>
-						<option value="canadian">Canadian</option>
-						<option value="english">English</option>
-						<option value="french">French</option>
-						<option value="german">German</option>
-						<option value="greek">Greek</option>
-						<option value="irish">Irish</option>
-						<option value="italian">Italian</option>
-						<option value="mexican">Mexican</option>
-						<option value="new zealander">New Zealander</option>
-						<option value="norwegian">Norwegian</option>
-						<option value="polish">Polish</option>
-						<option value="scottish">Scottish</option>
-						<option value="south korean">South Korean</option>
-						<option value="spanish">Spanish</option>
-						<option value="swiss">Swiss</option>
-						<option value="taiwanese">Taiwanese</option>
-					</select>, and a choice of 
-					<select id="genre-selection">
-						<option value="action">action</option>
-						<option value="adventure">adventure</option>
-						<option value="comedy">comedy</option>
-						<option value="crime">crime</option>
-						<option value="drama">drama</option>
-						<option value="family">family</option>
-						<option value="fantasy">fantasy</option>
-						<option value="history">history</option>
-						<option value="horror">horror</option>
-						<option value="music">music</option>
-						<option value="musical">musical</option>
-						<option value="mystery">mystery</option>
-						<option value="Romance">romance</option>
-						<option value="sci-fi">sci-fi</option>
-						<option value="sport">sport</option>
-						<option value="thriller">thriller</option>
-						<option value="war">war</option>
-						<option value="western">western</option>
-					</select>
-					genre, the Oscar goes to...</p>
-		</div>
-		<div id="gauge">
-			<svg id="power-gauge"></svg>
-		</div>
-		<p id="gauge-text"></p>
-		<!-- <p id="boost-breakdown"><span id="dialogue-breakdown-percent"></span>% x <span id="director-gender-percent"></span>% x <span id="director-nationality-percent"></span>% x <span id="genre-percent"></span> = <span id="total-percent"></span>%</p> -->
-		<h2>Charts</h2>
-		<p class="page-description chart-intro">Let's see how your choices compare to the actual winners! These results span Oscar awards from 2001 - 2020.</p>
-		<h3 class="chart-title">Percent of Words Spoken By Women</h3>
-		<div class="chart" id="gender-chart">
-			<svg id="dialog-dot-chart" class="chart-image" width="700" height="550"></svg>
-			<div class="chart-description">
-				<p>Most film dialogues are made up of a majority of male-spoken words. These percentages were calculated by counting the number of words spoken by each character in each screenplay. Characters with at least 100 spoken words were then mapped to IMDB pages to identify them as male or female.</p> 
-				<p>The reason behind this threshold is because characters with few words don't consistently have the same name in the screenplay as IMDB. Unfortunately, this exclusion categorizes some movies as having 100% male dialogue, when that's not the case. For example, the film, 1917, supposedly has 0% female dialogue, but a female character named Lauri says 88 words, so it actually has 1.7% female dialogue.</p>
-				<p>Additionally, some of the data for this chart was found <a href="https://pudding.cool/2017/03/film-dialogue" target="_blank">here</a>, which also uses the 100-word threshold. For screenplays that weren't included in their dataset, we wanted to maintain consistency when calculating percentages.</p>
+	
+	<div id="to-be-curtained"> 
+		<div class="left-panel hidden-curtain"><p>And the Oscar</p> </div>
+    
+    	<div class="right-panel hidden-curtain"><p>goes to...</p></div>
+	<div class="content">
+	    <div id="calculation-page" class="visually-hidden hidden">
+			<h2>Results</h2>
+	    	<div class="page-description">
+				<p class="intro selections">Based on your selection of 
+					<select id="dialog-selection">
+							<option value="0%">0%</option>
+							<option value="5%">5%</option>
+							<option value="10%">10%</option>
+							<option value="15%">15%</option>
+							<option value="20%">20%</option>
+							<option value="25%">25%</option>
+							<option value="30%">30%</option>
+							<option value="35%">35%</option>
+							<option value="40%">40%</option>
+							<option value="45%">45%</option>
+							<option value="50%">50%</option>
+							<option value="55%">55%</option>
+							<option value="60%">60%</option>
+							<option value="65%">65%</option>
+							<option value="70%">70%</option>
+							<option value="75%">75%</option>
+							<option value="80%">80%</option>
+							<option value="85%">85%</option>
+							<option value="90%">90%</option>
+							<option value="95%">95%</option>
+							<option value="100%">100%</option>
+						</select> female speaking lines, a director who is 
+					
+					<select id="director-gender">
+							<option value="male">male</option>
+							<option value="female">female</option>
+					</select> and 
+					<select id="director-nationality">
+							<option value="american">American</option>
+							<option value="australian">Australian</option>
+							<option value="brazilian">Brazilian</option>
+							<option value="british">British</option>
+							<option value="canadian">Canadian</option>
+							<option value="english">English</option>
+							<option value="french">French</option>
+							<option value="german">German</option>
+							<option value="greek">Greek</option>
+							<option value="irish">Irish</option>
+							<option value="italian">Italian</option>
+							<option value="mexican">Mexican</option>
+							<option value="new zealander">New Zealander</option>
+							<option value="norwegian">Norwegian</option>
+							<option value="polish">Polish</option>
+							<option value="scottish">Scottish</option>
+							<option value="south korean">South Korean</option>
+							<option value="spanish">Spanish</option>
+							<option value="swiss">Swiss</option>
+							<option value="taiwanese">Taiwanese</option>
+						</select>, and a choice of 
+						<select id="genre-selection">
+							<option value="action">action</option>
+							<option value="adventure">adventure</option>
+							<option value="comedy">comedy</option>
+							<option value="crime">crime</option>
+							<option value="drama">drama</option>
+							<option value="family">family</option>
+							<option value="fantasy">fantasy</option>
+							<option value="history">history</option>
+							<option value="horror">horror</option>
+							<option value="music">music</option>
+							<option value="musical">musical</option>
+							<option value="mystery">mystery</option>
+							<option value="romance">romance</option>
+							<option value="sci-fi">sci-fi</option>
+							<option value="sport">sport</option>
+							<option value="thriller">thriller</option>
+							<option value="war">war</option>
+							<option value="western">western</option>
+						</select>
+						genre, the Oscar goes to...</p>
+			</div>
+			<div id="gauge">
+				<svg id="power-gauge"></svg>
+			</div>
+			<p id="gauge-text"></p>
+			<!-- <p id="boost-breakdown"><span id="dialogue-breakdown-percent"></span>% x <span id="director-gender-percent"></span>% x <span id="director-nationality-percent"></span>% x <span id="genre-percent"></span> = <span id="total-percent"></span>%</p> -->
+			<h2>Charts</h2>
+			<p class="page-description chart-intro">Let's see how your choices compare to the actual winners! These results span Oscar awards from 2001 - 2020.</p>
+			<h3 class="chart-title">Percent of Words Spoken By Women</h3>
+			<div class="chart" id="gender-chart">
+				<svg id="dialog-dot-chart" class="chart-image" width="700" height="550"></svg>
+				<div class="chart-description">
+					<p>Most film dialogues are made up of a majority of male-spoken words. These percentages were calculated by counting the number of words spoken by each character in each screenplay. Characters with at least 100 spoken words were then mapped to IMDB pages to identify them as male or female.</p> 
+					<p>The reason behind this threshold is because characters with few words don't consistently have the same name in the screenplay as IMDB. Unfortunately, this exclusion categorizes some films as having 100% male dialogue, when that's not the case. For example, the film, <i>1917</i>, supposedly has 0% female dialogue, but a female character named Lauri says 88 words, so it actually has 1.7% female dialogue.</p>
+					<p>Additionally, some of the data for this chart was found <a href="https://pudding.cool/2017/03/film-dialogue" target="_blank">here</a>, which also uses the 100-word threshold. For screenplays that weren't included in their dataset, we wanted to maintain consistency when calculating percentages.</p>
+				</div>
+			</div>
+			<h3 class="chart-title">Gender Breakdown of Directors</h3>
+			<div class="chart">
+				<svg id="gender-director-pi-chart" class="chart-image" width="600" height="550"></svg>
+				<p class="chart-description">Directors of Oscar-winning films are predominantly male. In fact, over the last 20 years of Oscar awards, only 4 winning films have had female directors, and only 1 female director, Kathryn Bigelow, has won Best Director.</p>
+			</div>
+			<h3 class="chart-title">Nationality Breakdown of Directors</h3>
+			<div class="chart">
+				<svg id="nationality-bar-chart" class="chart-image" width="725" height="700"></svg>
+				<p class="chart-description">There are 20 different nationalities that correspond to directors of Oscar-winning films. Some directors have dual nationalities (e.g., British-American), so we handled these cases by counting 0.5 towards each nationality present (i.e., 0.5 towards British count and 0.5 towards American count).</p>
+			</div>
+			<h3 class="chart-title">Genre Breakdown</h3>
+			<div class="chart">
+				<svg id="genre-bar-chart" class="chart-image" width="725" height="700"></svg>
+				<p class="chart-description">Over the years, films with a variety of different genres have won Oscars, but drama films have won the most by far. Sometimes a film can be categorized by more than one genre, for example, <i>Black Swan</i> is both a drama and a thriller. In this case, we count 1 Oscar winning film towards each of these genres.</p>
+			</div>
+			<div id="back-button-container">
+				<p id="go-back">You done? You wanna go...</p> 
+				<button id="back">Back</button>
+			</div>
+			<div>
+				<p id="film-disclaimer">Note: Some films that have won Oscars between 2001 and 2020 are not included in the "Percent of Words Spoken By Women" chart because their screenplays were not available. These films include <i>Dreamgirls</i>, <i>Iris</i>, <i>La Vie en Rose</i>, <i>Once Upon a Time in Hollywood</i>, <i>Pollock</i>, <i>Ray</i>, <i>The Constant Gardener</i>,
+				<i>The Hours</i>, and <i>The Last King of Scotland</i></p>
+			</div>
 			</div>
 		</div>
-		<h3 class="chart-title">Gender Breakdown of Directors</h3>
-		<div class="chart">
-			<svg id="gender-director-pi-chart" class="chart-image" width="600" height="475"></svg>
-			<p class="chart-description">Directors of Oscar-winning films are predominantly male. In fact, over the last 20 years of Oscar awards, only 4 winning films have had female directors, and only 1 female director, Kathryn Bigelow, has won Best Director.</p><p>
-		</p></div>
-		<h3 class="chart-title">Nationality Breakdown of Directors</h3>
-		<div class="chart">
-			<svg id="nationality-bar-chart" class="chart-image" width="775" height="700"></svg>
-			<p class="chart-description">There are 20 different nationalities that correspond to directors of Oscar-winning films. Some directors have dual nationalities (e.g., British-American), so we handled these cases by counting 0.5 towards each nationality present (i.e., 0.5 towards British count and 0.5 towards American count).</p>
-		</div>
-		<h3 class="chart-title">Genre Breakdown</h3>
-		<div class="chart">
-			<svg id="genre-bar-chart" class="chart-image" width="775" height="700"></svg>
-			<p class="chart-description">Over the years, films with a variety of different genres have won Oscars, but drama films have won the most by far. Sometimes a film can be categorized by more than one genre, for example Black Swan is both a drama and a thriller. In this case, we count 1 Oscar winning film towards each of these genres.</p>
-		</div>
-		<div id="back-button-container">
-			<p id="go-back">You done? You wanna go...</p> 
-			<button id="back">Back</button>
-		</div>
-		</div>
-	
+	</div>
   </body>
 </html>
