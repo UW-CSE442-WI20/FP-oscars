@@ -538,9 +538,6 @@ const d3 = require('d3');
 						  .append("div")
 						  .attr("class", "tooltip")
 						  .style("opacity", 0);
-
-		let selected_gender = id("director-gender").value;
-		let genders = ["male", "female"]
 		
 		// Generate groups
 		let arcs = g.selectAll(".arc")
@@ -572,20 +569,6 @@ const d3 = require('d3');
 		arcs.append("path")
 			.style("fill", function(d, i) {
 				return color(i);
-			})
-			.style("opacity", function(d, i) {
-				if (genders[i] == selected_gender) {
-					return 1;
-				} else {
-					return 0.4;
-				}
-			})
-			.style("stroke-width", function(d, i) {
-				if (genders[i] == selected_gender) {
-					return "2px";
-				} else {
-					return "1px";
-				}
 			})
 			.transition()
 			.delay(function(d, i) {
@@ -638,7 +621,7 @@ const d3 = require('d3');
 			marginLeft = 150,
 			marginTop = 100,
             margin = 200,
-            width = svg.attr("width") - margin,
+            width = svg.attr("width") - 300,
             height = svg.attr("height") - margin;
 
 		// Add group for the chart axes
@@ -661,6 +644,9 @@ const d3 = require('d3');
 						  "action", "fantasy", "sci-fi", "mystery", "music",
 						  "adventure",  "war", "crime", "thriller", "comedy",
 						  "romance", "history", "drama"];
+
+		const textDelay = 2500;
+		const textFadeInDuration = 2000;
 
 		d3.csv(genreCSV).then(function(data) {
 			// Create scales for x and y axes
@@ -713,27 +699,6 @@ const d3 = require('d3');
 			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
 			   .attr("height", 20)
 			   .style("fill", "#6BA6D9")
-			   .style("opacity", function(d, i) {
-				   if (genreNames[i] == selected_genre) {
-					   return 1;
-					} else {
-						return 0.4;
-					}
-				})
-				.style("stroke-width", function(d, i) {
-					if (genreNames[i] == selected_genre) {
-						return "2px";
-					} else {
-						return "1px";
-					}
-				})
-			   .style("stroke", function(d, i) {
-					if (genreNames[i] == selected_genre) {
-						return "white";
-					} else {
-						return "black";
-					}
-				})
 			   .on("mouseover", function(d) {
 				   tooltip.transition()
 					      .duration(200)		
@@ -752,6 +717,28 @@ const d3 = require('d3');
         	   .transition()
                .duration(3000)
 			   .attr("width", function(d) { return xScale(d.value); });
+
+			// indicate user's selection
+			svg.selectAll("indicator")
+			   .data(data)
+			   .enter()
+			   .append("text")
+			   .attr("x", function(d) { return xScale(0) + marginLeft + xScale(d.value) + 10; })
+			   .attr("y", function(d) { return yScale(d.genre) + marginTop + 15; })
+			   .text("<--- your selection")
+			   .style("fill", "white")
+			   .style("font-size", "12px")
+			   .style("opacity", 0)
+			   .transition()
+		       .delay(textDelay)
+			   .duration(textFadeInDuration)
+			   .style("opacity", function(d, i) {
+				   if (genreNames[i] == selected_genre) {
+						return 1;
+					} else {
+						return 0;
+					}
+				});
 
 			// Put genre name along y-axis
 			svg.selectAll("genre-name")
@@ -783,7 +770,7 @@ const d3 = require('d3');
 			marginLeft = 150,
 			marginTop = 100,
             margin = 200,
-            width = svg.attr("width") - margin,
+            width = svg.attr("width") - 300,
 			height = svg.attr("height") - margin;
 			
 		// Add group for the chart axes
@@ -806,8 +793,8 @@ const d3 = require('d3');
 					 scottishFlag, southKoreanFlag, spanishFlag, irishFlag, newZealandFlag, taiwaneseFlag,
 					 australianFlag, canadianFlag, frenchFlag, britishFlag, mexicanFlag, englishFlag, usFlag];
 
-		const legendDelay = 2500;
-		const legendDuration = 2000;
+		const textDelay = 2500;
+		const textFadeInDuration = 2000;
 
 		let selected_nationality = id("director-nationality").value;
 		let nationalities = ["german", "polish", "swiss", "brazilian", "greek", "italian",
@@ -876,27 +863,6 @@ const d3 = require('d3');
 						   return "#FED800";
 					   }
 			   })
-			   .style("opacity", function(d, i) {
-					if (nationalities[i] == selected_nationality) {
-						return 1;
-					} else {
-						return 0.4;
-					}
-			 	})
-			 	.style("stroke-width", function(d, i) {
-					if (nationalities[i] == selected_nationality) {
-						return "2px";
-					} else {
-						return "1px";
-					}
-			 	})
-				.style("stroke", function(d, i) {
-					if (nationalities[i] == selected_nationality) {
-						return "white";
-					} else {
-						return "black";
-					}
-			 	})
 			   .on("mouseover", function(d) {
 				   tooltip.transition()
 					      .duration(200)		
@@ -915,6 +881,28 @@ const d3 = require('d3');
         	   .transition()
 			   .duration(3000)
 			   .attr("width", function(d) { return xScale(d.value); });
+			
+			// indicate user's selection
+			svg.selectAll("indicator")
+			   .data(data)
+			   .enter()
+			   .append("text")
+			   .attr("x", function(d) { return xScale(0) + marginLeft + xScale(d.value) + 10; })
+			   .attr("y", function(d) { return yScale(d.nationality) + marginTop + 15; })
+			   .text("<--- your selection")
+			   .style("fill", "white")
+			   .style("font-size", "12px")
+			   .style("opacity", 0)
+			   .transition()
+		       .delay(textDelay)
+			   .duration(textFadeInDuration)
+			   .style("opacity", function(d, i) {
+				   if (nationalities[i] == selected_nationality) {
+						return 1;
+					} else {
+						return 0;
+					}
+				});
 
 			// Put nationality name along y-axis
 			svg.selectAll("nationality-name")
@@ -939,6 +927,20 @@ const d3 = require('d3');
 			   .attr("width", "18")
 			   .attr("xlink:href", function(d, i) { return flags[i]; });
 
+			   svg.append("text")
+			   .attr("x", (width / 2) + 265)
+			   .attr("y", (height / 3) - 30)
+			   .text("Continents")
+			   .style("font-size", "17px")
+			   .style("text-decoration", "underline solid white")
+			   .style("fill", "white")
+			   .attr("alignment-baseline","middle")
+			   .style("opacity", 0)
+			   .transition()
+			   .delay(textDelay)
+			   .duration(textFadeInDuration)
+			   .style("opacity", 1);
+
 			// Make continent legend
 		  	svg.append("text")
 				  .attr("x", (width / 2) + 265)
@@ -950,8 +952,8 @@ const d3 = require('d3');
 				  .attr("alignment-baseline","middle")
 				  .style("opacity", 0)
                   .transition()
-                  .delay(legendDelay)
-                  .duration(legendDuration)
+                  .delay(textDelay)
+                  .duration(textFadeInDuration)
                   .style("opacity", 1);
 
 		  	svg.append("circle")
@@ -961,8 +963,8 @@ const d3 = require('d3');
 				.style("fill", "#6BA6D9")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);  
 
 			svg.append("circle")
@@ -972,8 +974,8 @@ const d3 = require('d3');
 				.style("fill", "#C677B1")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);
 
 			svg.append("circle")
@@ -983,8 +985,8 @@ const d3 = require('d3');
 				.style("fill", "#FED800")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);
 
 			svg.append("circle")
@@ -994,8 +996,8 @@ const d3 = require('d3');
 				.style("fill", "#91C95B")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);
 
 			svg.append("text")
@@ -1007,8 +1009,8 @@ const d3 = require('d3');
 				.attr("alignment-baseline","middle")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);
 
 			svg.append("text")
@@ -1020,8 +1022,8 @@ const d3 = require('d3');
 				.attr("alignment-baseline","middle")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);
 
 			svg.append("text")
@@ -1033,8 +1035,8 @@ const d3 = require('d3');
 				.attr("alignment-baseline","middle")
 				.style("opacity", 0)
 				.transition()
-				.delay(legendDelay)
-				.duration(legendDuration)
+				.delay(textDelay)
+				.duration(textFadeInDuration)
 				.style("opacity", 1);
 
 			svg.append("text")
@@ -1046,8 +1048,8 @@ const d3 = require('d3');
 				.attr("alignment-baseline","middle")
 				.style("opacity", 0)
                   .transition()
-                  .delay(legendDelay)
-                  .duration(legendDuration)
+                  .delay(textDelay)
+                  .duration(textFadeInDuration)
                   .style("opacity", 1);
 		});
 	}
