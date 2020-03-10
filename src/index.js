@@ -599,10 +599,10 @@ const d3 = require('d3');
 			})
 			.transition()
 			.delay(function(d, i) {
-				return i * 4000;
-			}).duration(4000)
+				return i * 3000;
+			}).duration(3000)
 			.attrTween('d', function(d) {
-				let i = d3.interpolate(d.startAngle+0.1, d.endAngle);
+				let i = d3.interpolate(d.startAngle, d.endAngle);
 				return function(t) {
 					d.endAngle = i(t);
         			return arc(d);
