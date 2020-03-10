@@ -538,6 +538,9 @@ const d3 = require('d3');
 						  .append("div")
 						  .attr("class", "tooltip")
 						  .style("opacity", 0);
+
+		let selected_gender = id("director-gender").value;
+		let genders = ["male", "female"]
 		
 		// Generate groups
 		let arcs = g.selectAll(".arc")
@@ -569,6 +572,20 @@ const d3 = require('d3');
 		arcs.append("path")
 			.style("fill", function(d, i) {
 				return color(i);
+			})
+			.style("opacity", function(d, i) {
+				if (genders[i] == selected_gender) {
+					return 1;
+				} else {
+					return 0.4;
+				}
+			})
+			.style("stroke-width", function(d, i) {
+				if (genders[i] == selected_gender) {
+					return "2px";
+				} else {
+					return "1px";
+				}
 			})
 			.transition()
 			.delay(function(d, i) {
@@ -639,6 +656,12 @@ const d3 = require('d3');
 					  adventureIcon, warIcon, crimeIcon, thrillerIcon, comedyIcon,
 					  romanceIcon, historyIcon, dramaIcon];
 
+		selected_genre = id("genre-selection").value;
+		let genreNames = ["family", "horror", "western", "sport", "musical",
+						  "action", "fantasy", "sci-fi", "mystery", "music",
+						  "adventure",  "war", "crime", "thriller", "comedy",
+						  "romance", "history", "drama"];
+
 		d3.csv(genreCSV).then(function(data) {
 			// Create scales for x and y axes
 			let xScale = d3.scaleLinear()
@@ -690,9 +713,27 @@ const d3 = require('d3');
 			   .attr("y", function(d) { return yScale(d.genre) + marginTop; })
 			   .attr("height", 20)
 			   .style("fill", "#6BA6D9")
-			   .style("opacity", 0.8)
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
+			   .style("opacity", function(d, i) {
+				   if (genreNames[i] == selected_genre) {
+					   return 1;
+					} else {
+						return 0.4;
+					}
+				})
+				.style("stroke-width", function(d, i) {
+					if (genreNames[i] == selected_genre) {
+						return "2px";
+					} else {
+						return "1px";
+					}
+				})
+			   .style("stroke", function(d, i) {
+					if (genreNames[i] == selected_genre) {
+						return "white";
+					} else {
+						return "black";
+					}
+				})
 			   .on("mouseover", function(d) {
 				   tooltip.transition()
 					      .duration(200)		
@@ -761,13 +802,18 @@ const d3 = require('d3');
 		let oceania = ["Australian", "New Zealand"]; // green
 		let asia = ["South Korean", "Taiwanese"]; // yellow
 
-		let flags = [germanFlag, swissFlag, brazilFlag, greekFlag, italianFlag, norwegianFlag,
-					 scottishFlag, spanishFlag, polishFlag, australianFlag, irishFlag,
-					 southKoreanFlag, newZealandFlag, taiwaneseFlag, canadianFlag, frenchFlag,
-					 britishFlag, mexicanFlag, englishFlag, usFlag];
+		let flags = [germanFlag, polishFlag, swissFlag, brazilFlag, greekFlag, italianFlag, norwegianFlag,
+					 scottishFlag, southKoreanFlag, spanishFlag, irishFlag, newZealandFlag, taiwaneseFlag,
+					 australianFlag, canadianFlag, frenchFlag, britishFlag, mexicanFlag, englishFlag, usFlag];
 
 		const legendDelay = 2500;
 		const legendDuration = 2000;
+
+		let selected_nationality = id("director-nationality").value;
+		let nationalities = ["german", "polish", "swiss", "brazilian", "greek", "italian",
+							 "norwegian", "scottish", "south Korean", "spanish", "irish", 
+							 "new Zealand", "taiwanese", "australian", "canadian", "french",
+							 "british", "mexican", "english", "american"];
 
 		d3.csv(nationalityCSV).then(function(data) {
 			// Create scales for x and y axes
@@ -830,8 +876,27 @@ const d3 = require('d3');
 						   return "#FED800";
 					   }
 			   })
-			   .style("stroke", "black")
-			   .style("stroke-width", "1px")
+			   .style("opacity", function(d, i) {
+					if (nationalities[i] == selected_nationality) {
+						return 1;
+					} else {
+						return 0.4;
+					}
+			 	})
+			 	.style("stroke-width", function(d, i) {
+					if (nationalities[i] == selected_nationality) {
+						return "2px";
+					} else {
+						return "1px";
+					}
+			 	})
+				.style("stroke", function(d, i) {
+					if (nationalities[i] == selected_nationality) {
+						return "white";
+					} else {
+						return "black";
+					}
+			 	})
 			   .on("mouseover", function(d) {
 				   tooltip.transition()
 					      .duration(200)		
