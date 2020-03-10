@@ -7,7 +7,7 @@ const d3 = require('d3');
 	const NUM_SIMILAR_MOVIES = 2;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const genreCSV = require("./genre.csv");
-	const nationalityCSV = require("./nationalities.csv");
+	const nationalityCSV = require("./nationality-redo.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
@@ -407,10 +407,10 @@ const d3 = require('d3');
 		let total_genres = 237;
 
 		let nationalityDict = {"german": 0.5, "swiss": 0.5, "brazilian": 1, "greek": 1, "italian": 1,
-							   "norwegian": 1, "scottish": 1, "spanish": 1, "polish": 1.5, 
-							   "australian": 2, "irish": 2, "south Korean": 3, "new Zealand": 5,
-							   "taiwanese": 5, "canadian": 5.5, "french": 9, "british": 10,
-							   "mexican": 14, "english": 15, "american": 105.5};
+							   "norwegian": 1, "scottish": 1, "spanish": 1, "polish": 0.5, 
+							   "australian": 3.5, "irish": 1.5, "south Korean": 1, "new Zealand": 3,
+							   "taiwanese": 3, "canadian": 3.5, "french": 5, "british": 6,
+							   "mexican": 6, "english": 11, "american": 65.5};
 		
 		let dialogue_percentages = [0, 0, 0, 0, 0, 1.14, 1.7, 2.95, 3.1, 3.21, 3.6, 3.72, 4.01, 5.59, 6.41, 6.87, 7.04, 7.1, 7.5, 7.65, 9.55, 9.68, 9.77, 10.1, 10.27, 10.6, 12.01, 13.69, 13.94, 14.6, 14.8,
 		15.05, 15.12, 15.23, 15.44, 15.46, 15.6, 16.29, 16.99261993, 17.66, 17.75, 18.16, 18.5,
@@ -750,7 +750,7 @@ const d3 = require('d3');
 		d3.csv(nationalityCSV).then(function(data) {
 			// Create scales for x and y axes
 			let xScale = d3.scaleLinear()
-						   .domain([0, 110])
+						   .domain([0, 70])
 						   .range([0, width]);
 
 			let yScale = d3.scaleBand()
