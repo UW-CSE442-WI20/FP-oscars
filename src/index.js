@@ -527,7 +527,7 @@ const d3 = require('d3');
 						tooltip.transition()
 							.duration(200)		
 							.style("opacity", 1.0)		
-						tooltip.html(100 * (Math.round(d.value) / (1.0 * total)).toFixed(3) + "%")	
+						tooltip.html((100 * (Math.round(d.value) / (1.0 * total))).toFixed(2) + "%")	
 							.style("left", (d3.event.pageX) + "px")		
 							.style("top", (d3.event.pageY) + "px")
 							.style("background-color", function() {
