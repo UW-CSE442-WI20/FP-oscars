@@ -311,7 +311,8 @@ const d3 = require('d3');
 		} else if (WARNING_MODE && notSelectedGenre) {
 			issueWarning("a movie genre!");
 	  	} else {
-			id("to-be-curtained").classList.add("curtain");
+	  		id("to-be-curtained").classList.add("curtain");
+			
 			let curtains = qsa(".hidden-curtain");
 			for (let i = 0; i < curtains.length; i++) {
 				curtains[i].classList.remove("hidden-curtain");
@@ -500,6 +501,13 @@ const d3 = require('d3');
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
 		qs(".tooltip").remove();
+		let leftCurtain = qs(".left-panel");
+		let rightCurtain = qs(".right-panel");
+		leftCurtain.classList.add("hidden-curtain");
+		rightCurtain.classList.add("hidden-curtain");
+		leftCurtain.classList.remove("translate-left");
+		rightCurtain.classList.remove("translate-right");
+		id("to-be-curtained").classList.remove("curtain");
 	}
 
 	function makeGenderDirectorPiChart() {

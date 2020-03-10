@@ -505,26 +505,32 @@ select {
 }
 
 select {
-  margin: 0;
-  font-family: inherit;
-  font-size: 16px;
-  margin: 3px 5px;
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: 16px;
+  	margin: 3px 5px;
 }
 
-.curtain {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+#to-be-curtained {
+	opacity: 0;
+	transition: opacity 3s ease-in-out;
+}
+
+#to-be-curtained.curtain {
+	opacity: 1;
+  	width: 100%;
+  	height: 100vh;
+  	overflow: hidden;
 }
 
 .left-panel,
 .right-panel {
-  width: 50%;
-  height: 100vh;
-  float: left;
-  z-index: 2;
-  position: relative;
-  transition: all 4s ease-in;
+  	width: 50%;
+  	height: 100vh;
+  	float: left;
+  	z-index: 2;
+  	position: relative;
+  	transition: all 4s ease-in;
   
 }
 
