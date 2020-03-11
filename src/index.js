@@ -337,6 +337,7 @@ const d3 = require('d3');
 				updateYourGenderSelectionText();
 				updateYourGenreSelectionText();
 				updateYourNationalitySelectionText();
+				updateYourDialogueSelectionText();
 			}, 2000);
 			// use this for drop down menu changes to be reflected on graph
 			document.addEventListener("input", function(event) { 
