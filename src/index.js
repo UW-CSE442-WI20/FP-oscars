@@ -405,29 +405,30 @@ const d3 = require('d3');
 	}
 
 	function updateYourDialogueSelectionText() {
-		if (dialogueDotPlotMade) {
-			let dialogueSelection = qs(".dialogue-selection-star");
-			dialogueSelection.style.opacity = 0;
-			let symbolGenerator = d3.symbol()
-				  .type(d3.symbolStar)
-				  .size(80);
+		// const height = 600 - 60 - 150;
+		// if (dialogueDotPlotMade) {
+		// 	let dialogueSelection = qs(".dialogue-selection-star");
+		// 	dialogueSelection.parentNode.removeChild(dialogueSelection);
+		// 	let symbolGenerator = d3.symbol()
+		// 		  .type(d3.symbolStar)
+		// 		  .size(80);
 
-			let pathData = symbolGenerator();
+		// 	let pathData = symbolGenerator();
 
-            let percentValue = parseInt(id("dialog-selection").value);
-            let transformString = id(percentValue).getAttribute("transform");
-            let firstPart = transformString.split(",");
-            let secondPart = firstPart[0].split("(");
-            let xPlacement = secondPart[1];
-            d3.select("#dialog-dot-chart").append("path")
-            	.attr("class", "dialogue-selection-star")
-            	.attr('d', pathData)
-            	.attr('transform', function() {
-            		return 'translate(' + (xPlacement) + ',' + ((id(percentValue).children.length + 1) * 2.75 * 7.2) + ')';
-            	})
-            	.style("fill", "white")
-			    .style("opacity", 1);
-		}
+  //           let percentValue = parseInt(id("dialog-selection").value);
+  //           let transformString = id(percentValue).getAttribute("transform");
+  //           let firstPart = transformString.split(",");
+  //           let secondPart = firstPart[0].split("(");
+  //           let xPlacement = secondPart[1];
+  //           d3.select("#dialog-dot-chart").append("path")
+  //           	.attr("class", "dialogue-selection-star")
+  //           	.attr('d', pathData)
+  //           	.attr('transform', function() {
+  //           		return 'translate(' + (xPlacement) + ',' + (height - ((id(percentValue).children.length + 1) * 2.75 * 7.2 + 10)) + ')';
+  //           	})
+  //           	.style("fill", "white")
+		// 	    .style("opacity", 1);
+		// }
 	}
 
 	function issueWarning(warning) {
@@ -1205,8 +1206,7 @@ const d3 = require('d3');
 
 		    let selection = parseInt(id("dialog-selection").value);
 		    //binning data and filtering out empty bins
-		    const bins = histogram(allData).filter(d => d.length>0);
-		    console.log(bins);
+		    const bins = histogram(allData);
 
 		    let cx = 0;
 		    let cy = 0;
@@ -1281,11 +1281,14 @@ const d3 = require('d3');
             let firstPart = transformString.split(",");
             let secondPart = firstPart[0].split("(");
             let xPlacement = secondPart[1];
+            console.log(xPlacement);
+            console.log()
+            console.log((id(percentValue).children.length + 1) * 2.75 * 7.2);
             svg.append("path")
             	.attr("class", "dialogue-selection-star")
             	.attr('d', pathData)
             	.attr('transform', function() {
-            		return 'translate(' + (xPlacement) + ',' + ((id(percentValue).children.length + 1) * 2.75 * 7.2) + ')';
+            		return 'translate(' + (xPlacement) + ',' + (height - (id(percentValue).children.length + 1) * 2.75 * 7.2 + 10) + ')';
             	})
             	.style("fill", "white")
             	.style("opacity", 0)
