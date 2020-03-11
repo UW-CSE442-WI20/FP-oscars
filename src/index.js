@@ -334,6 +334,7 @@ const d3 = require('d3');
 			}, 1000);
 			setTimeout(function() {
 				createGauge();
+				updateYourGenderSelectionText();
 				updateYourGenreSelectionText();
 				updateYourNationalitySelectionText();
 			}, 2000);
@@ -342,6 +343,7 @@ const d3 = require('d3');
 				d3.selectAll("#power-gauge > *").remove()
 				calculateLikelihood();
 				createGauge();
+				updateYourGenderSelectionText();
 				updateYourGenreSelectionText();
 				updateYourNationalitySelectionText();
 			});
@@ -365,6 +367,17 @@ const d3 = require('d3');
 					makeGenreBarChart();
 				}
 			});
+		}
+	}
+
+	function updateYourGenderSelectionText() {
+		if (genderDirectorChartMade) {
+			let genderSelections = qsa(".your-gender-selection");
+			for (let i = 0; i < genderSelections.length; i++) {
+				genderSelections[i].style.opacity = 0;
+			}
+			let selectedGender = id("director-gender").value;
+			id(selectedGender).style.opacity = 1;
 		}
 	}
 
@@ -625,7 +638,10 @@ const d3 = require('d3');
 			.attr("x", function(d, i) { return xValues[i]; })
 			.attr("y", function(d, i) { return yValues[i]; })
 			.text("← your selection")
-			.attr("class", "your-genre-selection")
+			.attr("class", "your-gender-selection")
+			.attr("id", function(d, i) {
+				return genders[i];
+			})
 			.style("fill", "white")
 			.style("font-size", "12px")
 			.style("opacity", 0)
