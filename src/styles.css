@@ -387,7 +387,11 @@ select {
 	font-family: "AndesRoundedBold";
 	text-align: center;
 	font-size: 30px;
-	margin-top: -10%;
+}
+
+#info-icon {
+	height: 15px;
+	margin-left: 1%;
 }
 
 #power-gauge {
@@ -411,12 +415,33 @@ select {
 	font-family: "AndesRoundedRegular";
 }
 
+.tooltip {
+	background: white;
+	margin-bottom: 1%;
+	max-width: 300px;
+}
+
 .chart-description a {
 	color: #F7ECB5;
 }
 
 .chart-description a:hover {
 	color: #FED800;
+}
+
+#gauge-text-container {
+	margin-top: -10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#tooltip-image {
+	height: 15px;
+}
+
+#tooltip-link {
+	margin-left: 1%;
 }
 
 .chart {

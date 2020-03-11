@@ -12,6 +12,7 @@
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./nouislider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="./index.js"></script>
@@ -227,7 +228,10 @@
 			<div id="gauge">
 				<svg id="power-gauge"></svg>
 			</div>
-			<p id="gauge-text"></p>
+			<div id="gauge-text-container">
+				<p id="gauge-text"></p>
+				<a id="tooltip-link" href="#" data-toggle="tooltip" data-placement="top" title="Default tooltip"><img id="tooltip-image" src="./SVG/info-icon.svg"/></a>
+			</div>
 			<!-- <p id="boost-breakdown"><span id="dialogue-breakdown-percent"></span>% x <span id="director-gender-percent"></span>% x <span id="director-nationality-percent"></span>% x <span id="genre-percent"></span> = <span id="total-percent"></span>%</p> -->
 			<h2>Charts</h2>
 			<p class="page-description chart-intro">Let's see how your choices compare to the actual winners! These results span Oscar awards from 2001 - 2020.</p>

@@ -12,6 +12,7 @@ const d3 = require('d3');
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
 	const maleBlue = require("./SVG/male-blue.svg");
+	const infoIcon = require("./SVG/info-icon.svg");
 
 	// flags
 	const germanFlag = require("./flags/066-germany.png");
@@ -88,6 +89,7 @@ const d3 = require('d3');
 		}
 		makeSlider();	
 		makeCountryCarousel();
+		$('[data-toggle="tooltip"]').tooltip();
 	}
 
 
@@ -415,7 +417,10 @@ const d3 = require('d3');
             let firstPart = transformString.split(",");
             let secondPart = firstPart[0].split("(");
             let xPlacement = secondPart[1];
-
+            console.log(percentValue);
+            console.log(transformString);
+            console.log(id(percentValue).children.length);
+            
 			d3.select("#dialog-dot-chart g").append("text")
 				.attr("class", "your-dialogue-selection")
 				.attr("x", xPlacement - 5)
@@ -539,12 +544,6 @@ const d3 = require('d3');
 		console.log("dialogue prob: " + dialogue_prob);
 		console.log("total prob: " + (total_prob / max_percent) * 100);
 		totalProb = (total_prob / max_percent) * 100;
-
-		// id("dialogue-breakdown-percent").innerText = dialogue_prob.toFixed(2);
-		// id("director-gender-percent").innerText = gender_prob.toFixed(2);
-		// id("director-nationality-percent").innerText = nationality_prob.toFixed(2);
-		// id("genre-percent").innerText = genre_prob.toFixed(2);
-		// id("total-percent").innerText = total_prob.toFixed(2);
 	}
 
 	function capitalize(selection) {
@@ -1420,6 +1419,13 @@ const d3 = require('d3');
 		let index = likelihood == 100 ? 3 : Math.floor(likelihood / 25) % 4;
 		id("gauge-text").innerText = response[index];
 		id("gauge-text").style.color = colors[index];
+		// id("dialogue-breakdown-percent").innerText = dialogue_prob.toFixed(2);
+		// id("director-gender-percent").innerText = gender_prob.toFixed(2);
+		// id("director-nationality-percent").innerText = nationality_prob.toFixed(2);
+		// id("genre-percent").innerText = genre_prob.toFixed(2);
+		// id("total-percent").innerText = total_prob.toFixed(2);
+		let tooltipContent = "" + dialogue_prob.toFixed(2) * 100 + "% (dialogue) x " + gender_prob.toFixed(2) * 100 + "% (director gender) x " + nationality_prob.toFixed(2) * 100 + "% (director nationality) x " + genre_prob.toFixed(2) * 100 + "% (genre) / 4.57% (highest possible percentage to get an Oscar: male, American director with 15% female speaking lines and a drama genre) = " + total_prob.toFixed(2) * 100 + "%";
+		$("#tooltip-link").attr('data-original-title', tooltipContent);
 	}
 
 	let gauge = function(container, configuration) {
