@@ -346,6 +346,7 @@ const d3 = require('d3');
 				updateYourGenderSelectionText();
 				updateYourGenreSelectionText();
 				updateYourNationalitySelectionText();
+				updateYourDialogueSelectionText();
 			});
 			lockInSelections();
 			d3.selectAll("#power-gauge > *").remove();
@@ -400,6 +401,32 @@ const d3 = require('d3');
 			}
 			let selectedNationality = id("director-nationality").value;
 			id(selectedNationality).style.opacity = 1;
+		}
+	}
+
+	function updateYourDialogueSelectionText() {
+		if (dialogueDotPlotMade) {
+			let dialogueSelection = qs(".dialogue-selection-star");
+			dialogueSelection.style.opacity = 0;
+			let symbolGenerator = d3.symbol()
+				  .type(d3.symbolStar)
+				  .size(80);
+
+			let pathData = symbolGenerator();
+
+            let percentValue = parseInt(id("dialog-selection").value);
+            let transformString = id(percentValue).getAttribute("transform");
+            let firstPart = transformString.split(",");
+            let secondPart = firstPart[0].split("(");
+            let xPlacement = secondPart[1];
+            d3.select("#dialog-dot-chart").append("path")
+            	.attr("class", "dialogue-selection-star")
+            	.attr('d', pathData)
+            	.attr('transform', function() {
+            		return 'translate(' + (xPlacement) + ',' + ((id(percentValue).children.length + 1) * 2.75 * 7.2) + ')';
+            	})
+            	.style("fill", "white")
+			    .style("opacity", 1);
 		}
 	}
 
@@ -1243,16 +1270,23 @@ const d3 = require('d3');
 	          })
               .attr("cy", (d, i) => {return - i * 2.75 * d.radius - d.radius});
 
+            let symbolGenerator = d3.symbol()
+				  .type(d3.symbolStar)
+				  .size(80);
+
+			let pathData = symbolGenerator();
 
             let percentValue = parseInt(id("dialog-selection").value);
             let transformString = id(percentValue).getAttribute("transform");
             let firstPart = transformString.split(",");
             let secondPart = firstPart[0].split("(");
             let xPlacement = secondPart[1];
-            svg.append("text")
-            	.attr("x", xPlacement - 50)
-            	.attr("y", (id(percentValue).children.length + 1) * 2.75 * 7.2 - 7.2)
-            	.text("your selection")
+            svg.append("path")
+            	.attr("class", "dialogue-selection-star")
+            	.attr('d', pathData)
+            	.attr('transform', function() {
+            		return 'translate(' + (xPlacement) + ',' + ((id(percentValue).children.length + 1) * 2.75 * 7.2) + ')';
+            	})
             	.style("fill", "white")
             	.style("opacity", 0)
 			    .transition()
@@ -1307,6 +1341,18 @@ const d3 = require('d3');
 				.duration(legendDuration)
 				.style("opacity", 1); 
 
+			svg.append("path")
+				.attr('d', pathData)
+				.attr('transform', function() {
+            		return 'translate(' + ((width / 2) + 130) + ',' + ((height / 3) + 75) + ')';
+            	})
+            	.style("fill", "white")
+            	.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1); 
+
 			svg.append("text")
 				.attr("x", (width / 2) + 150)
 				.attr("y", (height / 3) + 2)
@@ -1345,7 +1391,22 @@ const d3 = require('d3');
 				.delay(legendDelay)
 				.duration(legendDuration)
 				.style("opacity", 1);
+
+			svg.append("text")
+				.attr("x", (width / 2) + 150)
+				.attr("y", (height / 3) + 77)
+				.text("Your selection")
+				.style("font-size", "15px")
+				.style("fill", "white")
+				.attr("alignment-baseline","middle")
+				.style("opacity", 0)
+				.transition()
+				.delay(legendDelay)
+				.duration(legendDuration)
+				.style("opacity", 1);
 	     	});
+
+			
 	}
 
 	// Code from https://blockbuilder.org/rishabhfitkids/305e8da9f4311917c6046afcf7bfd0bc
