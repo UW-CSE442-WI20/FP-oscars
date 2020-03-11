@@ -1273,7 +1273,7 @@ const d3 = require('d3');
 
 			svg.append("text")
 				.attr("class", "your-dialogue-selection")
-				.attr("x", xPlacement - 5)
+				.attr("x", xPlacement - 3)
 				.attr("y", (height - (id(percentValue).children.length + 1) * 2.75 * 7.2 + 10))
             	.style("fill", "white")
             	.text("↓")
@@ -1331,8 +1331,8 @@ const d3 = require('d3');
 				.style("opacity", 1); 
 
 			svg.append("text")
-				.attr("x", (width / 2) + 124.5)
-            	.attr("y", (height / 3) + 75)
+				.attr("x", (width / 2) + 127)
+            	.attr("y", (height / 3) + 78)
             	.text("↓")
             	.style("fill", "white")
             	.attr("alignment-baseline","middle")
