@@ -741,6 +741,7 @@ const d3 = require('d3');
 						  "action", "fantasy", "sci-fi", "mystery", "music",
 						  "adventure",  "war", "crime", "thriller", "comedy",
 						  "romance", "history", "drama"];
+		let genreAlts = ["Man, woman, and child representing family genre","Scary ghost representing horror genre", "Cowboy hat representing western genre", "Basketball representing sport genre", "Person singing representing musical genre", "'POW!' represeting action genre", "Magic wand representing fantasy genre", "Green alien representing sci-fi genre", "Magnifying glass representing mystery genre", "Musical notes representing music genre", "Swords and shield representing adventure genre", "War plane representing war genre", "Handcuffs representing crime genre", "Bloody knife representing thirller genre", "Cry-laughing emoji representing comedy genre", "Red heart representing romance genre", "Ancient column representing history genre", "Happy-sad masks representing drama genre"]
 
 		const textDelay = 2500;
 		const textFadeInDuration = 2000;
@@ -862,7 +863,8 @@ const d3 = require('d3');
 			   .attr("y", function(d) { return yScale(d.genre) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
-			   .attr("xlink:href", function(d, i) { return genres[i]; });
+			   .attr("xlink:href", function(d, i) { return genres[i]; })
+			   .attr("alt", function(d, i) { return genreAlts[i]});
 		});
 	}
 
@@ -1030,7 +1032,8 @@ const d3 = require('d3');
 			   .attr("y", function(d) { return yScale(d.nationality) + marginTop - 2; })
 			   .attr("height", "18")
 			   .attr("width", "18")
-			   .attr("xlink:href", function(d, i) { return flags[i]; });
+			   .attr("xlink:href", function(d, i) { return flags[i]; })
+			   .attr("alt", function(d, i) { return d.nationality + " flag"; });
 
 			   svg.append("text")
 			   .attr("x", (width / 2) + 265)
