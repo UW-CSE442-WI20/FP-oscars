@@ -405,30 +405,25 @@ const d3 = require('d3');
 	}
 
 	function updateYourDialogueSelectionText() {
-		// const height = 600 - 60 - 150;
-		// if (dialogueDotPlotMade) {
-		// 	let dialogueSelection = qs(".dialogue-selection-star");
-		// 	dialogueSelection.parentNode.removeChild(dialogueSelection);
-		// 	let symbolGenerator = d3.symbol()
-		// 		  .type(d3.symbolStar)
-		// 		  .size(80);
+		const height = 600 - 60 - 150;
+		if (dialogueDotPlotMade) {
+			let dialogueSelection = qs(".your-dialogue-selection");
+			dialogueSelection.parentNode.removeChild(dialogueSelection);
 
-		// 	let pathData = symbolGenerator();
+			let percentValue = parseInt(id("dialog-selection").value);
+            let transformString = id(percentValue).getAttribute("transform");
+            let firstPart = transformString.split(",");
+            let secondPart = firstPart[0].split("(");
+            let xPlacement = secondPart[1];
 
-  //           let percentValue = parseInt(id("dialog-selection").value);
-  //           let transformString = id(percentValue).getAttribute("transform");
-  //           let firstPart = transformString.split(",");
-  //           let secondPart = firstPart[0].split("(");
-  //           let xPlacement = secondPart[1];
-  //           d3.select("#dialog-dot-chart").append("path")
-  //           	.attr("class", "dialogue-selection-star")
-  //           	.attr('d', pathData)
-  //           	.attr('transform', function() {
-  //           		return 'translate(' + (xPlacement) + ',' + (height - ((id(percentValue).children.length + 1) * 2.75 * 7.2 + 10)) + ')';
-  //           	})
-  //           	.style("fill", "white")
-		// 	    .style("opacity", 1);
-		// }
+			d3.select("#dialog-dot-chart g").append("text")
+				.attr("class", "your-dialogue-selection")
+				.attr("x", xPlacement - 5)
+				.attr("y", (height - (id(percentValue).children.length + 1) * 2.75 * 7.2 + 10))
+            	.style("fill", "white")
+            	.text("↓")
+			    .style("opacity", 1);
+		}
 	}
 
 	function issueWarning(warning) {
@@ -1270,27 +1265,18 @@ const d3 = require('d3');
 	          })
               .attr("cy", (d, i) => {return - i * 2.75 * d.radius - d.radius});
 
-            let symbolGenerator = d3.symbol()
-				  .type(d3.symbolStar)
-				  .size(80);
-
-			let pathData = symbolGenerator();
-
             let percentValue = parseInt(id("dialog-selection").value);
             let transformString = id(percentValue).getAttribute("transform");
             let firstPart = transformString.split(",");
             let secondPart = firstPart[0].split("(");
             let xPlacement = secondPart[1];
-            console.log(xPlacement);
-            console.log()
-            console.log((id(percentValue).children.length + 1) * 2.75 * 7.2);
-            svg.append("path")
-            	.attr("class", "dialogue-selection-star")
-            	.attr('d', pathData)
-            	.attr('transform', function() {
-            		return 'translate(' + (xPlacement) + ',' + (height - (id(percentValue).children.length + 1) * 2.75 * 7.2 + 10) + ')';
-            	})
+
+			svg.append("text")
+				.attr("class", "your-dialogue-selection")
+				.attr("x", xPlacement - 5)
+				.attr("y", (height - (id(percentValue).children.length + 1) * 2.75 * 7.2 + 10))
             	.style("fill", "white")
+            	.text("↓")
             	.style("opacity", 0)
 			    .transition()
 			    .delay(legendDelay)
@@ -1344,12 +1330,12 @@ const d3 = require('d3');
 				.duration(legendDuration)
 				.style("opacity", 1); 
 
-			svg.append("path")
-				.attr('d', pathData)
-				.attr('transform', function() {
-            		return 'translate(' + ((width / 2) + 130) + ',' + ((height / 3) + 75) + ')';
-            	})
+			svg.append("text")
+				.attr("x", (width / 2) + 124.5)
+            	.attr("y", (height / 3) + 75)
+            	.text("↓")
             	.style("fill", "white")
+            	.attr("alignment-baseline","middle")
             	.style("opacity", 0)
 				.transition()
 				.delay(legendDelay)
