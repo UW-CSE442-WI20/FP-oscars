@@ -1176,17 +1176,26 @@ const d3 = require('d3');
 		      .thresholds(x.ticks(nbins))
 		      .value(d => d["Percent Female"]);
 
+		    let selection = parseInt(id("dialog-selection").value);
 		    //binning data and filtering out empty bins
 		    const bins = histogram(allData).filter(d => d.length>0);
+		    console.log(bins);
+
+		    let cx = 0;
+		    let cy = 0;
 		    let binContainer = svg.selectAll("g.gBin")
 	          .data(bins)
 	          .enter()
 	          .append("g")
 	          .attr("class", "gBin")
+	          .attr("id", function(d) {
+	          	return d.x0;
+	          })
 	          .attr("transform", d => `translate(${x(d.x0)}, ${height})`)
 	          .selectAll("circle")
 	          .data(d => d.map((p, i) => {
-	              	return {value: p["Percent Female"],
+	              	return {x0: d.x0,
+	              			value: p["Percent Female"],
 	              			title: p["Movie Title"],
 	              			year: p["Year"],
 	                      	radius: (x(d.x1) - x(d.x0)) / 3.75};
@@ -1233,6 +1242,23 @@ const d3 = require('d3');
 	          	}
 	          })
               .attr("cy", (d, i) => {return - i * 2.75 * d.radius - d.radius});
+
+
+            let percentValue = parseInt(id("dialog-selection").value);
+            let transformString = id(percentValue).getAttribute("transform");
+            let firstPart = transformString.split(",");
+            let secondPart = firstPart[0].split("(");
+            let xPlacement = secondPart[1];
+            svg.append("text")
+            	.attr("x", xPlacement - 50)
+            	.attr("y", (id(percentValue).children.length + 1) * 2.75 * 7.2 - 7.2)
+            	.text("your selection")
+            	.style("fill", "white")
+            	.style("opacity", 0)
+			    .transition()
+			    .delay(legendDelay)
+			    .duration(legendDuration)
+			    .style("opacity", 1);
 
 	        svg.append("g")
 				  .attr("class", "axis axis--x")
