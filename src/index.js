@@ -377,7 +377,7 @@ const d3 = require('d3');
 				genderSelections[i].style.opacity = 0;
 			}
 			let selectedGender = id("director-gender").value;
-			id(selectedGender).style.opacity = 1;
+			qs("#" + selectedGender + ".your-gender-selection").style.opacity = 1;
 		}
 	}
 
