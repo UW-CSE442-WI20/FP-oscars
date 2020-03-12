@@ -480,13 +480,13 @@ const d3 = require('d3');
 	}
 
 	function calculateLikelihood() {
-		let director_data = [177, 8]; // numbers from director_gender.txt
-		let director_total = 185;
+		let directorData = [177, 8]; // numbers from director_gender.txt
+		let directorTotal = 185;
 		let genreDict = {"family": 1, "horror": 1, "western": 1, "sport": 2, "musical": 4,
 		"action": 6, "fantasy": 6, "sci-fi": 6, "mystery": 7, "music": 8,
 		"adventure": 9,  "war": 9, "crime": 12, "thriller": 17, "comedy": 19,
 		"romance": 23, "history": 31, "drama": 80};
-		let total_genres = 237;
+		let totalGenres = 237;
 
 		let nationalityDict = {"german": 0.5, "swiss": 0.5, "brazilian": 1, "greek": 1, "italian": 1,
 							   "norwegian": 1, "scottish": 1, "spanish": 1, "polish": 0.5, 
@@ -494,21 +494,20 @@ const d3 = require('d3');
 							   "taiwanese": 3, "canadian": 3.5, "french": 5, "british": 6,
 							   "mexican": 6, "english": 11, "american": 65.5};
 		
-		let dialogue_percentages = [0, 0, 0, 0, 0, 1.14, 1.7, 2.95, 3.1, 3.21, 3.6, 3.72, 4.01, 5.59, 6.41, 6.87, 7.04, 7.1, 7.5, 7.65, 9.55, 9.68, 9.77, 10.1, 10.27, 10.6, 12.01, 13.69, 13.94, 14.6, 14.8,
+		let dialoguePercentages = [0, 0, 0, 0, 0, 1.14, 1.7, 2.95, 3.1, 3.21, 3.6, 3.72, 4.01, 5.59, 6.41, 6.87, 7.04, 7.1, 7.5, 7.65, 9.55, 9.68, 9.77, 10.1, 10.27, 10.6, 12.01, 13.69, 13.94, 14.6, 14.8,
 		15.05, 15.12, 15.23, 15.44, 15.46, 15.6, 16.29, 16.99261993, 17.66, 17.75, 18.16, 18.5,
 		18.74, 19, 19.29, 20.39, 21.91, 22.02, 22.4, 22.6, 23.94, 24.21, 24.99, 25, 25.67189432,
 		26.73, 28, 28.55, 29.58, 30.58, 30.9, 31.96, 32.26, 32.55, 32.97, 33.6858006, 33.77,
 		34.2, 35.33859669, 35.7, 37.03, 39.1291975, 39.5, 43, 43.66, 44.29, 45.51, 46,47.22605575, 47.96, 50.11845668, 50.31, 51.48, 52.48, 52.92, 53, 53, 54.35, 54.73075753, 55.66, 56.26780627, 61.12, 61.18, 61.72, 70, 70.17954723, 70.23, 71.38, 75.65, 77.34, 87.17, 90.14196367, 91.69, 99.35];					   
-		let total_nationalities = 185;
-		let total_dialogue_counts = dialogue_percentages.length;
-		let total_female_count = 0;
-		let max_percent = 0.04573753363353089;
-		selected_gender = id("director-gender").value;
-		selected_nationality = id("director-nationality").value;
-		console.log(id("director-nationality").value);
-		selected_genre = id("genre-selection").value;
-		selected_dialogue = id("dialog-selection").value;
-		selected_dialogue = parseInt(selected_dialogue.substring(0, selected_dialogue.length - 1));
+		let totalNationalities = 185;
+		let totalDialogueCounts = dialoguePercentages.length;
+		let totalFemaleCount = 0;
+		let maxPercent = 0.04573753363353089;
+		selectedGender = id("director-gender").value;
+		selectedNationality = id("director-nationality").value;
+		selectedGenre = id("genre-selection").value;
+		selectedDialogue = id("dialog-selection").value;
+		selectedDialogue = parseInt(selectedDialogue.substring(0, selectedDialogue.length - 1));
 
 		// this is the ideal solution, but alas, not working :(
 		// d3.csv(genderDialogueCSV).then(function(allData) {
@@ -525,26 +524,20 @@ const d3 = require('d3');
 
 		// count up the number of films with dialogue percentages similar to the 
 		// users selection
-		for (i = 0; i < dialogue_percentages.length; i++) {
-			curr_female_percent = dialogue_percentages[i];
-			if (Math.abs(curr_female_percent - selected_dialogue) <= 10) {
-				total_female_count = total_female_count + 1;
+		for (i = 0; i < dialoguePercentages.length; i++) {
+			currFemalePercent = dialoguePercentages[i];
+			if (Math.abs(currFemalePercent - selectedDialogue) <= 10) {
+				totalFemaleCount = totalFemaleCount + 1;
 			}
 		}
 		// get probabilities for each category separately
-		gender_to_use = selected_gender == "female" ? director_data[1] : director_data[0];
-		gender_prob = gender_to_use / director_total;
-		nationality_prob = nationalityDict[selected_nationality] / total_nationalities
-		genre_prob = genreDict[selected_genre] / total_genres;
-		dialogue_prob = total_female_count / total_dialogue_counts;
-		total_prob = gender_prob * nationality_prob * genre_prob * dialogue_prob;
-		console.log(total_prob);
-		console.log("director gender prob: " + gender_prob);
-		console.log("nationality prob: " + nationality_prob);
-		console.log("genre prob: " + genre_prob);
-		console.log("dialogue prob: " + dialogue_prob);
-		console.log("total prob: " + (total_prob / max_percent) * 100);
-		totalProb = (total_prob / max_percent) * 100;
+		genderToUse = selectedGender == "female" ? directorData[1] : directorData[0];
+		genderProb = genderToUse / directorTotal;
+		nationalityProb = nationalityDict[selectedNationality] / totalNationalities
+		genreProb = genreDict[selectedGenre] / totalGenres;
+		dialogueProb = totalFemaleCount / totalDialogueCounts;
+		totalProb = genderProb * nationalityProb * genreProb * dialogueProb;
+		totalProb = (totalProb / maxPercent) * 100;
 	}
 
 	function capitalize(selection) {
@@ -1423,16 +1416,11 @@ const d3 = require('d3');
 		let index = likelihood == 100 ? 3 : Math.floor(likelihood / 25) % 4;
 		id("gauge-text").innerText = response[index];
 		id("gauge-text").style.color = colors[index];
-		// id("dialogue-breakdown-percent").innerText = dialogue_prob.toFixed(2);
-		// id("director-gender-percent").innerText = gender_prob.toFixed(2);
-		// id("director-nationality-percent").innerText = nationality_prob.toFixed(2);
-		// id("genre-percent").innerText = genre_prob.toFixed(2);
-		// id("total-percent").innerText = total_prob.toFixed(2);
-		dialogue_percent = dialogue_prob.toFixed(2) * 100;
-		gender_percent = gender_prob.toFixed(2) * 100;
-		nationality_percent = nationality_prob.toFixed(2) * 100;
-		genre_percent = genre_prob.toFixed(2) * 100;
-		let tooltipContent = "Based on 2001 - 2020 Oscar Awards data: " + dialogue_percent + "% of dialogues, " + gender_percent + "% of directors, " + nationality_percent + "% of director nationalities, and " + genre_percent + "% of genres match the choices you made, respectively. To calculate your final probability, these results are multiplied together and divided by 4.57% which is the maximum result possible when taking the highest percent possible for each category (choices of Male director, American, 15% female spoken words, and drama genre): \n" + dialogue_percent + "% x " + gender_percent + "% x " + nationality_percent + "% x " + genre_percent + "% / 4.57% \u2248 " + total_prob.toFixed(2) * 100 + "%";
+		dialoguePercent = (dialogueProb * 100).toFixed(2);
+		genderPercent = (genderProb * 100).toFixed(2);
+		nationalityPercent = (nationalityProb * 100).toFixed(2);
+		genrePercent = (genreProb * 100).toFixed(2);
+		let tooltipContent = "Based on 2001 - 2020 Oscar Awards data: " + dialoguePercent + "% of dialogues, " + genderPercent + "% of directors, " + nationalityPercent + "% of director nationalities, and " + genrePercent + "% of genres match the choices you made, respectively. To calculate your final probability, these results are multiplied together and divided by 4.57% which is the maximum result possible when taking the highest percent possible for each category (choices of Male director, American, 15% female spoken words, and drama genre): \n" + dialoguePercent + "% x " + genderPercent + "% x " + nationalityPercent + "% x " + genrePercent + "% / 4.57% \u2248 " + totalProb.toFixed(2) * 100 + "%";
 		$("#tooltip-link").attr('data-original-title', tooltipContent);
 	}
 
