@@ -497,7 +497,7 @@ select {
 	fill: #9D82BC;
 }
 
-#similar-movies img {
+#similar-movies-images img {
 	height: 175px;
 	width: 120px;
 	margin-bottom: 2%;
@@ -599,4 +599,9 @@ select {
 
 .translate-right {
     transform: translateX(100%);
+}
+
+#similar-movies-intro-text #tooltip-image {
+	vertical-align: middle;
+	height: 15px;
 }
