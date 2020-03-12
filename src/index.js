@@ -89,18 +89,18 @@ const d3 = require('d3');
 		$('[data-toggle="tooltip"]').tooltip();
 		$("#dialogue-scroll").click(function() {
 		    $('html,body').animate({
-		        scrollTop: $("#dialogue-page").offset().top},
+		        scrollTop: $("#dialogue-page").offset().top - 20},
 		        'slow');
 		});
 		$('[data-toggle="tooltip"]').tooltip();
 		$("#director-scroll").click(function() {
 		    $('html,body').animate({
-		        scrollTop: $("#director-page").offset().top},
+		        scrollTop: $("#director-page").offset().top - 20},
 		        'slow');
 		});
 		$("#genre-scroll").click(function() {
 		    $('html,body').animate({
-		        scrollTop: $("#genre-page").offset().top},
+		        scrollTop: $("#genre-page").offset().top - 20},
 		        'slow');
 		});
 	}
