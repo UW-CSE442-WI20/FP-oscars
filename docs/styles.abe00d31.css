@@ -1,16 +1,16 @@
 @font-face {
    font-family: 'AndesRoundedBold' ;
-   src: url('/AndesRoundedBold.4bc5f4f7.ttf') format('truetype');
+   src: url('https://uw-cse442-wi20.github.io/FP-oscars/AndesRoundedBold.9996dd80.ttf') format('truetype');
 }
 
 @font-face {
    font-family: 'AndesRoundedMedium' ;
-   src: url('/AndesRoundedMedium.eb23c74f.ttf') format('truetype');
+   src: url('https://uw-cse442-wi20.github.io/FP-oscars/AndesRoundedMedium.d66ec45b.ttf') format('truetype');
 }
 
 @font-face {
    font-family: 'AndesRoundedRegular' ;
-   src: url('/AndesRoundedRegular.a08a725d.ttf') format('truetype');
+   src: url('https://uw-cse442-wi20.github.io/FP-oscars/AndesRoundedRegular.d9d978d8.ttf') format('truetype');
 }
 
 body {
@@ -569,13 +569,13 @@ select {
 }
 
 .left-panel {
- 	background-image: url("/curtains.ad6e8616.png");
+ 	background-image: url("https://uw-cse442-wi20.github.io/FP-oscars/curtains.83f520c5.png");
   	background-repeat: no-repeat;
   	background-size: cover;
 }
 
 .right-panel {
- 	background-image: url("/curtains2.f7e2a4b4.png");
+ 	background-image: url("https://uw-cse442-wi20.github.io/FP-oscars/curtains2.5cc587e1.png");
   	background-repeat: no-repeat;
   	background-size: cover;
 }
@@ -619,4 +619,4 @@ select {
 }
 
 
-/*# sourceMappingURL=/styles.8986bff4.css.map */
+/*# sourceMappingURL=https://uw-cse442-wi20.github.io/FP-oscars/styles.abe00d31.css.map */

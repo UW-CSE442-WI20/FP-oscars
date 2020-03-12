@@ -8,14 +8,14 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap2.min.css">
-	<link rel="stylesheet" type="text/css" href="https://uw-cse442-wi20.github.io/FP-oscars/styles.d912bc3e.css">
+	<link rel="stylesheet" type="text/css" href="https://uw-cse442-wi20.github.io/FP-oscars/styles.abe00d31.css">
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://uw-cse442-wi20.github.io/FP-oscars/nouislider.ca7a1492.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-	<script src="https://uw-cse442-wi20.github.io/FP-oscars/src.6faab9e5.js"></script>
+	<script src="https://uw-cse442-wi20.github.io/FP-oscars/src.4fad9879.js"></script>
   </head>
   <body>
     
@@ -32,15 +32,15 @@
 					<li>Best Cinematography</li>
 					<li>Best Adapted/Original Screenplay</li>
 				</ul>
-				<p>We believe there is a recipe for success for getting a film to win one of these Oscars. Let’s dive in and try it out!</p>
+				<p>We believe there is a recipe for success for getting a film to win one of these Oscars. Scroll down to dive in and try it out!</p>
 			</div>
 		</div>
 		<div id="oscar-components" class="side-by-side">
-			<img class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/dialogue.94ca577d.svg" alt="Two speech bubbles representing dialgoue">
+			<img id="dialogue-scroll" class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/dialogue.94ca577d.svg" alt="Two speech bubbles representing dialgoue">
 			<p class="operator">+</p>
-			<img class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/director.9bf6b2d6.svg" alt="Clapperboard representing director">
+			<img id="director-scroll" class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/director.9bf6b2d6.svg" alt="Clapperboard representing director">
 			<p class="operator">+</p>
-			<img class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/genre.7fdb6526.svg" alt="Multi-colored arrows representing genres">
+			<img id="genre-scroll" class="component" src="https://uw-cse442-wi20.github.io/FP-oscars/genre.7fdb6526.svg" alt="Multi-colored arrows representing genres">
 			<p class="operator">=</p>
 			<img src="https://uw-cse442-wi20.github.io/FP-oscars/oscar.4996d294.svg" alt="Oscar award">
 			<p class="operator question-mark">?</p>
@@ -49,7 +49,7 @@
 			<h2>Dialogue</h2>
 			<div class="page-description">
 				<p class="intro">The dialogue is the meat of your film. It's what gets your audience interested (or uninterested).</p>
-				<p>What percent of the lines should female characters speak?</p>
+				<p>What percent of the lines should female characters speak?<a id="tooltip-link-dialogue" href="#" data-toggle="tooltip" data-placement="top" title="A character must speak at least 100 words to be counted in the dialogue percentage."><img id="tooltip-image" src="https://uw-cse442-wi20.github.io/FP-oscars/info-icon.91815038.svg"></a></p>
 				<div id="percent-container">
 					<div id="slider-container">
 						<div id="slider"></div>
@@ -57,7 +57,7 @@
 					<span id="gender-percent"></span>
 				</div>
 				<div id="similar-movies">
-					<div id="similar-movies-intro-text"></div>
+					<div id="similar-movies-intro-text">Some examples of movies with a similar female dialogue percentage are: </div>
 					<div id="similar-movies-images"></div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 						</div>
 					</div>
 					<div id="carousel-content">
-						<p>What nationality are they?</p>
+						<p>What nationality are they?<a id="tooltip-link-nationality" href="#" data-toggle="tooltip" data-placement="top" title="Note that we only have nationalities that have won Oscars in the past."><img id="tooltip-image" src="https://uw-cse442-wi20.github.io/FP-oscars/info-icon.91815038.svg"></a></p>
 						<div id="flag-carousel">
 						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/153-united-states-of-america.b8a27dbd.png" alt="American. flag"><span class="carousel-text">American</span></span>
 						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/130-australia.0a061352.png" alt="Australian flag"><span class="carousel-text">Australian</span></span>
@@ -106,7 +106,7 @@
 						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/097-switzerland.f27e7052.png" alt="Swiss flag"><span class="carousel-text">Swiss</span></span>
 						<span><img class="carousel-image" src="https://uw-cse442-wi20.github.io/FP-oscars/080-taiwan.b526f669.png" alt="Taiwanese flag"><span class="carousel-text">Taiwanese</span></span>
 						</div>
-						<p id="nationality-disclaimer">*Note that we only have nationalities that have won Oscars in the past!</p>
+						
 					</div>
 				</div>
 			</div>
@@ -232,7 +232,6 @@
 				<p id="gauge-text"></p>
 				<a id="tooltip-link" href="#" data-toggle="tooltip" data-placement="top" title="Default tooltip"><img id="tooltip-image" src="https://uw-cse442-wi20.github.io/FP-oscars/info-icon.91815038.svg"></a>
 			</div>
-			<!-- <p id="boost-breakdown"><span id="dialogue-breakdown-percent"></span>% x <span id="director-gender-percent"></span>% x <span id="director-nationality-percent"></span>% x <span id="genre-percent"></span> = <span id="total-percent"></span>%</p> -->
 			<h2>Charts</h2>
 			<p class="page-description chart-intro">Let's see how your choices compare to the actual winners! These results span Oscar awards from 2001 - 2020.</p>
 			<h3 class="chart-title">Percent of Words Spoken By Women</h3>
@@ -241,7 +240,7 @@
 				<div class="chart-description">
 					<p>Most film dialogues are made up of a majority of male-spoken words. These percentages were calculated by counting the number of words spoken by each character in each screenplay. Characters with at least 100 spoken words were then mapped to IMDB pages to identify them as male or female.</p> 
 					<p>The reason behind this threshold is because characters with few words don't consistently have the same name in the screenplay as IMDB. Unfortunately, this exclusion categorizes some films as having 100% male dialogue, when that's not the case. For example, the film, <i>1917</i>, supposedly has 0% female dialogue, but a female character named Lauri says 88 words, so it actually has 1.7% female dialogue.</p>
-					<p>Additionally, some of the data for this chart was found <a href="https://pudding.cool/2017/03/film-dialogue" target="_blank">here</a>, which also uses the 100-word threshold. For screenplays that weren't included in their dataset, we wanted to maintain consistency when calculating percentages.</p>
+					<p>Additionally, some of the data for this chart was found <a href="https://pudding.cool/2017/03/film-dialogue" target="_blank">here</a>, which also uses the 100-word threshold.</p>
 				</div>
 			</div>
 			<h3 class="chart-title">Gender Breakdown of Directors</h3>
