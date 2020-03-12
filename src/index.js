@@ -2,9 +2,9 @@ const d3 = require('d3');
 
 (function() {
 	const NUM_SIMILAR_MOVIES = 2;
-	const genderDialogueCSV = require("./dialogue-breakdown.csv");
-	const genreCSV = require("./genre.csv");
-	const nationalityCSV = require("./nationalities.csv");
+	const genderDialogueCSV = require("./data/dialogue-breakdown.csv");
+	const genreCSV = require("./data/genre.csv");
+	const nationalityCSV = require("./data/nationalities.csv");
 	const female = require("./SVG/female-white.svg");
 	const femalePink = require("./SVG/female-pink.svg");
 	const male = require("./SVG/male-white.svg");
