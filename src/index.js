@@ -1432,7 +1432,7 @@ const d3 = require('d3');
 		gender_percent = gender_prob.toFixed(2) * 100;
 		nationality_percent = nationality_prob.toFixed(2) * 100;
 		genre_percent = genre_prob.toFixed(2) * 100;
-		let tooltipContent = "Based on 2001 - 2020 Oscar Awards data: " + dialogue_percent + "% of dialogues, " + gender_percent + "% of directors, " + nationality_percent + "% of director nationalities, and " + genre_percent + "% of genres match the choices you made, respectively. To calculate your final probability, these results are multiplied together and divided by 4.57% which is the maximum result possible when taking the highest percent possible for each category (choices of Male director, American, 15% female spoken words, and drama genre): \n" + dialogue_percent + "% x " + gender_percent + "% x " + nationality_percent + "% x " + genre_percent + "% / 4.57% \u2248 " + total_prob.toFixed(2) * 100 + "%";
+		let tooltipContent = "Based on 2001 - 2020 Oscar Awards data: " + dialogue_percent + "% of dialogues, " + gender_percent + "% of directors, " + nationality_percent + "% of director nationalities, and " + genre_percent + "% of genres match the choices you made, respectively. To calculate your final probability, these results are multiplied together and divided by 4.57% which is the maximum result possible when taking the highest percent possible for each category (choices of Male director, American, 15% female spoken words, and drama genre): \n" + dialogue_percent + "% x " + gender_percent + "% x " + nationality_percent + "% x " + genre_percent + "% / 4.57% \u2248 " + totalProb.toFixed(2) + "%";
 		$("#tooltip-link").attr('data-original-title', tooltipContent);
 	}
 
