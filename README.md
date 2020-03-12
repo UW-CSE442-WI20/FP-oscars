@@ -1,58 +1,31 @@
+# How to Win an Oscar
 
+We started this project with an interest in what types of movies win the most Oscars. 
 
-# Final Project Starter template
+Is there a specific **genre**? A specific **director gender/nationality**? A specific **gender breakdown in dialogue**? 
 
-The starter code for creating interactive visualization prototypes.
+So, we analyzed the last 20 years of Oscar-winning movies to see if we could identify any patterns. We limited our search to these Oscars:
+* Best Picture
+* Best Director
+* Best Actor/Actress
+* Best Supporting Actor/Actress
+* Best Cinematography
+* Best Adapted/Original Screenplay
 
-## Getting Started
+## Genre
 
-This repo is set up to use the [Parcel](https://parceljs.org/) bundler. If you don't
-like the way we've set things up, feel free to change it however you like!
+We found the genre of each film using [OMDb API](http://www.omdbapi.com/), a RESTful web service to obtain film information. The code for this is located in `calculate-genres.js`. We first found the genres for all the films who had won Oscars in the last 20 years and then added the different genres up across all the films. Some films had up to 6 genres! 
 
-The only restriction is that __your final HTML/CSS/JS output must be stored in the "docs" folder__ so that
-GitHub knows how to serve it as a static site.
+## Director Gender/Nationality
 
-### Install
+This information is not readily available, so we collected it by hand using Wikipedia. Some directors have dual nationalities (e.g., British-American), so we handled these cases by counting 0.5 towards each nationality present (i.e., 0.5 towards British count and 0.5 towards American count). All directors fit within the gender binary. 
 
-#### Required software
+## Gender Breakdown in Dialogue
 
-You must have Node.js installed. I prefer to install it using [nvm](https://github.com/nvm-sh/nvm)
-because it doesn't require sudo and makes upgrades easier, but you can also just get it directly from
-https://nodejs.org/en/.
+This was the hardest piece of our project to gather data for. We found a [dataset](https://pudding.cool/2017/03/film-dialogue) that had some of the films we were interested in, but not all of them. So... that meant we had **39** movies that we didn't have the gender dialogue breakdown for. This didn't seem too complicated- most screenplays have a character name followed by their lines and all we had to do was to parse the screenplays, right? Well... not quite. Screenplays are notorious for having lines upon lines of mise en scène (the arrangement of a scene), so it wasn't as simple as we thought.
 
-#### Install dependecies
+Less committed folks might have given up at this point, but through the strength of listening to the same songs on repeat from Doja Cat and Harry Styles (Say So and Adore You respectfully... at least for Olga), we read 30 screenplays and manually removed all non-dialogue content from them. Then, we ran `movie-dialogue-breakdown.py` (which we found from [here](https://github.com/pratyakshs/Movie-script-parser) and edited a bit) on the updated screenplays to get the breakdown of character words. The algorithm featured a gender processing aspect to it, but it was unreliable sometimes so we also manually cross-checked character gender to their IMDB page. Any characters that didn't say at least 100 words weren't included in the character counts. We couldn't find the screenplays for 9 films (Dreamgirls, Iris, La Vie en Rose, Once Upon a Time in Hollywood, Pollock, Ray, The Constant Gardener, The Hours, and The Last King of Scotland) :(
 
-Once you've got `node`, run the command `npm install` in this project folder
-and it will install all of the project-specific dependencies (if you're curious open up `package.json` to see where these are listed).
+We also had to get all of the film posters that would be populated when a user selects a different gender dialogue breakdown on the first page. The code for this is in `get-movie-posters.js`. It also uses [OMDb API](http://www.omdbapi.com/).
 
-npm is the _node package manager_.
-
-### Running the local dev server
-
-To run the project locally, run `npm start` and it will be available at http://localhost:1234/.
-
-### Building the final output
-
-Run `npm run build` and all of your assets will be compiled and placed into the `docs/` folder. Note
-that this command will overwrite the existing docs folder.
-
-Once pushed to GitHub, the output should be available at UW-CSE442-WI20.github.io/your-repo-name/
-
-
-## Other notes
-
-## Loading Data
-
-See [this guide](https://gist.github.com/mathisonian/46eed3e6102888ddf741829fbbe262ff). The Parcel static file plugin has been installed,
-so any files you put in the `static/` folder will be available over the network.
-
-### Using 3rd party libraries
-
-You are more than welcome to use open source packages such as D3.js, just make sure to cite these.
-
-To add a new one run `npm install --save <library-name>`, e.g. `npm install --save d3`. This will
-add the library locally so it is available for use in your JS files. It will also add `d3` to the
-list of dependencies in `package.json`.
-
-_Note that if you install a library your teammates will need to install it too. Once the dep is added
-to `package.json` simply running `npm install` in this directory will download the new dependency._
+After worsening our sight and posture from being hunched over computer screens for who knows how long, we had all of our data <3
