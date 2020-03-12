@@ -1275,7 +1275,7 @@ const d3 = require('d3');
 
 			svg.append("text")
 				.attr("class", "your-dialogue-selection")
-				.attr("x", xPlacement - 3)
+				.attr("x", xPlacement - 5)
 				.attr("y", (height - (id(percentValue).children.length + 1) * 2.75 * 7.2 + 10))
             	.style("fill", "white")
             	.text("↓")
