@@ -605,3 +605,7 @@ select {
 	vertical-align: middle;
 	height: 15px;
 }
+
+.component:hover {
+	cursor: pointer;
+}

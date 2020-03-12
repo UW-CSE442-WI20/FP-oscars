@@ -87,7 +87,24 @@ const d3 = require('d3');
 		makeSlider();	
 		makeCountryCarousel();
 		$('[data-toggle="tooltip"]').tooltip();
+		$("#dialogue-scroll").click(function() {
+		    $('html,body').animate({
+		        scrollTop: $("#dialogue-page").offset().top},
+		        'slow');
+		});
+		$('[data-toggle="tooltip"]').tooltip();
+		$("#director-scroll").click(function() {
+		    $('html,body').animate({
+		        scrollTop: $("#director-page").offset().top},
+		        'slow');
+		});
+		$("#genre-scroll").click(function() {
+		    $('html,body').animate({
+		        scrollTop: $("#genre-page").offset().top},
+		        'slow');
+		});
 	}
+
 
 
 	function getSimilarDialogueMovies() {
