@@ -1162,7 +1162,7 @@ const d3 = require('d3');
 
 	function makeDialogueDotPlot() {
 		//SVG setup
-		const margin = {top: 60, right: 30, bottom: 150, left: 30},
+		const margin = {top: 60, right: 30, bottom: 140, left: 30},
 		      width = 600 - margin.left - margin.right,
 		      height = 600 - margin.top - margin.bottom;
 
