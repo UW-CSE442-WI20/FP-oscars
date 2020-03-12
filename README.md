@@ -28,4 +28,4 @@ Less committed folks might have given up at this point, but through the strength
 
 We also had to get all of the film posters that would be populated when a user selects a different gender dialogue breakdown on the first page. The code for this is in `get-movie-posters.js`. It also uses [OMDb API](http://www.omdbapi.com/).
 
-After worsening our sight and posture from being hunched over computer screens for who knows how long, we had all of our data <3
+After worsening our sight and posture from being hunched over computer screens for who knows how long, we had [all of our data](https://docs.google.com/spreadsheets/d/1Fzmd1PaE4XYMNMHVHL5SEbs_KxH_aleSQ1xXX6ZJJ54/edit?usp=sharing) <3
