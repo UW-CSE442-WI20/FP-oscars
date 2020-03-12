@@ -1,9 +1,6 @@
 const d3 = require('d3');
 
 (function() {
-	// Turn this off when programming so you don't need to
-	// always select a genre/director to get to the next page.
-	const WARNING_MODE = true;
 	const NUM_SIMILAR_MOVIES = 2;
 	const genderDialogueCSV = require("./dialogue-breakdown.csv");
 	const genreCSV = require("./genre.csv");
@@ -306,11 +303,11 @@ const d3 = require('d3');
 	function goToResultsPage() {
 		let notSelectedDirector = !id("female").classList.contains("female-color") && !id("male").classList.contains("male-color");
 		let notSelectedGenre = qs(".highlighted-box span") == null;
-		if (WARNING_MODE && notSelectedDirector && notSelectedGenre) {
+		if (notSelectedDirector && notSelectedGenre) {
 			issueWarning("a director gender and a movie genre!");
-		} else if (WARNING_MODE && notSelectedDirector) {
+		} else if (notSelectedDirector) {
 			issueWarning("a director gender!");
-		} else if (WARNING_MODE && notSelectedGenre) {
+		} else if (notSelectedGenre) {
 			issueWarning("a movie genre!");
 	  	} else {
 	  		id("to-be-curtained").classList.add("curtain");
@@ -418,9 +415,6 @@ const d3 = require('d3');
             let firstPart = transformString.split(",");
             let secondPart = firstPart[0].split("(");
             let xPlacement = secondPart[1];
-            console.log(percentValue);
-            console.log(transformString);
-            console.log(id(percentValue).children.length);
             
 			d3.select("#dialog-dot-chart g").append("text")
 				.attr("class", "your-dialogue-selection")
@@ -469,14 +463,10 @@ const d3 = require('d3');
 	}
 			
 	function lockInSelections() {
-		if (WARNING_MODE) {
-			id("dialog-selection").value = id("gender-percent").innerText;
-			id("director-gender").value = id("female").classList.contains("female-color") ? "female" : "male";
-			id("director-nationality").value = qs(".is-selected .carousel-text").innerText.toLowerCase();
-			id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
-		} else {
-			console.log("Turn off WARNING_MODE to see the selections");
-		}
+		id("dialog-selection").value = id("gender-percent").innerText;
+		id("director-gender").value = id("female").classList.contains("female-color") ? "female" : "male";
+		id("director-nationality").value = qs(".is-selected .carousel-text").innerText.toLowerCase();
+		id("genre-selection").value = qs(".highlighted-box span").innerText.toLowerCase();
 	}
 
 	function calculateLikelihood() {
@@ -582,7 +572,7 @@ const d3 = require('d3');
 			radius = 150,
 			g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-		let selected_gender = id("director-gender").value;
+		let selectedGender = id("director-gender").value;
 		let genders = ["male", "female"];
 		let xValues = [radius - 10, radius + 5];
 		let yValues = [-75, -15];
@@ -665,7 +655,7 @@ const d3 = require('d3');
 			.delay(textDelay)
 			.duration(textFadeInDuration)
 			.style("opacity", function(d, i) {
-				if (genders[i] == selected_gender) {
+				if (genders[i] == selectedGender) {
 					return 1;
 				} else {
 					return 0;
@@ -729,7 +719,7 @@ const d3 = require('d3');
 					  adventureIcon, warIcon, crimeIcon, thrillerIcon, comedyIcon,
 					  romanceIcon, historyIcon, dramaIcon];
 
-		selected_genre = id("genre-selection").value;
+		selectedGenre = id("genre-selection").value;
 		let genreNames = ["family", "horror", "western", "sport", "musical",
 						  "action", "fantasy", "sci-fi", "mystery", "music",
 						  "adventure",  "war", "crime", "thriller", "comedy",
@@ -828,7 +818,7 @@ const d3 = require('d3');
 		       .delay(textDelay)
 			   .duration(textFadeInDuration)
 			   .style("opacity", function(d, i) {
-				   if (genreNames[i] == selected_genre) {
+				   if (genreNames[i] == selectedGenre) {
 						return 1;
 					} else {
 						return 0;
@@ -892,7 +882,7 @@ const d3 = require('d3');
 		const textDelay = 2500;
 		const textFadeInDuration = 2000;
 
-		let selected_nationality = id("director-nationality").value;
+		let selectedNationality = id("director-nationality").value;
 		let nationalities = ["german", "polish", "swiss", "brazilian", "greek", "italian",
 							 "norwegian", "scottish", "south Korean", "spanish", "irish", 
 							 "new Zealand", "taiwanese", "australian", "canadian", "french",
@@ -997,7 +987,7 @@ const d3 = require('d3');
 		       .delay(textDelay)
 			   .duration(textFadeInDuration)
 			   .style("opacity", function(d, i) {
-				   if (nationalities[i] == selected_nationality) {
+				   if (nationalities[i] == selectedNationality) {
 						return 1;
 					} else {
 						return 0;
@@ -1409,7 +1399,6 @@ const d3 = require('d3');
 	}
 
 	function updateGauge(likelihood) {
-		console.log(likelihood);
 		powerGauge.update(likelihood);
 		const response = ["definitely not you!", "probably not you!", "probably you!", "definitely you!"];
 		const colors = ['#CE3741', '#EA8039', '#FED800','#91C95C'];
@@ -1420,7 +1409,7 @@ const d3 = require('d3');
 		genderPercent = (genderProb * 100).toFixed(2);
 		nationalityPercent = (nationalityProb * 100).toFixed(2);
 		genrePercent = (genreProb * 100).toFixed(2);
-		let tooltipContent = "Based on 2001 - 2020 Oscar Awards data: " + dialoguePercent + "% of dialogues, " + genderPercent + "% of directors, " + nationalityPercent + "% of director nationalities, and " + genrePercent + "% of genres match the choices you made, respectively. To calculate your final probability, these results are multiplied together and divided by 4.57% which is the maximum result possible when taking the highest percent possible for each category (choices of Male director, American, 15% female spoken words, and drama genre): \n" + dialoguePercent + "% x " + genderPercent + "% x " + nationalityPercent + "% x " + genrePercent + "% / 4.57% \u2248 " + totalProb.toFixed(2) * 100 + "%";
+		let tooltipContent = "Based on 2001 - 2020 Oscar Awards data: " + dialoguePercent + "% of dialogues, " + genderPercent + "% of directors, " + nationalityPercent + "% of director nationalities, and " + genrePercent + "% of genres match the choices you made, respectively. To calculate your final probability, these results are multiplied together and divided by 4.57% which is the maximum result possible when taking the highest percent possible for each category (choices of Male director, American, 15% female spoken words, and drama genre): \n" + dialoguePercent + "% x " + genderPercent + "% x " + nationalityPercent + "% x " + genrePercent + "% / 4.57% \u2248 " + totalProb.toFixed(2) + "%";
 		$("#tooltip-link").attr('data-original-title', tooltipContent);
 	}
 
