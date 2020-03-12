@@ -444,6 +444,14 @@ select {
 	margin-left: 1%;
 }
 
+#tooltip-link-nationality {
+	margin-left: 2%;
+}
+
+#carousel-content {
+	text-align: center;
+}
+
 .chart {
 	font-family: 'AndesRoundedRegular';
 	display: flex;
