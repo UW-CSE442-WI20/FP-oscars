@@ -223,7 +223,7 @@ const d3 = require('d3');
 		    pips: {
 		        mode: 'positions',
 		        values: [0, 25, 50, 75, 100],
-		        density: 4,
+		        density: 5,
 		    }
 		});
 
