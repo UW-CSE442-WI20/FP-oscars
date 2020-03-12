@@ -440,7 +440,7 @@ select {
 	height: 15px;
 }
 
-#tooltip-link {
+#tooltip-link, #tooltip-link-dialogue {
 	margin-left: 1%;
 }
 
