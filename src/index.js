@@ -562,7 +562,6 @@ const d3 = require('d3');
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}, 1000);
-		qs(".tooltip").remove();
 		let leftCurtain = qs(".left-panel");
 		let rightCurtain = qs(".right-panel");
 		leftCurtain.classList.add("hidden-curtain");
