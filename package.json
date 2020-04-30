@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "d3": "^5.15.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "nouislider": "^14.1.1",
     "popper": "^1.0.1",
     "selectize": "^0.12.6"
