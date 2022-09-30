@@ -14,7 +14,7 @@
     "parcel-plugin-static-files-copy": "^2.3.1"
   },
   "dependencies": {
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "jquery": "^3.4.1",
     "nouislider": "^14.1.1",
     "popper": "^1.0.1",
